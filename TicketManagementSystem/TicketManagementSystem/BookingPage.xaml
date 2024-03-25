@@ -1,0 +1,50 @@
+﻿<Page
+    x:Class="TicketManagementSystem.BookingPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:TicketManagementSystem"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <SplitView x:Name="menuSplitView" DisplayMode="CompactOverlay" IsPaneOpen="True" CompactPaneLength="50" OpenPaneLength="240">
+            <SplitView.Pane>
+                <StackPanel Background="#4863A0">
+                    <StackPanel Orientation="Horizontal" Margin="0 0 0 50">
+                        <Button x:Name="btnBar" Background="Transparent" Click="btnBar_Click">
+                            <Image Source="Assets/bars.png" Width="30"/>
+                        </Button>
+                    </StackPanel>
+                    
+                    <StackPanel Orientation="Horizontal" Margin="0 0 0 30">
+                        <Button Name="btnUserMng" Background="Transparent" Click="btnUserMng_Click">
+                            <Image Source="Assets/user.png" Width="30"/>
+                        </Button>
+                        <TextBlock Text="USER MANAGEMENT" VerticalAlignment="Center" Foreground="White" FontWeight="Bold" />
+                    </StackPanel>
+                    
+                    <StackPanel Orientation="Horizontal" Margin="0 0 0 30">
+                        <Button Background="Transparent">
+                            <Image Source="Assets/rail.png" Width="30"/>
+                        </Button>
+                        <TextBlock Text="TRAIN MANAGEMENT" VerticalAlignment="Center" Foreground="White" FontWeight="Bold" />
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal" Margin="0 0 0 30">
+                        <Button Background="Transparent">
+                            <Image Source="Assets/booking.png" Width="30"/>
+                        </Button>
+                        <TextBlock Text="BOOKING" VerticalAlignment="Center" Foreground="White" FontWeight="Bold" />
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal" Margin="0 0 0 10">
+                        <Button Background="Transparent">
+                            <Image Source="Assets/food.png" Width="30"/>
+                        </Button>
+                        <TextBlock Text="FOODS &amp; DRINKS" VerticalAlignment="Center" Foreground="White" FontWeight="Bold" />
+                    </StackPanel>
+                </StackPanel>
+            </SplitView.Pane>
+        </SplitView>
+    </Grid>
+</Page>

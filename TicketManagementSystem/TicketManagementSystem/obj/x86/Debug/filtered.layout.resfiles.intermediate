@@ -3,9 +3,19 @@ Assets\bars.png
 Assets\booking.png
 Assets\ets-logo.png
 Assets\food.png
+Assets\LockScreenLogo.scale-200.png
 Assets\management.png
 Assets\rail.png
+<<<<<<< HEAD
 Assets\StoreLogo.backup.png
+=======
+Assets\SplashScreen.scale-200.png
+Assets\Square150x150Logo.scale-200.png
+Assets\Square44x44Logo.scale-200.png
+Assets\Square44x44Logo.targetsize-24_altform-unplated.png
+Assets\StoreLogo.backup.png
+Assets\StoreLogo.png
+>>>>>>> ea722122f890ed64901d4b70f291558e120d74b6
 Assets\user.png
 App.xbf
 BookingPage.xbf

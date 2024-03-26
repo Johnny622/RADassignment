@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <Machine>JANET-HP-LAPTOP</Machine>
-    <WindowsUser>Janet</WindowsUser>
+    <Machine>DESKTOP-A2BPK75</Machine>
+    <WindowsUser>ACER</WindowsUser>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
     <TargetOsVersion>10.0</TargetOsVersion>
     <TargetOsDescription>Windows 10.0</TargetOsDescription>
@@ -10,7 +10,7 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>6c1d7e3f-effd-439c-b8e6-521c330c5bc4</PackageIdentityName>
     <PackageIdentityPublisher>CN=Janet</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\Janet\Desktop\pei shan\Utar\Subject Material\Year 3 Subject\Y3S2\UCCB1223_Rapid_Application_Development\RADassignment\TicketManagementSystem\TicketManagementSystem\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\ACER\Desktop\Y2S3\--Clone Resposity--\RADassignment\TicketManagementSystem\TicketManagementSystem\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType>
     </RemoteDeploymentType>
     <PackageRegistrationPath>
@@ -18,8 +18,8 @@
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Users\Janet\Desktop\pei shan\Utar\Subject Material\Year 3 Subject\Y3S2\UCCB1223_Rapid_Application_Development\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\AppX</LayoutDir>
-    <RegisteredManifestChecksum>3DA8DE3BF2D69AC9D3C7D5BC8038CC4BF5FBDA47CFC516397433C6E631580038</RegisteredManifestChecksum>
+    <LayoutDir>C:\Users\ACER\Desktop\Y2S3\--Clone Resposity--\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\AppX</LayoutDir>
+    <RegisteredManifestChecksum>0B08BB5A5C4F0B6F8B5DB766DF7721211B363B9C366B0430684733A41B8544D9</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>6c1d7e3f-effd-439c-b8e6-521c330c5bc4_1.0.0.0_x86__17jfre8akrk54</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>6c1d7e3f-effd-439c-b8e6-521c330c5bc4_17jfre8akrk54!App</RegisteredUserModeAppID>
     <RegisteredPackageID>6c1d7e3f-effd-439c-b8e6-521c330c5bc4</RegisteredPackageID>
@@ -27,16 +27,24 @@
     <RegisteredVersion>1.0.0.0</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\Janet\Desktop\pei shan\Utar\Subject Material\Year 3 Subject\Y3S2\UCCB1223_Rapid_Application_Development\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\ACER\Desktop\Y2S3\--Clone Resposity--\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+<<<<<<< HEAD
       <Modified>2024-03-26T13:18:20.742</Modified>
+=======
+      <Modified>2024-03-26T13:09:48.544</Modified>
+>>>>>>> ea722122f890ed64901d4b70f291558e120d74b6
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\Janet\Desktop\pei shan\Utar\Subject Material\Year 3 Subject\Y3S2\UCCB1223_Rapid_Application_Development\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\TicketManagementSystem.exe">
+    <AppxPackagedFile Include="C:\Users\ACER\Desktop\Y2S3\--Clone Resposity--\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\TicketManagementSystem.exe">
       <PackagePath>entrypoint\TicketManagementSystem.exe</PackagePath>
+<<<<<<< HEAD
       <Modified>2024-03-26T13:18:18.685</Modified>
+=======
+      <Modified>2024-03-26T13:07:33.560</Modified>
+>>>>>>> ea722122f890ed64901d4b70f291558e120d74b6
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.14\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
@@ -46,69 +54,126 @@
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
       <Modified>2020-12-01T20:52:00.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Janet\Desktop\pei shan\Utar\Subject Material\Year 3 Subject\Y3S2\UCCB1223_Rapid_Application_Development\RADassignment\TicketManagementSystem\TicketManagementSystem\Assets\bars.png">
+    <AppxPackagedFile Include="C:\Users\ACER\Desktop\Y2S3\--Clone Resposity--\RADassignment\TicketManagementSystem\TicketManagementSystem\Assets\bars.png">
       <PackagePath>Assets\bars.png</PackagePath>
-      <Modified>2024-03-25T15:54:48.978</Modified>
+      <Modified>2024-03-26T13:06:43.642</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Janet\Desktop\pei shan\Utar\Subject Material\Year 3 Subject\Y3S2\UCCB1223_Rapid_Application_Development\RADassignment\TicketManagementSystem\TicketManagementSystem\Assets\booking.png">
+    <AppxPackagedFile Include="C:\Users\ACER\Desktop\Y2S3\--Clone Resposity--\RADassignment\TicketManagementSystem\TicketManagementSystem\Assets\booking.png">
       <PackagePath>Assets\booking.png</PackagePath>
-      <Modified>2024-03-25T16:49:57.817</Modified>
+      <Modified>2024-03-26T13:06:43.643</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Janet\Desktop\pei shan\Utar\Subject Material\Year 3 Subject\Y3S2\UCCB1223_Rapid_Application_Development\RADassignment\TicketManagementSystem\TicketManagementSystem\Assets\ets-logo.png">
+    <AppxPackagedFile Include="C:\Users\ACER\Desktop\Y2S3\--Clone Resposity--\RADassignment\TicketManagementSystem\TicketManagementSystem\Assets\ets-logo.png">
       <PackagePath>Assets\ets-logo.png</PackagePath>
-      <Modified>2024-03-26T12:01:22.374</Modified>
+      <Modified>2024-03-26T13:06:43.643</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Janet\Desktop\pei shan\Utar\Subject Material\Year 3 Subject\Y3S2\UCCB1223_Rapid_Application_Development\RADassignment\TicketManagementSystem\TicketManagementSystem\Assets\food.png">
+    <AppxPackagedFile Include="C:\Users\ACER\Desktop\Y2S3\--Clone Resposity--\RADassignment\TicketManagementSystem\TicketManagementSystem\Assets\food.png">
       <PackagePath>Assets\food.png</PackagePath>
-      <Modified>2024-03-25T16:49:50.031</Modified>
+      <Modified>2024-03-26T13:06:43.644</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Janet\Desktop\pei shan\Utar\Subject Material\Year 3 Subject\Y3S2\UCCB1223_Rapid_Application_Development\RADassignment\TicketManagementSystem\TicketManagementSystem\Assets\management.png">
+    <AppxPackagedFile Include="C:\Users\ACER\Desktop\Y2S3\--Clone Resposity--\RADassignment\TicketManagementSystem\TicketManagementSystem\Assets\LockScreenLogo.scale-200.png">
+      <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
+      <Modified>2024-02-19T03:35:34.107</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ACER\Desktop\Y2S3\--Clone Resposity--\RADassignment\TicketManagementSystem\TicketManagementSystem\Assets\management.png">
       <PackagePath>Assets\management.png</PackagePath>
-      <Modified>2024-03-25T16:08:19.429</Modified>
+      <Modified>2024-03-26T13:06:43.644</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Janet\Desktop\pei shan\Utar\Subject Material\Year 3 Subject\Y3S2\UCCB1223_Rapid_Application_Development\RADassignment\TicketManagementSystem\TicketManagementSystem\Assets\rail.png">
+    <AppxPackagedFile Include="C:\Users\ACER\Desktop\Y2S3\--Clone Resposity--\RADassignment\TicketManagementSystem\TicketManagementSystem\Assets\rail.png">
       <PackagePath>Assets\rail.png</PackagePath>
-      <Modified>2024-03-25T16:08:19.424</Modified>
+      <Modified>2024-03-26T13:06:43.645</Modified>
     </AppxPackagedFile>
+<<<<<<< HEAD
     <AppxPackagedFile Include="C:\Users\Janet\Desktop\pei shan\Utar\Subject Material\Year 3 Subject\Y3S2\UCCB1223_Rapid_Application_Development\RADassignment\TicketManagementSystem\TicketManagementSystem\Assets\StoreLogo.backup.png">
       <PackagePath>Assets\StoreLogo.backup.png</PackagePath>
       <Modified>2024-02-15T09:44:11.204</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Janet\Desktop\pei shan\Utar\Subject Material\Year 3 Subject\Y3S2\UCCB1223_Rapid_Application_Development\RADassignment\TicketManagementSystem\TicketManagementSystem\Assets\user.png">
+=======
+    <AppxPackagedFile Include="C:\Users\ACER\Desktop\Y2S3\--Clone Resposity--\RADassignment\TicketManagementSystem\TicketManagementSystem\Assets\SplashScreen.scale-200.png">
+      <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2024-02-19T03:35:34.118</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ACER\Desktop\Y2S3\--Clone Resposity--\RADassignment\TicketManagementSystem\TicketManagementSystem\Assets\Square150x150Logo.scale-200.png">
+      <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2024-02-19T03:35:34.121</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ACER\Desktop\Y2S3\--Clone Resposity--\RADassignment\TicketManagementSystem\TicketManagementSystem\Assets\Square44x44Logo.scale-200.png">
+      <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2024-02-19T03:35:34.123</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ACER\Desktop\Y2S3\--Clone Resposity--\RADassignment\TicketManagementSystem\TicketManagementSystem\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2024-02-19T03:35:34.126</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ACER\Desktop\Y2S3\--Clone Resposity--\RADassignment\TicketManagementSystem\TicketManagementSystem\Assets\StoreLogo.backup.png">
+      <PackagePath>Assets\StoreLogo.backup.png</PackagePath>
+      <Modified>2024-03-26T13:06:43.642</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ACER\Desktop\Y2S3\--Clone Resposity--\RADassignment\TicketManagementSystem\TicketManagementSystem\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2024-02-19T03:35:34.129</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ACER\Desktop\Y2S3\--Clone Resposity--\RADassignment\TicketManagementSystem\TicketManagementSystem\Assets\user.png">
+>>>>>>> ea722122f890ed64901d4b70f291558e120d74b6
       <PackagePath>Assets\user.png</PackagePath>
-      <Modified>2024-03-25T16:08:19.433</Modified>
+      <Modified>2024-03-26T13:06:43.645</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Janet\Desktop\pei shan\Utar\Subject Material\Year 3 Subject\Y3S2\UCCB1223_Rapid_Application_Development\RADassignment\TicketManagementSystem\TicketManagementSystem\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\Users\ACER\Desktop\Y2S3\--Clone Resposity--\RADassignment\TicketManagementSystem\TicketManagementSystem\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
-      <Modified>2024-03-25T12:35:30.899</Modified>
+      <Modified>2024-03-26T13:06:43.648</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Janet\Desktop\pei shan\Utar\Subject Material\Year 3 Subject\Y3S2\UCCB1223_Rapid_Application_Development\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\TicketManagementSystem.xr.xml">
+    <AppxPackagedFile Include="C:\Users\ACER\Desktop\Y2S3\--Clone Resposity--\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\TicketManagementSystem.xr.xml">
       <PackagePath>TicketManagementSystem.xr.xml</PackagePath>
-      <Modified>2024-03-26T12:58:28.501</Modified>
+      <Modified>2024-03-26T13:06:43.714</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Janet\Desktop\pei shan\Utar\Subject Material\Year 3 Subject\Y3S2\UCCB1223_Rapid_Application_Development\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\App.xbf">
+    <AppxPackagedFile Include="C:\Users\ACER\Desktop\Y2S3\--Clone Resposity--\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
+<<<<<<< HEAD
       <Modified>2024-03-26T13:18:18.593</Modified>
+=======
+      <Modified>2024-03-26T13:09:47.725</Modified>
+>>>>>>> ea722122f890ed64901d4b70f291558e120d74b6
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Janet\Desktop\pei shan\Utar\Subject Material\Year 3 Subject\Y3S2\UCCB1223_Rapid_Application_Development\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\BookingPage.xbf">
+    <AppxPackagedFile Include="C:\Users\ACER\Desktop\Y2S3\--Clone Resposity--\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\BookingPage.xbf">
       <PackagePath>BookingPage.xbf</PackagePath>
+<<<<<<< HEAD
       <Modified>2024-03-26T13:18:18.593</Modified>
+=======
+      <Modified>2024-03-26T13:09:47.725</Modified>
+>>>>>>> ea722122f890ed64901d4b70f291558e120d74b6
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Janet\Desktop\pei shan\Utar\Subject Material\Year 3 Subject\Y3S2\UCCB1223_Rapid_Application_Development\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\MainPage.xbf">
+    <AppxPackagedFile Include="C:\Users\ACER\Desktop\Y2S3\--Clone Resposity--\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
+<<<<<<< HEAD
       <Modified>2024-03-26T13:18:18.593</Modified>
+=======
+      <Modified>2024-03-26T13:09:47.725</Modified>
+>>>>>>> ea722122f890ed64901d4b70f291558e120d74b6
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.19041.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
       <Modified>2020-12-01T18:52:06.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Janet\Desktop\pei shan\Utar\Subject Material\Year 3 Subject\Y3S2\UCCB1223_Rapid_Application_Development\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\ACER\Desktop\Y2S3\--Clone Resposity--\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
+<<<<<<< HEAD
       <Modified>2024-03-26T13:18:19.825</Modified>
+=======
+      <Modified>2024-03-26T13:09:48.121</Modified>
+>>>>>>> ea722122f890ed64901d4b70f291558e120d74b6
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Janet\Desktop\pei shan\Utar\Subject Material\Year 3 Subject\Y3S2\UCCB1223_Rapid_Application_Development\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\Core\TicketManagementSystem.exe">
+    <AppxPackagedFile Include="C:\Users\ACER\Desktop\Y2S3\--Clone Resposity--\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\Core\TicketManagementSystem.exe">
       <PackagePath>TicketManagementSystem.exe</PackagePath>
+<<<<<<< HEAD
       <Modified>2024-03-26T13:18:20.727</Modified>
+=======
+      <Modified>2024-03-26T13:09:48.534</Modified>
+>>>>>>> ea722122f890ed64901d4b70f291558e120d74b6
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

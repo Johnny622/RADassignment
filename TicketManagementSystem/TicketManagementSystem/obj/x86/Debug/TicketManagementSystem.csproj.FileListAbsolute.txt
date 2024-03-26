@@ -98,3 +98,13 @@ C:\Users\ACER\Desktop\Y2S3\--Clone Resposity--\RADassignment\TicketManagementSys
 C:\Users\ACER\Desktop\Y2S3\--Clone Resposity--\RADassignment\TicketManagementSystem\TicketManagementSystem\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt
 C:\Users\ACER\Desktop\Y2S3\--Clone Resposity--\RADassignment\TicketManagementSystem\TicketManagementSystem\obj\x86\Debug\ProjectArchitectures.txt
 C:\Users\ACER\Desktop\Y2S3\--Clone Resposity--\RADassignment\TicketManagementSystem\TicketManagementSystem\obj\x86\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_637424527200000000.json
+C:\Users\Janet\Desktop\pei shan\Utar\Subject Material\Year 3 Subject\Y3S2\UCCB1223_Rapid_Application_Development\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\SeatSelectionDialog.xbf
+C:\Users\Janet\Desktop\pei shan\Utar\Subject Material\Year 3 Subject\Y3S2\UCCB1223_Rapid_Application_Development\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\SeatSelectionPage.xbf
+C:\Users\Janet\Desktop\pei shan\Utar\Subject Material\Year 3 Subject\Y3S2\UCCB1223_Rapid_Application_Development\RADassignment\TicketManagementSystem\TicketManagementSystem\obj\x86\Debug\SeatSelectionDialog.g.i.cs
+C:\Users\Janet\Desktop\pei shan\Utar\Subject Material\Year 3 Subject\Y3S2\UCCB1223_Rapid_Application_Development\RADassignment\TicketManagementSystem\TicketManagementSystem\obj\x86\Debug\SeatSelectionDialog.g.cs
+C:\Users\Janet\Desktop\pei shan\Utar\Subject Material\Year 3 Subject\Y3S2\UCCB1223_Rapid_Application_Development\RADassignment\TicketManagementSystem\TicketManagementSystem\obj\x86\Debug\SeatSelectionPage.g.i.cs
+C:\Users\Janet\Desktop\pei shan\Utar\Subject Material\Year 3 Subject\Y3S2\UCCB1223_Rapid_Application_Development\RADassignment\TicketManagementSystem\TicketManagementSystem\obj\x86\Debug\SeatSelectionPage.g.cs
+C:\Users\Janet\Desktop\pei shan\Utar\Subject Material\Year 3 Subject\Y3S2\UCCB1223_Rapid_Application_Development\RADassignment\TicketManagementSystem\TicketManagementSystem\obj\x86\Debug\SeatSelectionDialog.xaml
+C:\Users\Janet\Desktop\pei shan\Utar\Subject Material\Year 3 Subject\Y3S2\UCCB1223_Rapid_Application_Development\RADassignment\TicketManagementSystem\TicketManagementSystem\obj\x86\Debug\SeatSelectionPage.xaml
+C:\Users\Janet\Desktop\pei shan\Utar\Subject Material\Year 3 Subject\Y3S2\UCCB1223_Rapid_Application_Development\RADassignment\TicketManagementSystem\TicketManagementSystem\obj\x86\Debug\SeatSelectionDialog.xbf
+C:\Users\Janet\Desktop\pei shan\Utar\Subject Material\Year 3 Subject\Y3S2\UCCB1223_Rapid_Application_Development\RADassignment\TicketManagementSystem\TicketManagementSystem\obj\x86\Debug\SeatSelectionPage.xbf

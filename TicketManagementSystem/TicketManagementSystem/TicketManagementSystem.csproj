@@ -126,6 +126,12 @@
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SeatSelectionDialog.xaml.cs">
+      <DependentUpon>SeatSelectionDialog.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="SeatSelectionPage.xaml.cs">
+      <DependentUpon>SeatSelectionPage.xaml</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <AppxManifest Include="Package.appxmanifest">
@@ -135,11 +141,15 @@
   <ItemGroup>
     <Content Include="Assets\bars.png" />
     <Content Include="Assets\booking.png" />
+    <Content Include="Assets\chair.png" />
     <Content Include="Assets\ets-logo.png" />
     <Content Include="Assets\food.png" />
     <Content Include="Assets\LockScreenLogo.scale-200.png" />
     <Content Include="Assets\management.png" />
+    <Content Include="Assets\next.png" />
     <Content Include="Assets\rail.png" />
+    <Content Include="Assets\search.png" />
+    <Content Include="Assets\seat.png" />
     <Content Include="Assets\SplashScreen.scale-200.png" />
     <Content Include="Assets\Square150x150Logo.scale-200.png" />
     <Content Include="Assets\Square44x44Logo.scale-200.png" />
@@ -162,6 +172,14 @@
     <Page Include="MainPage.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
+    </Page>
+    <Page Include="SeatSelectionDialog.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="SeatSelectionPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
     </Page>
   </ItemGroup>
   <ItemGroup>

@@ -44,5 +44,16 @@ namespace TicketManagementSystem
         {
 
         }
+
+        private async void btnChooseSeat_Click(object sender, RoutedEventArgs e)
+        {
+            SeatSelectionDialog dialog = new SeatSelectionDialog();
+            await dialog.ShowAsync();
+        }
+
+        private void btnSearch_Click(object sender, RoutedEventArgs e)
+        {
+            spGroup2.Visibility = Visibility.Visible;
+        }
     }
 }

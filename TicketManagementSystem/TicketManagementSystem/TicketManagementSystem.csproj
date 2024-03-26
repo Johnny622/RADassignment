@@ -135,6 +135,7 @@
   <ItemGroup>
     <Content Include="Assets\bars.png" />
     <Content Include="Assets\booking.png" />
+    <Content Include="Assets\ets-logo.png" />
     <Content Include="Assets\food.png" />
     <Content Include="Assets\management.png" />
     <Content Include="Assets\rail.png" />

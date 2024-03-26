@@ -25,11 +25,20 @@ namespace TicketManagementSystem
         public BookingPage()
         {
             this.InitializeComponent();
+            Grid.SetColumn(content, 0);
         }
 
         private void btnBar_Click(object sender, RoutedEventArgs e)
         {
             menuSplitView.IsPaneOpen = !menuSplitView.IsPaneOpen;
+            if (!menuSplitView.IsPaneOpen)
+            {
+                Grid.SetColumn(content, 0);
+            }
+            else
+            {
+                Grid.SetColumn(content, 1);
+            }
         }
 
         private void btnUserMng_Click(object sender, RoutedEventArgs e)

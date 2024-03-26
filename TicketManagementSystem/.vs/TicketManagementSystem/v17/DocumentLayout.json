@@ -3,8 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Janet\\Desktop\\pei shan\\Utar\\Subject Material\\Year 3 Subject\\Y3S2\\UCCB1223_Rapid_Application_Development\\RADassignment\\TicketManagementSystem\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{12FFD5F2-CE33-42CC-8F13-9B90EF87164E}|TicketManagementSystem\\TicketManagementSystem.csproj|c:\\users\\janet\\desktop\\pei shan\\utar\\subject material\\year 3 subject\\y3s2\\uccb1223_rapid_application_development\\radassignment\\ticketmanagementsystem\\ticketmanagementsystem\\bookingpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{12FFD5F2-CE33-42CC-8F13-9B90EF87164E}|TicketManagementSystem\\TicketManagementSystem.csproj|C:\\Users\\Janet\\Desktop\\pei shan\\Utar\\Subject Material\\Year 3 Subject\\Y3S2\\UCCB1223_Rapid_Application_Development\\RADassignment\\TicketManagementSystem\\ticketmanagementsystem\\bookingpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{12FFD5F2-CE33-42CC-8F13-9B90EF87164E}|TicketManagementSystem\\TicketManagementSystem.csproj|solutionrelative:ticketmanagementsystem\\bookingpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12FFD5F2-CE33-42CC-8F13-9B90EF87164E}|TicketManagementSystem\\TicketManagementSystem.csproj|c:\\users\\janet\\desktop\\pei shan\\utar\\subject material\\year 3 subject\\y3s2\\uccb1223_rapid_application_development\\radassignment\\ticketmanagementsystem\\ticketmanagementsystem\\package.appxmanifest||{4D47164B-07B6-4A52-A855-728D6A2E2AA3}",
+      "RelativeMoniker": "D:0:0:{12FFD5F2-CE33-42CC-8F13-9B90EF87164E}|TicketManagementSystem\\TicketManagementSystem.csproj|solutionrelative:ticketmanagementsystem\\package.appxmanifest||{4D47164B-07B6-4A52-A855-728D6A2E2AA3}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{12FFD5F2-CE33-42CC-8F13-9B90EF87164E}|TicketManagementSystem\\TicketManagementSystem.csproj|C:\\Users\\Janet\\Desktop\\pei shan\\Utar\\Subject Material\\Year 3 Subject\\Y3S2\\UCCB1223_Rapid_Application_Development\\RADassignment\\TicketManagementSystem\\ticketmanagementsystem\\bookingpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -18,8 +22,20 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Package.appxmanifest",
+              "DocumentMoniker": "C:\\Users\\Janet\\Desktop\\pei shan\\Utar\\Subject Material\\Year 3 Subject\\Y3S2\\UCCB1223_Rapid_Application_Development\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\Package.appxmanifest",
+              "RelativeDocumentMoniker": "TicketManagementSystem\\Package.appxmanifest",
+              "ToolTip": "C:\\Users\\Janet\\Desktop\\pei shan\\Utar\\Subject Material\\Year 3 Subject\\Y3S2\\UCCB1223_Rapid_Application_Development\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\Package.appxmanifest",
+              "RelativeToolTip": "TicketManagementSystem\\Package.appxmanifest",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001793|",
+              "WhenOpened": "2024-03-26T13:13:56.338Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -35,7 +51,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "BookingPage.xaml",
               "DocumentMoniker": "C:\\Users\\Janet\\Desktop\\pei shan\\Utar\\Subject Material\\Year 3 Subject\\Y3S2\\UCCB1223_Rapid_Application_Development\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\BookingPage.xaml",
               "RelativeDocumentMoniker": "TicketManagementSystem\\BookingPage.xaml",

@@ -3,7 +3,7 @@
   "WorkspaceRootPath": "C:\\Users\\Janet\\Desktop\\pei shan\\Utar\\Subject Material\\Year 3 Subject\\Y3S2\\UCCB1223_Rapid_Application_Development\\RADassignment\\TicketManagementSystem\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{12FFD5F2-CE33-42CC-8F13-9B90EF87164E}|TicketManagementSystem\\TicketManagementSystem.csproj|c:\\users\\janet\\desktop\\pei shan\\utar\\subject material\\year 3 subject\\y3s2\\uccb1223_rapid_application_development\\radassignment\\ticketmanagementsystem\\ticketmanagementsystem\\passengerdetailpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{12FFD5F2-CE33-42CC-8F13-9B90EF87164E}|TicketManagementSystem\\TicketManagementSystem.csproj|C:\\Users\\Janet\\Desktop\\pei shan\\Utar\\Subject Material\\Year 3 Subject\\Y3S2\\UCCB1223_Rapid_Application_Development\\RADassignment\\TicketManagementSystem\\ticketmanagementsystem\\passengerdetailpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{12FFD5F2-CE33-42CC-8F13-9B90EF87164E}|TicketManagementSystem\\TicketManagementSystem.csproj|solutionrelative:ticketmanagementsystem\\passengerdetailpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -11,7 +11,7 @@
       "RelativeMoniker": "D:0:0:{12FFD5F2-CE33-42CC-8F13-9B90EF87164E}|TicketManagementSystem\\TicketManagementSystem.csproj|solutionrelative:ticketmanagementsystem\\passengerdetailpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{12FFD5F2-CE33-42CC-8F13-9B90EF87164E}|TicketManagementSystem\\TicketManagementSystem.csproj|C:\\Users\\Janet\\Desktop\\pei shan\\Utar\\Subject Material\\Year 3 Subject\\Y3S2\\UCCB1223_Rapid_Application_Development\\RADassignment\\TicketManagementSystem\\ticketmanagementsystem\\seatselectionpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{12FFD5F2-CE33-42CC-8F13-9B90EF87164E}|TicketManagementSystem\\TicketManagementSystem.csproj|c:\\users\\janet\\desktop\\pei shan\\utar\\subject material\\year 3 subject\\y3s2\\uccb1223_rapid_application_development\\radassignment\\ticketmanagementsystem\\ticketmanagementsystem\\seatselectionpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{12FFD5F2-CE33-42CC-8F13-9B90EF87164E}|TicketManagementSystem\\TicketManagementSystem.csproj|solutionrelative:ticketmanagementsystem\\seatselectionpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -19,7 +19,7 @@
       "RelativeMoniker": "D:0:0:{12FFD5F2-CE33-42CC-8F13-9B90EF87164E}|TicketManagementSystem\\TicketManagementSystem.csproj|solutionrelative:ticketmanagementsystem\\seatselectionpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{12FFD5F2-CE33-42CC-8F13-9B90EF87164E}|TicketManagementSystem\\TicketManagementSystem.csproj|c:\\users\\janet\\desktop\\pei shan\\utar\\subject material\\year 3 subject\\y3s2\\uccb1223_rapid_application_development\\radassignment\\ticketmanagementsystem\\ticketmanagementsystem\\bookingpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{12FFD5F2-CE33-42CC-8F13-9B90EF87164E}|TicketManagementSystem\\TicketManagementSystem.csproj|C:\\Users\\Janet\\Desktop\\pei shan\\Utar\\Subject Material\\Year 3 Subject\\Y3S2\\UCCB1223_Rapid_Application_Development\\RADassignment\\TicketManagementSystem\\ticketmanagementsystem\\bookingpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{12FFD5F2-CE33-42CC-8F13-9B90EF87164E}|TicketManagementSystem\\TicketManagementSystem.csproj|solutionrelative:ticketmanagementsystem\\bookingpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
@@ -42,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
@@ -53,8 +53,7 @@
               "ToolTip": "C:\\Users\\Janet\\Desktop\\pei shan\\Utar\\Subject Material\\Year 3 Subject\\Y3S2\\UCCB1223_Rapid_Application_Development\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\SeatSelectionPage.xaml",
               "RelativeToolTip": "TicketManagementSystem\\SeatSelectionPage.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-03-26T15:41:44.538Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-26T15:41:44.538Z"
             },
             {
               "$type": "Document",
@@ -66,8 +65,7 @@
               "RelativeToolTip": "TicketManagementSystem\\SeatSelectionDialog.xaml.cs",
               "ViewState": "AQIAAAkAAAAAAAAAAAAgwCAAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-26T15:40:50.151Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-26T15:40:50.151Z"
             },
             {
               "$type": "Document",
@@ -90,8 +88,7 @@
               "RelativeToolTip": "TicketManagementSystem\\BookingPage.xaml.cs",
               "ViewState": "AQIAAA8AAAAAAAAAAAAAAB0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-25T16:55:14.142Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-25T16:55:14.142Z"
             },
             {
               "$type": "Document",
@@ -101,7 +98,7 @@
               "RelativeDocumentMoniker": "TicketManagementSystem\\PassengerDetailPage.xaml.cs",
               "ToolTip": "C:\\Users\\Janet\\Desktop\\pei shan\\Utar\\Subject Material\\Year 3 Subject\\Y3S2\\UCCB1223_Rapid_Application_Development\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\PassengerDetailPage.xaml.cs",
               "RelativeToolTip": "TicketManagementSystem\\PassengerDetailPage.xaml.cs",
-              "ViewState": "AQIAACUAAAAAAAAAAAApwDYAAABdAAAA",
+              "ViewState": "AQIAAEYAAAAAAAAAAAApwFMAAAA+AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-27T04:28:39.946Z",
               "EditorCaption": ""
@@ -127,8 +124,7 @@
               "ToolTip": "C:\\Users\\Janet\\Desktop\\pei shan\\Utar\\Subject Material\\Year 3 Subject\\Y3S2\\UCCB1223_Rapid_Application_Development\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\BookingPage.xaml",
               "RelativeToolTip": "TicketManagementSystem\\BookingPage.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-03-25T15:03:48.274Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-25T15:03:48.274Z"
             }
           ]
         }

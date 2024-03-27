@@ -55,39 +55,67 @@ namespace TicketManagementSystem
                 mainGrid.ColumnDefinitions[0].Width = new GridLength(800, GridUnitType.Pixel);
                 mainGrid.RowDefinitions.Add(new RowDefinition());
 
-                TextBlock label = new TextBlock
-                {
-                    Text = "Name",
-                    HorizontalAlignment = HorizontalAlignment.Center
-                };
-
-                TextBox tb = new TextBox();
-
-                StackPanel stackPanel_vertical = new StackPanel();
+                //TextBlock label = new TextBlock
+                //{
+                //    Text = "Name",
+                //    HorizontalAlignment = HorizontalAlignment.Center
+                //};
+                StackPanel stackPanel_vertical1 = new StackPanel();
+                stackPanel_vertical1.Children.Add(new TextBlock { Text = "Passenger (" + (i + 1) + "/" + numOfPax + ")" });
                 StackPanel stackPanel_horizontal = new StackPanel
                 {
                     Orientation = Orientation.Horizontal
                 };
 
-                stackPanel_vertical.Children.Add(new TextBlock { Text = "Passenger (" + (i + 1) + "/" + numOfPax + ")"});
-                stackPanel_vertical.Children.Add(label);
-                stackPanel_vertical.Children.Add(tb);
+                for (int j = 0; j < labels.Length; j++)
+                {
+                    TextBlock label = createLabel(labels[j]);
+                    StackPanel stackPanel_vertical = new StackPanel();
+                    stackPanel_vertical.Children.Add(label);
 
-                stackPanel_horizontal.Children.Add(stackPanel_vertical);
+                    if (j == 0)
+                    {
+                        TextBox tb = new TextBox();
+                        stackPanel_vertical.Children.Add(tb);
+                    }
+                    else if(j == 1)
+                    {
+                        ComboBox cbx = createComboBox();
+                        stackPanel_vertical.Children.Add(cbx);
+                    }
 
-                Grid.SetColumn(stackPanel_horizontal, 0);
-                Grid.SetRow(stackPanel_horizontal, i);
+                    stackPanel_horizontal.Children.Add(stackPanel_vertical);
+                }
 
-                mainGrid.Children.Add(stackPanel_horizontal);
+                stackPanel_vertical1.Children.Add(stackPanel_horizontal);
+
+                Grid.SetColumn(stackPanel_vertical1, 0);
+                Grid.SetRow(stackPanel_vertical1, i);
+
+                mainGrid.Children.Add(stackPanel_vertical1);
             }
         }
 
-        private void createLabel(string name)
+        private TextBlock createLabel(string name)
         {
             TextBlock label = new TextBlock 
             {
                 Text = name
             };
+            return label;
+        }
+        private ComboBox createComboBox()
+        {
+            ComboBox comboBox = new ComboBox();
+            ComboBoxItem item1 = new ComboBoxItem();
+            ComboBoxItem item2 = new ComboBoxItem();
+
+            item1.Content = "Female";
+            item2.Content = "Male";
+            comboBox.Items.Add(item1);
+            comboBox.Items.Add(item2);
+
+            return comboBox;
         }
     }
 }

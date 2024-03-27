@@ -55,5 +55,10 @@ namespace TicketManagementSystem
         {
             spGroup2.Visibility = Visibility.Visible;
         }
+
+        private void btnNext_Click(object sender, RoutedEventArgs e)
+        {
+            Frame.Navigate(typeof(PassengerDetailPage));
+        }
     }
 }

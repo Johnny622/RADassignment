@@ -35,7 +35,7 @@ namespace TicketManagementSystem
             int columns = (totalSeats + seatsPerRow - 1) / seatsPerRow;
             int remainingSeats = totalSeats % seatsPerRow;
 
-            char[] seatLetters = { 'A', 'B', 'C', 'D' }; // 座位号的字母序列
+            char[] seatLetters = { 'A', 'B', 'C', 'D' };
 
             for (int column = 0; column < columns; column++)
             {
@@ -48,15 +48,13 @@ namespace TicketManagementSystem
                     if (column == 0)
                         mainGrid.RowDefinitions.Add(new RowDefinition());
 
-                    // 创建座位号 TextBlock
                     TextBlock seatNumberTextBlock = new TextBlock
                     {
-                        Text = $"{row + 1}{seatLetters[column]}", // 使用行号和字母组合生成座位号
+                        Text = $"{row + 1}{seatLetters[column]}", 
                         HorizontalAlignment = HorizontalAlignment.Center,
                         Margin = new Thickness(0, 0, 0, 5)
                     };
 
-                    // 创建座位图像
                     Image seatImage = new Image
                     {
                         Source = new BitmapImage(new Uri("ms-appx:///Assets/chair.png")),
@@ -64,21 +62,18 @@ namespace TicketManagementSystem
                         Height = 30
                     };
 
-                    // 创建座位按钮
                     Button seatButton = new Button
                     {
                         Content = new StackPanel { Children = { seatImage, seatNumberTextBlock } },
                         Background = new SolidColorBrush(Colors.Transparent),
-                        Tag = $"{row + 1}{seatLetters[column]}" // 使用 Tag 属性存储座位号
+                        Tag = $"{row + 1}{seatLetters[column]}"
                     };
 
-                    seatButton.Click += SeatButton_Click; // 将点击事件处理程序与按钮关联
+                    seatButton.Click += SeatButton_Click; 
 
-                    // 将座位按钮添加到网格中的正确位置
                     Grid.SetColumn(seatButton, column);
                     Grid.SetRow(seatButton, row);
 
-                    // 将座位按钮添加到主网格中
                     mainGrid.Children.Add(seatButton);
                 }
             }
@@ -87,9 +82,7 @@ namespace TicketManagementSystem
         private void SeatButton_Click(object sender, RoutedEventArgs e)
         {
             Button clickedButton = (Button)sender;
-            string seatNumber = clickedButton.Tag.ToString(); // 获取座位号
-
-            // 处理座位点击事件，您可以在这里执行任何需要的操作，例如显示座位详情或者进行座位预订等
+            string seatNumber = clickedButton.Tag.ToString(); 
         }
 
     }

@@ -175,7 +175,7 @@
                 <TextBlock Text="Total: RM" VerticalAlignment="Center" FontWeight="Bold" Margin="0,0,5,0"/>
                 <TextBox Text="0.00" IsReadOnly="True"/>
             </StackPanel>
-            <Button Background="#F4BC1C" Height="50" HorizontalAlignment="Right" Margin="20">
+            <Button x:Name="btnNext" Background="#F4BC1C" Height="50" HorizontalAlignment="Right" Margin="20" Click="btnNext_Click">
                 <StackPanel Orientation="Horizontal" Width="130">
                     <Image Source="Assets/next.png" Width="30"/>
                     <TextBlock Text="NEXT" FontSize="14" Foreground="Black" FontWeight="Bold" Width="100" VerticalAlignment="Center" TextAlignment="Center"/>

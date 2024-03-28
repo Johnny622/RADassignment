@@ -133,3 +133,8 @@ C:\Users\ACER\Desktop\Y2S3\--Clone Resposity--\RADassignment\TicketManagementSys
 C:\Users\ACER\Desktop\Y2S3\--Clone Resposity--\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\SeatSelectionDialog.xbf
 C:\Users\ACER\Desktop\Y2S3\--Clone Resposity--\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\SeatSelectionPage.xbf
 C:\Users\ACER\Desktop\Y2S3\--Clone Resposity--\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\UserManagement.xbf
+C:\Users\Janet\Desktop\pei shan\Utar\Subject Material\Year 3 Subject\Y3S2\UCCB1223_Rapid_Application_Development\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\UserManagement.xbf
+C:\Users\Janet\Desktop\pei shan\Utar\Subject Material\Year 3 Subject\Y3S2\UCCB1223_Rapid_Application_Development\RADassignment\TicketManagementSystem\TicketManagementSystem\obj\x86\Debug\UserManagement.g.i.cs
+C:\Users\Janet\Desktop\pei shan\Utar\Subject Material\Year 3 Subject\Y3S2\UCCB1223_Rapid_Application_Development\RADassignment\TicketManagementSystem\TicketManagementSystem\obj\x86\Debug\UserManagement.g.cs
+C:\Users\Janet\Desktop\pei shan\Utar\Subject Material\Year 3 Subject\Y3S2\UCCB1223_Rapid_Application_Development\RADassignment\TicketManagementSystem\TicketManagementSystem\obj\x86\Debug\UserManagement.xaml
+C:\Users\Janet\Desktop\pei shan\Utar\Subject Material\Year 3 Subject\Y3S2\UCCB1223_Rapid_Application_Development\RADassignment\TicketManagementSystem\TicketManagementSystem\obj\x86\Debug\UserManagement.xbf

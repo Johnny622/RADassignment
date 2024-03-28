@@ -11,12 +11,12 @@
       "RelativeMoniker": "D:0:0:{12FFD5F2-CE33-42CC-8F13-9B90EF87164E}|TicketManagementSystem\\TicketManagementSystem.csproj|solutionrelative:ticketmanagementsystem\\bookingpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{12FFD5F2-CE33-42CC-8F13-9B90EF87164E}|TicketManagementSystem\\TicketManagementSystem.csproj|c:\\users\\acer\\desktop\\y2s3\\--clone resposity--\\radassignment\\ticketmanagementsystem\\ticketmanagementsystem\\usermanagement.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{12FFD5F2-CE33-42CC-8F13-9B90EF87164E}|TicketManagementSystem\\TicketManagementSystem.csproj|C:\\Users\\ACER\\Desktop\\Y2S3\\--Clone Resposity--\\RADassignment\\TicketManagementSystem\\ticketmanagementsystem\\usermanagement.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{12FFD5F2-CE33-42CC-8F13-9B90EF87164E}|TicketManagementSystem\\TicketManagementSystem.csproj|solutionrelative:ticketmanagementsystem\\usermanagement.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{12FFD5F2-CE33-42CC-8F13-9B90EF87164E}|TicketManagementSystem\\TicketManagementSystem.csproj|c:\\users\\acer\\desktop\\y2s3\\--clone resposity--\\radassignment\\ticketmanagementsystem\\ticketmanagementsystem\\bookingpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{12FFD5F2-CE33-42CC-8F13-9B90EF87164E}|TicketManagementSystem\\TicketManagementSystem.csproj|solutionrelative:ticketmanagementsystem\\bookingpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{12FFD5F2-CE33-42CC-8F13-9B90EF87164E}|TicketManagementSystem\\TicketManagementSystem.csproj|c:\\users\\acer\\desktop\\y2s3\\--clone resposity--\\radassignment\\ticketmanagementsystem\\ticketmanagementsystem\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12FFD5F2-CE33-42CC-8F13-9B90EF87164E}|TicketManagementSystem\\TicketManagementSystem.csproj|solutionrelative:ticketmanagementsystem\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,19 +26,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "BookingPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\Y2S3\\--Clone Resposity--\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\BookingPage.xaml.cs",
-              "RelativeDocumentMoniker": "TicketManagementSystem\\BookingPage.xaml.cs",
-              "ToolTip": "C:\\Users\\ACER\\Desktop\\Y2S3\\--Clone Resposity--\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\BookingPage.xaml.cs",
-              "RelativeToolTip": "TicketManagementSystem\\BookingPage.xaml.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAACIAAABCAAAA",
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\Y2S3\\--Clone Resposity--\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\App.xaml.cs",
+              "RelativeDocumentMoniker": "TicketManagementSystem\\App.xaml.cs",
+              "ToolTip": "C:\\Users\\ACER\\Desktop\\Y2S3\\--Clone Resposity--\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\App.xaml.cs",
+              "RelativeToolTip": "TicketManagementSystem\\App.xaml.cs",
+              "ViewState": "AQIAACIAAAAAAAAAAAAQwEQAAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-28T03:33:53.53Z",
+              "WhenOpened": "2024-03-28T09:22:42.99Z",
               "EditorCaption": ""
             },
             {
@@ -50,7 +50,19 @@
               "ToolTip": "C:\\Users\\ACER\\Desktop\\Y2S3\\--Clone Resposity--\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\BookingPage.xaml",
               "RelativeToolTip": "TicketManagementSystem\\BookingPage.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-03-28T03:33:14.534Z",
+              "WhenOpened": "2024-03-28T09:02:33.983Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserManagement.xaml",
+              "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\Y2S3\\--Clone Resposity--\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\UserManagement.xaml",
+              "RelativeDocumentMoniker": "TicketManagementSystem\\UserManagement.xaml",
+              "ToolTip": "C:\\Users\\ACER\\Desktop\\Y2S3\\--Clone Resposity--\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\UserManagement.xaml",
+              "RelativeToolTip": "TicketManagementSystem\\UserManagement.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-03-28T08:57:35.162Z",
               "EditorCaption": ""
             },
             {
@@ -64,18 +76,6 @@
               "ViewState": "AQIAAAwAAAAAAAAAAAAAACAAAACBAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-28T03:30:52.847Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UserManagement.xaml",
-              "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\Y2S3\\--Clone Resposity--\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\UserManagement.xaml",
-              "RelativeDocumentMoniker": "TicketManagementSystem\\UserManagement.xaml",
-              "ToolTip": "C:\\Users\\ACER\\Desktop\\Y2S3\\--Clone Resposity--\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\UserManagement.xaml",
-              "RelativeToolTip": "TicketManagementSystem\\UserManagement.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-03-28T03:26:02.779Z",
               "EditorCaption": ""
             }
           ]

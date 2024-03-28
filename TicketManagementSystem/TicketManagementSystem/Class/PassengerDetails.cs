@@ -13,6 +13,10 @@ namespace TicketManagementSystem.Class
         public string Phone { get; set; }
         public string IC { get; set; }
 
+        public PassengerDetails()
+        {
+
+        }
         public PassengerDetails(string name, string gender, string phone, string ic)
         {
             Name = name;

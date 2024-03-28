@@ -9,9 +9,6 @@
     <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.ThemeResourceExtension" />
     <RootType FullName="Windows.UI.Xaml.Controls.Grid">
       <RootProperty Name="Children" />
-      <RootProperty Name="ColumnDefinitions" />
-      <RootMethod Name="GetColumn" />
-      <RootMethod Name="SetColumn" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.SplitView">
       <RootProperty Name="DisplayMode" />
@@ -48,16 +45,12 @@
       <RootProperty Name="Padding" />
       <RootProperty Name="HorizontalAlignment" />
       <RootProperty Name="Visibility" />
-<<<<<<< HEAD
-      <RootProperty Name="HorizontalAlignment" />
-=======
       <RootProperty Name="RequestedTheme" />
       <RootProperty Name="RenderTransformOrigin" />
       <RootProperty Name="FontStyle" />
       <RootProperty Name="RenderTransform" />
       <RootProperty Name="Projection" />
       <RootProperty Name="Inlines" />
->>>>>>> a89f2591e242a345d5c32f04a0da12a75a4e670f
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.Image">
       <RootProperty Name="Source" />
@@ -164,9 +157,6 @@
       <RootProperty Name="Content" />
     </RootType>
     <RootType FullName="TicketManagementSystem.SeatSelectionPage" />
-    <RootType FullName="Windows.UI.Xaml.Controls.ColumnDefinition">
-      <RootProperty Name="Width" />
-    </RootType>
     <RootType FullName="TicketManagementSystem.UserManagement" />
     <RootType FullName="TicketManagementSystem.UserProfile" />
   </Roots.RootTypes>

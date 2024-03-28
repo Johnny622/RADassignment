@@ -23,6 +23,7 @@ namespace TicketManagementSystem
     /// </summary>
     public sealed partial class PassengerDetailPage : Page
     {
+        FirebaseHelper firebaseHelper = new FirebaseHelper();
         public PassengerDetailPage()
         {
             this.InitializeComponent();
@@ -157,10 +158,9 @@ namespace TicketManagementSystem
             }
         }
 
-        private void btnConfirm_Click(object sender, RoutedEventArgs e)
+        private async void btnConfirm_Click(object sender, RoutedEventArgs e)
         {
             List<PassengerDetails> passengerDetailsList = new List<PassengerDetails>();
-            int numPax = 2; // 乘客数量
 
             foreach (var child in mainGrid.Children)
             {
@@ -170,19 +170,18 @@ namespace TicketManagementSystem
                     string gender = "";
                     string phone = "";
                     string ic = "";
-                    // 获取标签名称
                     string labelText = "";
                     var secondChild = stackPanel.Children[1];
 
-                    if(secondChild is StackPanel horizontalSPDetails)
+                    if (secondChild is StackPanel horizontalSPDetails)
                     {
-                        foreach(var element in horizontalSPDetails.Children)
+                        foreach (var element in horizontalSPDetails.Children)
                         {
                             if (element is StackPanel verticalSPDetails)
                             {
-                                foreach (var innerElement  in verticalSPDetails.Children)
+                                foreach (var innerElement in verticalSPDetails.Children)
                                 {
-                                    if(innerElement is TextBlock label)
+                                    if (innerElement is TextBlock label)
                                     {
                                         labelText = label.Text;
                                     }
@@ -209,13 +208,20 @@ namespace TicketManagementSystem
                         }
                     }
 
-                    // 创建 PassengerDetails 对象并添加到列表中
-                    PassengerDetails details = new PassengerDetails(name, gender, phone, ic);
-                    passengerDetailsList.Add(details);
+                    try
+                    {
+                        PassengerDetails details = new PassengerDetails(name, gender, phone, ic);
+                        passengerDetailsList.Add(details);
+
+                        await firebaseHelper.AddUser(details);
+                    }
+                    catch (Exception ex)
+                    {
+                        Console.WriteLine(ex.ToString());
+                    }
                 }
             }
 
-            // 在这里可以使用 passengerDetailsList 对象，例如保存到数据库或进行其他操作
         }
 
     }

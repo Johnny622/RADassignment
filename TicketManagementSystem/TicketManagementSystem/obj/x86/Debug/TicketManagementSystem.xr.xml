@@ -106,5 +106,6 @@
       <RootProperty Name="Content" />
     </RootType>
     <RootType FullName="TicketManagementSystem.SeatSelectionPage" />
+    <RootType FullName="TicketManagementSystem.UserManagement" />
   </Roots.RootTypes>
 </Roots>

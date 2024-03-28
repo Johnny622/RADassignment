@@ -51,10 +51,12 @@
 
         <StackPanel x:Name="rightContent" Orientation="Vertical" Margin="80,0,0,0">
             <TextBlock Text="PASSENGER DETAILS" FontFamily="Bahnschrift SemiBold" FontSize="24" FontWeight="Bold" Foreground="DarkBlue" Margin="0,20"/>
-            <ScrollViewer VerticalScrollMode="Enabled" Height="700" Width="900" BorderThickness="1" BorderBrush="Gray">
+            <TextBlock x:Name="displayError" Foreground="Red" Visibility="Collapsed"/>
+            <ScrollViewer VerticalScrollMode="Enabled" Height="500" Width="900" BorderThickness="1" BorderBrush="Gray">
                 <Grid x:Name="mainGrid">
                 </Grid>
             </ScrollViewer>
+            <Button x:Name="btnConfirm" Content="CONFIRM" FontSize="20" FontWeight="Bold" Background="#F4BC1C" HorizontalAlignment="Right" Margin="10" CornerRadius="5" Click="btnConfirm_Click"/>
         </StackPanel>
     </Grid>
 </Page>

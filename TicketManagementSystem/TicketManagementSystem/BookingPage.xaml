@@ -58,12 +58,12 @@
                 <StackPanel Orientation="Horizontal">
                     <StackPanel>
                         <TextBlock Text="Origin"/>
-                        <ComboBox Width="140" ScrollViewer.VerticalScrollMode="Enabled" MaxDropDownHeight="250">
+                        <ComboBox x:Name="cbxOrigin" Width="140" ScrollViewer.VerticalScrollMode="Enabled" MaxDropDownHeight="250">
                         </ComboBox>
                     </StackPanel>
                     <StackPanel Margin="20,0,0,0">
                         <TextBlock Text="Destination"/>
-                        <ComboBox  Width="140" ScrollViewer.VerticalScrollMode="Enabled" MaxDropDownHeight="250"/>
+                        <ComboBox x:Name="cbxDestination" Width="140" ScrollViewer.VerticalScrollMode="Enabled" MaxDropDownHeight="250"/>
                     </StackPanel>
                     <StackPanel Margin="20,0,0,0">
                         <TextBlock Text="Pax"/>

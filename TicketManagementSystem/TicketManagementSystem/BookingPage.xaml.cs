@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
+using TicketManagementSystem.Class;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
 using Windows.UI.Xaml;
@@ -22,9 +23,11 @@ namespace TicketManagementSystem
     /// </summary>
     public sealed partial class BookingPage : Page
     {
+        FirebaseHelper firebaseHelper = new FirebaseHelper();
         public BookingPage()
         {
             this.InitializeComponent();
+            loadTrainDetails();
         }
 
         private void btnBar_Click(object sender, RoutedEventArgs e)
@@ -54,11 +57,32 @@ namespace TicketManagementSystem
         private void btnSearch_Click(object sender, RoutedEventArgs e)
         {
             spGroup2.Visibility = Visibility.Visible;
+            string origin = cbxOrigin.SelectedItem?.ToString();
         }
 
         private void btnNext_Click(object sender, RoutedEventArgs e)
         {
             Frame.Navigate(typeof(PassengerDetailPage));
+        }
+
+        private async void loadTrainDetails()
+        {
+            try
+            {
+                //changeToTrain class
+                List<PassengerDetails> passengerDetails = new List<PassengerDetails>();
+                passengerDetails = await firebaseHelper.GetAllUsers();
+                
+                foreach(PassengerDetails passenger in passengerDetails)
+                {
+                    cbxOrigin.Items.Add(passenger.Name);
+                    cbxDestination.Items.Add(passenger.Phone);
+                }
+            }
+            catch (Exception ex)
+            {
+
+            }
         }
     }
 }

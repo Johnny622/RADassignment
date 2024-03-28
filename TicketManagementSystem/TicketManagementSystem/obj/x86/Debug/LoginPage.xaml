@@ -9,7 +9,7 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
-        <Image Source="Assets/ets-train.jpg" Height="2000"></Image>
+        <Image Source="Assets/ets-train.jpg"  Height="2000"></Image>
         <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
             <TextBlock Text="ETS TRAIN TICKETING SYSTEM" FontSize="65" Margin="20,45,20,20" RequestedTheme="Dark" RenderTransformOrigin="0.5,0.5" FontWeight="Bold" FontStyle="Italic">
                 <TextBlock.Foreground>

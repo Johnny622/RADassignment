@@ -31,17 +31,20 @@ namespace TicketManagementSystem
         {
             if(EmailTextBox.Text == "")
             {
+                ErrorMessage.Visibility = Visibility.Visible;
                 ErrorMessage.Text = "Please Insert Valid Email.";
             }
             else
             {
                 if(PasswordTextBox.Text == "")
                 {
+                    ErrorMessage.Visibility = Visibility.Visible;
                     ErrorMessage.Text = "Please Insert Password.";
                 }
                 else
                 {
-                    ErrorMessage.Text = "Checking Password....";
+                    ErrorMessage.Visibility = Visibility.Visible;
+                    this.Frame.Navigate(typeof(UserManagement));
                 }
             }
         }

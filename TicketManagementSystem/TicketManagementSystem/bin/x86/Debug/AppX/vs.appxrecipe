@@ -30,13 +30,29 @@
     <AppXManifest Include="C:\Users\ACER\Desktop\Y2S3\--Clone Resposity--\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+<<<<<<< HEAD
       <Modified>2024-03-28T09:22:29.866</Modified>
+=======
+<<<<<<< HEAD
+      <Modified>2024-03-28T09:02:09.227</Modified>
+=======
+      <Modified>2024-03-28T03:33:36.766</Modified>
+>>>>>>> da6a33bdb86d3018264acc821a046afc53319868
+>>>>>>> bf3cf2a09656506c9875c44f7ed7359ba7e60ae1
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\ACER\Desktop\Y2S3\--Clone Resposity--\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\TicketManagementSystem.exe">
       <PackagePath>entrypoint\TicketManagementSystem.exe</PackagePath>
+<<<<<<< HEAD
       <Modified>2024-03-28T09:22:29.191</Modified>
+=======
+<<<<<<< HEAD
+      <Modified>2024-03-28T09:02:07.540</Modified>
+=======
+      <Modified>2024-03-28T03:33:36.338</Modified>
+>>>>>>> da6a33bdb86d3018264acc821a046afc53319868
+>>>>>>> bf3cf2a09656506c9875c44f7ed7359ba7e60ae1
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.14\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
@@ -134,6 +150,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ACER\Desktop\Y2S3\--Clone Resposity--\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\TicketManagementSystem.xr.xml">
       <PackagePath>TicketManagementSystem.xr.xml</PackagePath>
+<<<<<<< HEAD
       <Modified>2024-03-28T09:22:29.074</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ACER\Desktop\Y2S3\--Clone Resposity--\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\App.xbf">
@@ -163,6 +180,65 @@
     <AppxPackagedFile Include="C:\Users\ACER\Desktop\Y2S3\--Clone Resposity--\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\UserManagement.xbf">
       <PackagePath>UserManagement.xbf</PackagePath>
       <Modified>2024-03-28T09:22:29.124</Modified>
+=======
+<<<<<<< HEAD
+      <Modified>2024-03-28T07:47:47.122</Modified>
+=======
+      <Modified>2024-03-28T03:27:03.591</Modified>
+>>>>>>> da6a33bdb86d3018264acc821a046afc53319868
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ACER\Desktop\Y2S3\--Clone Resposity--\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+<<<<<<< HEAD
+      <Modified>2024-03-28T09:02:07.460</Modified>
+=======
+      <Modified>2024-03-28T03:33:36.279</Modified>
+>>>>>>> da6a33bdb86d3018264acc821a046afc53319868
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ACER\Desktop\Y2S3\--Clone Resposity--\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\BookingPage.xbf">
+      <PackagePath>BookingPage.xbf</PackagePath>
+<<<<<<< HEAD
+      <Modified>2024-03-28T09:02:07.455</Modified>
+=======
+      <Modified>2024-03-28T03:33:36.277</Modified>
+>>>>>>> da6a33bdb86d3018264acc821a046afc53319868
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ACER\Desktop\Y2S3\--Clone Resposity--\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+<<<<<<< HEAD
+      <Modified>2024-03-28T09:02:07.460</Modified>
+=======
+      <Modified>2024-03-28T03:33:36.280</Modified>
+>>>>>>> da6a33bdb86d3018264acc821a046afc53319868
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ACER\Desktop\Y2S3\--Clone Resposity--\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\PassengerDetailPage.xbf">
+      <PackagePath>PassengerDetailPage.xbf</PackagePath>
+<<<<<<< HEAD
+      <Modified>2024-03-28T09:02:07.461</Modified>
+=======
+      <Modified>2024-03-28T03:33:36.280</Modified>
+>>>>>>> da6a33bdb86d3018264acc821a046afc53319868
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ACER\Desktop\Y2S3\--Clone Resposity--\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\SeatSelectionDialog.xbf">
+      <PackagePath>SeatSelectionDialog.xbf</PackagePath>
+<<<<<<< HEAD
+      <Modified>2024-03-28T09:02:07.461</Modified>
+=======
+      <Modified>2024-03-28T03:33:36.280</Modified>
+>>>>>>> da6a33bdb86d3018264acc821a046afc53319868
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ACER\Desktop\Y2S3\--Clone Resposity--\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\SeatSelectionPage.xbf">
+      <PackagePath>SeatSelectionPage.xbf</PackagePath>
+<<<<<<< HEAD
+      <Modified>2024-03-28T09:02:07.461</Modified>
+=======
+      <Modified>2024-03-28T03:33:36.280</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ACER\Desktop\Y2S3\--Clone Resposity--\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\UserManagement.xbf">
+      <PackagePath>UserManagement.xbf</PackagePath>
+      <Modified>2024-03-28T03:33:36.280</Modified>
+>>>>>>> da6a33bdb86d3018264acc821a046afc53319868
+>>>>>>> bf3cf2a09656506c9875c44f7ed7359ba7e60ae1
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.19041.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -170,11 +246,23 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ACER\Desktop\Y2S3\--Clone Resposity--\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
+<<<<<<< HEAD
+      <Modified>2024-03-28T07:47:48.830</Modified>
+=======
       <Modified>2024-03-28T03:27:38.114</Modified>
+>>>>>>> da6a33bdb86d3018264acc821a046afc53319868
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ACER\Desktop\Y2S3\--Clone Resposity--\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\Core\TicketManagementSystem.exe">
       <PackagePath>TicketManagementSystem.exe</PackagePath>
+<<<<<<< HEAD
       <Modified>2024-03-28T09:22:29.850</Modified>
+=======
+<<<<<<< HEAD
+      <Modified>2024-03-28T09:02:09.223</Modified>
+=======
+      <Modified>2024-03-28T03:33:36.761</Modified>
+>>>>>>> da6a33bdb86d3018264acc821a046afc53319868
+>>>>>>> bf3cf2a09656506c9875c44f7ed7359ba7e60ae1
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

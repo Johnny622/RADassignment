@@ -8,7 +8,7 @@
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
-    <Grid Background="White">
+    <Grid >
         <SplitView x:Name="menuSplitView" DisplayMode="CompactOverlay" IsPaneOpen="False" CompactPaneLength="50" OpenPaneLength="240">
             <SplitView.Pane>
                 <StackPanel Background="#4863A0">
@@ -18,17 +18,17 @@
                         </Button>
                     </StackPanel>
 
-                    <Button Name="btnUserMng" Background="Transparent" Margin="0,0,0,30" HorizontalAlignment="Stretch" Click="btnUserMng_Click">
+                    <Button Name="btnUserMng" Background="#D7ECFF" Margin="0,0,0,30" HorizontalAlignment="Stretch" Click="btnUserMng_Click">
                         <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" Margin="0 0 0 0" Width="230">
                             <Image Source="Assets/user.png" Width="30"/>
                             <TextBlock Text="USER MANAGEMENT" Padding="10" VerticalAlignment="Center" Foreground="White" FontWeight="Bold" />
                         </StackPanel>
                     </Button>
 
-                    <Button Background="#D7ECFF" Margin="0 0 0 30" HorizontalAlignment="Stretch">
+                    <Button Background="Transparent" Margin="0 0 0 30" HorizontalAlignment="Stretch">
                         <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" Width="230">
                             <Image Source="Assets/rail.png" Width="30"/>
-                            <TextBlock Text="TRAIN MANAGEMENT" Padding="10" VerticalAlignment="Center" Foreground="Black" FontWeight="Bold" />
+                            <TextBlock Text="TRAIN MANAGEMENT" Padding="10" VerticalAlignment="Center" Foreground="White" FontWeight="Bold" />
                         </StackPanel>
                     </Button>
 
@@ -54,12 +54,12 @@
 
             <StackPanel Orientation="Vertical" HorizontalAlignment="Center">
                 <Image Source="Assets/user.png" Width="80"/>
-                <TextBlock x:Name="WelcomeMessage" Foreground="Black" FontSize="20">Welcome, Goh Jin Xing</TextBlock>
+                <TextBlock x:Name="WelcomeMessage"  FontSize="20">Welcome, Goh Jin Xing</TextBlock>
                 <StackPanel Orientation="Vertical" HorizontalAlignment="Center">
-                    <Button Foreground="Black" FontSize="20" Content="My Profile"></Button>
-                    <Button Foreground="Black" FontSize="20" Content="Change Password"></Button>
-                    <Button Foreground="Black" FontSize="20" Content="Helpful Links"></Button>
-                    <Button Foreground="Black" FontSize="20" Content="Logout"></Button>
+                    <Button  FontSize="20" Content="My Profile"></Button>
+                    <Button  FontSize="20" Content="Change Password"></Button>
+                    <Button  FontSize="20" Content="Helpful Links"></Button>
+                    <Button  FontSize="20" Content="Logout"></Button>
                 </StackPanel>
             </StackPanel>
         </StackPanel>

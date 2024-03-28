@@ -133,3 +133,13 @@ C:\Users\ACER\Desktop\Y2S3\--Clone Resposity--\RADassignment\TicketManagementSys
 C:\Users\ACER\Desktop\Y2S3\--Clone Resposity--\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\SeatSelectionDialog.xbf
 C:\Users\ACER\Desktop\Y2S3\--Clone Resposity--\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\SeatSelectionPage.xbf
 C:\Users\ACER\Desktop\Y2S3\--Clone Resposity--\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\UserManagement.xbf
+C:\Users\ACER\Desktop\Y2S3\--Clone Resposity--\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\UserProfile.xbf
+C:\Users\ACER\Desktop\Y2S3\--Clone Resposity--\RADassignment\TicketManagementSystem\TicketManagementSystem\obj\x86\Debug\UserProfile.g.i.cs
+C:\Users\ACER\Desktop\Y2S3\--Clone Resposity--\RADassignment\TicketManagementSystem\TicketManagementSystem\obj\x86\Debug\UserProfile.g.cs
+C:\Users\ACER\Desktop\Y2S3\--Clone Resposity--\RADassignment\TicketManagementSystem\TicketManagementSystem\obj\x86\Debug\UserProfile.xaml
+C:\Users\ACER\Desktop\Y2S3\--Clone Resposity--\RADassignment\TicketManagementSystem\TicketManagementSystem\obj\x86\Debug\UserProfile.xbf
+C:\Users\ACER\Desktop\Y2S3\--Clone Resposity--\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\LoginPage.xbf
+C:\Users\ACER\Desktop\Y2S3\--Clone Resposity--\RADassignment\TicketManagementSystem\TicketManagementSystem\obj\x86\Debug\LoginPage.g.i.cs
+C:\Users\ACER\Desktop\Y2S3\--Clone Resposity--\RADassignment\TicketManagementSystem\TicketManagementSystem\obj\x86\Debug\LoginPage.g.cs
+C:\Users\ACER\Desktop\Y2S3\--Clone Resposity--\RADassignment\TicketManagementSystem\TicketManagementSystem\obj\x86\Debug\LoginPage.xaml
+C:\Users\ACER\Desktop\Y2S3\--Clone Resposity--\RADassignment\TicketManagementSystem\TicketManagementSystem\obj\x86\Debug\LoginPage.xbf

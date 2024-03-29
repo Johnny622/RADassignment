@@ -60,7 +60,7 @@ namespace TicketManagementSystem
                                     UserDetail ud = new UserDetail();
                                     ud.UserName = SignUpFullName.Text;
                                     ud.Gender = ((ComboBoxItem)SignUpGender.SelectedItem).Content.ToString();
-                                    ud.Email = SignUpEmail.Text;
+                                    ud.Email = ConvertToLowerCase(  SignUpEmail.Text);
                                     ud.Phone = SignUpContact.Text;
                                     ud.IC = SignUpMyKad.Text;
                                     ud.Password = SignUpPassword.Password;
@@ -207,6 +207,11 @@ namespace TicketManagementSystem
             {
                 this.Frame.Navigate(typeof(LoginPage));
             }
+        }
+
+        private void BackBtn_Click(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(LoginPage));
         }
     }
 }

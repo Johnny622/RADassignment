@@ -128,7 +128,10 @@
     <Compile Include="Class\FirebaseHelper.cs" />
     <Compile Include="Class\PassengerDetails.cs" />
     <Compile Include="Class\UserDetail.cs" />
-    <Compile Include="GlobalVariable.cs" />
+    <Compile Include="Class\GlobalVariable.cs" />
+    <Compile Include="ForgetPassword.xaml.cs">
+      <DependentUpon>ForgetPassword.xaml</DependentUpon>
+    </Compile>
     <Compile Include="LoginPage.xaml.cs">
       <DependentUpon>LoginPage.xaml</DependentUpon>
     </Compile>
@@ -202,6 +205,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="CustomStyles.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ForgetPassword.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

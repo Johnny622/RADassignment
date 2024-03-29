@@ -20,21 +20,19 @@
             </LinearGradientBrush>
         </Grid.Background>
 
-        <StackPanel Orientation="Vertical" Width="1000" Height="800" BorderThickness="2">
+        <StackPanel Orientation="Vertical" Width="1000" Height="850" BorderThickness="2">
             <StackPanel.BorderBrush>
                 <SolidColorBrush Color="Black" Opacity="0.5"/>
             </StackPanel.BorderBrush>
             <StackPanel.Background>
                 <SolidColorBrush Color="White" Opacity="0.5"/>
             </StackPanel.Background>
-            <StackPanel Orientation="Horizontal" Margin="10">
-                <TextBlock Text="Sign Up" FontSize="24" FontWeight="Bold"/>
+            <Button x:Name="BackBtn" Content="&lt;Back" Background="Transparent" FontSize="24" Click="BackBtn_Click"/>
+            <StackPanel>
+                <Line X1="0" X2="1000" Stroke="Black" StrokeThickness="3"/>
+                <TextBlock Text="Sign Up" FontSize="24" FontWeight="Bold" HorizontalAlignment="Center" Margin="10"/>
+                <Line X1="0" X2="1000" Stroke="Black" StrokeThickness="3"/>
             </StackPanel>
-            <Line X1="0" X2="1000" Stroke="Black" StrokeThickness="3">
-                <Line.Fill>
-                    <SolidColorBrush Color="Black" Opacity="0.5"/>
-                </Line.Fill>
-            </Line>
 
             <StackPanel Orientation="Horizontal" Margin="10,30,10,0" >
                 <StackPanel Orientation="Vertical" Width="480" Height="440" Margin="0,0,15,0" VerticalAlignment="Top">

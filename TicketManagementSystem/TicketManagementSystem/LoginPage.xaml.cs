@@ -108,7 +108,7 @@ namespace TicketManagementSystem
             isUser = false;
         }
 
-        private void HyperlinkButton_Click(object sender, RoutedEventArgs e)
+        private void SignUpNew_Click(object sender, RoutedEventArgs e)
         {
             this.Frame.Navigate(typeof(NewUserRegister));
         }
@@ -116,6 +116,11 @@ namespace TicketManagementSystem
         private string ConvertToLowerCase(string input)
         {
             return input.ToLower();
+        }
+
+        private void ForgetPw_Click(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(ForgetPassword));
         }
     }
 }

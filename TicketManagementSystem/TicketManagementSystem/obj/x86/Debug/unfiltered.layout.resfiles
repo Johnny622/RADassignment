@@ -26,8 +26,10 @@ Assets\user.png
 Assets\Wide310x150Logo.scale-200.png
 App.xbf
 BookingPage.xbf
+CustomStyles.xbf
 LoginPage.xbf
 MainPage.xbf
+NewUserRegister.xbf
 PassengerDetailPage.xbf
 SeatSelectionDialog.xbf
 SeatSelectionPage.xbf

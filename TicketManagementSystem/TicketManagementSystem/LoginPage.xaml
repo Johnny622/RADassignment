@@ -8,6 +8,8 @@
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
+
+
     <Grid>
         <Image Source="Assets/ets-train.jpg"  Height="2000"></Image>
         <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
@@ -33,8 +35,26 @@
                 </TextBlock.Projection>
             </TextBlock>
         </StackPanel>
-        <StackPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center" Height="420" Width="519" Background="LightGray" Opacity="0.7" >
+        <StackPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center" Height="460" Width="519" Background="LightGray" Opacity="0.7" >
             <TextBlock Text="Login" FontSize="24" HorizontalAlignment="Center" FontWeight="Bold" Margin="5,0,5,0"/>
+            <StackPanel Orientation="Horizontal" Margin="5,5,5,5">
+                <Button x:Name="LoginBtnUser" Content="User" Width="100" FontFamily="Bahnschrift SemiBold" FontWeight="Black" Click="LoginBtnUser_Click" >
+                    <Button.Background>
+                        <SolidColorBrush Color="#FF383333" Opacity="0.2"/>
+                    </Button.Background>
+                    <Button.BorderBrush>
+                        <SolidColorBrush Color="Black" Opacity="0.4"/>
+                    </Button.BorderBrush>
+                </Button>
+                <Button Name="LoginBtnAdmin" Content="Admin" Width="100" Margin="5,0,0,0" FontFamily="Bahnschrift SemiBold" FontWeight="Black" Click="LoginBtnAdmin_Click">
+                    <Button.Background>
+                        <SolidColorBrush Color="#FF383333" Opacity="0.2"/>
+                    </Button.Background>
+                    <Button.BorderBrush>
+                        <SolidColorBrush Color="Black" Opacity="0.4"/>
+                    </Button.BorderBrush>
+                </Button>
+            </StackPanel>
             <TextBlock Text="Email"  FontSize="24" Margin="5,0,5,0"/>
             <StackPanel Orientation="Horizontal" Margin="5,5,5,5" >
                 <Image Source="Assets/profile-icon2.jpg" Height="50"/>
@@ -53,11 +73,13 @@
                 <TextBlock Text="OR"/>
                 <Line X1="10" Y1="0" X2="220" Y2="0" Stroke="Black" StrokeThickness="2" Margin="8,0,10,0" VerticalAlignment="Center"/>
             </StackPanel>
-            <HyperlinkButton Content="Sign Up Now " FontSize="16" Foreground="Blue" HorizontalAlignment="Center"/>
+            <HyperlinkButton Content="Sign Up Now " FontSize="16" Foreground="Blue" HorizontalAlignment="Center" Click="HyperlinkButton_Click"/>
 
 
 
         </StackPanel>
 
     </Grid>
+
+
 </Page>

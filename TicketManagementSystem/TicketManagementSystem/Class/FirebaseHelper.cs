@@ -31,5 +31,28 @@ namespace TicketManagementSystem.Class
                   Phone = item.Object.Phone,
               }).ToList();
         }
+
+        public async Task AddUserDetail(UserDetail user)
+        {
+            await firebase
+           .Child("Users")
+           .PostAsync(JsonConvert.SerializeObject(user));
+        }
+
+        public async Task<List<UserDetail>> GetUserDetails()
+        {
+            return (await firebase
+              .Child("Users")
+              .OnceAsync<UserDetail>()).Select(item => new UserDetail
+              {
+                  UserId = item.Key.ToString(),
+                  UserName = item.Object.UserName,
+                  Gender = item.Object.Gender,
+                  Email = item.Object.Email,
+                  Phone = item.Object.Phone,
+                  IC = item.Object.IC,
+                  Password = item.Object.Password,
+              }).ToList();
+        }
     }
 }

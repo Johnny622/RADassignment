@@ -124,11 +124,15 @@
     </Compile>
     <Compile Include="Class\FirebaseHelper.cs" />
     <Compile Include="Class\PassengerDetails.cs" />
+    <Compile Include="Class\UserDetail.cs" />
     <Compile Include="LoginPage.xaml.cs">
       <DependentUpon>LoginPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="NewUserRegister.xaml.cs">
+      <DependentUpon>NewUserRegister.xaml</DependentUpon>
     </Compile>
     <Compile Include="PassengerDetailPage.xaml.cs">
       <DependentUpon>PassengerDetailPage.xaml</DependentUpon>
@@ -189,6 +193,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="CustomStyles.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="LoginPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -196,6 +204,10 @@
     <Page Include="MainPage.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
+    </Page>
+    <Page Include="NewUserRegister.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="PassengerDetailPage.xaml">
       <SubType>Designer</SubType>

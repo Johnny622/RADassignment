@@ -51,7 +51,7 @@
                         <TextBlock Text="Password" FontSize="24"/>
                         <TextBlock Text="*" FontSize="24" Foreground="Red"/>
                     </StackPanel>
-                    <TextBox x:Name="SignUpPassword" FontSize="24"/>
+                    <PasswordBox x:Name="SignUpPassword" FontSize="24"/>
 
                     <StackPanel Orientation="Horizontal">
                         <TextBlock Text="Full name as per MyKad" FontSize="24"/>
@@ -87,7 +87,7 @@
                         <TextBlock Text="Confirm password" FontSize="24"/>
                         <TextBlock Text="*" FontSize="24" Foreground="Red"/>
                     </StackPanel>
-                    <TextBox x:Name="SignUpConfPassword" FontSize="24"/>
+                    <PasswordBox x:Name="SignUpConfPassword" FontSize="24"/>
 
                     <StackPanel Orientation="Horizontal">
                         <TextBlock Text="Contact No." FontSize="24"/>
@@ -114,7 +114,8 @@
                 <TextBlock Text=" Name and MyKad no. cannot be changed after sign up." FontSize="20"/>
             </StackPanel>
 
-            <Button x:Name="SignUpSubmitBtn" FontSize="24" Content="Sign Up" HorizontalAlignment="Stretch" Background="#FFFFAF00" Margin="10,0,10,10"/>
+            <TextBlock x:Name="ErrorMessage" FontSize="22" Foreground="Red" HorizontalAlignment="Center"/>
+            <Button x:Name="SignUpSubmitBtn" FontSize="24" Content="Sign Up" HorizontalAlignment="Stretch" Background="#FFFFAF00" Margin="10,0,10,10" Click="SignUpSubmitBtn_Click"/>
 
         </StackPanel>
 

@@ -1,4 +1,5 @@
 ﻿using Firebase.Database;
+using Firebase.Database.Query;
 using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
@@ -53,6 +54,28 @@ namespace TicketManagementSystem.Class
                   IC = item.Object.IC,
                   Password = item.Object.Password,
               }).ToList();
+        }
+
+        public async Task<UserDetail> GetUserDetailsByEmail(string email)
+        {
+            var userDetailsList = await firebase
+                .Child("Users")
+                .OnceAsync<UserDetail>();
+
+            var userDetail = userDetailsList
+                .Select(item => new UserDetail
+                {
+                    UserId = item.Key.ToString(),
+                    UserName = item.Object.UserName,
+                    Gender = item.Object.Gender,
+                    Email = item.Object.Email,
+                    Phone = item.Object.Phone,
+                    IC = item.Object.IC,
+                    Password = item.Object.Password,
+                })
+                .FirstOrDefault(u => u.Email == email);
+
+            return userDetail;
         }
     }
 }

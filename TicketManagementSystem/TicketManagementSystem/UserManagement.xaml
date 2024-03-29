@@ -54,7 +54,7 @@
 
             <StackPanel Orientation="Vertical" HorizontalAlignment="Center">
                 <Image Source="Assets/user.png" Width="80"/>
-                <TextBlock x:Name="WelcomeMessage"  FontSize="20">Welcome, Goh Jin Xing</TextBlock>
+                <TextBlock x:Name="WelcomeMsg"  FontSize="20">Welcome, Goh Jin Xing</TextBlock>
                 <StackPanel Orientation="Vertical" HorizontalAlignment="Center">
                     <Button  FontSize="20" Content="My Profile"></Button>
                     <Button  FontSize="20" Content="Change Password"></Button>

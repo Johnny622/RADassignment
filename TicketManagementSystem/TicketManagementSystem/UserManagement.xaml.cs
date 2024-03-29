@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
+using TicketManagementSystem.Class;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
 using Windows.UI.Xaml;
@@ -22,9 +23,18 @@ namespace TicketManagementSystem
     /// </summary>
     public sealed partial class UserManagement : Page
     {
+        FirebaseHelper firebaseHelper = new FirebaseHelper();
+
         public UserManagement()
         {
             this.InitializeComponent();
+            WelcomeMessage();
+        }
+
+        private async void WelcomeMessage()
+        {
+            UserDetail userDetails = await firebaseHelper.GetUserDetailsByEmail(GlobalVariable.CurrentUserEmail);
+            WelcomeMsg.Text = "Welcome , " + userDetails.UserName.ToString() + " !";
         }
 
         private void btnBar_Click(object sender, RoutedEventArgs e)
@@ -35,7 +45,7 @@ namespace TicketManagementSystem
 
         private void btnUserMng_Click(object sender, RoutedEventArgs e)
         {
-            
+
         }
 
         private void btnTrainMng_Click(object sender, RoutedEventArgs e)

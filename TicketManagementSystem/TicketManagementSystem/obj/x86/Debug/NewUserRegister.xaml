@@ -37,71 +37,85 @@
             </Line>
 
             <StackPanel Orientation="Horizontal" Margin="10,30,10,0" >
-                <StackPanel Orientation="Vertical" Width="480" Height="600" Margin="0,0,15,0">
+                <StackPanel Orientation="Vertical" Width="480" Height="440" Margin="0,0,15,0" VerticalAlignment="Top">
                     <StackPanel.BorderBrush>
                         <SolidColorBrush Color="Black" Opacity="0.485"/>
                     </StackPanel.BorderBrush>
                     <StackPanel Orientation="Horizontal">
                         <TextBlock Text="Email" FontSize="24"/>
-                        <TextBlock Text="*" FontSize="20" Foreground="Red"/>
+                        <TextBlock Text="*" FontSize="24" Foreground="Red"/>
                     </StackPanel>
-                    <TextBox x:ConnectionId='6' x:Name="SignUpEmail" FontSize="24"/>
+                    <TextBox x:ConnectionId='8' x:Name="SignUpEmail" FontSize="24"/>
 
                     <StackPanel Orientation="Horizontal">
-                        <TextBlock Text="Password" FontSize="20"/>
-                        <TextBlock Text="*" FontSize="20" Foreground="Red"/>
+                        <TextBlock Text="Password" FontSize="24"/>
+                        <TextBlock Text="*" FontSize="24" Foreground="Red"/>
                     </StackPanel>
-                    <TextBox x:ConnectionId='7' x:Name="SignUpPassword" FontSize="20"/>
+                    <PasswordBox x:ConnectionId='9' x:Name="SignUpPassword" FontSize="24"/>
 
                     <StackPanel Orientation="Horizontal">
-                        <TextBlock Text="Full name as per MyKad" FontSize="20"/>
-                        <TextBlock Text="*" FontSize="20" Foreground="Red"/>
+                        <TextBlock Text="Full name as per MyKad" FontSize="24"/>
+                        <TextBlock Text="**" FontSize="24" Foreground="Red"/>
                     </StackPanel>
-                    <TextBox x:ConnectionId='8' x:Name="SignUpFullName" FontSize="20"/>
+                    <TextBox x:ConnectionId='10' x:Name="SignUpFullName" FontSize="24"/>
 
                     <StackPanel Orientation="Horizontal">
-                        <TextBlock Text="MyKad No." FontSize="20"/>
-                        <TextBlock Text="**" FontSize="20" Foreground="Red"/>
+                        <TextBlock Text="MyKad No." FontSize="24"/>
+                        <TextBlock Text="**" FontSize="24" Foreground="Red"/>
                     </StackPanel>
-                    <TextBox x:ConnectionId='9' x:Name="SignUpMyKad" FontSize="20"/>
+                    <TextBox x:ConnectionId='11' x:Name="SignUpMyKad" FontSize="24"/>
 
                     <StackPanel Orientation="Horizontal">
-                        <TextBlock Text="Gender" FontSize="20"/>
-                        <TextBlock Text="*" FontSize="20" Foreground="Red"/>
+                        <TextBlock Text="Gender" FontSize="24"/>
+                        <TextBlock Text="*" FontSize="24" Foreground="Red"/>
                     </StackPanel>
-                    <ComboBox x:ConnectionId='10' x:Name="SignUpGender" FontSize="20" Width="480" PlaceholderText="Please Select">
-                        <ComboBoxItem x:ConnectionId='11' x:Name="Male" Content="Male"/>
-                        <ComboBoxItem x:ConnectionId='12' x:Name="Female" Content="Female"/>
+                    <ComboBox x:ConnectionId='12' x:Name="SignUpGender" FontSize="24" Width="480">
+                        <ComboBoxItem Content="Please Select" IsSelected="True"/>
+                        <ComboBoxItem x:ConnectionId='13' x:Name="Male" Content="Male"/>
+                        <ComboBoxItem x:ConnectionId='14' x:Name="Female" Content="Female"/>
                     </ComboBox>
 
                 </StackPanel>
-                <StackPanel Orientation="Vertical" Width="480" Height="600"  >
+                <StackPanel Orientation="Vertical" Width="480" Height="440"  >
                     <StackPanel Orientation="Horizontal">
-                        <TextBlock Text="Confirm email" FontSize="20"/>
-                        <TextBlock Text="*" FontSize="20" Foreground="Red"/>
+                        <TextBlock Text="Confirm email" FontSize="24"/>
+                        <TextBlock Text="*" FontSize="24" Foreground="Red"/>
                     </StackPanel>
-                    <TextBox x:ConnectionId='2' x:Name="SignUpConfEmail" FontSize="20"/>
+                    <TextBox x:ConnectionId='4' x:Name="SignUpConfEmail" FontSize="24"/>
 
                     <StackPanel Orientation="Horizontal">
-                        <TextBlock Text="Confirm password" FontSize="20"/>
-                        <TextBlock Text="*" FontSize="20" Foreground="Red"/>
+                        <TextBlock Text="Confirm password" FontSize="24"/>
+                        <TextBlock Text="*" FontSize="24" Foreground="Red"/>
                     </StackPanel>
-                    <TextBox x:ConnectionId='3' x:Name="SignUpConfPassword" FontSize="20"/>
+                    <PasswordBox x:ConnectionId='5' x:Name="SignUpConfPassword" FontSize="24"/>
 
                     <StackPanel Orientation="Horizontal">
-                        <TextBlock Text="Contact No." FontSize="20"/>
-                        <TextBlock Text="*" FontSize="20" Foreground="Red"/>
+                        <TextBlock Text="Contact No." FontSize="24"/>
+                        <TextBlock Text="*" FontSize="24" Foreground="Red"/>
                     </StackPanel>
-                    <TextBox x:ConnectionId='4' x:Name="SignUpContact" FontSize="20"/>
+                    <TextBox x:ConnectionId='6' x:Name="SignUpContact" FontSize="24"/>
 
                     <StackPanel Orientation="Horizontal">
-                        <TextBlock Text="Confirm MyKad No." FontSize="20"/>
-                        <TextBlock Text="**" FontSize="20" Foreground="Red"/>
+                        <TextBlock Text="Confirm MyKad No." FontSize="24"/>
+                        <TextBlock Text="**" FontSize="24" Foreground="Red"/>
                     </StackPanel>
-                    <TextBox x:ConnectionId='5' x:Name="SignUpConfMyKad" FontSize="20"/>
+                    <TextBox x:ConnectionId='7' x:Name="SignUpConfMyKad" FontSize="24"/>
                 </StackPanel>
             </StackPanel>
+            
+            <TextBlock Text="If you faced any difficulty when signing up,"  FontSize="20" Margin="10,0,0,0"/>
+            <TextBlock Text="please contact us at +60 16-980 1560." FontSize="20" Margin="10,0,0,0"/>
+            <StackPanel Orientation="Horizontal" Margin="10,10,0,0">
+                <TextBlock Text="*" FontSize="24" Foreground="Red"/>
+                <TextBlock Text=" Field Must Be Filled" FontSize="20"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Margin="10,0,0,30">
+                <TextBlock Text="**" FontSize="24" Foreground="Red"/>
+                <TextBlock Text=" Name and MyKad no. cannot be changed after sign up." FontSize="20"/>
+            </StackPanel>
 
+            <TextBlock x:ConnectionId='2' x:Name="ErrorMessage" FontSize="22" Foreground="Red" HorizontalAlignment="Center"/>
+            <Button x:ConnectionId='3' x:Name="SignUpSubmitBtn" FontSize="24" Content="Sign Up" HorizontalAlignment="Stretch" Background="#FFFFAF00" Margin="10,0,10,10"                              />
 
         </StackPanel>
 

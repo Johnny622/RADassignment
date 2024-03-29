@@ -63,7 +63,7 @@
             <TextBlock Text="Password" FontSize="24"/>
             <StackPanel Orientation="Horizontal" Margin="5,5,5,5" >
                 <Image Source="Assets/key2.png" Height="50" />
-                <TextBox x:ConnectionId='5' x:Name="PasswordTextBox" FontSize="24" Width="458" PlaceholderText="*Required*"/>
+                <PasswordBox x:ConnectionId='5' x:Name="PasswordTextBox" FontSize="24" Width="458" PlaceholderText="*Required*"/>
             </StackPanel>
             <TextBlock x:ConnectionId='2' x:Name="ErrorMessage" Foreground="Red" FontSize="24" HorizontalAlignment="Center" Visibility="Collapsed"/>
             <HyperlinkButton Content="Forget Password ?" FontSize="16" Foreground="Blue" HorizontalAlignment="Center"/>

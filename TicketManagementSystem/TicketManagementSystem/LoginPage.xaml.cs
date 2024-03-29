@@ -15,6 +15,8 @@ using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
+using System.Threading.Tasks;
+using System.Text;
 
 // The Blank Page item template is documented at https://go.microsoft.com/fwlink/?LinkId=234238
 
@@ -23,6 +25,7 @@ namespace TicketManagementSystem
     /// <summary>
     /// An empty page that can be used on its own or navigated to within a Frame.
     /// </summary>
+    
     public sealed partial class LoginPage : Page
     {
         private string adminORuser;
@@ -36,7 +39,7 @@ namespace TicketManagementSystem
             this.InitializeComponent();
         }
 
-        private void LoginBtn_Click(object sender, RoutedEventArgs e)
+        private async void LoginBtn_Click(object sender, RoutedEventArgs e)
         {
             if (EmailTextBox.Text == "")
             {
@@ -45,7 +48,7 @@ namespace TicketManagementSystem
             }
             else //1. No Empty Email
             {
-                if (PasswordTextBox.Text == "")
+                if (PasswordTextBox.Password == "")
                 {
                     ErrorMessage.Visibility = Visibility.Visible;
                     ErrorMessage.Text = "Please Insert Password.";
@@ -57,14 +60,35 @@ namespace TicketManagementSystem
                         ErrorMessage.Visibility = Visibility.Visible;
                         ErrorMessage.Text = "Please Choose User or Admin.";
                     }
-                    else
+                    else if(isUser==true)
                     {
-                        ErrorMessage.Visibility = Visibility.Collapsed;
-                        this.Frame.Navigate(typeof(UserManagement));
+                        ErrorMessage.Visibility = Visibility.Visible;
+                        string email = EmailTextBox.Text;
+                        string password = PasswordTextBox.Password;
+                        UserDetail userDetails = await firebaseHelper.GetUserDetailsByEmail(ConvertToLowerCase(email));
+
+                        if (userDetails != null)
+                        {
+                            if (userDetails.Password.Equals(password))
+                            {
+                               GlobalVariable.CurrentUserEmail = userDetails.Email;
+
+                                this.Frame.Navigate(typeof(UserManagement));
+                            }
+                            else
+                                ErrorMessage.Text = "Incorrect Password.";
+                        }
+                        else
+                            ErrorMessage.Text = "Email cannot find";
+                    }else if(isAdmin == true)
+                    {
+                        //go admin section
+                        this.Frame.Navigate (typeof(AdminManagement));
                     }
                 }
             }
         }
+
 
         private void LoginBtnUser_Click(object sender, RoutedEventArgs e)
         {
@@ -84,25 +108,14 @@ namespace TicketManagementSystem
             isUser = false;
         }
 
-        //private async void LoadFromFireBase()
-        //{
-        //    try
-        //    {
-        //        List<User> allUsers = new List<User>();
-        //        allUsers = await firebaseHelper.GetAllUsers();
-        //        UserInfoList.ItemsSource = allUsers;
-
-        //    }
-        //    catch (Exception theException)
-        //    {
-        //        // Handle all other exceptions.
-        //        DisplayDialog("Error", "Error Message: " + theException.Message);
-        //    }
-        //}
-
         private void HyperlinkButton_Click(object sender, RoutedEventArgs e)
         {
             this.Frame.Navigate(typeof(NewUserRegister));
+        }
+
+        private string ConvertToLowerCase(string input)
+        {
+            return input.ToLower();
         }
     }
 }

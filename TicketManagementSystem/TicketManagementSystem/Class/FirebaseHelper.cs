@@ -113,6 +113,40 @@ namespace TicketManagementSystem.Class
                   Password = item.Object.Password,
               }).ToList();
         }
+        public async Task<AdminDetail> GetAdminDetailsByEmail(string email)
+        {
+            var adminDetailsList = await firebase
+                .Child("Admin")
+                .OnceAsync<AdminDetail>();
+
+            var adminDetail = adminDetailsList
+                .Select(item => new AdminDetail
+                {
+                    AdminId = item.Key.ToString(),
+                    AdminName = item.Object.AdminName,
+                    Gender = item.Object.Gender,
+                    Email = item.Object.Email,
+                    Phone = item.Object.Phone,
+                    IC = item.Object.IC,
+                    Password = item.Object.Password,
+                })
+                .FirstOrDefault(u => u.Email == email);
+
+            return adminDetail;
+        }
+        public async Task UpdateAdmin(AdminDetail a)
+        {
+            //Solution 1
+            await firebase
+            .Child("Admin")
+            .Child(a.AdminId)
+            .PutAsync(JsonConvert.SerializeObject(a));
+        }
+
+        public async Task DeleteAdmin(string key)
+        {
+            await firebase.Child("Admin").Child(key).DeleteAsync(); //using firebase primary key
+        }
 
         /* For Admin Usage */
 

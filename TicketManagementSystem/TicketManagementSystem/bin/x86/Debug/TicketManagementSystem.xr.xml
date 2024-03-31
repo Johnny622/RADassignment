@@ -28,12 +28,12 @@
       <RootProperty Name="HorizontalAlignment" />
       <RootProperty Name="VerticalAlignment" />
       <RootProperty Name="Width" />
-      <RootProperty Name="Height" />
       <RootProperty Name="BorderBrush" />
       <RootProperty Name="BorderThickness" />
       <RootProperty Name="Background" />
       <RootProperty Name="Padding" />
       <RootProperty Name="Visibility" />
+      <RootProperty Name="Height" />
       <RootProperty Name="Opacity" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.TextBlock">
@@ -71,9 +71,9 @@
       <RootProperty Name="Margin" />
       <RootProperty Name="Name" />
       <RootProperty Name="HorizontalAlignment" />
-      <RootProperty Name="Height" />
       <RootProperty Name="CornerRadius" />
       <RootProperty Name="BorderBrush" />
+      <RootProperty Name="Height" />
       <RootProperty Name="Visibility" />
       <RootProperty Name="Foreground" />
       <RootProperty Name="FontFamily" />
@@ -92,24 +92,29 @@
     </RootType>
     <RootType FullName="TicketManagementSystem.AdminManagement" />
     <RootType FullName="Windows.UI.Xaml.Controls.TextBox">
-      <RootProperty Name="Text" />
+      <RootProperty Name="FontSize" />
+      <RootProperty Name="PlaceholderText" />
       <RootProperty Name="IsReadOnly" />
       <RootProperty Name="Margin" />
+      <RootProperty Name="CornerRadius" />
+      <RootProperty Name="Text" />
       <RootProperty Name="TextAlignment" />
       <RootProperty Name="Width" />
-      <RootProperty Name="FontSize" />
       <RootProperty Name="Visibility" />
-      <RootProperty Name="PlaceholderText" />
-      <RootProperty Name="CornerRadius" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.ComboBox">
-      <RootProperty Name="Width" />
-      <RootProperty Name="MaxDropDownHeight" />
       <RootProperty Name="FontSize" />
-      <RootProperty Name="Items" />
+      <RootProperty Name="Width" />
       <RootProperty Name="Margin" />
       <RootProperty Name="CornerRadius" />
+      <RootProperty Name="Items" />
+      <RootProperty Name="MaxDropDownHeight" />
     </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.ComboBoxItem">
+      <RootProperty Name="Content" />
+      <RootProperty Name="IsSelected" />
+    </RootType>
+    <RootType FullName="TicketManagementSystem.AdminProfile" />
     <RootType FullName="Windows.UI.Xaml.Controls.DatePicker" />
     <RootType FullName="Windows.UI.Xaml.Controls.CheckBox">
       <RootProperty Name="Content" />
@@ -192,10 +197,6 @@
     </RootType>
     <RootType FullName="TicketManagementSystem.LoginPage" />
     <RootType FullName="TicketManagementSystem.MainPage" />
-    <RootType FullName="Windows.UI.Xaml.Controls.ComboBoxItem">
-      <RootProperty Name="Content" />
-      <RootProperty Name="IsSelected" />
-    </RootType>
     <RootType FullName="TicketManagementSystem.NewAdminRegister" />
     <RootType FullName="TicketManagementSystem.NewUserRegister" />
     <RootType FullName="TicketManagementSystem.PassengerDetailPage" />

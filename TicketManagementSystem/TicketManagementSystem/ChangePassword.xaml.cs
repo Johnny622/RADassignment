@@ -49,7 +49,7 @@ namespace TicketManagementSystem
         {
             UserDetail ud = await firebaseHelper.GetUserDetailsByEmail(GlobalVariable.CurrentUserEmail);
 
-            if(CurPw.Password == ud.Password)
+            if (CurPw.Password == ud.Password)
             {
                 string newpw = NewPw.Password;
                 string confpw = ConfPw.Password;
@@ -62,6 +62,9 @@ namespace TicketManagementSystem
                         await firebaseHelper.UpdateUser(ud);
                         ErrorMessage.Visibility = Visibility.Collapsed;
                         DisplayDialog("Success", "Update Successfully");
+                        CurPw.Password = "";
+                        NewPw.Password = "";
+                        ConfPw.Password = "";
                     }
                     else
                     {
@@ -73,6 +76,8 @@ namespace TicketManagementSystem
                     ErrorMessage.Text = "Not fulfil the password requirement.";
                 }
             }
+            else
+                ErrorMessage.Text = "Please Enter Current Password.";
         }
         private int NumberUpperCase(string str)
         {

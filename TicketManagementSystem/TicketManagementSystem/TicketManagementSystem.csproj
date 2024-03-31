@@ -119,6 +119,9 @@
     <Compile Include="AdminManagement.xaml.cs">
       <DependentUpon>AdminManagement.xaml</DependentUpon>
     </Compile>
+    <Compile Include="AdminProfile.xaml.cs">
+      <DependentUpon>AdminProfile.xaml</DependentUpon>
+    </Compile>
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
@@ -207,6 +210,10 @@
       <SubType>Designer</SubType>
     </ApplicationDefinition>
     <Page Include="AdminManagement.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="AdminProfile.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

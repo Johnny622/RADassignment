@@ -25,10 +25,9 @@ namespace TicketManagementSystem
     /// <summary>
     /// An empty page that can be used on its own or navigated to within a Frame.
     /// </summary>
-    
+
     public sealed partial class LoginPage : Page
     {
-        private string adminORuser;
         private bool isAdmin = false;
         private bool isUser = false;
 
@@ -55,14 +54,13 @@ namespace TicketManagementSystem
                 }
                 else //2. No Empty Password
                 {
-                    if (isAdmin == false && isUser == false)
+                    if (!isAdmin && !isUser)
                     {
                         ErrorMessage.Visibility = Visibility.Visible;
                         ErrorMessage.Text = "Please Choose User or Admin.";
                     }
-                    else if(isUser==true)
+                    else if (isUser)
                     {
-                        ErrorMessage.Visibility = Visibility.Visible;
                         string email = EmailTextBox.Text;
                         string password = PasswordTextBox.Password;
                         UserDetail userDetails = await firebaseHelper.GetUserDetailsByEmail(ConvertToLowerCase(email));
@@ -71,19 +69,52 @@ namespace TicketManagementSystem
                         {
                             if (userDetails.Password.Equals(password))
                             {
-                               GlobalVariable.CurrentUserEmail = userDetails.Email;
+                                ErrorMessage.Visibility = Visibility.Collapsed;
+                                GlobalVariable.CurrentUserID = userDetails.UserId;
+                                GlobalVariable.CurrentUserEmail = userDetails.Email;
 
                                 this.Frame.Navigate(typeof(UserManagement));
                             }
                             else
+                            {
+                                ErrorMessage.Visibility = Visibility.Visible;
                                 ErrorMessage.Text = "Incorrect Password.";
+                            }
                         }
                         else
+                        {
+                            ErrorMessage.Visibility = Visibility.Visible;
                             ErrorMessage.Text = "Email cannot find";
-                    }else if(isAdmin == true)
+                        }
+                    }
+                    else if (isAdmin)
                     {
-                        //go admin section
-                        this.Frame.Navigate (typeof(AdminManagement));
+                        string email = EmailTextBox.Text;
+                        string password = PasswordTextBox.Password;
+                        AdminDetail adminDetails = await firebaseHelper.GetAdminDetailsByEmail(ConvertToLowerCase(email));
+
+                        if (adminDetails != null)
+                        {
+                            if (adminDetails.Password.Equals(password))
+                            {
+                                ErrorMessage.Visibility = Visibility.Collapsed;
+                                GlobalVariable.CurrentAdminID = adminDetails.AdminId;
+                                GlobalVariable.CurrentAdminEmail = adminDetails.Email;
+
+                                this.Frame.Navigate(typeof(AdminManagement));
+                            }
+                            else
+                            {
+                                ErrorMessage.Visibility = Visibility.Visible;
+                                ErrorMessage.Text = "Incorrect Password.";
+                            }
+                        }
+                        else
+                        {
+                            ErrorMessage.Visibility = Visibility.Visible;
+                            ErrorMessage.Text = "Email cannot find";
+                        }
+
                     }
                 }
             }
@@ -94,7 +125,6 @@ namespace TicketManagementSystem
         {
             LoginBtnAdmin.Background.Opacity = 0.2;
             LoginBtnUser.Background.Opacity = 0.8;
-            adminORuser = "user";
             isUser = true;
             isAdmin = false;
         }
@@ -103,7 +133,6 @@ namespace TicketManagementSystem
         {
             LoginBtnUser.Background.Opacity = 0.2;
             LoginBtnAdmin.Background.Opacity = 0.8;
-            adminORuser = "admin";
             isAdmin = true;
             isUser = false;
         }

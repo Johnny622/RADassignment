@@ -55,7 +55,7 @@
             <StackPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center">
                 <Image Source="Assets/software-engineer.png" Width="100"/>
                 <TextBlock x:Name="WelcomeMsg"  FontSize="34" HorizontalAlignment="Center" ></TextBlock>
-                <StackPanel Orientation="Vertical" Width="800" Height="600" BorderBrush="Gray" BorderThickness="1" Margin="0,10,0,0">
+                <StackPanel Orientation="Vertical" Width="800" BorderBrush="Gray" BorderThickness="1" Margin="0,10,0,0">
                     <Button x:Name="MyProfileBtn" FontSize="28" Background="Transparent" Width="780" Content="My Profile" Margin="10,15" Click="MyProfileBtn_Click" />
                     <Line X1="10" X2="790" Stroke="Gray" StrokeThickness="1"/>
                     <Button x:Name="ChangePwBtn" FontSize="28" Background="Transparent" Width="780" Content="Change Password" Margin="10,15" Click="ChangePwBtn_Click" />

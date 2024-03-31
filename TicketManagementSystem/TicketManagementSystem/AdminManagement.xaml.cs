@@ -29,7 +29,7 @@ namespace TicketManagementSystem
 
         private void MyProfileBtn_Click(object sender, RoutedEventArgs e)
         {
-
+            this.Frame.Navigate(typeof(AdminProfile));
         }
 
         private void ChangePwBtn_Click(object sender, RoutedEventArgs e)

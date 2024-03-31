@@ -58,20 +58,48 @@ namespace TicketManagementSystem
             this.Frame.Navigate(typeof(ChangePassword));
         }
 
-        private void DeleteAccBtn_Click(object sender, RoutedEventArgs e)
+        private async void DeleteAccBtn_Click(object sender, RoutedEventArgs e)
         {
-            //handle delete account
-        }
+            UserDetail ud = await firebaseHelper.GetUserDetailsByEmail(GlobalVariable.CurrentUserEmail);
 
-        private void HelpfulLinkBtn_Click(object sender, RoutedEventArgs e)
-        {
-            //display another page with helpful infromation
+            ContentDialog deleteConfirm = new ContentDialog
+            {
+                Title = "Delete User",
+                Content = "Confirm to PERMANANTLY delete user : " + ud.UserName + " ? \nAlert : AFTER DELETE CANNOT BE RECOVER.",
+                CloseButtonText = "Cancel",
+                PrimaryButtonText = "OK"
+            };
+
+            ContentDialogResult result = await deleteConfirm.ShowAsync();
+
+            if (result == ContentDialogResult.Primary)
+            {
+                await firebaseHelper.DeleteUser(GlobalVariable.CurrentUserID);
+                DisplayDialog("Success", "User Deleted Successfully");
+            }
         }
 
         private void LogoutBtn_Click(object sender, RoutedEventArgs e)
         {
             //handle logout
             this.Frame.Navigate(typeof(LoginPage));
+        }
+        private async void DisplayDialog(string title, string content) // done and navigate to login page
+        {
+            ContentDialog noDialog = new ContentDialog
+            {
+                Title = title,
+                Content = content,
+                CloseButtonText = "Ok"
+
+            };
+
+            ContentDialogResult result = await noDialog.ShowAsync();
+
+            if (result == ContentDialogResult.None || result == ContentDialogResult.Primary)
+            {
+                this.Frame.Navigate(typeof(LoginPage));
+            }
         }
     }
 }

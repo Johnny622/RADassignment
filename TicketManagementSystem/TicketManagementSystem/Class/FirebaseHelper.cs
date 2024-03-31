@@ -77,5 +77,17 @@ namespace TicketManagementSystem.Class
 
             return userDetail;
         }
+        public async Task UpdateUser(UserDetail u)
+        {
+            //Solution 1
+            await firebase
+            .Child("Users")
+            .Child(u.UserId)
+            .PutAsync(JsonConvert.SerializeObject(u));
+        }
+        public async Task DeleteUser(string key)
+        {
+            await firebase.Child("Users").Child(key).DeleteAsync(); //using firebase primary key
+        }
     }
 }

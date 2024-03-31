@@ -18,18 +18,6 @@ namespace TicketManagementSystem.Class
         public string IC {  get; set; }
         public string Password { get; set; }
 
-        public UserDetail()
-        {
-
-        }
-        public UserDetail(string name, string gender, string email, string phone, string ic, string password)
-        {
-            UserName = name;
-            Gender = gender;
-            Email = email;
-            Phone = phone;
-            IC = ic;
-            Password = password;
-        }
+       
     }
 }

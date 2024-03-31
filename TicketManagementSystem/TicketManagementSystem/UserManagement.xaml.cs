@@ -43,14 +43,34 @@ namespace TicketManagementSystem
             else if (menuSplitView.IsPaneOpen == true) { menuSplitView.IsPaneOpen = false; rightContent.Margin = new Thickness(80, 0, 0, 0); }
         }
 
-        private void btnUserMng_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
-
         private void btnTrainMng_Click(object sender, RoutedEventArgs e)
         {
             this.Frame.Navigate(typeof(BookingPage));
+        }
+
+        private void MyProfileBtn_Click(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(UserProfile));
+        }
+
+        private void ChangePwBtn_Click(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(ChangePassword));
+        }
+
+        private void DeleteAccBtn_Click(object sender, RoutedEventArgs e)
+        {
+            //handle delete account
+        }
+
+        private void HelpfulLinkBtn_Click(object sender, RoutedEventArgs e)
+        {
+            //display another page with helpful infromation
+        }
+
+        private void LogoutBtn_Click(object sender, RoutedEventArgs e)
+        {
+            //handle logout
         }
     }
 }

@@ -10,23 +10,23 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
-        <SplitView x:Name="menuSplitView" DisplayMode="CompactOverlay" IsPaneOpen="False" CompactPaneLength="50" OpenPaneLength="240" Background="#D7ECFF">
+        <SplitView x:ConnectionId='2' x:Name="menuSplitView" DisplayMode="CompactOverlay" IsPaneOpen="False" CompactPaneLength="50" OpenPaneLength="240" Background="#D7ECFF">
             <SplitView.Pane>
                 <StackPanel Background="#4863A0">
                     <StackPanel Orientation="Horizontal" Margin="0 0 0 50">
-                        <Button x:Name="btnBar" Background="Transparent" Margin="0,10,0,0" >
+                        <Button x:ConnectionId='14' x:Name="btnBar" Background="Transparent" Margin="0,10,0,0" >
                             <Image Source="Assets/bars.png" Width="30"/>
                         </Button>
                     </StackPanel>
 
-                    <Button Name="btnUserMng" Background="#D7ECFF" Margin="0,0,0,30" HorizontalAlignment="Stretch" >
+                    <Button x:ConnectionId='12' Name="btnUserMng" Background="#D7ECFF" Margin="0,0,0,30" HorizontalAlignment="Stretch" >
                         <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" Margin="0 0 0 0" Width="230">
                             <Image Source="Assets/user.png" Width="30"/>
                             <TextBlock Text="USER MANAGEMENT" Padding="10" VerticalAlignment="Center" Foreground="White" FontWeight="Bold" />
                         </StackPanel>
                     </Button>
 
-                    <Button x:Name="btnTrainMng" Background="Transparent" Margin="0 0 0 30" HorizontalAlignment="Stretch" >
+                    <Button x:ConnectionId='13' x:Name="btnTrainMng" Background="Transparent" Margin="0 0 0 30" HorizontalAlignment="Stretch" >
                         <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" Width="230">
                             <Image Source="Assets/rail.png" Width="30"/>
                             <TextBlock Text="TRAIN MANAGEMENT" Padding="10" VerticalAlignment="Center" Foreground="White" FontWeight="Bold" />
@@ -49,28 +49,29 @@
                 </StackPanel>
             </SplitView.Pane>
         </SplitView>
-        <StackPanel x:Name="rightContent" Orientation="Vertical" Margin="80,0,0,0" >
+        <StackPanel x:ConnectionId='3' x:Name="rightContent" Orientation="Vertical" Margin="80,0,0,0" >
             <TextBlock Text="ADMIN MANAGEMENT" FontFamily="Bahnschrift SemiBold" FontSize="24" FontWeight="Bold" Foreground="DarkBlue" Margin="0,20"/>
             <Image Source="Assets/ets-logo.png" Height="40" HorizontalAlignment="Left" Margin="0,0,0,10"/>
             <StackPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center">
                 <Image Source="Assets/software-engineer.png" Width="100"/>
-                <TextBlock x:Name="WelcomeMsg"  FontSize="34" HorizontalAlignment="Center" ></TextBlock>
+                <TextBlock x:ConnectionId='4' x:Name="WelcomeMsg"  FontSize="34" HorizontalAlignment="Center" ></TextBlock>
                 <StackPanel Orientation="Vertical" Width="800" Height="600" BorderBrush="Gray" BorderThickness="1" Margin="0,10,0,0">
-                    <Button x:Name="MyProfileBtn" FontSize="28" Background="Transparent" Width="780" Content="My Profile" Margin="10,15" Click="MyProfileBtn_Click" />
+                    <Button x:ConnectionId='5' x:Name="MyProfileBtn" FontSize="28" Background="Transparent" Width="780" Content="My Profile" Margin="10,15"                            />
                     <Line X1="10" X2="790" Stroke="Gray" StrokeThickness="1"/>
-                    <Button x:Name="ChangePwBtn" FontSize="28" Background="Transparent" Width="780" Content="Change Password" Margin="10,15" Click="ChangePwBtn_Click" />
+                    <Button x:ConnectionId='6' x:Name="ChangePwBtn" FontSize="28" Background="Transparent" Width="780" Content="Change Password" Margin="10,15"                           />
                     <Line X1="10" X2="790" Stroke="Gray" StrokeThickness="1"/>
-                    <Button x:Name="AddTrainRoute" FontSize="28" Background="Transparent" Width="780" Content="Add Train Route" Margin="10,15" Click="AddTrainRoute_Click" />
+                    <Button x:ConnectionId='7' x:Name="AddTrainRoute" FontSize="28" Background="Transparent" Width="780" Content="Add Train Route" Margin="10,15"                             />
                     <Line X1="10" X2="790" Stroke="Gray" StrokeThickness="1"/>
-                    <Button x:Name="AddAdminBtn" FontSize="28" Background="Transparent" Width="780" Content="Add New Admin" Margin="10,15" Click="AddAdminBtn_Click" />
+                    <Button x:ConnectionId='8' x:Name="AddAdminBtn" FontSize="28" Background="Transparent" Width="780" Content="Add New Admin" Margin="10,15"                           />
                     <Line X1="10" X2="790" Stroke="Gray" StrokeThickness="1"/>
-                    <Button x:Name="ViewUserBtn" FontSize="28" Background="Transparent" Width="780" Content="View All User Profile" Margin="10,15" Click="ViewUserBtn_Click" />
+                    <Button x:ConnectionId='9' x:Name="ViewUserBtn" FontSize="28" Background="Transparent" Width="780" Content="View All User Profile" Margin="10,15"                           />
                     <Line X1="10" X2="790" Stroke="Gray" StrokeThickness="1"/>
-                    <Button x:Name="DeleteAccBtn" FontSize="28" Background="Transparent" Width="780" Content="Delete Account" Margin="10,15" Click="DeleteAccBtn_Click"/>
+                    <Button x:ConnectionId='10' x:Name="DeleteAccBtn" FontSize="28" Background="Transparent" Width="780" Content="Delete Account" Margin="10,15"                           />
                     <Line X1="10" X2="790" Stroke="Gray" StrokeThickness="1"/>
-                    <Button x:Name="LogoutBtn"  FontSize="28" Background="Transparent" Width="780" Content="Logout" Margin="10,15" Click="LogoutBtn_Click"/>
+                    <Button x:ConnectionId='11' x:Name="LogoutBtn"  FontSize="28" Background="Transparent" Width="780" Content="Logout" Margin="10,15"                        />
                 </StackPanel>
             </StackPanel>
         </StackPanel>
     </Grid>
 </Page>
+

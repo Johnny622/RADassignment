@@ -89,5 +89,32 @@ namespace TicketManagementSystem.Class
         {
             await firebase.Child("Users").Child(key).DeleteAsync(); //using firebase primary key
         }
+
+        /* For Admin Usage */
+
+        public async Task AddAdminDetail(AdminDetail admin)
+        {
+            await firebase
+           .Child("Admin")
+           .PostAsync(JsonConvert.SerializeObject(admin));
+        }
+        public async Task<List<AdminDetail>> GetAdminDetails()
+        {
+            return (await firebase
+              .Child("Admin")
+              .OnceAsync<AdminDetail>()).Select(item => new AdminDetail
+              {
+                  AdminId = item.Key.ToString(),
+                  AdminName = item.Object.AdminName,
+                  Gender = item.Object.Gender,
+                  Email = item.Object.Email,
+                  Phone = item.Object.Phone,
+                  IC = item.Object.IC,
+                  Password = item.Object.Password,
+              }).ToList();
+        }
+
+        /* For Admin Usage */
+
     }
 }

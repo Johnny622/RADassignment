@@ -21,59 +21,82 @@ namespace TicketManagementSystem
     /// <summary>
     /// An empty page that can be used on its own or navigated to within a Frame.
     /// </summary>
-    public sealed partial class ChangePassword : Page
+    public sealed partial class NewAdminRegister : Page
     {
         private int MIN_LENGTH = 8;
         FirebaseHelper firebaseHelper = new FirebaseHelper();
-        public ChangePassword()
+        public NewAdminRegister()
         {
             this.InitializeComponent();
         }
-        private void btnBar_Click(object sender, RoutedEventArgs e)
+
+        private void BackBtn_Click(object sender, RoutedEventArgs e)
         {
-            if (menuSplitView.IsPaneOpen == false) { menuSplitView.IsPaneOpen = true; rightContent.Margin = new Thickness(270, 0, 0, 0); }
-            else if (menuSplitView.IsPaneOpen == true) { menuSplitView.IsPaneOpen = false; rightContent.Margin = new Thickness(80, 0, 0, 0); }
+            this.Frame.Navigate(typeof(AdminManagement));
         }
 
-        private void btnTrainMng_Click(object sender, RoutedEventArgs e)
+        private async void SignUpSubmitBtn_Click(object sender, RoutedEventArgs e)
         {
-            this.Frame.Navigate(typeof(BookingPage));
-
-        }
-        private void btnUserMng_Click(object sender, RoutedEventArgs e)
-        {
-            this.Frame.Navigate(typeof(UserManagement));
-        }
-
-        private async void SubmitBtn_Click(object sender, RoutedEventArgs e)
-        {
-            UserDetail ud = await firebaseHelper.GetUserDetailsByEmail(GlobalVariable.CurrentUserEmail);
-
-            if(CurPw.Password == ud.Password)
+            bool isExistEmail = false;
+            if (AreAllTextboxesFilled() && SignUpGender.SelectedIndex != 0)//1. All filled
             {
-                string newpw = NewPw.Password;
-                string confpw = ConfPw.Password;
-                if (newpw.Length >= MIN_LENGTH && NumberUpperCase(newpw) >= 1 && NumberLowerCase(newpw) >= 1 && NumberDigits(newpw) >= 1)
+                List<AdminDetail> adminDetails = await firebaseHelper.GetAdminDetails();
+                foreach(AdminDetail adminDetail in adminDetails)
                 {
-                    if (newpw.Equals(confpw))
+                    if(adminDetail.Email == ConvertToLowerCase(SignUpEmail.Text))
                     {
-                        ud.Password = confpw;
+                        isExistEmail = true;
+                        break;
+                    }
+                }
+                if (!isExistEmail) {
+                    string password = SignUpPassword.Password;
+                    if (password.Length >= MIN_LENGTH && NumberUpperCase(password) >= 1 && NumberLowerCase(password) >= 1 && NumberDigits(password) >= 1)
+                    {
+                        try
+                        {
+                            AdminDetail ad = new AdminDetail();
+                            ad.AdminName = SignUpFullName.Text;
+                            ad.Gender = ((ComboBoxItem)SignUpGender.SelectedItem).Content.ToString();
+                            ad.Email = ConvertToLowerCase(SignUpEmail.Text);
+                            ad.Phone = SignUpContact.Text;
+                            ad.IC = SignUpMyKad.Text;
+                            ad.Password = SignUpPassword.Password;
 
-                        await firebaseHelper.UpdateUser(ud);
-                        ErrorMessage.Visibility = Visibility.Collapsed;
-                        DisplayDialog("Success", "Update Successfully");
+                            await firebaseHelper.AddAdminDetail(ad);
+
+                            DisplayDialog("Success", "Add New Admin Successfully");
+                        }
+                        catch (Exception ex)
+                        {
+                            ErrorMessage.Text = "Error : " + ex.Message;
+                        }
                     }
                     else
                     {
-                        ErrorMessage.Text = "New Password Not Equal with Confirm Password";
+                        ErrorMessage.Text = "Not fulfil the password requirement.";
                     }
-                }
-                else
-                {
-                    ErrorMessage.Text = "Not fulfil the password requirement.";
-                }
+                }else
+                        ErrorMessage.Text = "Email had exist.";
             }
+
         }
+
+        private bool AreAllTextboxesFilled()
+        {
+            // Check if all textboxes are not empty
+            return SignUpEmail.Text != "" &&
+                   SignUpPassword.Password != "" &&
+                   SignUpFullName.Text != "" &&
+                   SignUpMyKad.Text != "" &&
+                   SignUpContact.Text != "";
+        }
+
+        private string ConvertToLowerCase(string input)
+        {
+            return input.ToLower();
+        }
+
         private int NumberUpperCase(string str)
         {
             int upperCase = 0;  // The number of uppercase letters
@@ -124,7 +147,6 @@ namespace TicketManagementSystem
             // Return the number of digits.
             return digits;
         }
-
         private async void DisplayDialog(string title, string content) // done and navigate to login page
         {
             ContentDialog noDialog = new ContentDialog
@@ -136,6 +158,11 @@ namespace TicketManagementSystem
             };
 
             ContentDialogResult result = await noDialog.ShowAsync();
+
+            if (result == ContentDialogResult.None || result == ContentDialogResult.Primary)
+            {
+                this.Frame.Navigate(typeof(AdminManagement));
+            }
         }
     }
 }

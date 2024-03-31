@@ -26,5 +26,40 @@ namespace TicketManagementSystem
         {
             this.InitializeComponent();
         }
+
+        private void MyProfileBtn_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void ChangePwBtn_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void DeleteAccBtn_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void LogoutBtn_Click(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(LoginPage));
+        }
+
+        private void AddTrainRoute_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void AddAdminBtn_Click(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(NewAdminRegister));
+        }
+
+        private void ViewUserBtn_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

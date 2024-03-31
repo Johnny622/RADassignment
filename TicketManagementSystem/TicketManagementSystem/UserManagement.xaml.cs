@@ -71,6 +71,7 @@ namespace TicketManagementSystem
         private void LogoutBtn_Click(object sender, RoutedEventArgs e)
         {
             //handle logout
+            this.Frame.Navigate(typeof(LoginPage));
         }
     }
 }

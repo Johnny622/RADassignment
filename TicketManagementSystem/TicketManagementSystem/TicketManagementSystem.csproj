@@ -116,19 +116,41 @@
     <RestoreProjectStyle>PackageReference</RestoreProjectStyle>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="AdminManagement.xaml.cs">
+      <DependentUpon>AdminManagement.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="AdminProfile.xaml.cs">
+      <DependentUpon>AdminProfile.xaml</DependentUpon>
+    </Compile>
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
     <Compile Include="BookingPage.xaml.cs">
       <DependentUpon>BookingPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="ChangePassword.xaml.cs">
+      <DependentUpon>ChangePassword.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Class\AdminDetail.cs" />
     <Compile Include="Class\FirebaseHelper.cs" />
+    <Compile Include="Class\ListStaticData.cs" />
     <Compile Include="Class\PassengerDetails.cs" />
+    <Compile Include="Class\UserDetail.cs" />
+    <Compile Include="Class\GlobalVariable.cs" />
+    <Compile Include="ForgetPassword.xaml.cs">
+      <DependentUpon>ForgetPassword.xaml</DependentUpon>
+    </Compile>
     <Compile Include="LoginPage.xaml.cs">
       <DependentUpon>LoginPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="NewAdminRegister.xaml.cs">
+      <DependentUpon>NewAdminRegister.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="NewUserRegister.xaml.cs">
+      <DependentUpon>NewUserRegister.xaml</DependentUpon>
     </Compile>
     <Compile Include="PassengerDetailPage.xaml.cs">
       <DependentUpon>PassengerDetailPage.xaml</DependentUpon>
@@ -153,6 +175,7 @@
     </AppxManifest>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Assets\admin.jpg" />
     <Content Include="Assets\bars.png" />
     <Content Include="Assets\booking.png" />
     <Content Include="Assets\chair.png" />
@@ -169,6 +192,7 @@
     <Content Include="Assets\rail.png" />
     <Content Include="Assets\search.png" />
     <Content Include="Assets\seat.png" />
+    <Content Include="Assets\software-engineer.png" />
     <Content Include="Assets\SplashScreen.scale-200.png" />
     <Content Include="Assets\Square150x150Logo.scale-200.png" />
     <Content Include="Assets\Square44x44Logo.scale-200.png" />
@@ -185,7 +209,27 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Page Include="AdminManagement.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="AdminProfile.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="BookingPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ChangePassword.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="CustomStyles.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ForgetPassword.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -196,6 +240,14 @@
     <Page Include="MainPage.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
+    </Page>
+    <Page Include="NewAdminRegister.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="NewUserRegister.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="PassengerDetailPage.xaml">
       <SubType>Designer</SubType>
@@ -219,6 +271,12 @@
     </Page>
   </ItemGroup>
   <ItemGroup>
+    <PackageReference Include="FirebaseAdmin">
+      <Version>2.4.0</Version>
+    </PackageReference>
+    <PackageReference Include="FirebaseAuthentication.net">
+      <Version>4.1.0</Version>
+    </PackageReference>
     <PackageReference Include="FirebaseDatabase.net">
       <Version>4.2.0</Version>
     </PackageReference>

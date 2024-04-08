@@ -27,22 +27,20 @@ namespace TicketManagementSystem
         public AdminProfile()
         {
             this.InitializeComponent();
+            Window.Current.SizeChanged += Window_SizeChanged;
             loadData();
         }
 
         private async void SubmitBtn_Click(object sender, RoutedEventArgs e)
         {
+            AdminDetail ad = await firebaseHelper.GetAdminDetailsByEmail(GlobalVariable.CurrentAdminEmail);
             if (AreAllTextboxesFilled() && AdminGender.SelectedIndex != 0)//1. All filled
             {
                 try
                 {
-                    AdminDetail ad = new AdminDetail();
-                    ad.AdminName = AdminName.Text;
                     ad.Gender = ((ComboBoxItem)AdminGender.SelectedItem).Content.ToString();
                     ad.Email = ConvertToLowerCase(AdminEmail.Text);
                     ad.Phone = AdminPhone.Text;
-                    ad.IC = AdminIC.Text;
-                    ad.AdminId = AdminID.Text;
 
                     await firebaseHelper.UpdateAdmin(ad);
 
@@ -57,9 +55,10 @@ namespace TicketManagementSystem
                 ErrorMessage.Text = "Please fill in all infromation.";
         }
 
-        private void btnUserMng_Click(object sender, RoutedEventArgs e)
+        private void btnAdminMng_Click(object sender, RoutedEventArgs e)
         {
             // admin management
+            this.Frame.Navigate(typeof(AdminManagement));
         }
 
         private void btnTrainMng_Click(object sender, RoutedEventArgs e)
@@ -122,6 +121,20 @@ namespace TicketManagementSystem
             ContentDialogResult result = await noDialog.ShowAsync();
         }
 
+        private void Window_SizeChanged(object sender, Windows.UI.Core.WindowSizeChangedEventArgs e)
+        {
+            // Adjust layout here based on the new window size
+            double newWidth = e.Size.Width;
+            foreach (UIElement element in AdminProfileGrid.Children)
+            {
+                if (element is FrameworkElement)
+                {
+                    // Example: Resize all child elements proportionally based on window width
+                    FrameworkElement child = (FrameworkElement)element;
+                    child.Width = newWidth * 0.8; // Adjust the factor according to your design
+                }
+            }
+        }
 
     }
 }

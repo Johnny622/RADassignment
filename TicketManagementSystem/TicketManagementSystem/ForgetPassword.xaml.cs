@@ -49,46 +49,59 @@ namespace TicketManagementSystem
 
         private async void VerifyUserInfo()
         {
-            bool isEmailCorrect = false;
-            bool isPhoneCorrect = false;
-            List<UserDetail> userDetails = await firebaseHelper.GetUserDetails();
-            List<UserDetail> allUser = new List<UserDetail>();
-            allUser = await firebaseHelper.GetUserDetails();
-            ListStaticData.users = allUser;
-
-            foreach (UserDetail userDetail in userDetails)
+            try
             {
-                isEmailCorrect = false;
-                isPhoneCorrect = false;
-                if (userDetail.Email == ConvertToLowerCase(VerifiedEmail.Text))
-                {
-                    isEmailCorrect = true;
-                    if (isEmailCorrect)
-                    {
-                        if (userDetail.Phone == VerifiedPhone.Text)
-                        {
-                            isPhoneCorrect = true;
-                            ListStaticData.userId = userDetail.UserId;
-                            string newpw = GenerateNewPassword().ToString();
-                            var itemToUpdate = ListStaticData.users.SingleOrDefault(r => r.UserId == ListStaticData.userId);
-                            if (itemToUpdate != null)
-                            {
-                                itemToUpdate.Password = newpw;
-                                await firebaseHelper.UpdateUser(itemToUpdate);
-                            }
-                            ErrorMessage.Visibility = Visibility.Collapsed;
-                            NewPwLabel.Visibility = Visibility.Visible;
-                            NewPwTextBox.Visibility = Visibility.Visible;
-                            BackToLoginPage.Visibility = Visibility.Visible;
-                            NewPwTextBox.Text = newpw;
+                UserDetail ud = await firebaseHelper.GetUserDetailsByEmail(ConvertToLowerCase(VerifiedEmail.Text));
+                AdminDetail ad = await firebaseHelper.GetAdminDetailsByEmail(ConvertToLowerCase(VerifiedEmail.Text));
 
-                            break;
+                if (ud!=null && ud.Email == ConvertToLowerCase(VerifiedEmail.Text))
+                {
+                    if (ud.Phone == VerifiedPhone.Text)
+                    {
+                        string newpw = "";
+
+                        if (ud != null)
+                        {
+                            newpw = GenerateNewPassword().ToString();
+                            ud.Password = newpw;
+                            await firebaseHelper.UpdateUser(ud);
                         }
+                        ErrorMessage.Visibility = Visibility.Collapsed;
+                        NewPwLabel.Visibility = Visibility.Visible;
+                        NewPwTextBox.Visibility = Visibility.Visible;
+                        BackToLoginPage.Visibility = Visibility.Visible;
+                        NewPwTextBox.Text = newpw;
                     }
+                    else { ErrorMessage.Text = "Phone Number is not match!"; }
                 }
+                else if (ad!=null && ad.Email == ConvertToLowerCase(VerifiedEmail.Text))
+                {
+                    if (ad.Phone == VerifiedPhone.Text)
+                    {
+                        string newpw = "";
+
+                        if (ad != null)
+                        {
+                            newpw = GenerateNewPassword().ToString();
+                            ad.Password = newpw;
+                            await firebaseHelper.UpdateAdmin(ad);
+                        }
+                        ErrorMessage.Visibility = Visibility.Collapsed;
+                        NewPwLabel.Visibility = Visibility.Visible;
+                        NewPwTextBox.Visibility = Visibility.Visible;
+                        BackToLoginPage.Visibility = Visibility.Visible;
+                        NewPwTextBox.Text = newpw;
+                    }
+                    else { ErrorMessage.Text = "Phone Number is not match!"; }
+                }
+                else { ErrorMessage.Text = "Email: " + VerifiedEmail.Text + " not found!"; }
+
+
             }
-            if (!isEmailCorrect) { ErrorMessage.Text = "Invalid Email"; }
-            else if (!isPhoneCorrect) { ErrorMessage.Text = "Invalid Phone Number"; }
+            catch (Exception ex)
+            {
+                ErrorMessage.Text = ex.Message;
+            }
         }
 
         private string ConvertToLowerCase(string input) { return input.ToLower(); }
@@ -115,19 +128,5 @@ namespace TicketManagementSystem
             return randomNumber;
         }
 
-        private async void LoadFirebase()
-        {
-            try
-            {
-                List<UserDetail> allUsers = new List<UserDetail>();
-                allUsers = await firebaseHelper.GetUserDetails();
-                ListStaticData.users = allUsers;
-            }
-            catch (Exception theException)
-            {
-                // Handle all other exceptions.
-               NewPwTextBox.Text += theException.Message;
-            }
-        }
     }
 }

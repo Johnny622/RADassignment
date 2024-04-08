@@ -99,17 +99,17 @@ namespace TicketManagementSystem
 
         private async void SubmitBtn_Click(object sender, RoutedEventArgs e)
         {
+            UserDetail ud = await firebaseHelper.GetUserDetailsByEmail(GlobalVariable.CurrentUserEmail);
+
             if (AreAllTextboxesFilled() && UserGender.SelectedIndex != 0)//1. All filled
             {
                 try
                 {
-                    UserDetail ud = new UserDetail();
-                    ud.UserName = UserName.Text;
                     ud.Gender = ((ComboBoxItem)UserGender.SelectedItem).Content.ToString();
                     ud.Email = ConvertToLowerCase(UserEmail.Text);
                     ud.Phone = UserPhone.Text;
-                    ud.IC = UserIC.Text;
-                    ud.UserId = UserID.Text;
+
+                    GlobalVariable.CurrentUserEmail = ud.Email;
 
                     await firebaseHelper.UpdateUser(ud);
 

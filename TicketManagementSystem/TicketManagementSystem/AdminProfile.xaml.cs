@@ -31,34 +31,16 @@ namespace TicketManagementSystem
             loadData();
         }
 
-        private async void SubmitBtn_Click(object sender, RoutedEventArgs e)
+        private void SubmitBtn_Click(object sender, RoutedEventArgs e)
         {
-            AdminDetail ad = await firebaseHelper.GetAdminDetailsByEmail(GlobalVariable.CurrentAdminEmail);
-            if (AreAllTextboxesFilled() && AdminGender.SelectedIndex != 0)//1. All filled
-            {
-                try
-                {
-                    ad.Gender = ((ComboBoxItem)AdminGender.SelectedItem).Content.ToString();
-                    ad.Email = ConvertToLowerCase(AdminEmail.Text);
-                    ad.Phone = AdminPhone.Text;
-
-                    await firebaseHelper.UpdateAdmin(ad);
-
-                    DisplayDialog("Success", "Update Successfully");
-                }
-                catch (Exception ex)
-                {
-                    ErrorMessage.Text = "Error : " + ex.Message;
-                }
-            }
-            else
-                ErrorMessage.Text = "Please fill in all infromation.";
+            SaveModify(null);
         }
 
         private void btnAdminMng_Click(object sender, RoutedEventArgs e)
         {
+            ModifyNoSave(typeof(AdminManagement));
             // admin management
-            this.Frame.Navigate(typeof(AdminManagement));
+            //this.Frame.Navigate(typeof(AdminManagement));
         }
 
         private void btnTrainMng_Click(object sender, RoutedEventArgs e)
@@ -108,7 +90,7 @@ namespace TicketManagementSystem
                    AdminPhone.Text != "";
         }
 
-        private async void DisplayDialog(string title, string content) // done and navigate to login page
+        private async void DisplayDialog(string title, string content, Type destPage) // done and navigate to login page
         {
             ContentDialog noDialog = new ContentDialog
             {
@@ -119,6 +101,13 @@ namespace TicketManagementSystem
             };
 
             ContentDialogResult result = await noDialog.ShowAsync();
+            if (destPage != null)
+            {
+                if (result == ContentDialogResult.None || result == ContentDialogResult.Primary)
+                {
+                    this.Frame.Navigate(destPage);
+                }
+            }
         }
 
         private void Window_SizeChanged(object sender, Windows.UI.Core.WindowSizeChangedEventArgs e)
@@ -134,6 +123,61 @@ namespace TicketManagementSystem
                     child.Width = newWidth * 0.8; // Adjust the factor according to your design
                 }
             }
+        }
+
+        private async void ModifyNoSave(Type destPage)
+        {
+            AdminDetail ad = await firebaseHelper.GetAdminDetailsByEmail(GlobalVariable.CurrentAdminEmail);
+
+            if (ad.Email != ConvertToLowerCase(AdminEmail.Text) || ad.Phone != AdminPhone.Text || ad.Gender != ((ComboBoxItem)AdminGender.SelectedItem).Content.ToString())
+            {
+                ContentDialog noDialog = new ContentDialog
+                {
+                    Title = "Warning",
+                    Content = "You have unsaved modify data!\nDo you want to save it?",
+                    CloseButtonText = "Not Save",
+                    SecondaryButtonText = "Save"
+
+                };
+
+                ContentDialogResult result = await noDialog.ShowAsync();
+                if (result == ContentDialogResult.Secondary)
+                {
+                    SaveModify(destPage);
+
+                }else if(result == ContentDialogResult.None || result == ContentDialogResult.Primary)
+                {
+                    this.Frame.Navigate(destPage);
+                }
+            }
+            else
+            {
+                this.Frame.Navigate(destPage);
+            }
+        }
+
+        private async void SaveModify(Type destPage)
+        {
+            AdminDetail ad = await firebaseHelper.GetAdminDetailsByEmail(GlobalVariable.CurrentAdminEmail);
+            if (AreAllTextboxesFilled() && AdminGender.SelectedIndex != 0)//1. All filled
+            {
+                try
+                {
+                    ad.Gender = ((ComboBoxItem)AdminGender.SelectedItem).Content.ToString();
+                    ad.Email = ConvertToLowerCase(AdminEmail.Text);
+                    ad.Phone = AdminPhone.Text;
+                    GlobalVariable.CurrentAdminEmail = ad.Email;
+                    await firebaseHelper.UpdateAdmin(ad);
+
+                    DisplayDialog("Success", "Update Successfully", destPage);
+                }
+                catch (Exception ex)
+                {
+                    ErrorMessage.Text = "Error : " + ex.Message;
+                }
+            }
+            else
+                ErrorMessage.Text = "Please fill in all infromation.";
         }
 
     }

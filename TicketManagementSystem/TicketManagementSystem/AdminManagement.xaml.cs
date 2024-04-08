@@ -4,6 +4,7 @@ using System.IO;
 using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
 using TicketManagementSystem.Class;
+using Windows.Devices.AllJoyn;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
 using Windows.UI.Xaml;
@@ -53,22 +54,31 @@ namespace TicketManagementSystem
 
         private async void DeleteAccBtn_Click(object sender, RoutedEventArgs e)
         {
-            AdminDetail ad = await firebaseHelper.GetAdminDetailsByEmail(GlobalVariable.CurrentAdminEmail);
-
-            ContentDialog deleteConfirm = new ContentDialog
+            List<AdminDetail> adList = await firebaseHelper.GetAdminDetails();
+            int count = adList.Count();
+            if (count == 1)
             {
-                Title = "Delete Admin",
-                Content = "Confirm to PERMANANTLY delete user : " + ad.AdminName + " ? \nAlert : AFTER DELETE CANNOT BE RECOVER.",
-                CloseButtonText = "Cancel",
-                PrimaryButtonText = "OK"
-            };
-
-            ContentDialogResult result = await deleteConfirm.ShowAsync();
-
-            if (result == ContentDialogResult.Primary)
+                DisplayDialog("Warning", "You Are Not Allowed To Delete Admin Account If Only One Admin Account Left!",null);
+            }
+            else if (count > 1)
             {
-                await firebaseHelper.DeleteUser(GlobalVariable.CurrentUserID);
-                DisplayDialog("Success", "User Deleted Successfully");
+                AdminDetail ad = await firebaseHelper.GetAdminDetailsByEmail(GlobalVariable.CurrentAdminEmail);
+
+                ContentDialog deleteConfirm = new ContentDialog
+                {
+                    Title = "Delete Admin",
+                    Content = "Confirm to PERMANANTLY delete user : " + ad.AdminName + " ? \nAlert : AFTER DELETE CANNOT BE RECOVER.",
+                    CloseButtonText = "Cancel",
+                    PrimaryButtonText = "OK"
+                };
+
+                ContentDialogResult result = await deleteConfirm.ShowAsync();
+
+                if (result == ContentDialogResult.Primary)
+                {
+                    await firebaseHelper.DeleteAdmin(GlobalVariable.CurrentAdminID);
+                    DisplayDialog("Success", "User Deleted Successfully",typeof(LoginPage));
+                }
             }
         }
 
@@ -97,7 +107,7 @@ namespace TicketManagementSystem
 
         }
 
-        private async void DisplayDialog(string title, string content) // done and navigate to login page
+        private async void DisplayDialog(string title, string content, Type destinationPage) // done and navigate to login page
         {
             ContentDialog noDialog = new ContentDialog
             {
@@ -109,9 +119,12 @@ namespace TicketManagementSystem
 
             ContentDialogResult result = await noDialog.ShowAsync();
 
-            if (result == ContentDialogResult.None || result == ContentDialogResult.Primary)
+            if (destinationPage != null)
             {
-                this.Frame.Navigate(typeof(LoginPage));
+                if (result == ContentDialogResult.None || result == ContentDialogResult.Primary)
+                {
+                    this.Frame.Navigate(destinationPage);
+                }
             }
         }
     }

@@ -40,12 +40,14 @@ namespace TicketManagementSystem
 
         private void btnTrainMng_Click(object sender, RoutedEventArgs e)
         {
-            this.Frame.Navigate(typeof(BookingPage));
+            ModifyNoSave(typeof(BookingPage));
+            //this.Frame.Navigate(typeof(BookingPage));
 
         }
         private void btnUserMng_Click(object sender, RoutedEventArgs e)
         {
-            this.Frame.Navigate(typeof(UserManagement));
+            ModifyNoSave(typeof(UserManagement));
+            //this.Frame.Navigate(typeof(UserManagement));
         }
 
         private async void loadData()
@@ -84,7 +86,7 @@ namespace TicketManagementSystem
                    UserPhone.Text != "";
         }
 
-        private async void DisplayDialog(string title, string content) // done and navigate to login page
+        private async void DisplayDialog(string title, string content, Type destPage) // done and navigate to login page
         {
             ContentDialog noDialog = new ContentDialog
             {
@@ -95,9 +97,21 @@ namespace TicketManagementSystem
             };
 
             ContentDialogResult result = await noDialog.ShowAsync();
+            if (destPage != null)
+            {
+                if (result == ContentDialogResult.None || result == ContentDialogResult.Primary)
+                {
+                    this.Frame.Navigate(destPage);
+                }
+            }
         }
 
-        private async void SubmitBtn_Click(object sender, RoutedEventArgs e)
+        private void SubmitBtn_Click(object sender, RoutedEventArgs e)
+        {
+            SaveModify(null);
+        }
+
+        private async void SaveModify(Type destPage)
         {
             UserDetail ud = await firebaseHelper.GetUserDetailsByEmail(GlobalVariable.CurrentUserEmail);
 
@@ -113,7 +127,7 @@ namespace TicketManagementSystem
 
                     await firebaseHelper.UpdateUser(ud);
 
-                    DisplayDialog("Success", "Update Successfully");
+                    DisplayDialog("Success", "Update Successfully",destPage);
                 }
                 catch (Exception ex)
                 {
@@ -124,8 +138,40 @@ namespace TicketManagementSystem
                 ErrorMessage.Text = "Please fill in all infromation.";
         }
 
-       
+        private async void ModifyNoSave(Type destPage)
+        {
+            UserDetail ud = await firebaseHelper.GetUserDetailsByEmail(GlobalVariable.CurrentUserEmail);
 
-       
+            if (ud.Email != ConvertToLowerCase(UserEmail.Text) || ud.Phone != UserPhone.Text || ud.Gender != ((ComboBoxItem)UserGender.SelectedItem).Content.ToString())
+            {
+                ContentDialog noDialog = new ContentDialog
+                {
+                    Title = "Warning",
+                    Content = "You have unsaved modify data!\nDo you want to save it?",
+                    CloseButtonText = "Not Save",
+                    SecondaryButtonText = "Save"
+
+                };
+
+                ContentDialogResult result = await noDialog.ShowAsync();
+                if (result == ContentDialogResult.Secondary)
+                {
+                    SaveModify(destPage);
+
+                }
+                else if (result == ContentDialogResult.None || result == ContentDialogResult.Primary)
+                {
+                    this.Frame.Navigate(destPage);
+                }
+
+            }
+            else
+            {
+                this.Frame.Navigate(destPage);
+            }
+        }
+
+
+
     }
 }

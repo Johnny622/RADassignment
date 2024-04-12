@@ -2,7 +2,9 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices.WindowsRuntime;
+using TicketManagementSystem.Class;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
 using Windows.UI;
@@ -22,13 +24,21 @@ namespace TicketManagementSystem
     /// <summary>
     /// An empty page that can be used on its own or navigated to within a Frame.
     /// </summary>
+
     public sealed partial class SeatSelectionPage : Page
     {
+        FirebaseHelper firebaseHelper = new FirebaseHelper();
+
+        private HashSet<string> bookedSeats = new HashSet<string>(); // Track booked seats
+        private List<Button> selectedSeatButtons = new List<Button>(); // Track selected seat buttons
+        private int numberOfPax = 3; 
+
         public SeatSelectionPage()
         {
             this.InitializeComponent();
             GenerateSeats(38);
         }
+
         private void GenerateSeats(int totalSeats)
         {
             const int seatsPerRow = 10;
@@ -69,7 +79,7 @@ namespace TicketManagementSystem
                         Tag = $"{row + 1}{seatLetters[column]}"
                     };
 
-                    seatButton.Click += SeatButton_Click; 
+                    seatButton.Click += SeatButton_Click;
 
                     Grid.SetColumn(seatButton, column);
                     Grid.SetRow(seatButton, row);
@@ -82,8 +92,84 @@ namespace TicketManagementSystem
         private void SeatButton_Click(object sender, RoutedEventArgs e)
         {
             Button clickedButton = (Button)sender;
-            string seatNumber = clickedButton.Tag.ToString(); 
+            string seatNumber = clickedButton.Tag.ToString();
+
+            if (!IsSeatAvailable(seatNumber)) //seat not available
+            {
+                return;       
+            }
+
+            else //seat available
+            {
+                if (SeatManagement.SelectedSeatButtons == null)
+                {
+                    SeatManagement.SelectedSeatButtons = new List<Button>();
+                }
+                else
+                {
+                    if (SeatManagement.SelectedSeatButtons.Contains(clickedButton))
+                    {
+                        DeselectSeat(clickedButton);
+                        SeatManagement.SelectedSeatButtons.Remove(clickedButton);
+                    }
+                    else //delect old seat + select new seat happened in one click
+                    {
+                        if (selectedSeatButtons.Count >= numberOfPax)
+                        {
+                            DeselectSeat(selectedSeatButtons.First());
+                            SeatManagement.SelectedSeatButtons.Remove(selectedSeatButtons.First());
+                        }
+                        SelectSeat(clickedButton);
+                        SeatManagement.SelectedSeatButtons.Add(clickedButton);
+                    }
+                }
+            }
         }
 
+        private void SelectSeat(Button seatButton)
+        {
+            selectedSeatButtons.Add(seatButton);
+
+            UpdateSeatAppearance(seatButton, isBooked: true);
+        }
+
+        private void DeselectSeat(Button seatButton)
+        {
+            selectedSeatButtons.Remove(seatButton);
+
+            UpdateSeatAppearance(seatButton, isBooked: false);
+        }
+
+        public bool IsSeatAvailable(string seatNumber)
+        {
+            return !bookedSeats.Contains(seatNumber); 
+        }
+
+        public void ReserveSeat(string seatNumber)
+        {
+            bookedSeats.Add(seatNumber);
+        }
+        public void ReleaseSeat(string seatNumber)
+        {
+            bookedSeats.Remove(seatNumber);
+        }
+
+        public void UpdateSeatAppearance(Button seatButton, bool isBooked)
+        {
+            if (seatButton.Content is StackPanel stackPanel)
+            {
+                if (stackPanel.Children[0] is Image seatImage)
+                {
+                    if (isBooked)
+                    {
+                        seatImage.Source = new BitmapImage(new Uri("ms-appx:///Assets/booked_chair.png"));
+                    }
+                    else
+                    {
+                        seatImage.Source = new BitmapImage(new Uri("ms-appx:///Assets/chair.png"));
+                    }
+                }
+            }
+        }
     }
 }

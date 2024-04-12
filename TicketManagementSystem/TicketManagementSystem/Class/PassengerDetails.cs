@@ -13,6 +13,12 @@ namespace TicketManagementSystem.Class
         public string Phone { get; set; }
         public string IC { get; set; }
 
+        //Seat reservation details
+        public string BookingId { get; set; }
+        public string SeatNumber { get; set; }
+        public bool IsReserved { get; set; }
+
+
         public PassengerDetails()
         {
 

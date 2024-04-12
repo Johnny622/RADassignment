@@ -159,6 +159,7 @@
       <DependentUpon>PassengerDetailPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Class\SeatManagement.cs" />
     <Compile Include="SeatSelectionDialog.xaml.cs">
       <DependentUpon>SeatSelectionDialog.xaml</DependentUpon>
     </Compile>
@@ -180,6 +181,7 @@
   <ItemGroup>
     <Content Include="Assets\admin.jpg" />
     <Content Include="Assets\bars.png" />
+    <Content Include="Assets\booked_chair.png" />
     <Content Include="Assets\booking.png" />
     <Content Include="Assets\chair.png" />
     <Content Include="Assets\ets-logo.png" />

@@ -17464,18 +17464,18 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ACER\\.nuget\\packages\\": {},
+    "C:\\Users\\Lau Tin Tin\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ACER\\Desktop\\Y2S3\\--Clone Resposity--\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\TicketManagementSystem.csproj",
+      "projectUniqueName": "C:\\Users\\Lau Tin Tin\\Desktop\\RAD Transport\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\TicketManagementSystem.csproj",
       "projectName": "TicketManagementSystem",
-      "projectPath": "C:\\Users\\ACER\\Desktop\\Y2S3\\--Clone Resposity--\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\TicketManagementSystem.csproj",
-      "packagesPath": "C:\\Users\\ACER\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ACER\\Desktop\\Y2S3\\--Clone Resposity--\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\obj\\",
+      "projectPath": "C:\\Users\\Lau Tin Tin\\Desktop\\RAD Transport\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\TicketManagementSystem.csproj",
+      "packagesPath": "C:\\Users\\Lau Tin Tin\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Lau Tin Tin\\Desktop\\RAD Transport\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -17483,7 +17483,7 @@
         "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\ACER\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Lau Tin Tin\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -17498,11 +17498,6 @@
         "uap10.0.17763": {
           "projectReferences": {}
         }
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "true",
-        "auditLevel": "low",
-        "auditMode": "direct"
       }
     },
     "frameworks": {

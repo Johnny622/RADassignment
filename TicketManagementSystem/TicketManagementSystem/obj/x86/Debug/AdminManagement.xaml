@@ -14,26 +14,26 @@
             <SplitView.Pane>
                 <StackPanel Background="#4863A0">
                     <StackPanel Orientation="Horizontal" Margin="0 0 0 50">
-                        <Button x:ConnectionId='14' x:Name="btnBar" Background="Transparent" Margin="0,10,0,0"                      >
+                        <Button x:ConnectionId='13' x:Name="btnBar" Background="Transparent" Margin="0,10,0,0"                      >
                             <Image Source="Assets/bars.png" Width="30"/>
                         </Button>
                     </StackPanel>
 
-                    <Button x:ConnectionId='11' Name="btnAdminMng" Background="#D7ECFF" Margin="0,0,0,30" HorizontalAlignment="Stretch" >
+                    <Button x:ConnectionId='10' Name="btnAdminMng" Background="#D7ECFF" Margin="0,0,0,30" HorizontalAlignment="Stretch" >
                         <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" Margin="0 0 0 0" Width="230">
                             <Image Source="Assets/software-engineer.png" Width="30"/>
                             <TextBlock Text="ADMIN MANAGEMENT" Padding="10" VerticalAlignment="Center" Foreground="Black" FontWeight="Bold"/>
                         </StackPanel>
                     </Button>
 
-                    <Button x:ConnectionId='12' x:Name="btnTrainMng" Background="Transparent" Margin="0 0 0 30" HorizontalAlignment="Stretch" >
+                    <Button x:ConnectionId='11' x:Name="btnTrainMng" Background="Transparent" Margin="0 0 0 30" HorizontalAlignment="Stretch"                           >
                         <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" Width="230">
                             <Image Source="Assets/trainSchedule.png" Width="30"/>
                             <TextBlock Text="TRAIN MANAGEMENT" Padding="10" VerticalAlignment="Center" Foreground="White" FontWeight="Bold" />
                         </StackPanel>
                     </Button>
 
-                    <Button x:ConnectionId='13' x:Name="btnViewUser" Background="Transparent" Margin="0 0 0 30" HorizontalAlignment="Stretch"                          >
+                    <Button x:ConnectionId='12' x:Name="btnViewUser" Background="Transparent" Margin="0 0 0 30" HorizontalAlignment="Stretch"                          >
                         <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" Width="230">
                             <Image Source="Assets/profile-user.png" Width="30" RenderTransformOrigin="0.5,0.61"/>
                             <TextBlock Text="VIEW USER PROFILE" Padding="10" VerticalAlignment="Center" Foreground="White" FontWeight="Bold" />
@@ -60,13 +60,11 @@
                     <Line X1="10" X2="780" Stroke="Gray" StrokeThickness="1"/>
                     <Button x:ConnectionId='6' x:Name="ChangePwBtn" FontSize="24" Background="Transparent" HorizontalAlignment="Stretch" Content="Change Password" Margin="5,5"                           />
                     <Line X1="10" X2="780" Stroke="Gray" StrokeThickness="1"/>
-                    <Button x:ConnectionId='7' x:Name="AddTrainRoute" FontSize="24" Background="Transparent" HorizontalAlignment="Stretch" Content="Add Train Route" Margin="5,5"                             />
+                    <Button x:ConnectionId='7' x:Name="AddAdminBtn" FontSize="24" Background="Transparent" HorizontalAlignment="Stretch" Content="Add New Admin" Margin="5,5"                           />
                     <Line X1="10" X2="780" Stroke="Gray" StrokeThickness="1"/>
-                    <Button x:ConnectionId='8' x:Name="AddAdminBtn" FontSize="24" Background="Transparent" HorizontalAlignment="Stretch" Content="Add New Admin" Margin="5,5"                           />
+                    <Button x:ConnectionId='8' x:Name="DeleteAccBtn" FontSize="24" Background="Transparent" HorizontalAlignment="Stretch"  Content="Delete Account" Margin="5,5"                           />
                     <Line X1="10" X2="780" Stroke="Gray" StrokeThickness="1"/>
-                    <Button x:ConnectionId='9' x:Name="DeleteAccBtn" FontSize="24" Background="Transparent" HorizontalAlignment="Stretch"  Content="Delete Account" Margin="5,5"                           />
-                    <Line X1="10" X2="780" Stroke="Gray" StrokeThickness="1"/>
-                    <Button x:ConnectionId='10' x:Name="LogoutBtn"  FontSize="24" Background="Transparent" HorizontalAlignment="Stretch"  Content="Logout" Margin="5,5"                        />
+                    <Button x:ConnectionId='9' x:Name="LogoutBtn"  FontSize="24" Background="Transparent" HorizontalAlignment="Stretch"  Content="Logout" Margin="5,5"                        />
                 </StackPanel>
             </StackPanel>
         </StackPanel>

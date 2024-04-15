@@ -119,6 +119,9 @@
     <Compile Include="AdminChangePassword.xaml.cs">
       <DependentUpon>AdminChangePassword.xaml</DependentUpon>
     </Compile>
+    <Compile Include="AdminEditUser.xaml.cs">
+      <DependentUpon>AdminEditUser.xaml</DependentUpon>
+    </Compile>
     <Compile Include="AdminManagement.xaml.cs">
       <DependentUpon>AdminManagement.xaml</DependentUpon>
     </Compile>
@@ -222,6 +225,10 @@
       <SubType>Designer</SubType>
     </ApplicationDefinition>
     <Page Include="AdminChangePassword.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="AdminEditUser.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

@@ -56,6 +56,28 @@ namespace TicketManagementSystem.Class
               }).ToList();
         }
 
+        public async Task<UserDetail> GetUserDetailsByUserId(string userId)
+        {
+            var userDetailsList = await firebase
+                .Child("Users")
+                .OnceAsync<UserDetail>();
+
+            var userDetail = userDetailsList
+                .Select(item => new UserDetail
+                {
+                    UserId = item.Key,
+                    UserName = item.Object.UserName,
+                    Gender = item.Object.Gender,
+                    Email = item.Object.Email,
+                    Phone = item.Object.Phone,
+                    IC = item.Object.IC,
+                    Password = item.Object.Password,
+                })
+                .FirstOrDefault(u => u.UserId == userId);
+
+            return userDetail;
+        }
+
         public async Task<UserDetail> GetUserDetailsByEmail(string email)
         {
             var userDetailsList = await firebase

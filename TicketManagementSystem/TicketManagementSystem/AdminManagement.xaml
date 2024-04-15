@@ -26,7 +26,7 @@
                         </StackPanel>
                     </Button>
 
-                    <Button x:Name="btnTrainMng" Background="Transparent" Margin="0 0 0 30" HorizontalAlignment="Stretch" >
+                    <Button x:Name="btnTrainMng" Background="Transparent" Margin="0 0 0 30" HorizontalAlignment="Stretch" Click="btnTrainMng_Click" >
                         <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" Width="230">
                             <Image Source="Assets/trainSchedule.png" Width="30"/>
                             <TextBlock Text="TRAIN MANAGEMENT" Padding="10" VerticalAlignment="Center" Foreground="White" FontWeight="Bold" />
@@ -59,8 +59,6 @@
                     <Button x:Name="MyProfileBtn" FontSize="24" Background="Transparent" HorizontalAlignment="Stretch" Content="My Profile" Margin="5,5" Click="MyProfileBtn_Click" />
                     <Line X1="10" X2="780" Stroke="Gray" StrokeThickness="1"/>
                     <Button x:Name="ChangePwBtn" FontSize="24" Background="Transparent" HorizontalAlignment="Stretch" Content="Change Password" Margin="5,5" Click="ChangePwBtn_Click" />
-                    <Line X1="10" X2="780" Stroke="Gray" StrokeThickness="1"/>
-                    <Button x:Name="AddTrainRoute" FontSize="24" Background="Transparent" HorizontalAlignment="Stretch" Content="Add Train Route" Margin="5,5" Click="AddTrainRoute_Click" />
                     <Line X1="10" X2="780" Stroke="Gray" StrokeThickness="1"/>
                     <Button x:Name="AddAdminBtn" FontSize="24" Background="Transparent" HorizontalAlignment="Stretch" Content="Add New Admin" Margin="5,5" Click="AddAdminBtn_Click" />
                     <Line X1="10" X2="780" Stroke="Gray" StrokeThickness="1"/>

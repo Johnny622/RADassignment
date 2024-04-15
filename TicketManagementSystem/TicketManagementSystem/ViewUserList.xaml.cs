@@ -31,27 +31,45 @@ namespace TicketManagementSystem
             loadFirebase();
         }
 
-        private void btnBar_Click(object sender, RoutedEventArgs e)
-        {
-            if (menuSplitView.IsPaneOpen == false) { menuSplitView.IsPaneOpen = true; rightContent.Margin = new Thickness(270, 0, 0, 0); }
-            else if (menuSplitView.IsPaneOpen == true) { menuSplitView.IsPaneOpen = false; rightContent.Margin = new Thickness(80, 0, 0, 0); }
-        }
-        private void btnAdminMng_Click(object sender, RoutedEventArgs e)
-        {
-            this.Frame.Navigate(typeof(AdminManagement));
-        }
         private void btnEdit_Click(object sender, RoutedEventArgs e)
-        { 
-        
+        {
+            Button btn = sender as Button;
+            ListStaticData.userId = btn.Tag.ToString();
+            this.Frame.Navigate(typeof(AdminEditUser));
         }
 
-        private void btnDelete_Click(object sender, RoutedEventArgs e)
+        private async void btnDelete_Click(object sender, RoutedEventArgs e)
         {
+            try
+            {
+                Button btn = sender as Button;
+                if (btn.Tag != null)
+                {
+                    UserDetail curUser = await firebaseHelper.GetUserDetailsByUserId(btn.Tag.ToString());
+                    ContentDialog deleteConfirmation = new ContentDialog()
+                    {
+                        Title = "Delete Confirmation",
+                        Content = "Do You Want To Delete User\n-> " + curUser.UserName + " ? \nWARNING!! : ANY DELETE CANNOT BE UNDO.",
+                        CloseButtonText = "Cancel",
+                        SecondaryButtonText = "Delete"
+                    };
 
-        }
-        private void btnDeleteFirebase_Click(object sender, RoutedEventArgs e)
-        {
+                    ContentDialogResult result = await deleteConfirmation.ShowAsync();
 
+                    if (result == ContentDialogResult.Secondary)
+                    {
+                        await firebaseHelper.DeleteUser(btn.Tag.ToString());
+                        loadFirebase();
+                        DisplayDialog("Success", "User Deleted Successfully");
+                    }
+                }
+
+            }
+            catch (Exception theException)
+            {
+                // Handle all other exceptions.
+                DisplayDialog("Error", "Error Message: " + theException.Message);
+            }
         }
 
         private async void loadFirebase()
@@ -62,7 +80,8 @@ namespace TicketManagementSystem
                 ud = await firebaseHelper.GetUserDetails();
                 UserInfoList.ItemsSource = ud;
                 ListStaticData.users = ud;
-            }catch(Exception ex)
+            }
+            catch (Exception ex)
             {
                 DisplayDialog("Error", "Error Message: " + ex.Message);
             }
@@ -78,6 +97,9 @@ namespace TicketManagementSystem
             ContentDialogResult result = await noDialog.ShowAsync();
         }
 
-       
+        private void back_Click(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(AdminManagement));
+        }
     }
 }

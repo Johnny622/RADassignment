@@ -8,59 +8,22 @@
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
-    <Grid>
-        <SplitView x:ConnectionId='2' x:Name="menuSplitView" DisplayMode="CompactOverlay" IsPaneOpen="False" CompactPaneLength="50" OpenPaneLength="240" Background="#D7ECFF">
-            <SplitView.Pane>
-                <StackPanel Background="#4863A0">
-                    <StackPanel Orientation="Horizontal" Margin="0 0 0 50">
-                        <Button x:ConnectionId='17' x:Name="btnBar" Background="Transparent" Margin="0,10,0,0"                      >
-                            <Image Source="Assets/bars.png" Width="30"/>
-                        </Button>
-                    </StackPanel>
+    <Grid Background="#D7ECFF">
 
-                    <Button x:ConnectionId='15' Name="btnAdminMng" Background="#D7ECFF" Margin="0,0,0,30" HorizontalAlignment="Stretch"                           >
-                        <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" Margin="0 0 0 0" Width="230">
-                            <Image Source="Assets/software-engineer.png" Width="30"/>
-                            <TextBlock Text="ADMIN MANAGEMENT" Padding="10" VerticalAlignment="Center" Foreground="Black" FontWeight="Bold" />
-                        </StackPanel>
-                    </Button>
-
-                    <Button x:ConnectionId='16' x:Name="btnTrainMng" Background="Transparent" Margin="0 0 0 30" HorizontalAlignment="Stretch" >
-                        <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" Width="230">
-                            <Image Source="Assets/rail.png" Width="30"/>
-                            <TextBlock Text="TRAIN MANAGEMENT" Padding="10" VerticalAlignment="Center" Foreground="White" FontWeight="Bold" />
-                        </StackPanel>
-                    </Button>
-
-                    <Button Background="Transparent" Margin="0 0 0 30" HorizontalAlignment="Stretch">
-                        <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" Width="230">
-                            <Image Source="Assets/booking.png" Width="30"/>
-                            <TextBlock Text="BOOKING" Padding="10" VerticalAlignment="Center" Foreground="White" FontWeight="Bold" />
-                        </StackPanel>
-                    </Button>
-
-                    <Button Background="Transparent" HorizontalAlignment="Stretch">
-                        <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" Width="230">
-                            <Image Source="Assets/food.png" Width="30"/>
-                            <TextBlock Text="FOODS &amp; DRINKS" Padding="10" VerticalAlignment="Center" Foreground="White" FontWeight="Bold" />
-                        </StackPanel>
-                    </Button>
-                </StackPanel>
-            </SplitView.Pane>
-        </SplitView>
         <ScrollViewer HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Auto">
-            <StackPanel x:ConnectionId='3' x:Name="rightContent" Orientation="Vertical" Margin="80,0,0,0" >
-                <TextBlock Text="VIEW ALL USER PROFILE" FontFamily="Bahnschrift SemiBold" FontSize="24" FontWeight="Bold" Foreground="DarkBlue" Margin="0,20"/>
-                <Image Source="Assets/ets-logo.png" Height="40" HorizontalAlignment="Left" Margin="0,0,0,10"/>
+            <StackPanel x:ConnectionId='2' x:Name="rightContent" Orientation="Vertical" Margin="30,10"  >
+                <Button x:ConnectionId='3' x:Name="back" Content="&lt; Back" FontSize="22" Background="Transparent" Width="100" FontWeight="Bold"                   />
+                <TextBlock Text="VIEW ALL USER PROFILE" FontFamily="Bahnschrift SemiBold" FontSize="24" FontWeight="Bold" Foreground="DarkBlue" Margin="20,10"/>
+                <Image Source="Assets/ets-logo.png" Height="40" HorizontalAlignment="Left" Margin="20,10"/>
 
-                <StackPanel Orientation="Vertical" Margin="20,10">
+                <StackPanel Orientation="Vertical" Margin="20,10" BorderBrush="#4863A0" BorderThickness="2">
                     <ListView x:ConnectionId='4' x:Name="UserInfoList">
                         <ListView.ItemTemplate>
                             <DataTemplate                               >
                                 <Grid x:ConnectionId='6'>
                                     <Grid.ColumnDefinitions>
-                                        <ColumnDefinition Width="47"/>
-                                        <ColumnDefinition Width="150"/>
+                                        <ColumnDefinition Width="50"/>
+                                        <ColumnDefinition Width="300"/>
                                     </Grid.ColumnDefinitions>
                                     <Image Width="32" Height="32" HorizontalAlignment="Left" VerticalAlignment="Center" Source="/Assets/Square150x150Logo.scale-200.png"/>
                                     <StackPanel Grid.Column="1">
@@ -69,9 +32,10 @@
                                         <TextBlock x:ConnectionId='9'                       Foreground="Teal" FontSize="14" VerticalAlignment="Center"/>
                                         <TextBlock x:ConnectionId='10'                       Foreground="Teal" FontSize="14" VerticalAlignment="Center"/>
                                         <TextBlock x:ConnectionId='11'                    Foreground="Teal" FontSize="14" VerticalAlignment="Center"/>
-                                        <Button x:ConnectionId='12' x:Name="btnEdit" Content="Edit" VerticalAlignment="Center" Margin="5"                                            ></Button>
-                                        <Button x:ConnectionId='13' x:Name="btnDelete" Content="Delete from Database" VerticalAlignment="Center" Margin="5"                                              ></Button>
-                                        <Button x:ConnectionId='14' x:Name="btnDeleteFirebase" Content="Delete from Firebase" VerticalAlignment="Center" Margin="5"                                                      ></Button>
+                                        <StackPanel Orientation="Horizontal">
+                                            <Button x:ConnectionId='12' x:Name="btnEdit" Content="Edit" VerticalAlignment="Center" Margin="5"                                            ></Button>
+                                            <Button x:ConnectionId='13' x:Name="btnDelete" Content="Delete" VerticalAlignment="Center" Margin="5"                                              ></Button>
+                                        </StackPanel>
                                     </StackPanel>
                                 </Grid>
                             </DataTemplate>

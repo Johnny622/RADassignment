@@ -313,3 +313,4 @@ C:\Users\ACER\Desktop\Y2S3\--Clone Resposity--\RADassignment\TicketManagementSys
 C:\Users\ACER\Desktop\Y2S3\--Clone Resposity--\RADassignment\TicketManagementSystem\TicketManagementSystem\obj\x86\Debug\AdminEditUser.g.cs
 C:\Users\ACER\Desktop\Y2S3\--Clone Resposity--\RADassignment\TicketManagementSystem\TicketManagementSystem\obj\x86\Debug\AdminEditUser.xaml
 C:\Users\ACER\Desktop\Y2S3\--Clone Resposity--\RADassignment\TicketManagementSystem\TicketManagementSystem\obj\x86\Debug\AdminEditUser.xbf
+C:\Users\ACER\Desktop\Y2S3\--Clone Resposity--\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\Firebase.Storage.dll

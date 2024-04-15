@@ -37,6 +37,9 @@
     <AppxPackagedFile Include="C:\Users\ACER\.nuget\packages\firebasedatabase.net\4.2.0\lib\netstandard2.0\Firebase.dll">
       <PackagePath>Firebase.dll</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ACER\.nuget\packages\firebasestorage.net\1.0.3\lib\netstandard1.1\Firebase.Storage.dll">
+      <PackagePath>Firebase.Storage.dll</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ACER\.nuget\packages\google.api.gax\3.2.0\lib\netstandard2.0\Google.Api.Gax.dll">
       <PackagePath>Google.Api.Gax.dll</PackagePath>
     </AppxPackagedFile>

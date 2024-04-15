@@ -17,5 +17,7 @@ namespace TicketManagementSystem.Class
         public string Phone {  get; set; }
         public string IC {  get; set; }
         public string Password { get; set; }
+        public string ProfileName { get; set; }
+        public string ProfileURL { get; set; }
     }
 }

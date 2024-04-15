@@ -53,6 +53,8 @@ namespace TicketManagementSystem.Class
                   Phone = item.Object.Phone,
                   IC = item.Object.IC,
                   Password = item.Object.Password,
+                  ProfileName = item.Object.ProfileName,
+                  ProfileURL = item.Object.ProfileURL,
               }).ToList();
         }
 
@@ -72,6 +74,8 @@ namespace TicketManagementSystem.Class
                     Phone = item.Object.Phone,
                     IC = item.Object.IC,
                     Password = item.Object.Password,
+                    ProfileName = item.Object.ProfileName,
+                    ProfileURL = item.Object.ProfileURL,
                 })
                 .FirstOrDefault(u => u.UserId == userId);
 
@@ -94,6 +98,8 @@ namespace TicketManagementSystem.Class
                     Phone = item.Object.Phone,
                     IC = item.Object.IC,
                     Password = item.Object.Password,
+                    ProfileName = item.Object.ProfileName,
+                    ProfileURL = item.Object.ProfileURL,
                 })
                 .FirstOrDefault(u => u.Email == email);
 

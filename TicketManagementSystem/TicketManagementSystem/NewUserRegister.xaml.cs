@@ -8,12 +8,14 @@ using System.Text;
 using TicketManagementSystem.Class;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
+using Windows.Storage;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Controls.Primitives;
 using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
+using Windows.UI.Xaml.Media.Imaging;
 using Windows.UI.Xaml.Navigation;
 
 // The Blank Page item template is documented at https://go.microsoft.com/fwlink/?LinkId=234238
@@ -27,6 +29,8 @@ namespace TicketManagementSystem
     {
         private int MIN_LENGTH = 8;
         FirebaseHelper firebaseHelper = new FirebaseHelper();
+        FirebaseStorageHelper firebaseStorageHelper = new FirebaseStorageHelper();
+        private Windows.Storage.StorageFile file;
         public NewUserRegister()
         {
             this.InitializeComponent();
@@ -49,30 +53,42 @@ namespace TicketManagementSystem
                             break;
                         }
                     }
-                    if (isExistEmail==false)
+                    if (isExistEmail == false)
                     {
                         if (isPasswordEqual())
                         {
                             if (isMyKadEqual())
                             {
-                                try
+                                if (file != null)
                                 {
-                                    UserDetail ud = new UserDetail();
-                                    ud.UserName = SignUpFullName.Text;
-                                    ud.Gender = ((ComboBoxItem)SignUpGender.SelectedItem).Content.ToString();
-                                    ud.Email = ConvertToLowerCase(  SignUpEmail.Text);
-                                    ud.Phone = SignUpContact.Text;
-                                    ud.IC = SignUpMyKad.Text;
-                                    ud.Password = SignUpPassword.Password;
+                                    var stream = await file.OpenStreamForReadAsync();
 
-                                    await firebaseHelper.AddUserDetail(ud);
+                                    Guid fileName = Guid.NewGuid();
 
-                                    DisplayDialog("Success", "Sign Up Successfully");
+                                    var str = await firebaseStorageHelper.UploadFile(stream, fileName + file.FileType.ToString());
+                                    try
+                                    {
+                                        UserDetail ud = new UserDetail();
+                                        ud.UserName = SignUpFullName.Text;
+                                        ud.Gender = ((ComboBoxItem)SignUpGender.SelectedItem).Content.ToString();
+                                        ud.Email = ConvertToLowerCase(SignUpEmail.Text);
+                                        ud.Phone = SignUpContact.Text;
+                                        ud.IC = SignUpMyKad.Text;
+                                        ud.Password = SignUpPassword.Password;
+                                        ud.ProfileName = fileName + file.FileType.ToString();
+                                        ud.ProfileURL = str;
+
+                                        await firebaseHelper.AddUserDetail(ud);
+
+                                        DisplayDialog("Success", "Sign Up Successfully");
+                                    }
+                                    catch (Exception ex)
+                                    {
+                                        ErrorMessage.Text = "Error : " + ex.Message;
+                                    }
                                 }
-                                catch (Exception ex)
-                                {
-                                    ErrorMessage.Text = "Error : " + ex.Message;
-                                }
+                                else
+                                    ErrorMessage.Text = "Error : Picture havent choose.";
                             }
                             else
                                 ErrorMessage.Text = "Both MyKad No. is not same.";
@@ -99,6 +115,42 @@ namespace TicketManagementSystem
                    SignUpConfPassword.Password != "" &&
                    SignUpContact.Text != "" &&
                    SignUpConfMyKad.Text != "";
+        }
+        private async void UploadButton_Click(object sender, RoutedEventArgs e)
+        {
+
+
+            try
+            {
+                var picker = new Windows.Storage.Pickers.FileOpenPicker();
+                picker.ViewMode = Windows.Storage.Pickers.PickerViewMode.Thumbnail;
+                picker.SuggestedStartLocation = Windows.Storage.Pickers.PickerLocationId.PicturesLibrary;
+                picker.FileTypeFilter.Add(".jpg");
+                picker.FileTypeFilter.Add(".jpeg");
+                picker.FileTypeFilter.Add(".png");
+
+                file = await picker.PickSingleFileAsync();
+
+                using (var fileStream = await file.OpenAsync(FileAccessMode.Read))
+                {
+                    // Create a BitmapImage to hold the image
+                    BitmapImage bitmapImage = new BitmapImage();
+
+                    // Set the source of the BitmapImage to the file stream
+                    bitmapImage.SetSource(fileStream);
+
+                    // Set the Source property of the image control
+                    imgProfile.Source = bitmapImage;
+                }
+
+
+            }
+            catch (Exception theException)
+            {
+                // Handle all other exceptions.
+                DisplayDialog("Error", "Error Message: " + theException.Message);
+
+            }
         }
 
         private bool isEmailEqual()

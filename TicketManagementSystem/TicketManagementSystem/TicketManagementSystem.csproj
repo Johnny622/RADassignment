@@ -195,6 +195,7 @@
     <Content Include="Assets\profile-icon.jpg" />
     <Content Include="Assets\profile-icon2.jpg" />
     <Content Include="Assets\profile-icon3.jpg" />
+    <Content Include="Assets\profile-user.png" />
     <Content Include="Assets\rail.png" />
     <Content Include="Assets\search.png" />
     <Content Include="Assets\seat.png" />
@@ -206,6 +207,7 @@
     <Content Include="Assets\StoreLogo.backup.png" />
     <Content Include="Assets\StoreLogo.png" />
     <Content Include="Assets\train2.png" />
+    <Content Include="Assets\trainSchedule.png" />
     <Content Include="Assets\user.png" />
     <Content Include="Assets\Wide310x150Logo.scale-200.png" />
     <Content Include="Properties\Default.rd.xml" />

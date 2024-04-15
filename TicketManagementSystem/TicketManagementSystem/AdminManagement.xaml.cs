@@ -97,17 +97,6 @@ namespace TicketManagementSystem
             this.Frame.Navigate(typeof(NewAdminRegister));
         }
 
-        private void ViewUserBtn_Click(object sender, RoutedEventArgs e)
-        {
-            //To view user list
-            this.Frame.Navigate(typeof(ViewUserList));
-        }
-
-        private void btnBar_Click_1(object sender, RoutedEventArgs e)
-        {
-
-        }
-
         private async void DisplayDialog(string title, string content, Type destinationPage) // done and navigate to login page
         {
             ContentDialog noDialog = new ContentDialog
@@ -129,6 +118,9 @@ namespace TicketManagementSystem
             }
         }
 
-       
+        private void btnViewUser_Click(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(ViewUserList));
+        }
     }
 }

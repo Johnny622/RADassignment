@@ -11,9 +11,10 @@
 
 
     <Grid>
-        <Image Source="Assets/ets-train.jpg"  Height="2000"></Image>
+        <!--<Frame VerticalAlignment="Stretch" VerticalContentAlignment="Stretch" Height="Auto"/>-->
+        <Image Source="Assets/ets-train.jpg" Height="5000" ></Image>
         <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
-            <TextBlock Text="ETS TRAIN TICKETING SYSTEM" FontSize="65" Margin="20,45,20,20" RequestedTheme="Dark" RenderTransformOrigin="0.5,0.5" FontWeight="Bold" FontStyle="Italic">
+            <TextBlock Text="TRAIN TICKETING SYSTEM" FontSize="65" Margin="20,45,20,20" RequestedTheme="Dark" RenderTransformOrigin="0.5,0.5" FontWeight="Bold" FontStyle="Italic">
                 <TextBlock.Foreground>
                     <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                         <GradientStop Color="Blue"/>

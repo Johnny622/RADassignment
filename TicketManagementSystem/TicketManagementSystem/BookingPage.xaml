@@ -67,18 +67,18 @@
                     </StackPanel>
                     <StackPanel Margin="20,0,0,0">
                         <TextBlock Text="Pax"/>
-                        <TextBox/>
+                        <TextBox x:Name="txtPax"/>
                     </StackPanel>
                     <StackPanel Margin="20,0,0,0">
                         <TextBlock Text="Depart Date"/>
-                        <DatePicker/>
+                        <DatePicker x:Name="dpDepartDate"/>
                     </StackPanel>
                     <StackPanel Orientation="Horizontal" VerticalAlignment="Bottom" Margin="20,0,0,0">
                         <CheckBox Content="Travelling 2 ways"/>
                     </StackPanel>
                     <StackPanel Margin="20,0,0,0">
                         <TextBlock Text="Return Date"/>
-                        <DatePicker/>
+                        <DatePicker x:Name="dpReturnDate"/>
                     </StackPanel>
                 </StackPanel>
                 <Button x:Name="btnSearch" Background="#A3D4FF" Height="50" HorizontalAlignment="Right" Margin="20" Click="btnSearch_Click">
@@ -100,25 +100,25 @@
                     <StackPanel Orientation="Horizontal" Padding="0,10,0,0">
                         <StackPanel>
                             <TextBlock Text="Train"/>
-                            <ComboBox Width="250"/>
+                            <ComboBox x:Name="cbxTrain" Width="250" SelectionChanged="cbxTrain_SelectionChanged"/>
                         </StackPanel>
                         <StackPanel Margin="20,0,0,0">
                             <TextBlock Text="Depart Time"/>
-                            <TextBox IsReadOnly="True" Text="xx:xx pm" Width="100" TextAlignment="Center"/>
+                            <TextBox x:Name="tbDepartTime" IsReadOnly="True" Text="xx:xx pm" Width="100" TextAlignment="Center"/>
                         </StackPanel>
                         <StackPanel Margin="20,0,0,0">
                             <TextBlock Text="ETA"/>
-                            <TextBox IsReadOnly="True" Text="xx:xx pm" Width="100" TextAlignment="Center"/>
+                            <TextBox x:Name="tbArrivalTime" IsReadOnly="True" Text="xx:xx pm" Width="100" TextAlignment="Center"/>
                         </StackPanel>
                         <StackPanel Margin="20,0,0,0">
                             <TextBlock Text="Available Seat"/>
-                            <TextBox Text="0" IsReadOnly="True" TextAlignment="Center"/>
+                            <TextBox x:Name="seat" Text="0" IsReadOnly="True" TextAlignment="Center"/>
                         </StackPanel>
                         <StackPanel Margin="20,0,0,0">
                             <TextBlock Text="Price" Margin="25,0,0,0"/>
                             <StackPanel Orientation="Horizontal">
                                 <TextBlock Text="RM" VerticalAlignment="Center"/>
-                                <TextBox Text="23.00" IsReadOnly="True" Margin="3,0,0,0"/>
+                                <TextBox x:Name="price" Text="0.00" IsReadOnly="True" Margin="3,0,0,0"/>
                             </StackPanel>
                         </StackPanel>
                         <Button Background="#A3D4FF" Height="32" Margin="100,20,20,20" Click="btnChooseSeat_Click">

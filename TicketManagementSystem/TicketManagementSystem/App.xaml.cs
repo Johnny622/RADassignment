@@ -1,8 +1,11 @@
-﻿using System;
+﻿using Firebase.Auth;
+using Firebase.Database;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
+using System.Threading.Tasks;
 using Windows.ApplicationModel;
 using Windows.ApplicationModel.Activation;
 using Windows.Foundation;
@@ -26,6 +29,8 @@ namespace TicketManagementSystem
         /// Initializes the singleton application object.  This is the first line of authored code
         /// executed, and as such is the logical equivalent of main() or WinMain().
         /// </summary>
+
+        public static FirebaseClient firebaseClient;
         public App()
         {
             this.InitializeComponent();
@@ -39,6 +44,7 @@ namespace TicketManagementSystem
         /// <param name="e">Details about the launch request and process.</param>
         protected override void OnLaunched(LaunchActivatedEventArgs e)
         {
+            InitializeFirebase();
             Frame rootFrame = Window.Current.Content as Frame;
 
             // Do not repeat app initialization when the Window already has content,
@@ -95,6 +101,11 @@ namespace TicketManagementSystem
             var deferral = e.SuspendingOperation.GetDeferral();
             //TODO: Save application state and stop any background activity
             deferral.Complete();
+        }
+
+        private static void InitializeFirebase()
+        {
+            firebaseClient = new FirebaseClient("https://trainmanagementsystem-6fec6-default-rtdb.firebaseio.com/");
         }
     }
 }

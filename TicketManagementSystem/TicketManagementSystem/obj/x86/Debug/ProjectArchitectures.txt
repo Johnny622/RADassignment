@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 C:\Users\EDT\Documents\Y2S3\New folder\RADassignment\TicketManagementSystem\TicketManagementSystem\TicketManagementSystem.csproj;x86
+=======
+C:\Users\Lau Tin Tin\Desktop\RAD Transport\RADassignment\TicketManagementSystem\TicketManagementSystem\TicketManagementSystem.csproj;x86
+>>>>>>> 992004294fb57d8f29d831de973215776a4360eb

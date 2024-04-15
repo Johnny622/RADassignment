@@ -1,5 +1,7 @@
 WinMetadata\Windows.winmd
+Assets\admin.jpg
 Assets\bars.png
+Assets\booked_chair.png
 Assets\booking.png
 Assets\chair.png
 Assets\ets-logo.png
@@ -15,6 +17,7 @@ Assets\profile-icon3.jpg
 Assets\rail.png
 Assets\search.png
 Assets\seat.png
+Assets\software-engineer.png
 Assets\SplashScreen.scale-200.png
 Assets\Square150x150Logo.scale-200.png
 Assets\Square44x44Logo.scale-200.png
@@ -24,10 +27,18 @@ Assets\StoreLogo.png
 Assets\train2.png
 Assets\user.png
 Assets\Wide310x150Logo.scale-200.png
+AdminChangePassword.xbf
+AdminManagement.xbf
+AdminProfile.xbf
 App.xbf
 BookingPage.xbf
+ChangePassword.xbf
+CustomStyles.xbf
+ForgetPassword.xbf
 LoginPage.xbf
 MainPage.xbf
+NewAdminRegister.xbf
+NewUserRegister.xbf
 PassengerDetailPage.xbf
 SeatSelectionDialog.xbf
 SeatSelectionPage.xbf

@@ -14,6 +14,7 @@ namespace TicketManagementSystem.Class
     {
         FirebaseClient firebase = new FirebaseClient("https://trainmanagementsystem-6fec6-default-rtdb.firebaseio.com/");
 
+        /* For Passenger Usage*/
         public async Task AddUser(PassengerDetails passenger)
         {
             await firebase
@@ -28,11 +29,16 @@ namespace TicketManagementSystem.Class
               .Child("Passengers")
               .OnceAsync<PassengerDetails>()).Select(item => new PassengerDetails
               {
+                  BookingId = item.Key.ToString(),
+                  SeatNumber = item.Object.SeatNumber,
+                  IsReserved = item.Object.IsReserved,
                   Name = item.Object.Name,
                   Phone = item.Object.Phone,
               }).ToList();
         }
+        /* For Passenger Usage*/
 
+        /* For User Usage */
         public async Task AddUserDetail(UserDetail user)
         {
             await firebase
@@ -89,6 +95,7 @@ namespace TicketManagementSystem.Class
         {
             await firebase.Child("Users").Child(key).DeleteAsync(); //using firebase primary key
         }
+        /* For User Usage */
 
         /* For Admin Usage */
 
@@ -149,6 +156,5 @@ namespace TicketManagementSystem.Class
         }
 
         /* For Admin Usage */
-
     }
 }

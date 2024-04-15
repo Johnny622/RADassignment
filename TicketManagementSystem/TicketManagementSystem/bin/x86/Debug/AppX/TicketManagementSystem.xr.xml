@@ -9,8 +9,8 @@
     <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.ThemeResourceExtension" />
     <RootType FullName="Windows.UI.Xaml.Controls.Grid">
       <RootProperty Name="Children" />
-      <RootProperty Name="Name" />
       <RootProperty Name="Background" />
+      <RootProperty Name="Name" />
       <RootProperty Name="BorderBrush" />
       <RootProperty Name="ColumnDefinitions" />
       <RootEvent Name="PointerPressed" />
@@ -95,23 +95,12 @@
       <RootEvent Name="Click" />
     </RootType>
     <RootType FullName="TicketManagementSystem.AdminChangePassword" />
-    <RootType FullName="Windows.UI.Xaml.Shapes.Line">
-      <RootProperty Name="X1" />
-      <RootProperty Name="X2" />
-      <RootProperty Name="Stroke" />
-      <RootProperty Name="StrokeThickness" />
-      <RootProperty Name="Y1" />
-      <RootProperty Name="Y2" />
-      <RootProperty Name="Margin" />
-      <RootProperty Name="VerticalAlignment" />
-    </RootType>
-    <RootType FullName="TicketManagementSystem.AdminManagement" />
     <RootType FullName="Windows.UI.Xaml.Controls.TextBox">
       <RootProperty Name="FontSize" />
       <RootProperty Name="PlaceholderText" />
-      <RootProperty Name="IsReadOnly" />
       <RootProperty Name="Margin" />
       <RootProperty Name="CornerRadius" />
+      <RootProperty Name="IsReadOnly" />
       <RootProperty Name="Background" />
       <RootProperty Name="Text" />
       <RootProperty Name="TextAlignment" />
@@ -130,6 +119,18 @@
       <RootProperty Name="Content" />
       <RootProperty Name="IsSelected" />
     </RootType>
+    <RootType FullName="TicketManagementSystem.AdminEditUser" />
+    <RootType FullName="Windows.UI.Xaml.Shapes.Line">
+      <RootProperty Name="X1" />
+      <RootProperty Name="X2" />
+      <RootProperty Name="Stroke" />
+      <RootProperty Name="StrokeThickness" />
+      <RootProperty Name="Y1" />
+      <RootProperty Name="Y2" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="VerticalAlignment" />
+    </RootType>
+    <RootType FullName="TicketManagementSystem.AdminManagement" />
     <RootType FullName="TicketManagementSystem.AdminProfile" />
     <RootType FullName="Windows.UI.Xaml.Controls.DatePicker">
       <RootProperty Name="Margin" />

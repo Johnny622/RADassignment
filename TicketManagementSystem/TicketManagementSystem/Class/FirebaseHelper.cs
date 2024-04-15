@@ -53,7 +53,33 @@ namespace TicketManagementSystem.Class
                   Phone = item.Object.Phone,
                   IC = item.Object.IC,
                   Password = item.Object.Password,
+                  ProfileName = item.Object.ProfileName,
+                  ProfileURL = item.Object.ProfileURL,
               }).ToList();
+        }
+
+        public async Task<UserDetail> GetUserDetailsByUserId(string userId)
+        {
+            var userDetailsList = await firebase
+                .Child("Users")
+                .OnceAsync<UserDetail>();
+
+            var userDetail = userDetailsList
+                .Select(item => new UserDetail
+                {
+                    UserId = item.Key,
+                    UserName = item.Object.UserName,
+                    Gender = item.Object.Gender,
+                    Email = item.Object.Email,
+                    Phone = item.Object.Phone,
+                    IC = item.Object.IC,
+                    Password = item.Object.Password,
+                    ProfileName = item.Object.ProfileName,
+                    ProfileURL = item.Object.ProfileURL,
+                })
+                .FirstOrDefault(u => u.UserId == userId);
+
+            return userDetail;
         }
 
         public async Task<UserDetail> GetUserDetailsByEmail(string email)
@@ -72,6 +98,8 @@ namespace TicketManagementSystem.Class
                     Phone = item.Object.Phone,
                     IC = item.Object.IC,
                     Password = item.Object.Password,
+                    ProfileName = item.Object.ProfileName,
+                    ProfileURL = item.Object.ProfileURL,
                 })
                 .FirstOrDefault(u => u.Email == email);
 

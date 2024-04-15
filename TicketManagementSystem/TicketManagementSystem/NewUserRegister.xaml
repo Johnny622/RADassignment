@@ -98,9 +98,19 @@
                         <TextBlock Text="**" FontSize="24" Foreground="Red"/>
                     </StackPanel>
                     <TextBox x:Name="SignUpConfMyKad" FontSize="24"/>
+
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Text="Upload Profile Picture" FontSize="24"/>
+                        <TextBlock Text="*" FontSize="24" Foreground="Red"/>
+                    </StackPanel>
+                    
+                    <StackPanel Orientation="Horizontal">
+                        <Button x:Name="UploadButton" FontSize="24" Content="Upload Image" HorizontalAlignment="Left" VerticalAlignment="Top" Click="UploadButton_Click"/>
+                        <Image x:Name="imgProfile" Width="100" Height="100" Margin="20,0"></Image>
+                    </StackPanel>
                 </StackPanel>
             </StackPanel>
-            
+
             <TextBlock Text="If you faced any difficulty when signing up,"  FontSize="20" Margin="10,0,0,0"/>
             <TextBlock Text="please contact us at +60 16-980 1560." FontSize="20" Margin="10,0,0,0"/>
             <StackPanel Orientation="Horizontal" Margin="10,10,0,0">
@@ -111,7 +121,7 @@
                 <TextBlock Text="**" FontSize="24" Foreground="Red"/>
                 <TextBlock Text=" Name and MyKad no. cannot be changed after sign up." FontSize="20"/>
             </StackPanel>
-            <StackPanel Orientation="Horizontal" Margin="10,0,0,20">
+            <StackPanel Orientation="Horizontal" Margin="10,0,0,0">
                 <TextBlock Text="***" FontSize="24" Foreground="Red"/>
                 <TextBlock Text=" Password Requirement : Minimum 8 character - at least 1 uppercase , lowercase and numbers" FontSize="20"/>
             </StackPanel>

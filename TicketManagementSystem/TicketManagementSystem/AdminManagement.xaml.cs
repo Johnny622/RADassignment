@@ -87,11 +87,6 @@ namespace TicketManagementSystem
             this.Frame.Navigate(typeof(LoginPage));
         }
 
-        private void AddTrainRoute_Click(object sender, RoutedEventArgs e)
-        {
-            this.Frame.Navigate(typeof(TrainManagement));
-        }
-
         private void AddAdminBtn_Click(object sender, RoutedEventArgs e)
         {
             this.Frame.Navigate(typeof(NewAdminRegister));
@@ -121,6 +116,11 @@ namespace TicketManagementSystem
         private void btnViewUser_Click(object sender, RoutedEventArgs e)
         {
             this.Frame.Navigate(typeof(ViewUserList));
+        }
+
+        private void btnTrainMng_Click(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(TrainManagement));
         }
     }
 }

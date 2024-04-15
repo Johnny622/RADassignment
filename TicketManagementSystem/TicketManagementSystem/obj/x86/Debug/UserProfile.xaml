@@ -53,10 +53,10 @@
             <Image Source="Assets/ets-logo.png" Height="40" HorizontalAlignment="Left" Margin="0,0,0,10"/>
 
             <StackPanel Orientation="Vertical" Margin="50,50">
-                <TextBox x:ConnectionId='4' x:Name="UserName" FontSize="24" PlaceholderText="User Name" IsReadOnly="True" Margin="0,20" CornerRadius="5"/>
-                <TextBox x:ConnectionId='5' x:Name="UserEmail" FontSize="24" PlaceholderText="User Email" IsReadOnly="True" Margin="0,20" CornerRadius="5"/>
-                <TextBox x:ConnectionId='6' x:Name="UserID" FontSize="24" PlaceholderText="User ID" IsReadOnly="True" Margin="0,20" CornerRadius="5"/>
-                <TextBox x:ConnectionId='7' x:Name="UserIC" FontSize="24" PlaceholderText="User IC" IsReadOnly="True" Margin="0,20" CornerRadius="5"/>
+                <TextBox x:ConnectionId='4' x:Name="UserName" FontSize="24" PlaceholderText="User Name" IsReadOnly="True" Margin="0,20" CornerRadius="5" Background="#FFC7C7C7"/>
+                <TextBox x:ConnectionId='5' x:Name="UserEmail" FontSize="24" PlaceholderText="User Email" Margin="0,20" CornerRadius="5"/>
+                <TextBox x:ConnectionId='6' x:Name="UserID" FontSize="24" PlaceholderText="User ID" IsReadOnly="True" Margin="0,20" CornerRadius="5"  Background="#FFC7C7C7"/>
+                <TextBox x:ConnectionId='7' x:Name="UserIC" FontSize="24" PlaceholderText="User IC" IsReadOnly="True" Margin="0,20" CornerRadius="5"  Background="#FFC7C7C7"/>
                 <TextBox x:ConnectionId='8' x:Name="UserPhone" FontSize="24" PlaceholderText="User Phone" Margin="0,20" CornerRadius="5"/>
                 <ComboBox x:ConnectionId='9' x:Name="UserGender" FontSize="24" Width="500" Margin="0,20" CornerRadius="5">
                     <ComboBoxItem Content="Please Select"/>

@@ -47,7 +47,7 @@
 
                     <StackPanel Orientation="Horizontal">
                         <TextBlock Text="Password" FontSize="24"/>
-                        <TextBlock Text="*" FontSize="24" Foreground="Red"/>
+                        <TextBlock Text="***" FontSize="24" Foreground="Red"/>
                     </StackPanel>
                     <PasswordBox x:Name="SignUpPassword" FontSize="24"/>
 
@@ -83,7 +83,7 @@
 
                     <StackPanel Orientation="Horizontal">
                         <TextBlock Text="Confirm password" FontSize="24"/>
-                        <TextBlock Text="*" FontSize="24" Foreground="Red"/>
+                        <TextBlock Text="***" FontSize="24" Foreground="Red"/>
                     </StackPanel>
                     <PasswordBox x:Name="SignUpConfPassword" FontSize="24"/>
 
@@ -107,9 +107,13 @@
                 <TextBlock Text="*" FontSize="24" Foreground="Red"/>
                 <TextBlock Text=" Field Must Be Filled" FontSize="20"/>
             </StackPanel>
-            <StackPanel Orientation="Horizontal" Margin="10,0,0,30">
+            <StackPanel Orientation="Horizontal" Margin="10,0,0,0">
                 <TextBlock Text="**" FontSize="24" Foreground="Red"/>
                 <TextBlock Text=" Name and MyKad no. cannot be changed after sign up." FontSize="20"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Margin="10,0,0,20">
+                <TextBlock Text="***" FontSize="24" Foreground="Red"/>
+                <TextBlock Text=" Password Requirement : Minimum 8 character - at least 1 uppercase , lowercase and numbers" FontSize="20"/>
             </StackPanel>
 
             <TextBlock x:Name="ErrorMessage" FontSize="22" Foreground="Red" HorizontalAlignment="Center"/>

@@ -8,7 +8,7 @@
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
-    <Grid>
+    <Grid Name="AdminProfileGrid">
         <SplitView x:Name="menuSplitView" DisplayMode="CompactOverlay" IsPaneOpen="False" CompactPaneLength="50" OpenPaneLength="240" Background="#D7ECFF">
             <SplitView.Pane>
                 <StackPanel Background="#4863A0">
@@ -18,10 +18,10 @@
                         </Button>
                     </StackPanel>
 
-                    <Button Name="btnUserMng" Background="#D7ECFF" Margin="0,0,0,30" HorizontalAlignment="Stretch" Click="btnUserMng_Click" >
+                    <Button Name="btnAdminMng" Background="#D7ECFF" Margin="0,0,0,30" HorizontalAlignment="Stretch" Click="btnAdminMng_Click" >
                         <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" Margin="0 0 0 0" Width="230">
-                            <Image Source="Assets/user.png" Width="30" RenderTransformOrigin="0.5,0.61"/>
-                            <TextBlock Text="USER MANAGEMENT" Padding="10" VerticalAlignment="Center" Foreground="White" FontWeight="Bold" />
+                            <Image Source="Assets/software-engineer.png" Width="30" RenderTransformOrigin="0.5,0.61"/>
+                            <TextBlock Text="ADMIN MANAGEMENT" Padding="10" VerticalAlignment="Center" Foreground="Black" FontWeight="Bold" />
                         </StackPanel>
                     </Button>
 
@@ -53,10 +53,10 @@
             <Image Source="Assets/ets-logo.png" Height="40" HorizontalAlignment="Left" Margin="0,0,0,10"/>
 
             <StackPanel Orientation="Vertical" Margin="50,50">
-                <TextBox x:Name="AdminName" FontSize="24" PlaceholderText="Admin Name" IsReadOnly="True" Margin="0,20" CornerRadius="5"/>
-                <TextBox x:Name="AdminEmail" FontSize="24" PlaceholderText="Admin Email" IsReadOnly="True" Margin="0,20" CornerRadius="5"/>
-                <TextBox x:Name="AdminID" FontSize="24" PlaceholderText="Admin ID" IsReadOnly="True" Margin="0,20" CornerRadius="5"/>
-                <TextBox x:Name="AdminIC" FontSize="24" PlaceholderText="Admin IC" IsReadOnly="True" Margin="0,20" CornerRadius="5"/>
+                <TextBox x:Name="AdminName" FontSize="24" PlaceholderText="Admin Name" IsReadOnly="True" Margin="0,20" CornerRadius="5" Background="#FFC7C7C7"/>
+                <TextBox x:Name="AdminEmail" FontSize="24" PlaceholderText="Admin Email" Margin="0,20" CornerRadius="5"/>
+                <TextBox x:Name="AdminID" FontSize="24" PlaceholderText="Admin ID" IsReadOnly="True" Margin="0,20" CornerRadius="5" Background="#FFC7C7C7"/>
+                <TextBox x:Name="AdminIC" FontSize="24" PlaceholderText="Admin IC" IsReadOnly="True" Margin="0,20" CornerRadius="5" Background="#FFC7C7C7"/>
                 <TextBox x:Name="AdminPhone" FontSize="24" PlaceholderText="Admin Phone" Margin="0,20" CornerRadius="5"/>
                 <ComboBox x:Name="AdminGender" FontSize="24" Width="500" Margin="0,20" CornerRadius="5">
                     <ComboBoxItem Content="Please Select"/>

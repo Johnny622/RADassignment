@@ -149,6 +149,32 @@ namespace TicketManagementSystem.Class
         }
 
         /* For Admin Usage */
+        public async Task AddRoute(TrainDetails route)
+        {
+            await firebase
+                .Child("Route")
+                .PostAsync(JsonConvert.SerializeObject(route));
+        }
+
+
+        public async Task<List<TrainDetails>> GetAllRoute()
+        {
+            return (await firebase
+              .Child("Route")
+              .OnceAsync<TrainDetails>()).Select(item => new TrainDetails
+              {
+
+                  origin = item.Object.origin,
+                  destination = item.Object.destination,
+                  price = item.Object.price,
+                  availableseat = item.Object.availableseat,
+                  departdate = item.Object.departdate,
+                  arrivaldate = item.Object.arrivaldate,
+                  departtime = item.Object.destination,
+                  arrivaltime = item.Object.arrivaltime,
+              }).ToList();
+        }
+
 
     }
 }

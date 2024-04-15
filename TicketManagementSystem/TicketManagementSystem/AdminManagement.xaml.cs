@@ -89,7 +89,7 @@ namespace TicketManagementSystem
 
         private void AddTrainRoute_Click(object sender, RoutedEventArgs e)
         {
-
+            this.Frame.Navigate(typeof(TrainManagement));
         }
 
         private void AddAdminBtn_Click(object sender, RoutedEventArgs e)

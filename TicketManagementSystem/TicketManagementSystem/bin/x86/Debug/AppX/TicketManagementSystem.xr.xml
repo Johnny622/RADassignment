@@ -131,7 +131,10 @@
       <RootProperty Name="IsSelected" />
     </RootType>
     <RootType FullName="TicketManagementSystem.AdminProfile" />
-    <RootType FullName="Windows.UI.Xaml.Controls.DatePicker" />
+    <RootType FullName="Windows.UI.Xaml.Controls.DatePicker">
+      <RootProperty Name="Margin" />
+      <RootProperty Name="CornerRadius" />
+    </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.CheckBox">
       <RootProperty Name="Content" />
     </RootType>
@@ -221,6 +224,11 @@
     </RootType>
     <RootType FullName="TicketManagementSystem.SeatSelectionDialog" />
     <RootType FullName="TicketManagementSystem.SeatSelectionPage" />
+    <RootType FullName="Windows.UI.Xaml.Controls.TimePicker">
+      <RootProperty Name="Margin" />
+      <RootProperty Name="CornerRadius" />
+    </RootType>
+    <RootType FullName="TicketManagementSystem.TrainManagement" />
     <RootType FullName="TicketManagementSystem.UserManagement" />
     <RootType FullName="TicketManagementSystem.UserProfile" />
     <RootType FullName="Windows.UI.Xaml.Controls.ListView">

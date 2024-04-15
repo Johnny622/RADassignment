@@ -138,6 +138,7 @@
     <Compile Include="Class\FirebaseHelper.cs" />
     <Compile Include="Class\ListStaticData.cs" />
     <Compile Include="Class\PassengerDetails.cs" />
+    <Compile Include="Class\TrainDetails.cs" />
     <Compile Include="Class\UserDetail.cs" />
     <Compile Include="Class\GlobalVariable.cs" />
     <Compile Include="ForgetPassword.xaml.cs">
@@ -164,6 +165,9 @@
     </Compile>
     <Compile Include="SeatSelectionPage.xaml.cs">
       <DependentUpon>SeatSelectionPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="TrainManagement.xaml.cs">
+      <DependentUpon>TrainManagement.xaml</DependentUpon>
     </Compile>
     <Compile Include="UserManagement.xaml.cs">
       <DependentUpon>UserManagement.xaml</DependentUpon>
@@ -270,6 +274,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="SeatSelectionPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="TrainManagement.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

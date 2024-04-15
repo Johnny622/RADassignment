@@ -166,7 +166,9 @@ namespace TicketManagementSystem
                     ad.Gender = ((ComboBoxItem)AdminGender.SelectedItem).Content.ToString();
                     ad.Email = ConvertToLowerCase(AdminEmail.Text);
                     ad.Phone = AdminPhone.Text;
+
                     GlobalVariable.CurrentAdminEmail = ad.Email;
+                    
                     await firebaseHelper.UpdateAdmin(ad);
 
                     DisplayDialog("Success", "Update Successfully", destPage);

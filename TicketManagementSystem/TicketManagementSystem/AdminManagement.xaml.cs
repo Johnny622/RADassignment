@@ -99,7 +99,8 @@ namespace TicketManagementSystem
 
         private void ViewUserBtn_Click(object sender, RoutedEventArgs e)
         {
-
+            //To view user list
+            this.Frame.Navigate(typeof(ViewUserList));
         }
 
         private void btnBar_Click_1(object sender, RoutedEventArgs e)
@@ -127,5 +128,7 @@ namespace TicketManagementSystem
                 }
             }
         }
+
+       
     }
 }

@@ -194,6 +194,7 @@ namespace TicketManagementSystem.Class
 
                   origin = item.Object.origin,
                   destination = item.Object.destination,
+                  trainID = item.Object.trainID,
                   price = item.Object.price,
                   availableseat = item.Object.availableseat,
                   departdate = item.Object.departdate,

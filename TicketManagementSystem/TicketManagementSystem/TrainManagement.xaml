@@ -47,6 +47,8 @@
                   <TextBox x:Name="origin" FontSize="24" PlaceholderText="Please enter the origin"  Margin="0,20" CornerRadius="5"/>
                   <TextBox x:Name="destination" FontSize="24" PlaceholderText="Please enter the destination" Margin="0,20" CornerRadius="5"/>
                   <StackPanel Orientation="Horizontal">
+                      <TextBlock Text="Train ID" FontFamily="Bahnschrift SemiBold" FontSize="16" FontWeight="Bold" Foreground="Blue" Margin="0,40,40,20"/>
+                      <TextBox x:Name="trainID" FontSize="24" Margin="70,20" CornerRadius="5"/>
                       <TextBlock Text="Price" FontFamily="Bahnschrift SemiBold" FontSize="16" FontWeight="Bold" Foreground="Blue" Margin="0,40,40,20"/>
                       <TextBox x:Name="price" FontSize="24" Margin="70,20" CornerRadius="5"/>
                       <TextBlock Text="Available Seat" FontFamily="Bahnschrift SemiBold" FontSize="16" FontWeight="Bold" Foreground="Blue" Margin="0,40,40,20"/>

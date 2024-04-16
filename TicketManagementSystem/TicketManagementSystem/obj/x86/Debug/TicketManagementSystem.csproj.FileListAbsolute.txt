@@ -314,3 +314,9 @@ C:\Users\ACER\Desktop\Y2S3\--Clone Resposity--\RADassignment\TicketManagementSys
 C:\Users\ACER\Desktop\Y2S3\--Clone Resposity--\RADassignment\TicketManagementSystem\TicketManagementSystem\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt
 C:\Users\ACER\Desktop\Y2S3\--Clone Resposity--\RADassignment\TicketManagementSystem\TicketManagementSystem\obj\x86\Debug\ProjectArchitectures.txt
 C:\Users\ACER\Desktop\Y2S3\--Clone Resposity--\RADassignment\TicketManagementSystem\TicketManagementSystem\obj\x86\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_637424527200000000.json
+C:\Users\EDT\Documents\Y2S3\Rapid\New folder\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\AdminEditUser.xbf
+C:\Users\EDT\Documents\Y2S3\Rapid\New folder\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\Firebase.Storage.dll
+C:\Users\EDT\Documents\Y2S3\Rapid\New folder\RADassignment\TicketManagementSystem\TicketManagementSystem\obj\x86\Debug\AdminEditUser.g.i.cs
+C:\Users\EDT\Documents\Y2S3\Rapid\New folder\RADassignment\TicketManagementSystem\TicketManagementSystem\obj\x86\Debug\AdminEditUser.g.cs
+C:\Users\EDT\Documents\Y2S3\Rapid\New folder\RADassignment\TicketManagementSystem\TicketManagementSystem\obj\x86\Debug\AdminEditUser.xaml
+C:\Users\EDT\Documents\Y2S3\Rapid\New folder\RADassignment\TicketManagementSystem\TicketManagementSystem\obj\x86\Debug\AdminEditUser.xbf

@@ -10,6 +10,7 @@ namespace TicketManagementSystem.Class
     {
         public string origin { get; set; }
         public string destination { get; set; }
+        public int trainID {  get; set; }
         public int price { get; set; }
         public int availableseat { get; set; }
         public string departdate { get; set; }

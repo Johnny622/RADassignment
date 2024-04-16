@@ -40,10 +40,11 @@ namespace TicketManagementSystem
                     TrainDetails traindetail = new TrainDetails();
                     traindetail.origin = origin.Text.ToString();
                     traindetail.destination = destination.Text.ToString();
+                    traindetail.trainID = int.Parse(trainID.Text);
                     traindetail.price = int.Parse(price.Text);
                     traindetail.availableseat = int.Parse(availableseat.Text);
-                    traindetail.departdate = departdate.SelectedDate.Value.ToString();
-                    traindetail.arrivaldate = arrivaldate.SelectedDate.Value.ToString();
+                    traindetail.departdate = departdate.SelectedDate.Value.ToString("dd-MM-yyyy");
+                    traindetail.arrivaldate = arrivaldate.SelectedDate.Value.ToString("dd-MM-yyyy");
                     traindetail.departtime = departtime.SelectedTime.Value.ToString();
                     traindetail.arrivaltime = arrivaltime.SelectedTime.Value.ToString();
 
@@ -92,6 +93,7 @@ namespace TicketManagementSystem
             // Check if all textboxes are not empty
             return origin.Text != "" &&
                    destination.Text != "" &&
+                   trainID != null &&
                    price.Text != "" &&
                    availableseat.Text != "" &&
                    departdate.SelectedDate != null &&

@@ -25,16 +25,16 @@
                                         <ColumnDefinition Width="50"/>
                                         <ColumnDefinition Width="300"/>
                                     </Grid.ColumnDefinitions>
-                                    <Image Width="32" Height="32" HorizontalAlignment="Left" VerticalAlignment="Center" Source="/Assets/Square150x150Logo.scale-200.png"/>
+                                    <Image x:ConnectionId='7' Width="32" Height="32" HorizontalAlignment="Left" VerticalAlignment="Center"                             />
                                     <StackPanel Grid.Column="1">
-                                        <TextBlock x:ConnectionId='7'                          Foreground="Teal" FontSize="14" VerticalAlignment="Center"/>
-                                        <TextBlock x:ConnectionId='8'                        Foreground="Teal" FontSize="14" VerticalAlignment="Center"/>
-                                        <TextBlock x:ConnectionId='9'                       Foreground="Teal" FontSize="14" VerticalAlignment="Center"/>
+                                        <TextBlock x:ConnectionId='8'                          Foreground="Teal" FontSize="14" VerticalAlignment="Center"/>
+                                        <TextBlock x:ConnectionId='9'                        Foreground="Teal" FontSize="14" VerticalAlignment="Center"/>
                                         <TextBlock x:ConnectionId='10'                       Foreground="Teal" FontSize="14" VerticalAlignment="Center"/>
-                                        <TextBlock x:ConnectionId='11'                    Foreground="Teal" FontSize="14" VerticalAlignment="Center"/>
+                                        <TextBlock x:ConnectionId='11'                       Foreground="Teal" FontSize="14" VerticalAlignment="Center"/>
+                                        <TextBlock x:ConnectionId='12'                    Foreground="Teal" FontSize="14" VerticalAlignment="Center"/>
                                         <StackPanel Orientation="Horizontal">
-                                            <Button x:ConnectionId='12' x:Name="btnEdit" Content="Edit" VerticalAlignment="Center" Margin="5"                                            ></Button>
-                                            <Button x:ConnectionId='13' x:Name="btnDelete" Content="Delete" VerticalAlignment="Center" Margin="5"                                              ></Button>
+                                            <Button x:ConnectionId='13' x:Name="btnEdit" Content="Edit" VerticalAlignment="Center" Margin="5"                                            ></Button>
+                                            <Button x:ConnectionId='14' x:Name="btnDelete" Content="Delete" VerticalAlignment="Center" Margin="5"                                              ></Button>
                                         </StackPanel>
                                     </StackPanel>
                                 </Grid>

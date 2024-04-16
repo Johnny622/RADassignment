@@ -12,6 +12,7 @@ using Windows.UI.Xaml.Controls.Primitives;
 using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
+using Windows.UI.Xaml.Media.Imaging;
 using Windows.UI.Xaml.Navigation;
 
 // The Blank Page item template is documented at https://go.microsoft.com/fwlink/?LinkId=234238
@@ -35,6 +36,25 @@ namespace TicketManagementSystem
         {
             UserDetail userDetails = await firebaseHelper.GetUserDetailsByEmail(GlobalVariable.CurrentUserEmail);
             WelcomeMsg.Text = "Welcome , " + userDetails.UserName.ToString() + " !";
+
+            // Load and display the user's profile image
+            if (!string.IsNullOrEmpty(userDetails.ProfileURL))
+            {
+                try
+                {
+                    // Download the image from the URL
+                    BitmapImage image = new BitmapImage();
+                    image.UriSource = new Uri(userDetails.ProfileURL);
+
+                    // Set the image source for the userProfile control
+                    userProfile.Source = image;
+                }
+                catch (Exception ex)
+                {
+                    // Handle any errors related to loading the image
+                    Console.WriteLine("Error loading profile image: " + ex.Message);
+                }
+            }
         }
 
         private void btnBar_Click(object sender, RoutedEventArgs e)

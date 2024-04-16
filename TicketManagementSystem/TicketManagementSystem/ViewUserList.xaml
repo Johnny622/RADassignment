@@ -25,7 +25,7 @@
                                         <ColumnDefinition Width="50"/>
                                         <ColumnDefinition Width="300"/>
                                     </Grid.ColumnDefinitions>
-                                    <Image Width="32" Height="32" HorizontalAlignment="Left" VerticalAlignment="Center" Source="/Assets/Square150x150Logo.scale-200.png"/>
+                                    <Image Width="32" Height="32" HorizontalAlignment="Left" VerticalAlignment="Center" Source="{x:Bind ProfileURL}"/>
                                     <StackPanel Grid.Column="1">
                                         <TextBlock Text="{x:Bind UserName}" Foreground="Teal" FontSize="14" VerticalAlignment="Center"/>
                                         <TextBlock Text="{x:Bind Gender}" Foreground="Teal" FontSize="14" VerticalAlignment="Center"/>

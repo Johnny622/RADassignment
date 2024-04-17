@@ -27,21 +27,21 @@
 
                     <Button x:ConnectionId='16' x:Name="btnTrainMng" Background="Transparent" Margin="0 0 0 30" HorizontalAlignment="Stretch"                           >
                         <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" Width="230">
-                            <Image Source="Assets/rail.png" Width="30"/>
+                            <Image Source="Assets/trainSchedule.png" Width="30"/>
                             <TextBlock Text="TRAIN MANAGEMENT" Padding="10" VerticalAlignment="Center" Foreground="White" FontWeight="Bold" />
                         </StackPanel>
                     </Button>
 
                     <Button Background="Transparent" Margin="0 0 0 30" HorizontalAlignment="Stretch">
                         <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" Width="230">
-                            <Image Source="Assets/booking.png" Width="30"/>
+                            <Image Source="Assets/profile-user.png" Width="30"/>
                             <TextBlock Text="BOOKING" Padding="10" VerticalAlignment="Center" Foreground="White" FontWeight="Bold" />
                         </StackPanel>
                     </Button>
 
                     <Button Background="Transparent" HorizontalAlignment="Stretch">
                         <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" Width="230">
-                            <Image Source="Assets/food.png" Width="30"/>
+                            <Image Source="Assets/meal.png" Width="30"/>
                             <TextBlock Text="FOODS &amp; DRINKS" Padding="10" VerticalAlignment="Center" Foreground="White" FontWeight="Bold" />
                         </StackPanel>
                     </Button>

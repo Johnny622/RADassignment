@@ -199,6 +199,7 @@
     <Content Include="Assets\key2.png" />
     <Content Include="Assets\LockScreenLogo.scale-200.png" />
     <Content Include="Assets\management.png" />
+    <Content Include="Assets\meal.png" />
     <Content Include="Assets\next.png" />
     <Content Include="Assets\profile-icon.jpg" />
     <Content Include="Assets\profile-icon2.jpg" />

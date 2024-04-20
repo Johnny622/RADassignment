@@ -117,16 +117,16 @@ namespace TicketManagementSystem
                 foreach (TrainDetails detail in trainDetails)
                 {
                     string origin = detail.origin.ToUpper();
-                    string userOrigin = cbxOrigin.SelectedItem.ToString();
+                    //string userOrigin = cbxOrigin.SelectedItem.ToString();
 
                     string departDate = detail.departdate.ToString();
                     string userDepartDate = dpDepartDate.Date.ToString("dd/M/yyyy");
 
-                    if (userOrigin.Equals(origin) && userDepartDate.Equals(departDate))
-                    {
-                        cbxTrain.Items.Add("Train" + i);
-                        i++;
-                    }
+                    //if (userOrigin.Equals(origin) && userDepartDate.Equals(departDate))
+                    //{
+                    //    cbxTrain.Items.Add("Train" + i);
+                    //    i++;
+                    //}
                 }
                 cbxTrain.SelectedIndex = 0;
             }

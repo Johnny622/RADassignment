@@ -12,8 +12,11 @@
       <RootProperty Name="Background" />
       <RootProperty Name="Name" />
       <RootProperty Name="BorderBrush" />
+      <RootProperty Name="RowDefinitions" />
       <RootProperty Name="ColumnDefinitions" />
       <RootEvent Name="PointerPressed" />
+      <RootMethod Name="GetRow" />
+      <RootMethod Name="SetRow" />
       <RootMethod Name="GetColumn" />
       <RootMethod Name="SetColumn" />
     </RootType>
@@ -225,6 +228,9 @@
       <RootEvent Name="SecondaryButtonClick" />
     </RootType>
     <RootType FullName="TicketManagementSystem.SeatSelectionDialog" />
+    <RootType FullName="Windows.UI.Xaml.Controls.RowDefinition">
+      <RootProperty Name="Height" />
+    </RootType>
     <RootType FullName="TicketManagementSystem.SeatSelectionPage" />
     <RootType FullName="Windows.UI.Xaml.Controls.TimePicker">
       <RootProperty Name="Margin" />

@@ -8,10 +8,15 @@ namespace TicketManagementSystem.Class
 {
     public class PassengerDetails
     {
+        //Seat reservation details
+        public string BookingId { get; set; }
+        public string SeatNumber { get; set; }
+        public bool IsReserved { get; set; }
         public string Name { get; set; }
         public string Gender { get; set; }
         public string Phone { get; set; }
         public string IC { get; set; }
+
 
         public PassengerDetails()
         {
@@ -25,4 +30,5 @@ namespace TicketManagementSystem.Class
             IC = ic;
         }
     }
+
 }

@@ -199,7 +199,7 @@ namespace TicketManagementSystem.Class
                   availableseat = item.Object.availableseat,
                   departdate = item.Object.departdate,
                   arrivaldate = item.Object.arrivaldate,
-                  departtime = item.Object.destination,
+                  departtime = item.Object.departtime,
                   arrivaltime = item.Object.arrivaltime,
               }).ToList();
         }

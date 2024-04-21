@@ -74,9 +74,9 @@
                         <DatePicker x:Name="dpDepartDate"/>
                     </StackPanel>
                     <StackPanel Orientation="Horizontal" VerticalAlignment="Bottom" Margin="20,0,0,0">
-                        <CheckBox Content="Travelling 2 ways"/>
+                        <CheckBox x:Name="cbReturn" Content="Travelling 2 ways" Checked="cbReturn_Checked" Unchecked="cbReturn_Unchecked"/>
                     </StackPanel>
-                    <StackPanel Margin="20,0,0,0">
+                    <StackPanel x:Name="spReturn" Margin="20,0,0,0" Visibility="Collapsed">
                         <TextBlock Text="Return Date"/>
                         <DatePicker x:Name="dpReturnDate"/>
                     </StackPanel>

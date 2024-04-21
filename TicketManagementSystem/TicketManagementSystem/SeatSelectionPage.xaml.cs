@@ -2,7 +2,12 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Runtime.CompilerServices;
+using System.Runtime.InteropServices;
 using System.Runtime.InteropServices.WindowsRuntime;
+using System.Text;
+using System.Threading.Tasks;
+using TicketManagementSystem.Class;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
 using Windows.UI;
@@ -22,13 +27,27 @@ namespace TicketManagementSystem
     /// <summary>
     /// An empty page that can be used on its own or navigated to within a Frame.
     /// </summary>
+    /// 
+    /////if selected seat is less than the number of pax, cannot proceed to reserve
+
     public sealed partial class SeatSelectionPage : Page
     {
+        FirebaseHelper firebaseHelper = new FirebaseHelper();
+
+        private List<PassengerDetails> bookedList = new List<PassengerDetails>();
+
+        private List<Button> selectedSeatButtons = new List<Button>(); // Track selected seat buttons
+
+        private int numberOfPax = 3;
+
         public SeatSelectionPage()
         {
             this.InitializeComponent();
             GenerateSeats(38);
+            LoadLatestSeat();
+            
         }
+
         private void GenerateSeats(int totalSeats)
         {
             const int seatsPerRow = 10;
@@ -50,7 +69,7 @@ namespace TicketManagementSystem
 
                     TextBlock seatNumberTextBlock = new TextBlock
                     {
-                        Text = $"{row + 1}{seatLetters[column]}", 
+                        Text = $"{row + 1}{seatLetters[column]}",
                         HorizontalAlignment = HorizontalAlignment.Center,
                         Margin = new Thickness(0, 0, 0, 5)
                     };
@@ -69,7 +88,7 @@ namespace TicketManagementSystem
                         Tag = $"{row + 1}{seatLetters[column]}"
                     };
 
-                    seatButton.Click += SeatButton_Click; 
+                    seatButton.Click += SeatButton_Click;
 
                     Grid.SetColumn(seatButton, column);
                     Grid.SetRow(seatButton, row);
@@ -82,7 +101,213 @@ namespace TicketManagementSystem
         private void SeatButton_Click(object sender, RoutedEventArgs e)
         {
             Button clickedButton = (Button)sender;
-            string seatNumber = clickedButton.Tag.ToString(); 
+            string seatNumber = clickedButton.Tag.ToString();
+
+            ListStaticData.noOfPax = numberOfPax;
+
+            try
+            {
+                if (selectedSeatButtons.Count < numberOfPax)
+                {
+                    if (selectedSeatButtons.Contains(clickedButton))
+                    {
+                        DeselectSeat(clickedButton);
+                        ListStaticData.SelectedSeatButtons.Remove(clickedButton);
+                    }
+                    else if (!IsSeatBooked(seatNumber)) 
+                    {
+                        SelectSeat(clickedButton);
+                        ListStaticData.SelectedSeatButtons.Add(clickedButton);
+                    }
+                    
+                }
+                else
+                {
+                    if (selectedSeatButtons.Contains(clickedButton))
+                    {
+                        DeselectSeat(clickedButton);
+                        ListStaticData.SelectedSeatButtons.Remove(clickedButton);
+                    }
+                    else
+                    {
+                        DisplayDialog("You have already selected " + numberOfPax + "seats.");
+                    }
+                }
+
+                DisplaySelectedSeats();
+            }
+            catch (Exception theException)
+            {
+                DisplayDialog("An error occurred: " + theException.Message);
+            }
+        }
+
+        private bool IsSeatBooked(string seatNumber)
+        {
+            return bookedList.Any(passenger => passenger.SeatNumber == seatNumber);
+        }
+
+        private void DisplaySelectedSeats()
+        {
+            StringBuilder selectedSeatsText = new StringBuilder();
+            bool isMaxSeatsSelected = selectedSeatButtons.Count >= numberOfPax;
+
+            if (selectedSeatButtons.Count > 0)
+            {
+                selectedSeatsText.Append("Selected Seats: ");
+
+                foreach (Button selectedSeat in selectedSeatButtons)
+                {
+                    selectedSeatsText.Append($"{selectedSeat.Tag.ToString()}, ");
+                }
+
+                // Remove the trailing comma and space
+                selectedSeatsText.Length -= 2;
+            }
+
+            SelectedSeatsTextBlock.Text = selectedSeatsText.ToString();
+
+            if (selectedSeatButtons.Count == numberOfPax)
+            {
+                SelectedSeatsTextBlock.Visibility = Visibility.Visible;
+            }
+            else
+            {
+                SelectedSeatsTextBlock.Visibility = Visibility.Collapsed;
+            }
+
+            //if (isMaxSeatsSelected)
+            //{
+            //    SelectedSeatsTextBlock.Visibility = Visibility.Visible;
+            //    SelectedSeatsTextBlock.Foreground = new SolidColorBrush(Colors.Blue);
+            //}
+            //else
+            //{
+            //    SelectedSeatsTextBlock.Visibility = Visibility.Collapsed;
+            //}
+
+            //// Check if the maximum number of seats is reached and display the message
+            //if (isMaxSeatsSelected)
+            //{
+            //    // Show the message in the blue text box
+            //    DisplayDialog("You have already selected " + numberOfPax + " seats.");
+            //}
+            //else if (selectedSeatButtons.Count > 0)
+            //{
+            //    // Show the message in the red text box
+            //    DisplayDialog("Selected Seats: " + selectedSeatsText);
+            //}
+            //else
+            //{
+            //    // Hide the red text box if no seats are selected
+            //    DisplayDialog(null);
+            //}
+        }
+
+        private void SelectSeat(Button seatButton)
+        {
+            string seatNumber = seatButton.Tag.ToString();
+            selectedSeatButtons.Add(seatButton);
+            UpdateSeatAppearance(seatNumber, isBooked: true);
+        }
+
+        private void DeselectSeat(Button seatButton)
+        {
+            string seatNumber = seatButton.Tag.ToString();
+            selectedSeatButtons.Remove(seatButton);
+            UpdateSeatAppearance(seatNumber, isBooked: false);
+        }
+
+        public void UpdateSeatAppearance(string seatNumber, bool isBooked)
+        {
+            // Find the corresponding button with the given seat number
+            Button seatButton = FindSeatButton(seatNumber);
+
+            if (seatButton != null)
+            {
+                // Update the appearance of the seat button
+                if (seatButton.Content is StackPanel stackPanel)
+                {
+                    if (stackPanel.Children[0] is Image seatImage)
+                    {
+                        if (isBooked)
+                        {
+                            seatImage.Source = new BitmapImage(new Uri("ms-appx:///Assets/booked_chair.png"));
+                        }
+                        else
+                        {
+                            seatImage.Source = new BitmapImage(new Uri("ms-appx:///Assets/chair.png"));
+                        }
+                    }
+                }
+            }
+        }
+
+        private Button FindSeatButton(string seatNumber)
+        {
+            foreach (var child in mainGrid.Children)
+                if (child is Button seatButton && seatButton.Tag.ToString() == seatNumber)
+                    return seatButton;
+
+            return null;
+        }
+
+        private async void LoadLatestSeat()
+        {
+            try
+            {
+                bookedList = await firebaseHelper.GetAllUsers();
+
+                if (bookedList.Count > 0)
+                {
+                    foreach (PassengerDetails passenger in bookedList)
+                    {
+                        // Update seat appearance for each booked seat
+                        UpdateSeatAppearance(passenger.SeatNumber, isBooked: true);
+                    }
+                }
+
+                // UpdateAvailableSeats();
+            }
+            catch (Exception ex)
+            {
+                // Handle exceptions
+            }
+        }
+
+        //private void UpdateAvailableSeats()
+        //{
+        //    // Iterate through all seat buttons and update their appearance
+        //    foreach (var child in mainGrid.Children)
+        //    {
+        //        if (child is Button seatButton && seatButton.Tag is string seatNumber)
+        //        {
+        //            // Check if the seat is not booked
+        //            if (!bookedList.Any(passenger => passenger.SeatNumber == seatNumber))
+        //            {
+        //                // Seat is available, update appearance
+        //                UpdateSeatAppearance(seatNumber, isBooked: false);
+        //            }
+        //        }
+        //    }
+        //}
+
+        //private async void DisplayDialog(string title, string content)   //ori
+        //{
+        //    ContentDialog noDialog = new ContentDialog
+        //    {
+        //        Title = title,
+        //        Content = content,
+        //        CloseButtonText = "Ok"
+        //    };
+
+        //    ContentDialogResult result = await noDialog.ShowAsync();
+        //}
+
+        private void DisplayDialog(string content)
+        {
+            DisplayErrorTextBlock.Text = content;
+            DisplayErrorTextBlock.Visibility = Visibility.Visible;
         }
 
     }

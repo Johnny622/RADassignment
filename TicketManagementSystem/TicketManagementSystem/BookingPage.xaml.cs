@@ -124,14 +124,19 @@ namespace TicketManagementSystem
                 foreach (TrainDetails detail in trainDetails)
                 {
                     string origin = detail.origin.ToUpper();
+<<<<<<< HEAD
                     string userOrigin = cbxOrigin.SelectedItem.ToString();
                     string destination = detail.destination.ToUpper();
                     string userDestination = cbxDestination.SelectedItem.ToString();
+=======
+                    //string userOrigin = cbxOrigin.SelectedItem.ToString();
+>>>>>>> a965d54698cc90be14f9b8b731988c4e818c3749
 
                     string departDate = detail.departdate.ToString();
                     string userDepartDate = dpDepartDate.Date.ToString("dd-MM-yyyy");
                     int trainNo = detail.trainID;
 
+<<<<<<< HEAD
                     //depart information
                     if (userOrigin.Equals(origin) && userDestination.Equals(destination) && userDepartDate.Equals(departDate))
                     {                       
@@ -139,6 +144,13 @@ namespace TicketManagementSystem
                         i++;
                     }
                     //return information
+=======
+                    //if (userOrigin.Equals(origin) && userDepartDate.Equals(departDate))
+                    //{
+                    //    cbxTrain.Items.Add("Train" + i);
+                    //    i++;
+                    //}
+>>>>>>> a965d54698cc90be14f9b8b731988c4e818c3749
                 }
                 cbxTrain.SelectedIndex = 0;
             }

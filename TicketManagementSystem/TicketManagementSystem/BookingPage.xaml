@@ -131,7 +131,7 @@
                 </StackPanel>
                 
                 <!--Group2:ReturnDate-->
-                <StackPanel>
+                <StackPanel x:Name="spReturnInformation" Visibility="Collapsed">
                     <StackPanel Orientation="Horizontal">
                         <TextBlock Text="Return Date: " FontWeight="Bold" Margin="0,0,10,0"/>
                         <TextBlock x:Name="tbReturnDate" Text="DDMMMYYYY" FontWeight="Bold"/>

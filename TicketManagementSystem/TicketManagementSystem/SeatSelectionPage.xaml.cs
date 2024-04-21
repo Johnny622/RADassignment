@@ -38,7 +38,7 @@ namespace TicketManagementSystem
 
         private List<Button> selectedSeatButtons = new List<Button>(); // Track selected seat buttons
 
-        private int numberOfPax = 3;
+        private int numberOfPax = ListStaticData.noOfPax;
 
         public SeatSelectionPage()
         {
@@ -105,8 +105,6 @@ namespace TicketManagementSystem
         {
             Button clickedButton = (Button)sender;
             string seatNumber = clickedButton.Tag.ToString();
-
-            ListStaticData.noOfPax = numberOfPax;
 
             try
             {

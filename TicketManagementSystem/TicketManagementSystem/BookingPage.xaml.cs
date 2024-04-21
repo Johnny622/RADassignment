@@ -120,6 +120,15 @@ namespace TicketManagementSystem
                 price.Text = "0.00";
                 List<TrainDetails> trainDetails = new List<TrainDetails>();
                 trainDetails = await firebaseHelper.GetAllRoute();
+                int pax;
+                if (int.TryParse(txtPax.Text, out pax))
+                {
+                    ListStaticData.noOfPax = pax;
+                }
+                else
+                {
+                    DisplayDialog("Error Input", "Must be a number");
+                }
 
                 foreach (TrainDetails detail in trainDetails)
                 {

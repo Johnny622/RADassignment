@@ -30,13 +30,13 @@
     <AppXManifest Include="C:\Users\Janet\Desktop\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-04-21T17:34:37.650</Modified>
+      <Modified>2024-04-21T17:56:17.732</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Janet\Desktop\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\TicketManagementSystem.exe">
       <PackagePath>entrypoint\TicketManagementSystem.exe</PackagePath>
-      <Modified>2024-04-21T17:34:33.546</Modified>
+      <Modified>2024-04-21T17:56:14.963</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Janet\.nuget\packages\firebaseadmin\2.4.0\lib\netstandard2.0\FirebaseAdmin.dll">
       <PackagePath>FirebaseAdmin.dll</PackagePath>
@@ -250,83 +250,83 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Janet\Desktop\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2024-04-21T17:34:33.071</Modified>
+      <Modified>2024-04-21T17:56:14.687</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Janet\Desktop\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\AdminChangePassword.xbf">
       <PackagePath>AdminChangePassword.xbf</PackagePath>
-      <Modified>2024-04-21T17:34:33.071</Modified>
+      <Modified>2024-04-21T17:56:14.687</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Janet\Desktop\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\AdminEditUser.xbf">
       <PackagePath>AdminEditUser.xbf</PackagePath>
-      <Modified>2024-04-21T17:34:33.071</Modified>
+      <Modified>2024-04-21T17:56:14.687</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Janet\Desktop\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\AdminManagement.xbf">
       <PackagePath>AdminManagement.xbf</PackagePath>
-      <Modified>2024-04-21T17:34:33.040</Modified>
+      <Modified>2024-04-21T17:56:14.660</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Janet\Desktop\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\AdminProfile.xbf">
       <PackagePath>AdminProfile.xbf</PackagePath>
-      <Modified>2024-04-21T17:34:33.043</Modified>
+      <Modified>2024-04-21T17:56:14.664</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Janet\Desktop\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\BookingPage.xbf">
       <PackagePath>BookingPage.xbf</PackagePath>
-      <Modified>2024-04-21T17:34:33.047</Modified>
+      <Modified>2024-04-21T17:56:14.664</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Janet\Desktop\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\ChangePassword.xbf">
       <PackagePath>ChangePassword.xbf</PackagePath>
-      <Modified>2024-04-21T17:34:33.071</Modified>
+      <Modified>2024-04-21T17:56:14.688</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Janet\Desktop\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\CustomStyles.xbf">
       <PackagePath>CustomStyles.xbf</PackagePath>
-      <Modified>2024-04-21T17:34:33.070</Modified>
+      <Modified>2024-04-21T17:56:14.680</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Janet\Desktop\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\ForgetPassword.xbf">
       <PackagePath>ForgetPassword.xbf</PackagePath>
-      <Modified>2024-04-21T17:34:33.071</Modified>
+      <Modified>2024-04-21T17:56:14.688</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Janet\Desktop\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\LoginPage.xbf">
       <PackagePath>LoginPage.xbf</PackagePath>
-      <Modified>2024-04-21T17:34:33.072</Modified>
+      <Modified>2024-04-21T17:56:14.688</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Janet\Desktop\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2024-04-21T17:34:33.072</Modified>
+      <Modified>2024-04-21T17:56:14.688</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Janet\Desktop\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\NewAdminRegister.xbf">
       <PackagePath>NewAdminRegister.xbf</PackagePath>
-      <Modified>2024-04-21T17:34:33.072</Modified>
+      <Modified>2024-04-21T17:56:14.688</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Janet\Desktop\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\NewUserRegister.xbf">
       <PackagePath>NewUserRegister.xbf</PackagePath>
-      <Modified>2024-04-21T17:34:33.056</Modified>
+      <Modified>2024-04-21T17:56:14.664</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Janet\Desktop\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\PassengerDetailPage.xbf">
       <PackagePath>PassengerDetailPage.xbf</PackagePath>
-      <Modified>2024-04-21T17:34:33.072</Modified>
+      <Modified>2024-04-21T17:56:14.688</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Janet\Desktop\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\SeatSelectionDialog.xbf">
       <PackagePath>SeatSelectionDialog.xbf</PackagePath>
-      <Modified>2024-04-21T17:34:33.072</Modified>
+      <Modified>2024-04-21T17:56:14.688</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Janet\Desktop\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\SeatSelectionPage.xbf">
       <PackagePath>SeatSelectionPage.xbf</PackagePath>
-      <Modified>2024-04-21T17:34:33.073</Modified>
+      <Modified>2024-04-21T17:56:14.689</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Janet\Desktop\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\TrainManagement.xbf">
       <PackagePath>TrainManagement.xbf</PackagePath>
-      <Modified>2024-04-21T17:34:33.064</Modified>
+      <Modified>2024-04-21T17:56:14.680</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Janet\Desktop\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\UserManagement.xbf">
       <PackagePath>UserManagement.xbf</PackagePath>
-      <Modified>2024-04-21T17:34:33.073</Modified>
+      <Modified>2024-04-21T17:56:14.689</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Janet\Desktop\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\UserProfile.xbf">
       <PackagePath>UserProfile.xbf</PackagePath>
-      <Modified>2024-04-21T17:34:33.069</Modified>
+      <Modified>2024-04-21T17:56:14.680</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Janet\Desktop\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\ViewUserList.xbf">
       <PackagePath>ViewUserList.xbf</PackagePath>
-      <Modified>2024-04-21T17:34:33.073</Modified>
+      <Modified>2024-04-21T17:56:14.690</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.19041.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -338,7 +338,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Janet\Desktop\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\Core\TicketManagementSystem.exe">
       <PackagePath>TicketManagementSystem.exe</PackagePath>
-      <Modified>2024-04-21T17:34:37.626</Modified>
+      <Modified>2024-04-21T17:56:17.724</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

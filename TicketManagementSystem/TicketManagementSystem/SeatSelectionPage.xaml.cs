@@ -43,7 +43,7 @@ namespace TicketManagementSystem
         public SeatSelectionPage()
         {
             this.InitializeComponent();
-            GenerateSeats(38);
+            GenerateSeats(40);
             LoadLatestSeat();
             
         }
@@ -53,6 +53,10 @@ namespace TicketManagementSystem
             const int seatsPerRow = 10;
             int columns = (totalSeats + seatsPerRow - 1) / seatsPerRow;
             int remainingSeats = totalSeats % seatsPerRow;
+            if (remainingSeats == 0)
+            {
+                remainingSeats = seatsPerRow;
+            }
 
             char[] seatLetters = { 'A', 'B', 'C', 'D' };
 
@@ -64,8 +68,7 @@ namespace TicketManagementSystem
 
                 for (int row = 0; row < seatsInCurrentColumn; row++)
                 {
-                    if (column == 0)
-                        mainGrid.RowDefinitions.Add(new RowDefinition());
+                    mainGrid.RowDefinitions.Add(new RowDefinition());
 
                     TextBlock seatNumberTextBlock = new TextBlock
                     {
@@ -174,34 +177,7 @@ namespace TicketManagementSystem
             else
             {
                 SelectedSeatsTextBlock.Visibility = Visibility.Collapsed;
-            }
-
-            //if (isMaxSeatsSelected)
-            //{
-            //    SelectedSeatsTextBlock.Visibility = Visibility.Visible;
-            //    SelectedSeatsTextBlock.Foreground = new SolidColorBrush(Colors.Blue);
-            //}
-            //else
-            //{
-            //    SelectedSeatsTextBlock.Visibility = Visibility.Collapsed;
-            //}
-
-            //// Check if the maximum number of seats is reached and display the message
-            //if (isMaxSeatsSelected)
-            //{
-            //    // Show the message in the blue text box
-            //    DisplayDialog("You have already selected " + numberOfPax + " seats.");
-            //}
-            //else if (selectedSeatButtons.Count > 0)
-            //{
-            //    // Show the message in the red text box
-            //    DisplayDialog("Selected Seats: " + selectedSeatsText);
-            //}
-            //else
-            //{
-            //    // Hide the red text box if no seats are selected
-            //    DisplayDialog(null);
-            //}
+            }           
         }
 
         private void SelectSeat(Button seatButton)
@@ -274,35 +250,6 @@ namespace TicketManagementSystem
                 // Handle exceptions
             }
         }
-
-        //private void UpdateAvailableSeats()
-        //{
-        //    // Iterate through all seat buttons and update their appearance
-        //    foreach (var child in mainGrid.Children)
-        //    {
-        //        if (child is Button seatButton && seatButton.Tag is string seatNumber)
-        //        {
-        //            // Check if the seat is not booked
-        //            if (!bookedList.Any(passenger => passenger.SeatNumber == seatNumber))
-        //            {
-        //                // Seat is available, update appearance
-        //                UpdateSeatAppearance(seatNumber, isBooked: false);
-        //            }
-        //        }
-        //    }
-        //}
-
-        //private async void DisplayDialog(string title, string content)   //ori
-        //{
-        //    ContentDialog noDialog = new ContentDialog
-        //    {
-        //        Title = title,
-        //        Content = content,
-        //        CloseButtonText = "Ok"
-        //    };
-
-        //    ContentDialogResult result = await noDialog.ShowAsync();
-        //}
 
         private void DisplayDialog(string content)
         {

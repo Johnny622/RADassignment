@@ -120,39 +120,32 @@ namespace TicketManagementSystem
                 price.Text = "0.00";
                 List<TrainDetails> trainDetails = new List<TrainDetails>();
                 trainDetails = await firebaseHelper.GetAllRoute();
-                var i = 1;
+
                 foreach (TrainDetails detail in trainDetails)
                 {
                     string origin = detail.origin.ToUpper();
-<<<<<<< HEAD
                     string userOrigin = cbxOrigin.SelectedItem.ToString();
                     string destination = detail.destination.ToUpper();
                     string userDestination = cbxDestination.SelectedItem.ToString();
-=======
-                    //string userOrigin = cbxOrigin.SelectedItem.ToString();
->>>>>>> a965d54698cc90be14f9b8b731988c4e818c3749
 
                     string departDate = detail.departdate.ToString();
                     string userDepartDate = dpDepartDate.Date.ToString("dd-MM-yyyy");
+                    string userReturnDate = dpReturnDate.Date.ToString("dd-MM-yyyy");
                     int trainNo = detail.trainID;
 
-<<<<<<< HEAD
                     //depart information
                     if (userOrigin.Equals(origin) && userDestination.Equals(destination) && userDepartDate.Equals(departDate))
                     {                       
                         cbxTrain.Items.Add(trainNo);
-                        i++;
                     }
                     //return information
-=======
-                    //if (userOrigin.Equals(origin) && userDepartDate.Equals(departDate))
-                    //{
-                    //    cbxTrain.Items.Add("Train" + i);
-                    //    i++;
-                    //}
->>>>>>> a965d54698cc90be14f9b8b731988c4e818c3749
+                    if (userDestination.Equals(origin) && userOrigin.Equals(destination) && userReturnDate.Equals(departDate))
+                    {
+                        cbxReturnTrain.Items.Add(trainNo);
+                    }
                 }
                 cbxTrain.SelectedIndex = 0;
+                cbxReturnTrain.SelectedIndex = 0;
             }
             catch (Exception ex)
             {
@@ -177,6 +170,28 @@ namespace TicketManagementSystem
                         tbArrivalTime.Text = detail.arrivaltime.ToString();
                         seat.Text = detail.availableseat.ToString();
                         price.Text = detail.price.ToString();
+                    }
+                }
+            }
+        }
+
+        private async void cbxReturnTrain_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            var selectedItem = cbxReturnTrain.SelectedItem;
+
+            if (selectedItem != null)
+            {
+                List<TrainDetails> trainDetails = new List<TrainDetails>();
+                trainDetails = await firebaseHelper.GetAllRoute();
+                var i = 1;
+                foreach (TrainDetails detail in trainDetails)
+                {
+                    if (selectedItem.Equals(detail.trainID))
+                    {
+                        txtReturnDepartTime.Text = detail.departtime.ToString();
+                        txtReturnETA.Text = detail.arrivaltime.ToString();
+                        txtReturnSeat.Text = detail.availableseat.ToString();
+                        txtReturnPrice.Text = detail.price.ToString();
                     }
                 }
             }

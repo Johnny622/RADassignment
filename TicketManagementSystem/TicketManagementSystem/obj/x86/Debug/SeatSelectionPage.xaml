@@ -17,7 +17,7 @@
         <StackPanel Grid.Row="0">
             <StackPanel Orientation="Horizontal" Padding="20" HorizontalAlignment="Center">
                 <TextBlock Text="Coach:" VerticalAlignment="Center"/>
-                <ComboBox Margin="20,0,0,0">
+                <ComboBox x:ConnectionId='5' x:Name="cbxTrain" Margin="20,0,0,0">
                     <ComboBoxItem IsSelected="True">A</ComboBoxItem>
                     <ComboBoxItem>B</ComboBoxItem>
                     <ComboBoxItem>C</ComboBoxItem>

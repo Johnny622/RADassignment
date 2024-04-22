@@ -51,8 +51,6 @@
       <RootProperty Name="RequestedTheme" />
       <RootProperty Name="RenderTransformOrigin" />
       <RootProperty Name="FontStyle" />
-      <RootProperty Name="RenderTransform" />
-      <RootProperty Name="Projection" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.TextBox">
       <RootProperty Name="FontSize" />
@@ -222,21 +220,16 @@
       <RootProperty Name="HorizontalAlignment" />
       <RootEvent Name="Click" />
     </RootType>
-    <RootType FullName="Windows.UI.Xaml.Media.CompositeTransform">
-      <RootProperty Name="TranslateX" />
-      <RootProperty Name="Rotation" />
-    </RootType>
-    <RootType FullName="Windows.UI.Xaml.Media.PlaneProjection">
-      <RootProperty Name="RotationX" />
-      <RootProperty Name="RotationY" />
-      <RootProperty Name="RotationZ" />
-      <RootProperty Name="CenterOfRotationX" />
-      <RootProperty Name="CenterOfRotationY" />
-      <RootProperty Name="CenterOfRotationZ" />
-    </RootType>
     <RootType FullName="TicketManagementSystem.LoginPage" />
     <RootType FullName="TicketManagementSystem.MainPage" />
     <RootType FullName="TicketManagementSystem.NewAdminRegister" />
+    <RootType FullName="Windows.UI.Xaml.Controls.RelativePanel">
+      <RootProperty Name="Children" />
+      <RootMethod Name="GetRightOf" />
+      <RootMethod Name="SetRightOf" />
+      <RootMethod Name="GetBelow" />
+      <RootMethod Name="SetBelow" />
+    </RootType>
     <RootType FullName="TicketManagementSystem.NewUserRegister" />
     <RootType FullName="TicketManagementSystem.PassengerDetailPage" />
     <RootType FullName="Windows.UI.Xaml.Controls.ContentDialog">

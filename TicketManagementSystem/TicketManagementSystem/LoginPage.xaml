@@ -14,9 +14,9 @@
         <!--<Frame VerticalAlignment="Stretch" VerticalContentAlignment="Stretch" Height="Auto"/>-->
         <Image Source="Assets/ets-train.jpg" Height="5000" ></Image>
         <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
-            <TextBlock Text="TRAIN TICKETING SYSTEM" FontSize="65" Margin="20,45,20,20" RequestedTheme="Dark" RenderTransformOrigin="0.5,0.5" FontWeight="Bold" FontStyle="Italic">
+            <TextBlock Text="TRAIN TICKETING SYSTEM" FontSize="65" Margin="10" RequestedTheme="Dark" RenderTransformOrigin="0.5,0.5" FontWeight="Bold" FontStyle="Italic">
                 <TextBlock.Foreground>
-                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0,0">
                         <GradientStop Color="Blue"/>
                         <GradientStop Color="Yellow" Offset="1"/>
                         <GradientStop Color="#FFF6F608" Offset="0.97"/>
@@ -27,19 +27,12 @@
                         <GradientStop Color="#FF1515E8" Offset="0.351"/>
                     </LinearGradientBrush>
                 </TextBlock.Foreground>
-
-                <TextBlock.RenderTransform>
-                    <CompositeTransform TranslateX="0" Rotation="0"/>
-                </TextBlock.RenderTransform>
-                <TextBlock.Projection>
-                    <PlaneProjection RotationX="50" RotationY="0" RotationZ="0" CenterOfRotationX="20" CenterOfRotationY="0.5" CenterOfRotationZ="-10"/>
-                </TextBlock.Projection>
             </TextBlock>
         </StackPanel>
         <StackPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center" Height="460" Width="519" Background="LightGray" Opacity="0.7" >
             <TextBlock Text="Login" FontSize="24" HorizontalAlignment="Center" FontWeight="Bold" Margin="5,0,5,0"/>
             <StackPanel Orientation="Horizontal" Margin="5,5,5,5">
-                <Button x:Name="LoginBtnUser" Content="User" Width="100" FontFamily="Bahnschrift SemiBold" FontWeight="Black" Click="LoginBtnUser_Click" >
+                <Button x:Name="LoginBtnUser" Content="User" Width="250" FontFamily="Bahnschrift SemiBold" FontWeight="Black" Click="LoginBtnUser_Click" >
                     <Button.Background>
                         <SolidColorBrush Color="#FF383333" Opacity="0.2"/>
                     </Button.Background>
@@ -47,7 +40,7 @@
                         <SolidColorBrush Color="Black" Opacity="0.4"/>
                     </Button.BorderBrush>
                 </Button>
-                <Button Name="LoginBtnAdmin" Content="Admin" Width="100" Margin="5,0,0,0" FontFamily="Bahnschrift SemiBold" FontWeight="Black" Click="LoginBtnAdmin_Click">
+                <Button Name="LoginBtnAdmin" Content="Admin" Width="250" Margin="7,0,0,0" FontFamily="Bahnschrift SemiBold" FontWeight="Black" Click="LoginBtnAdmin_Click">
                     <Button.Background>
                         <SolidColorBrush Color="#FF383333" Opacity="0.2"/>
                     </Button.Background>

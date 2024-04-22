@@ -48,7 +48,18 @@ namespace TicketManagementSystem
         }
         private void viewRoutebtn_Click(object sender, RoutedEventArgs e)
         {
-            this.Frame.Navigate(typeof(DisplayRoute));
+            this.Frame.Navigate(typeof(ViewRoute));
         }
+        private void btnAdminMng_Click(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(AdminManagement));
+        }
+
+        private void btnViewUser_Click(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(ViewUserList));
+        }
+
+
     }
 }

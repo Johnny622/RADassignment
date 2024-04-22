@@ -20,116 +20,91 @@
             </LinearGradientBrush>
         </Grid.Background>
 
-        <StackPanel Orientation="Vertical" Width="1000" Height="850" BorderThickness="2">
-            <StackPanel.BorderBrush>
-                <SolidColorBrush Color="Black" Opacity="0.5"/>
-            </StackPanel.BorderBrush>
-            <StackPanel.Background>
-                <SolidColorBrush Color="White" Opacity="0.5"/>
-            </StackPanel.Background>
-            <Button x:Name="BackBtn" Content="&lt;Back" Background="Transparent" FontSize="24" Click="BackBtn_Click"/>
-            <StackPanel>
-                <Line X1="0" X2="1000" Stroke="Black" StrokeThickness="3"/>
-                <TextBlock Text="Sign Up" FontSize="24" FontWeight="Bold" HorizontalAlignment="Center" Margin="10"/>
-                <Line X1="0" X2="1000" Stroke="Black" StrokeThickness="3"/>
-            </StackPanel>
-
-            <StackPanel Orientation="Horizontal" Margin="10,30,10,0" >
-                <StackPanel Orientation="Vertical" Width="480" Height="440" Margin="0,0,15,0" VerticalAlignment="Top">
-                    <StackPanel.BorderBrush>
-                        <SolidColorBrush Color="Black" Opacity="0.485"/>
-                    </StackPanel.BorderBrush>
-                    <StackPanel Orientation="Horizontal">
-                        <TextBlock Text="Email" FontSize="24"/>
-                        <TextBlock Text="*" FontSize="24" Foreground="Red"/>
-                    </StackPanel>
-                    <TextBox x:Name="SignUpEmail" FontSize="24"/>
-
-                    <StackPanel Orientation="Horizontal">
-                        <TextBlock Text="Password" FontSize="24"/>
-                        <TextBlock Text="***" FontSize="24" Foreground="Red"/>
-                    </StackPanel>
-                    <PasswordBox x:Name="SignUpPassword" FontSize="24"/>
-
-                    <StackPanel Orientation="Horizontal">
-                        <TextBlock Text="Full name as per MyKad" FontSize="24"/>
-                        <TextBlock Text="**" FontSize="24" Foreground="Red"/>
-                    </StackPanel>
-                    <TextBox x:Name="SignUpFullName" FontSize="24"/>
-
-                    <StackPanel Orientation="Horizontal">
-                        <TextBlock Text="MyKad No." FontSize="24"/>
-                        <TextBlock Text="**" FontSize="24" Foreground="Red"/>
-                    </StackPanel>
-                    <TextBox x:Name="SignUpMyKad" FontSize="24"/>
-
-                    <StackPanel Orientation="Horizontal">
-                        <TextBlock Text="Gender" FontSize="24"/>
-                        <TextBlock Text="*" FontSize="24" Foreground="Red"/>
-                    </StackPanel>
-                    <ComboBox x:Name="SignUpGender" FontSize="24" Width="480">
-                        <ComboBoxItem Content="Please Select" IsSelected="True"/>
-                        <ComboBoxItem x:Name="Male" Content="Male"/>
-                        <ComboBoxItem x:Name="Female" Content="Female"/>
-                    </ComboBox>
-
+        <ScrollViewer VerticalScrollBarVisibility="Auto">
+            <StackPanel Orientation="Vertical" Width="1000" Height="750" BorderThickness="2">
+                <StackPanel.BorderBrush>
+                    <SolidColorBrush Color="Black" Opacity="0.5"/>
+                </StackPanel.BorderBrush>
+                <StackPanel.Background>
+                    <SolidColorBrush Color="White" Opacity="0.5"/>
+                </StackPanel.Background>
+                <Button x:Name="BackBtn" Content="&lt;Back" Background="Transparent" FontSize="24" Click="BackBtn_Click"/>
+                <StackPanel>
+                    <Line X1="0" X2="1000" Stroke="Black" StrokeThickness="3"/>
+                    <TextBlock Text="Sign Up" FontSize="24" FontWeight="Bold" HorizontalAlignment="Center" Margin="10"/>
+                    <Line X1="0" X2="1000" Stroke="Black" StrokeThickness="3"/>
                 </StackPanel>
-                <StackPanel Orientation="Vertical" Width="480" Height="440"  >
-                    <StackPanel Orientation="Horizontal">
-                        <TextBlock Text="Confirm email" FontSize="24"/>
-                        <TextBlock Text="*" FontSize="24" Foreground="Red"/>
-                    </StackPanel>
-                    <TextBox x:Name="SignUpConfEmail" FontSize="24"/>
 
-                    <StackPanel Orientation="Horizontal">
-                        <TextBlock Text="Confirm password" FontSize="24"/>
-                        <TextBlock Text="***" FontSize="24" Foreground="Red"/>
-                    </StackPanel>
-                    <PasswordBox x:Name="SignUpConfPassword" FontSize="24"/>
+                <StackPanel Orientation="Horizontal" Margin="10,30,10,0" >
+                    <RelativePanel>
+                        <TextBlock x:Name="EmailBlock" Text="Email" FontSize="20" Margin="0,0,10,0"/>
+                        <TextBlock Text="*" FontSize="20" Foreground="Red" RelativePanel.RightOf="EmailBlock"/>
+                        <TextBox x:Name="SignUpEmail" FontSize="20" Width="480" Margin="0,0,10,0" RelativePanel.Below="EmailBlock"/>
 
-                    <StackPanel Orientation="Horizontal">
-                        <TextBlock Text="Contact No." FontSize="24"/>
-                        <TextBlock Text="*" FontSize="24" Foreground="Red"/>
-                    </StackPanel>
-                    <TextBox x:Name="SignUpContact" FontSize="24"/>
+                        <TextBlock x:Name="ConfEmailBlock" Text="Confirm email" FontSize="20" Margin="0,0,10,0" RelativePanel.RightOf="SignUpEmail" />
+                        <TextBlock Text="*" FontSize="20" Foreground="Red" RelativePanel.RightOf="ConfEmailBlock"/>
+                        <TextBox x:Name="SignUpConfEmail" FontSize="20" Width="480" Margin="0,0 10,0" RelativePanel.Below="ConfEmailBlock" RelativePanel.RightOf="SignUpEmail" />
 
-                    <StackPanel Orientation="Horizontal">
-                        <TextBlock Text="Confirm MyKad No." FontSize="24"/>
-                        <TextBlock Text="**" FontSize="24" Foreground="Red"/>
-                    </StackPanel>
-                    <TextBox x:Name="SignUpConfMyKad" FontSize="24"/>
+                        <TextBlock x:Name="PasswordBlock" Text="Password" FontSize="20" Margin="0,0,10,0" RelativePanel.Below="SignUpEmail"/>
+                        <TextBlock Text="***" FontSize="20" Foreground="Red" RelativePanel.RightOf="PasswordBlock" RelativePanel.Below="SignUpEmail"/>
+                        <PasswordBox x:Name="SignUpPassword" FontSize="20" Width="480" Margin="0,0,10,0" RelativePanel.Below="PasswordBlock"/>
 
-                    <StackPanel Orientation="Horizontal">
-                        <TextBlock Text="Upload Profile Picture" FontSize="24"/>
-                        <TextBlock Text="*" FontSize="24" Foreground="Red"/>
-                    </StackPanel>
-                    
-                    <StackPanel Orientation="Horizontal">
-                        <Button x:Name="UploadButton" FontSize="24" Content="Upload Image" HorizontalAlignment="Left" VerticalAlignment="Top" Click="UploadButton_Click"/>
-                        <Image x:Name="imgProfile" Width="100" Height="100" Margin="20,0"></Image>
-                    </StackPanel>
+                        <TextBlock x:Name="ConfPwBlock" Text="Confirm password" FontSize="20" Margin="0,0,10,0" RelativePanel.RightOf="SignUpPassword" RelativePanel.Below="SignUpConfEmail"/>
+                        <TextBlock Text="***" FontSize="20" Foreground="Red" RelativePanel.RightOf="ConfPwBlock" RelativePanel.Below="SignUpConfEmail"/>
+                        <PasswordBox x:Name="SignUpConfPassword" FontSize="20" Width="480" Margin="0,0 10,0" RelativePanel.Below="ConfPwBlock" RelativePanel.RightOf="SignUpPassword"/>
+
+                        <TextBlock x:Name="NameBlock" Text="Full name as per MyKad" FontSize="20" Margin="0,0,10,0" RelativePanel.Below="SignUpPassword"/>
+                        <TextBlock Text="**" FontSize="20" Foreground="Red"  RelativePanel.RightOf="NameBlock" RelativePanel.Below="SignUpPassword"/>
+                        <TextBox x:Name="SignUpFullName" FontSize="20"  Width="480" Margin="0,0,10,0" RelativePanel.Below="NameBlock"/>
+
+                        <TextBlock x:Name="ContactBlock" Text="Contact No." FontSize="20" Margin="0,0,10,0" RelativePanel.RightOf="SignUpFullName" RelativePanel.Below="SignUpConfPassword"/>
+                        <TextBlock Text="*" FontSize="20" Foreground="Red" RelativePanel.RightOf="ContactBlock" RelativePanel.Below="SignUpConfPassword"/>
+                        <TextBox x:Name="SignUpContact" FontSize="20" Width="480" Margin="0,0 10,0" RelativePanel.Below="ContactBlock" RelativePanel.RightOf="SignUpFullName"/>
+
+
+                        <TextBlock x:Name="IcBlock" Text="MyKad No." FontSize="20" Margin="0,0,10,0" RelativePanel.Below="SignUpFullName"/>
+                        <TextBlock Text="**" FontSize="20" Foreground="Red" RelativePanel.RightOf="IcBlock" RelativePanel.Below="SignUpFullName"/>
+                        <TextBox x:Name="SignUpMyKad" FontSize="20" Width="480" Margin="0,0,10,0" RelativePanel.Below="IcBlock"/>
+
+                        <TextBlock x:Name="ConfIcBlock" Text="Confirm MyKad No." FontSize="20" Margin="0,0,10,0" RelativePanel.RightOf="SignUpEmail"  RelativePanel.Below="SignUpContact"/>
+                        <TextBlock Text="**" FontSize="20" Foreground="Red" RelativePanel.RightOf="ConfIcBlock" RelativePanel.Below="SignUpContact"/>
+                        <TextBox x:Name="SignUpConfMyKad" FontSize="20" Width="480" Margin="0,0 10,0" RelativePanel.Below="ConfIcBlock" RelativePanel.RightOf="SignUpEmail"/>
+
+
+                        <TextBlock x:Name="GenderBlock" Text="Gender" FontSize="20" Margin="0,0,10,0" RelativePanel.Below="SignUpMyKad"/>
+                        <TextBlock Text="*" FontSize="20" Foreground="Red" RelativePanel.RightOf="GenderBlock" RelativePanel.Below="SignUpMyKad"/>
+                        <ComboBox x:Name="SignUpGender" FontSize="20" Width="480" Margin="0,0 10,0" RelativePanel.Below="GenderBlock">
+                            <ComboBoxItem Content="Please Select" IsSelected="True"/>
+                            <ComboBoxItem x:Name="Male" Content="Male"/>
+                            <ComboBoxItem x:Name="Female" Content="Female"/>
+                        </ComboBox>
+
+                        <TextBlock x:Name="UploadBlock" Text="Upload Profile Picture" FontSize="20" Margin="0,0,10,0" RelativePanel.RightOf="SignUpEmail"  RelativePanel.Below="SignUpConfMyKad"/>
+                        <TextBlock Text="*" FontSize="20" Foreground="Red" RelativePanel.RightOf="UploadBlock" RelativePanel.Below="SignUpConfMyKad"/>
+                        <Button x:Name="UploadButton" FontSize="20" RelativePanel.Below="UploadBlock" RelativePanel.RightOf="SignUpEmail" Content="Upload Image" HorizontalAlignment="Left" VerticalAlignment="Top" Click="UploadButton_Click"/>
+                        <Image x:Name="imgProfile" Width="100" Height="100" Margin="20,0" RelativePanel.RightOf="UploadBlock" RelativePanel.Below="SignUpConfMyKad"></Image>
+                    </RelativePanel>
                 </StackPanel>
-            </StackPanel>
 
-            <TextBlock Text="If you faced any difficulty when signing up,"  FontSize="20" Margin="10,0,0,0"/>
-            <TextBlock Text="please contact us at +60 16-980 1560." FontSize="20" Margin="10,0,0,0"/>
-            <StackPanel Orientation="Horizontal" Margin="10,10,0,0">
-                <TextBlock Text="*" FontSize="24" Foreground="Red"/>
-                <TextBlock Text=" Field Must Be Filled" FontSize="20"/>
-            </StackPanel>
-            <StackPanel Orientation="Horizontal" Margin="10,0,0,0">
-                <TextBlock Text="**" FontSize="24" Foreground="Red"/>
-                <TextBlock Text=" Name and MyKad no. cannot be changed after sign up." FontSize="20"/>
-            </StackPanel>
-            <StackPanel Orientation="Horizontal" Margin="10,0,0,0">
-                <TextBlock Text="***" FontSize="24" Foreground="Red"/>
-                <TextBlock Text=" Password Requirement : Minimum 8 character - at least 1 uppercase , lowercase and numbers" FontSize="20"/>
-            </StackPanel>
+                <TextBlock Text="If you faced any difficulty when signing up,"  FontSize="16" Margin="10,0,0,0"/>
+                <TextBlock Text="please contact us at +60 16-980 1560." FontSize="16" Margin="10,0,0,0"/>
+                <StackPanel Orientation="Horizontal" Margin="10,10,0,0">
+                    <TextBlock Text="*" FontSize="16" Foreground="Red"/>
+                    <TextBlock Text=" Field Must Be Filled" FontSize="16"/>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" Margin="10,0,0,0">
+                    <TextBlock Text="**" FontSize="16" Foreground="Red"/>
+                    <TextBlock Text=" Name and MyKad no. cannot be changed after sign up." FontSize="16"/>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" Margin="10,0,0,0">
+                    <TextBlock Text="***" FontSize="16" Foreground="Red"/>
+                    <TextBlock Text=" Password Requirement : Minimum 8 character - at least 1 uppercase , lowercase and numbers" FontSize="16"/>
+                </StackPanel>
 
-            <TextBlock x:Name="ErrorMessage" FontSize="22" Foreground="Red" HorizontalAlignment="Center"/>
-            <Button x:Name="SignUpSubmitBtn" FontSize="24" Content="Sign Up" HorizontalAlignment="Stretch" Background="#FFFFAF00" Margin="10,0,10,10" Click="SignUpSubmitBtn_Click"/>
+                <TextBlock x:Name="ErrorMessage" FontSize="22" Foreground="Red" HorizontalAlignment="Center"/>
+                <Button x:Name="SignUpSubmitBtn" FontSize="24" Content="Sign Up" HorizontalAlignment="Stretch" Background="#FFFFAF00" Margin="10,0,10,10" Click="SignUpSubmitBtn_Click"/>
 
-        </StackPanel>
-
+            </StackPanel>
+        </ScrollViewer>
     </Grid>
 </Page>

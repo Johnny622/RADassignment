@@ -51,7 +51,7 @@ namespace TicketManagementSystem
                         ContentDialog deleteConfirmation = new ContentDialog()
                         {
                             Title = "Delete Confirmation",
-                            Content = "Do You Want To Delete This Route\n-> " + traindetail.TrainKey + " ? \nWARNING!! : ANY DELETE CANNOT BE UNDO.",
+                            Content = "Do You Want To Delete This Route\n-> " + traindetail.trainID + " ? \nWARNING!! : ANY DELETE CANNOT BE UNDO.",
                             CloseButtonText = "Cancel",
                             SecondaryButtonText = "Delete"
                         };

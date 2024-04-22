@@ -190,20 +190,60 @@ namespace TicketManagementSystem.Class
             return (await firebase
               .Child("Route")
               .OnceAsync<TrainDetails>()).Select(item => new TrainDetails
-              {
 
+              {
+                  TrainKey = item.Key,
+                  trainID = item.Object.trainID,
                   origin = item.Object.origin,
                   destination = item.Object.destination,
-                  trainID = item.Object.trainID,
                   price = item.Object.price,
                   availableseat = item.Object.availableseat,
                   departdate = item.Object.departdate,
                   arrivaldate = item.Object.arrivaldate,
-                  departtime = item.Object.destination,
+                  departtime = item.Object.departtime,
                   arrivaltime = item.Object.arrivaltime,
               }).ToList();
         }
 
+        public async Task<TrainDetails> GetAllRouteByID(String trainkey)
+        {
+            var trainDetailsList = await firebase
+                .Child("Route")
+                .OnceAsync<TrainDetails>();
+
+            var traindetail = trainDetailsList
+                .Select(item => new TrainDetails
+
+                {
+                    TrainKey = item.Key,
+                    trainID = item.Object.trainID,
+                    origin = item.Object.origin,    
+                    destination = item.Object.destination,
+                    price = item.Object.price,
+                    availableseat = item.Object.availableseat,
+                    departdate = item.Object.departdate,
+                    arrivaldate=item.Object.arrivaldate,
+
+
+                }).FirstOrDefault(t => t.TrainKey == trainkey);   
+            return traindetail;
+        }
+
+        public async Task DeleteRoute(string key)
+        {
+            await firebase.Child("Route").Child(key).DeleteAsync(); //using firebase primary key
+        }
+
+        public async Task UpdateRoute(TrainDetails t)
+        {
+            //Solution 1
+            await firebase
+            .Child("Route")
+            .Child(t.TrainKey)
+            .PutAsync(JsonConvert.SerializeObject(t));
+        }
+
+      
 
     }
 }

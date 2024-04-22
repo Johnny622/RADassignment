@@ -116,6 +116,9 @@
     <RestoreProjectStyle>PackageReference</RestoreProjectStyle>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="AddRoute.xaml.cs">
+      <DependentUpon>AddRoute.xaml</DependentUpon>
+    </Compile>
     <Compile Include="AdminChangePassword.xaml.cs">
       <DependentUpon>AdminChangePassword.xaml</DependentUpon>
     </Compile>
@@ -145,6 +148,12 @@
     <Compile Include="Class\TrainDetails.cs" />
     <Compile Include="Class\UserDetail.cs" />
     <Compile Include="Class\GlobalVariable.cs" />
+    <Compile Include="DeleteRoute.xaml.cs">
+      <DependentUpon>DeleteRoute.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="DisplayRoute.xaml.cs">
+      <DependentUpon>DisplayRoute.xaml</DependentUpon>
+    </Compile>
     <Compile Include="ForgetPassword.xaml.cs">
       <DependentUpon>ForgetPassword.xaml</DependentUpon>
     </Compile>
@@ -173,11 +182,17 @@
     <Compile Include="TrainManagement.xaml.cs">
       <DependentUpon>TrainManagement.xaml</DependentUpon>
     </Compile>
+    <Compile Include="UpdateRoute.xaml.cs">
+      <DependentUpon>UpdateRoute.xaml</DependentUpon>
+    </Compile>
     <Compile Include="UserManagement.xaml.cs">
       <DependentUpon>UserManagement.xaml</DependentUpon>
     </Compile>
     <Compile Include="UserProfile.xaml.cs">
       <DependentUpon>UserProfile.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ViewRoute.xaml.cs">
+      <DependentUpon>ViewRoute.xaml</DependentUpon>
     </Compile>
     <Compile Include="ViewUserList.xaml.cs">
       <DependentUpon>ViewUserList.xaml</DependentUpon>
@@ -225,6 +240,10 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Page Include="AddRoute.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="AdminChangePassword.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -250,6 +269,14 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="CustomStyles.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="DeleteRoute.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="DisplayRoute.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -289,11 +316,19 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="UpdateRoute.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="UserManagement.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="UserProfile.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ViewRoute.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

@@ -184,6 +184,9 @@
     <AppxPackagedFile Include="C:\Users\EDT\Documents\Y2S3\Rapid\New folder\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\EDT\Documents\Y2S3\Rapid\New folder\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\AddRoute.xbf">
+      <PackagePath>AddRoute.xbf</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\EDT\Documents\Y2S3\Rapid\New folder\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\AdminChangePassword.xbf">
       <PackagePath>AdminChangePassword.xbf</PackagePath>
     </AppxPackagedFile>
@@ -204,6 +207,12 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\EDT\Documents\Y2S3\Rapid\New folder\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\CustomStyles.xbf">
       <PackagePath>CustomStyles.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\EDT\Documents\Y2S3\Rapid\New folder\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\DeleteRoute.xbf">
+      <PackagePath>DeleteRoute.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\EDT\Documents\Y2S3\Rapid\New folder\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\DisplayRoute.xbf">
+      <PackagePath>DisplayRoute.xbf</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\EDT\Documents\Y2S3\Rapid\New folder\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\ForgetPassword.xbf">
       <PackagePath>ForgetPassword.xbf</PackagePath>
@@ -232,11 +241,17 @@
     <AppxPackagedFile Include="C:\Users\EDT\Documents\Y2S3\Rapid\New folder\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\TrainManagement.xbf">
       <PackagePath>TrainManagement.xbf</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\EDT\Documents\Y2S3\Rapid\New folder\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\UpdateRoute.xbf">
+      <PackagePath>UpdateRoute.xbf</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\EDT\Documents\Y2S3\Rapid\New folder\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\UserManagement.xbf">
       <PackagePath>UserManagement.xbf</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\EDT\Documents\Y2S3\Rapid\New folder\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\UserProfile.xbf">
       <PackagePath>UserProfile.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\EDT\Documents\Y2S3\Rapid\New folder\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\ViewRoute.xbf">
+      <PackagePath>ViewRoute.xbf</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\EDT\Documents\Y2S3\Rapid\New folder\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\ViewUserList.xbf">
       <PackagePath>ViewUserList.xbf</PackagePath>

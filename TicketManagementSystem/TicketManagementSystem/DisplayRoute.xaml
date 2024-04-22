@@ -1,0 +1,32 @@
+﻿<Page
+    x:Class="TicketManagementSystem.DisplayRoute"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:TicketManagementSystem"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:local1="using:TicketManagementSystem.Class"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid  Background="#D7ECFF">
+        <ScrollViewer HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Auto" >
+            <StackPanel x:Name="rightContent" Orientation="Vertical" Margin="30,10"  >
+                <Button x:Name="backBtn" Content="&lt; Back" Background="Transparent" FontSize="22" Click="backBtn_Click"/>
+                <TextBlock Text="VIEW ALL ROUTE" FontFamily="Bahnschrift SemiBold" FontSize="24" FontWeight="Bold" Foreground="DarkBlue" Margin="20,10"/>
+                <Image Source="Assets/ets-logo.png" Height="40" HorizontalAlignment="Left" Margin="20,10"/>
+
+                <StackPanel Orientation="Horizontal" Margin="20,10" BorderBrush="#4863A0" BorderThickness="2">
+                    <TextBlock Text="Origin : " FontFamily="Bahnschrift SemiBold" FontSize="16" FontWeight="Bold" Foreground="DarkBlue" Margin="20,10"/>
+                    <ComboBox x:Name="origin"  FontFamily="Bahnschrift SemiBold" FontSize="20" FontWeight="Bold" Foreground="DarkBlue" Margin="20,10"/>
+                    <TextBlock Text="Destination : " FontFamily="Bahnschrift SemiBold" FontSize="16" FontWeight="Bold" Foreground="DarkBlue" Margin="20,10"/>
+                    <ComboBox x:Name="destination"  FontFamily="Bahnschrift SemiBold" FontSize="20" FontWeight="Bold" Foreground="DarkBlue" Margin="20,10"/>
+
+                </StackPanel>
+                <StackPanel Orientation="Vertical" BorderBrush="#4863A0" BorderThickness="2">
+                    <StackPanel x:Name="trainDetailsContainer" Margin="10"/>
+                </StackPanel>
+            </StackPanel>
+        </ScrollViewer>
+
+    </Grid>
+</Page>

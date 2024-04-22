@@ -114,6 +114,11 @@ namespace TicketManagementSystem
             try
             {
                 cbxTrain.Items.Clear();
+                cbxReturnTrain.Items.Clear();
+                txtReturnDepartTime.Text = "NA";
+                txtReturnETA.Text = "NA";
+                txtReturnSeat.Text = "0";
+                txtReturnPrice.Text = "0";
                 tbDepartTime.Text = "NA";
                 tbArrivalTime.Text = "NA";
                 seat.Text = "0";
@@ -128,6 +133,11 @@ namespace TicketManagementSystem
                 else
                 {
                     DisplayDialog("Error Input", "Must be a number");
+                }
+
+                if(cbReturn.IsChecked == true)
+                {
+                    spReturnInformation.Visibility = Visibility.Visible;
                 }
 
                 foreach (TrainDetails detail in trainDetails)
@@ -162,8 +172,11 @@ namespace TicketManagementSystem
             }
         }
 
+        decimal departPrice, returnPrice, totalTicketPrice;
+
         private async void cbxTrain_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
+            txtTotal.Text = string.Empty;
             var selectedItem = cbxTrain.SelectedItem;
 
             if (selectedItem != null)
@@ -177,15 +190,20 @@ namespace TicketManagementSystem
                     {
                         tbDepartTime.Text = detail.departtime.ToString();
                         tbArrivalTime.Text = detail.arrivaltime.ToString();
-                        seat.Text = detail.availableseat.ToString();
+                        seat.Text = "240";
                         price.Text = detail.price.ToString();
                     }
                 }
+                departPrice = decimal.Parse(price.Text);
+                returnPrice = decimal.Parse(txtReturnPrice.Text);
+                totalTicketPrice = departPrice + returnPrice;
+                txtTotal.Text = totalTicketPrice.ToString("N2");
             }
         }
 
         private async void cbxReturnTrain_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
+            txtTotal.Text = string.Empty;
             var selectedItem = cbxReturnTrain.SelectedItem;
 
             if (selectedItem != null)
@@ -203,6 +221,10 @@ namespace TicketManagementSystem
                         txtReturnPrice.Text = detail.price.ToString();
                     }
                 }
+                departPrice = decimal.Parse(price.Text);
+                returnPrice = decimal.Parse(txtReturnPrice.Text);
+                totalTicketPrice = departPrice + returnPrice;
+                txtTotal.Text = totalTicketPrice.ToString("N2");
             }
         }
 

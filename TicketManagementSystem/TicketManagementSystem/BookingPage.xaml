@@ -104,11 +104,11 @@
                         </StackPanel>
                         <StackPanel Margin="20,0,0,0">
                             <TextBlock Text="Depart Time"/>
-                            <TextBox x:Name="tbDepartTime" IsReadOnly="True" Text="xx:xx pm" Width="100" TextAlignment="Center"/>
+                            <TextBox x:Name="tbDepartTime" IsReadOnly="True" Text="NA" Width="100" TextAlignment="Center"/>
                         </StackPanel>
                         <StackPanel Margin="20,0,0,0">
                             <TextBlock Text="ETA"/>
-                            <TextBox x:Name="tbArrivalTime" IsReadOnly="True" Text="xx:xx pm" Width="100" TextAlignment="Center"/>
+                            <TextBox x:Name="tbArrivalTime" IsReadOnly="True" Text="NA" Width="100" TextAlignment="Center"/>
                         </StackPanel>
                         <StackPanel Margin="20,0,0,0">
                             <TextBlock Text="Available Seat"/>
@@ -173,7 +173,7 @@
 
             <StackPanel Orientation="Horizontal">
                 <TextBlock Text="Total: RM" VerticalAlignment="Center" FontWeight="Bold" Margin="0,0,5,0"/>
-                <TextBox Text="0.00" IsReadOnly="True"/>
+                <TextBox x:Name="txtTotal" Text="0.00" IsReadOnly="True"/>
             </StackPanel>
             <Button x:Name="btnNext" Background="#F4BC1C" Height="50" HorizontalAlignment="Right" Margin="20" Click="btnNext_Click">
                 <StackPanel Orientation="Horizontal" Width="130">

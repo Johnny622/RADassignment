@@ -82,7 +82,7 @@ namespace TicketManagementSystem
                         }
                         catch (Exception ex)
                         {
-                            //DisplayDialog("Error", "Error: " + ex.Message);
+                            DisplayDialog("Error", "Error: " + ex.Message);
                         }
                     }
                 }
@@ -93,21 +93,21 @@ namespace TicketManagementSystem
             }
 
         }
-        
-            
-           
 
-        //private async void DisplayDialog(string title, string content)
-        //{
-        //    ContentDialog noDialog = new ContentDialog
-        //    {
-        //        Title = title,
-        //        Content = content,
-        //        CloseButtonText = "Ok"
-        //    };
 
-        //    ContentDialogResult result = await noDialog.ShowAsync();
-        //}
+
+
+        private async void DisplayDialog(string title, string content)
+        {
+            ContentDialog noDialog = new ContentDialog
+            {
+                Title = title,
+                Content = content,
+                CloseButtonText = "Ok"
+            };
+
+            ContentDialogResult result = await noDialog.ShowAsync();
+        }
 
     }
 

@@ -245,7 +245,6 @@ namespace TicketManagementSystem
             }
             catch (Exception ex)
             {
-                // Handle exceptions
             }
         }
 

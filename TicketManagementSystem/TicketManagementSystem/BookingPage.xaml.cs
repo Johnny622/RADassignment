@@ -150,7 +150,7 @@ namespace TicketManagementSystem
                     string departDate = detail.departdate.ToString();
                     string userDepartDate = dpDepartDate.Date.ToString("dd-MM-yyyy");
                     string userReturnDate = dpReturnDate.Date.ToString("dd-MM-yyyy");
-                    int trainNo = detail.trainID;
+                    string trainNo = detail.trainID;
 
                     //depart information
                     if (userOrigin.Equals(origin) && userDestination.Equals(destination) && userDepartDate.Equals(departDate))

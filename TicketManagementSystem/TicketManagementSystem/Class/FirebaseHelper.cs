@@ -31,6 +31,7 @@ namespace TicketManagementSystem.Class
                   Name = item.Object.Name,
                   Phone = item.Object.Phone,
                   SeatNumber = item.Object.SeatNumber,
+                  Coach = item.Object.Coach,
               }).ToList();
         }
 

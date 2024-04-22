@@ -1,119 +1,34 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\EDT\\Desktop\\Test\\RADassignment\\TicketManagementSystem\\",
+  "WorkspaceRootPath": "C:\\Users\\Lau Tin Tin\\Desktop\\RAD Clone New\\RADassignment\\TicketManagementSystem\\",
   "Documents": [
     {
-<<<<<<< HEAD
-      "AbsoluteMoniker": "D:0:0:{12FFD5F2-CE33-42CC-8F13-9B90EF87164E}|TicketManagementSystem\\TicketManagementSystem.csproj|C:\\Users\\Janet\\Desktop\\RADassignment\\TicketManagementSystem\\ticketmanagementsystem\\bookingpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-=======
-      "AbsoluteMoniker": "D:0:0:{12FFD5F2-CE33-42CC-8F13-9B90EF87164E}|TicketManagementSystem\\TicketManagementSystem.csproj|c:\\users\\edt\\desktop\\test\\radassignment\\ticketmanagementsystem\\ticketmanagementsystem\\deleteroute.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{12FFD5F2-CE33-42CC-8F13-9B90EF87164E}|TicketManagementSystem\\TicketManagementSystem.csproj|solutionrelative:ticketmanagementsystem\\deleteroute.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{12FFD5F2-CE33-42CC-8F13-9B90EF87164E}|TicketManagementSystem\\TicketManagementSystem.csproj|c:\\users\\lau tin tin\\desktop\\rad clone new\\radassignment\\ticketmanagementsystem\\ticketmanagementsystem\\class\\passengerdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12FFD5F2-CE33-42CC-8F13-9B90EF87164E}|TicketManagementSystem\\TicketManagementSystem.csproj|solutionrelative:ticketmanagementsystem\\class\\passengerdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{12FFD5F2-CE33-42CC-8F13-9B90EF87164E}|TicketManagementSystem\\TicketManagementSystem.csproj|c:\\users\\edt\\desktop\\test\\radassignment\\ticketmanagementsystem\\ticketmanagementsystem\\deleteroute.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{12FFD5F2-CE33-42CC-8F13-9B90EF87164E}|TicketManagementSystem\\TicketManagementSystem.csproj|solutionrelative:ticketmanagementsystem\\deleteroute.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{12FFD5F2-CE33-42CC-8F13-9B90EF87164E}|TicketManagementSystem\\TicketManagementSystem.csproj|c:\\users\\edt\\desktop\\test\\radassignment\\ticketmanagementsystem\\ticketmanagementsystem\\trainmanagement.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{12FFD5F2-CE33-42CC-8F13-9B90EF87164E}|TicketManagementSystem\\TicketManagementSystem.csproj|solutionrelative:ticketmanagementsystem\\trainmanagement.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{12FFD5F2-CE33-42CC-8F13-9B90EF87164E}|TicketManagementSystem\\TicketManagementSystem.csproj|c:\\users\\edt\\desktop\\test\\radassignment\\ticketmanagementsystem\\ticketmanagementsystem\\trainmanagement.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{12FFD5F2-CE33-42CC-8F13-9B90EF87164E}|TicketManagementSystem\\TicketManagementSystem.csproj|solutionrelative:ticketmanagementsystem\\trainmanagement.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{12FFD5F2-CE33-42CC-8F13-9B90EF87164E}|TicketManagementSystem\\TicketManagementSystem.csproj|c:\\users\\edt\\desktop\\test\\radassignment\\ticketmanagementsystem\\ticketmanagementsystem\\displayroute.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{12FFD5F2-CE33-42CC-8F13-9B90EF87164E}|TicketManagementSystem\\TicketManagementSystem.csproj|solutionrelative:ticketmanagementsystem\\displayroute.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{12FFD5F2-CE33-42CC-8F13-9B90EF87164E}|TicketManagementSystem\\TicketManagementSystem.csproj|C:\\Users\\EDT\\Desktop\\Test\\RADassignment\\TicketManagementSystem\\ticketmanagementsystem\\usermanagement.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{12FFD5F2-CE33-42CC-8F13-9B90EF87164E}|TicketManagementSystem\\TicketManagementSystem.csproj|solutionrelative:ticketmanagementsystem\\usermanagement.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{12FFD5F2-CE33-42CC-8F13-9B90EF87164E}|TicketManagementSystem\\TicketManagementSystem.csproj|c:\\users\\edt\\desktop\\test\\radassignment\\ticketmanagementsystem\\ticketmanagementsystem\\usermanagement.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{12FFD5F2-CE33-42CC-8F13-9B90EF87164E}|TicketManagementSystem\\TicketManagementSystem.csproj|solutionrelative:ticketmanagementsystem\\usermanagement.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{12FFD5F2-CE33-42CC-8F13-9B90EF87164E}|TicketManagementSystem\\TicketManagementSystem.csproj|c:\\users\\edt\\desktop\\test\\radassignment\\ticketmanagementsystem\\ticketmanagementsystem\\adminmanagement.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{12FFD5F2-CE33-42CC-8F13-9B90EF87164E}|TicketManagementSystem\\TicketManagementSystem.csproj|solutionrelative:ticketmanagementsystem\\adminmanagement.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{12FFD5F2-CE33-42CC-8F13-9B90EF87164E}|TicketManagementSystem\\TicketManagementSystem.csproj|c:\\users\\edt\\desktop\\test\\radassignment\\ticketmanagementsystem\\ticketmanagementsystem\\adminmanagement.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{12FFD5F2-CE33-42CC-8F13-9B90EF87164E}|TicketManagementSystem\\TicketManagementSystem.csproj|solutionrelative:ticketmanagementsystem\\adminmanagement.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{12FFD5F2-CE33-42CC-8F13-9B90EF87164E}|TicketManagementSystem\\TicketManagementSystem.csproj|c:\\users\\edt\\desktop\\test\\radassignment\\ticketmanagementsystem\\ticketmanagementsystem\\obj\\x86\\debug\\trainmanagement.g.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{12FFD5F2-CE33-42CC-8F13-9B90EF87164E}|TicketManagementSystem\\TicketManagementSystem.csproj|solutionrelative:ticketmanagementsystem\\obj\\x86\\debug\\trainmanagement.g.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{12FFD5F2-CE33-42CC-8F13-9B90EF87164E}|TicketManagementSystem\\TicketManagementSystem.csproj|c:\\users\\edt\\desktop\\test\\radassignment\\ticketmanagementsystem\\ticketmanagementsystem\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{12FFD5F2-CE33-42CC-8F13-9B90EF87164E}|TicketManagementSystem\\TicketManagementSystem.csproj|solutionrelative:ticketmanagementsystem\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{12FFD5F2-CE33-42CC-8F13-9B90EF87164E}|TicketManagementSystem\\TicketManagementSystem.csproj|C:\\Users\\EDT\\Desktop\\Test\\RADassignment\\TicketManagementSystem\\ticketmanagementsystem\\userprofile.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{12FFD5F2-CE33-42CC-8F13-9B90EF87164E}|TicketManagementSystem\\TicketManagementSystem.csproj|solutionrelative:ticketmanagementsystem\\userprofile.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{12FFD5F2-CE33-42CC-8F13-9B90EF87164E}|TicketManagementSystem\\TicketManagementSystem.csproj|C:\\Users\\EDT\\Desktop\\Test\\RADassignment\\TicketManagementSystem\\ticketmanagementsystem\\forgetpassword.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{12FFD5F2-CE33-42CC-8F13-9B90EF87164E}|TicketManagementSystem\\TicketManagementSystem.csproj|solutionrelative:ticketmanagementsystem\\forgetpassword.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{12FFD5F2-CE33-42CC-8F13-9B90EF87164E}|TicketManagementSystem\\TicketManagementSystem.csproj|C:\\Users\\EDT\\Desktop\\Test\\RADassignment\\TicketManagementSystem\\ticketmanagementsystem\\newuserregister.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{12FFD5F2-CE33-42CC-8F13-9B90EF87164E}|TicketManagementSystem\\TicketManagementSystem.csproj|solutionrelative:ticketmanagementsystem\\newuserregister.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{12FFD5F2-CE33-42CC-8F13-9B90EF87164E}|TicketManagementSystem\\TicketManagementSystem.csproj|C:\\Users\\EDT\\Desktop\\Test\\RADassignment\\TicketManagementSystem\\ticketmanagementsystem\\loginpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{12FFD5F2-CE33-42CC-8F13-9B90EF87164E}|TicketManagementSystem\\TicketManagementSystem.csproj|solutionrelative:ticketmanagementsystem\\loginpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{12FFD5F2-CE33-42CC-8F13-9B90EF87164E}|TicketManagementSystem\\TicketManagementSystem.csproj|C:\\Users\\EDT\\Desktop\\Test\\RADassignment\\TicketManagementSystem\\ticketmanagementsystem\\class\\liststaticdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{12FFD5F2-CE33-42CC-8F13-9B90EF87164E}|TicketManagementSystem\\TicketManagementSystem.csproj|solutionrelative:ticketmanagementsystem\\class\\liststaticdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{12FFD5F2-CE33-42CC-8F13-9B90EF87164E}|TicketManagementSystem\\TicketManagementSystem.csproj|C:\\Users\\EDT\\Desktop\\Test\\RADassignment\\TicketManagementSystem\\ticketmanagementsystem\\seatselectionpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{12FFD5F2-CE33-42CC-8F13-9B90EF87164E}|TicketManagementSystem\\TicketManagementSystem.csproj|c:\\users\\lau tin tin\\desktop\\rad clone new\\radassignment\\ticketmanagementsystem\\ticketmanagementsystem\\seatselectionpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{12FFD5F2-CE33-42CC-8F13-9B90EF87164E}|TicketManagementSystem\\TicketManagementSystem.csproj|solutionrelative:ticketmanagementsystem\\seatselectionpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{12FFD5F2-CE33-42CC-8F13-9B90EF87164E}|TicketManagementSystem\\TicketManagementSystem.csproj|C:\\Users\\EDT\\Desktop\\Test\\RADassignment\\TicketManagementSystem\\ticketmanagementsystem\\seatselectiondialog.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{12FFD5F2-CE33-42CC-8F13-9B90EF87164E}|TicketManagementSystem\\TicketManagementSystem.csproj|solutionrelative:ticketmanagementsystem\\seatselectiondialog.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{12FFD5F2-CE33-42CC-8F13-9B90EF87164E}|TicketManagementSystem\\TicketManagementSystem.csproj|C:\\Users\\EDT\\Desktop\\Test\\RADassignment\\TicketManagementSystem\\ticketmanagementsystem\\bookingpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
->>>>>>> 8c02ea8bebb4cddf203356124421e5d520fb3db0
+      "AbsoluteMoniker": "D:0:0:{12FFD5F2-CE33-42CC-8F13-9B90EF87164E}|TicketManagementSystem\\TicketManagementSystem.csproj|c:\\users\\lau tin tin\\desktop\\rad clone new\\radassignment\\ticketmanagementsystem\\ticketmanagementsystem\\bookingpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{12FFD5F2-CE33-42CC-8F13-9B90EF87164E}|TicketManagementSystem\\TicketManagementSystem.csproj|solutionrelative:ticketmanagementsystem\\bookingpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{12FFD5F2-CE33-42CC-8F13-9B90EF87164E}|TicketManagementSystem\\TicketManagementSystem.csproj|C:\\Users\\EDT\\Desktop\\Test\\RADassignment\\TicketManagementSystem\\ticketmanagementsystem\\bookingpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{12FFD5F2-CE33-42CC-8F13-9B90EF87164E}|TicketManagementSystem\\TicketManagementSystem.csproj|solutionrelative:ticketmanagementsystem\\bookingpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-<<<<<<< HEAD
-      "AbsoluteMoniker": "D:0:0:{12FFD5F2-CE33-42CC-8F13-9B90EF87164E}|TicketManagementSystem\\TicketManagementSystem.csproj|c:\\users\\janet\\desktop\\radassignment\\ticketmanagementsystem\\ticketmanagementsystem\\passengerdetailpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{12FFD5F2-CE33-42CC-8F13-9B90EF87164E}|TicketManagementSystem\\TicketManagementSystem.csproj|solutionrelative:ticketmanagementsystem\\passengerdetailpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{12FFD5F2-CE33-42CC-8F13-9B90EF87164E}|TicketManagementSystem\\TicketManagementSystem.csproj|c:\\users\\janet\\desktop\\radassignment\\ticketmanagementsystem\\ticketmanagementsystem\\displayroute.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{12FFD5F2-CE33-42CC-8F13-9B90EF87164E}|TicketManagementSystem\\TicketManagementSystem.csproj|solutionrelative:ticketmanagementsystem\\displayroute.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{12FFD5F2-CE33-42CC-8F13-9B90EF87164E}|TicketManagementSystem\\TicketManagementSystem.csproj|c:\\users\\janet\\desktop\\radassignment\\ticketmanagementsystem\\ticketmanagementsystem\\passengerdetailpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{12FFD5F2-CE33-42CC-8F13-9B90EF87164E}|TicketManagementSystem\\TicketManagementSystem.csproj|solutionrelative:ticketmanagementsystem\\passengerdetailpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{12FFD5F2-CE33-42CC-8F13-9B90EF87164E}|TicketManagementSystem\\TicketManagementSystem.csproj|c:\\users\\janet\\desktop\\radassignment\\ticketmanagementsystem\\ticketmanagementsystem\\displayroute.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{12FFD5F2-CE33-42CC-8F13-9B90EF87164E}|TicketManagementSystem\\TicketManagementSystem.csproj|solutionrelative:ticketmanagementsystem\\displayroute.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{12FFD5F2-CE33-42CC-8F13-9B90EF87164E}|TicketManagementSystem\\TicketManagementSystem.csproj|c:\\users\\janet\\desktop\\radassignment\\ticketmanagementsystem\\ticketmanagementsystem\\seatselectionpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{12FFD5F2-CE33-42CC-8F13-9B90EF87164E}|TicketManagementSystem\\TicketManagementSystem.csproj|solutionrelative:ticketmanagementsystem\\seatselectionpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-=======
-      "AbsoluteMoniker": "D:0:0:{12FFD5F2-CE33-42CC-8F13-9B90EF87164E}|TicketManagementSystem\\TicketManagementSystem.csproj|C:\\Users\\EDT\\Desktop\\Test\\RADassignment\\TicketManagementSystem\\ticketmanagementsystem\\seatselectionpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{12FFD5F2-CE33-42CC-8F13-9B90EF87164E}|TicketManagementSystem\\TicketManagementSystem.csproj|c:\\users\\lau tin tin\\desktop\\rad clone new\\radassignment\\ticketmanagementsystem\\ticketmanagementsystem\\seatselectionpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{12FFD5F2-CE33-42CC-8F13-9B90EF87164E}|TicketManagementSystem\\TicketManagementSystem.csproj|solutionrelative:ticketmanagementsystem\\seatselectionpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{12FFD5F2-CE33-42CC-8F13-9B90EF87164E}|TicketManagementSystem\\TicketManagementSystem.csproj|C:\\Users\\EDT\\Desktop\\Test\\RADassignment\\TicketManagementSystem\\ticketmanagementsystem\\seatselectiondialog.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{12FFD5F2-CE33-42CC-8F13-9B90EF87164E}|TicketManagementSystem\\TicketManagementSystem.csproj|c:\\users\\lau tin tin\\desktop\\rad clone new\\radassignment\\ticketmanagementsystem\\ticketmanagementsystem\\seatselectiondialog.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12FFD5F2-CE33-42CC-8F13-9B90EF87164E}|TicketManagementSystem\\TicketManagementSystem.csproj|solutionrelative:ticketmanagementsystem\\seatselectiondialog.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12FFD5F2-CE33-42CC-8F13-9B90EF87164E}|TicketManagementSystem\\TicketManagementSystem.csproj|c:\\users\\lau tin tin\\desktop\\rad clone new\\radassignment\\ticketmanagementsystem\\ticketmanagementsystem\\seatselectiondialog.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{12FFD5F2-CE33-42CC-8F13-9B90EF87164E}|TicketManagementSystem\\TicketManagementSystem.csproj|solutionrelative:ticketmanagementsystem\\seatselectiondialog.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
->>>>>>> 8c02ea8bebb4cddf203356124421e5d520fb3db0
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12FFD5F2-CE33-42CC-8F13-9B90EF87164E}|TicketManagementSystem\\TicketManagementSystem.csproj|c:\\users\\lau tin tin\\desktop\\rad clone new\\radassignment\\ticketmanagementsystem\\ticketmanagementsystem\\class\\firebasehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12FFD5F2-CE33-42CC-8F13-9B90EF87164E}|TicketManagementSystem\\TicketManagementSystem.csproj|solutionrelative:ticketmanagementsystem\\class\\firebasehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -123,340 +38,96 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-<<<<<<< HEAD
-              "DocumentIndex": 3,
-              "Title": "DisplayRoute.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Janet\\Desktop\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\DisplayRoute.xaml.cs",
-              "RelativeDocumentMoniker": "TicketManagementSystem\\DisplayRoute.xaml.cs",
-              "ToolTip": "C:\\Users\\Janet\\Desktop\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\DisplayRoute.xaml.cs",
-              "RelativeToolTip": "TicketManagementSystem\\DisplayRoute.xaml.cs",
-              "ViewState": "AQIAABEAAAAAAAAAAADgvxsAAAA3AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-22T15:26:20.679Z",
-=======
-              "DocumentIndex": 0,
-              "Title": "DeleteRoute.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\EDT\\Desktop\\Test\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\DeleteRoute.xaml.cs",
-              "RelativeDocumentMoniker": "TicketManagementSystem\\DeleteRoute.xaml.cs",
-              "ToolTip": "C:\\Users\\EDT\\Desktop\\Test\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\DeleteRoute.xaml.cs",
-              "RelativeToolTip": "TicketManagementSystem\\DeleteRoute.xaml.cs",
-              "ViewState": "AQIAAB8AAAAAAAAAAAAQwDUAAABjAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-22T11:55:30.442Z",
->>>>>>> 8c02ea8bebb4cddf203356124421e5d520fb3db0
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-<<<<<<< HEAD
-              "DocumentIndex": 5,
-              "Title": "DisplayRoute.xaml",
-              "DocumentMoniker": "C:\\Users\\Janet\\Desktop\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\DisplayRoute.xaml",
-              "RelativeDocumentMoniker": "TicketManagementSystem\\DisplayRoute.xaml",
-              "ToolTip": "C:\\Users\\Janet\\Desktop\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\DisplayRoute.xaml",
-              "RelativeToolTip": "TicketManagementSystem\\DisplayRoute.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-04-22T15:24:18.043Z",
-=======
               "DocumentIndex": 1,
-              "Title": "DeleteRoute.xaml",
-              "DocumentMoniker": "C:\\Users\\EDT\\Desktop\\Test\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\DeleteRoute.xaml",
-              "RelativeDocumentMoniker": "TicketManagementSystem\\DeleteRoute.xaml",
-              "ToolTip": "C:\\Users\\EDT\\Desktop\\Test\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\DeleteRoute.xaml",
-              "RelativeToolTip": "TicketManagementSystem\\DeleteRoute.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-04-22T11:55:26.682Z",
+              "Title": "SeatSelectionPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Lau Tin Tin\\Desktop\\RAD Clone New\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\SeatSelectionPage.xaml.cs",
+              "RelativeDocumentMoniker": "TicketManagementSystem\\SeatSelectionPage.xaml.cs",
+              "ToolTip": "C:\\Users\\Lau Tin Tin\\Desktop\\RAD Clone New\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\SeatSelectionPage.xaml.cs",
+              "RelativeToolTip": "TicketManagementSystem\\SeatSelectionPage.xaml.cs",
+              "ViewState": "AQIAAC8AAAAAAAAAAAAcwE4BAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-22T22:58:22.985Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "TrainManagement.xaml",
-              "DocumentMoniker": "C:\\Users\\EDT\\Desktop\\Test\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\TrainManagement.xaml",
-              "RelativeDocumentMoniker": "TicketManagementSystem\\TrainManagement.xaml",
-              "ToolTip": "C:\\Users\\EDT\\Desktop\\Test\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\TrainManagement.xaml",
-              "RelativeToolTip": "TicketManagementSystem\\TrainManagement.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-04-22T11:20:05.064Z",
+              "Title": "BookingPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Lau Tin Tin\\Desktop\\RAD Clone New\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\BookingPage.xaml.cs",
+              "RelativeDocumentMoniker": "TicketManagementSystem\\BookingPage.xaml.cs",
+              "ToolTip": "C:\\Users\\Lau Tin Tin\\Desktop\\RAD Clone New\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\BookingPage.xaml.cs",
+              "RelativeToolTip": "TicketManagementSystem\\BookingPage.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-22T22:59:36.705Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "AdminManagement.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\EDT\\Desktop\\Test\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\AdminManagement.xaml.cs",
-              "RelativeDocumentMoniker": "TicketManagementSystem\\AdminManagement.xaml.cs",
-              "ToolTip": "C:\\Users\\EDT\\Desktop\\Test\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\AdminManagement.xaml.cs",
-              "RelativeToolTip": "TicketManagementSystem\\AdminManagement.xaml.cs",
-              "ViewState": "AQIAAGAAAAAAAAAAAAAIwDEAAABIAAAA",
+              "DocumentIndex": 3,
+              "Title": "SeatSelectionPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Lau Tin Tin\\Desktop\\RAD Clone New\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\SeatSelectionPage.xaml",
+              "RelativeDocumentMoniker": "TicketManagementSystem\\SeatSelectionPage.xaml",
+              "ToolTip": "C:\\Users\\Lau Tin Tin\\Desktop\\RAD Clone New\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\SeatSelectionPage.xaml",
+              "RelativeToolTip": "TicketManagementSystem\\SeatSelectionPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-22T22:57:51.355Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PassengerDetails.cs",
+              "DocumentMoniker": "C:\\Users\\Lau Tin Tin\\Desktop\\RAD Clone New\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\Class\\PassengerDetails.cs",
+              "RelativeDocumentMoniker": "TicketManagementSystem\\Class\\PassengerDetails.cs",
+              "ToolTip": "C:\\Users\\Lau Tin Tin\\Desktop\\RAD Clone New\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\Class\\PassengerDetails.cs",
+              "RelativeToolTip": "TicketManagementSystem\\Class\\PassengerDetails.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-22T11:48:51.849Z",
->>>>>>> 8c02ea8bebb4cddf203356124421e5d520fb3db0
+              "WhenOpened": "2024-04-22T22:56:10.309Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-<<<<<<< HEAD
-              "Title": "PassengerDetailPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Janet\\Desktop\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\PassengerDetailPage.xaml.cs",
-              "RelativeDocumentMoniker": "TicketManagementSystem\\PassengerDetailPage.xaml.cs",
-              "ToolTip": "C:\\Users\\Janet\\Desktop\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\PassengerDetailPage.xaml.cs",
-              "RelativeToolTip": "TicketManagementSystem\\PassengerDetailPage.xaml.cs",
-              "ViewState": "AQIAAFkAAAAAAAAAAAASwGUAAAAAAAAA",
+              "Title": "SeatSelectionDialog.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Lau Tin Tin\\Desktop\\RAD Clone New\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\SeatSelectionDialog.xaml.cs",
+              "RelativeDocumentMoniker": "TicketManagementSystem\\SeatSelectionDialog.xaml.cs",
+              "ToolTip": "C:\\Users\\Lau Tin Tin\\Desktop\\RAD Clone New\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\SeatSelectionDialog.xaml.cs",
+              "RelativeToolTip": "TicketManagementSystem\\SeatSelectionDialog.xaml.cs",
+              "ViewState": "AQIAAEMAAAAAAAAAAAAowGoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-22T14:25:45.573Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "PassengerDetailPage.xaml",
-              "DocumentMoniker": "C:\\Users\\Janet\\Desktop\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\PassengerDetailPage.xaml",
-              "RelativeDocumentMoniker": "TicketManagementSystem\\PassengerDetailPage.xaml",
-              "ToolTip": "C:\\Users\\Janet\\Desktop\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\PassengerDetailPage.xaml",
-              "RelativeToolTip": "TicketManagementSystem\\PassengerDetailPage.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-04-22T14:25:44.56Z",
-=======
-              "Title": "DisplayRoute.xaml",
-              "DocumentMoniker": "C:\\Users\\EDT\\Desktop\\Test\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\DisplayRoute.xaml",
-              "RelativeDocumentMoniker": "TicketManagementSystem\\DisplayRoute.xaml",
-              "ToolTip": "C:\\Users\\EDT\\Desktop\\Test\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\DisplayRoute.xaml",
-              "RelativeToolTip": "TicketManagementSystem\\DisplayRoute.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-04-22T11:52:40.917Z",
->>>>>>> 8c02ea8bebb4cddf203356124421e5d520fb3db0
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-<<<<<<< HEAD
-              "DocumentIndex": 1,
-=======
-              "DocumentIndex": 3,
-              "Title": "TrainManagement.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\EDT\\Desktop\\Test\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\TrainManagement.xaml.cs",
-              "RelativeDocumentMoniker": "TicketManagementSystem\\TrainManagement.xaml.cs",
-              "ToolTip": "C:\\Users\\EDT\\Desktop\\Test\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\TrainManagement.xaml.cs",
-              "RelativeToolTip": "TicketManagementSystem\\TrainManagement.xaml.cs",
-              "ViewState": "AQIAABoAAAAAAAAAAAAAwDsAAAAzAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-22T11:20:56.655Z",
+              "WhenOpened": "2024-04-22T22:56:55.948Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "UserManagement.xaml",
-              "DocumentMoniker": "C:\\Users\\EDT\\Desktop\\Test\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\UserManagement.xaml",
-              "RelativeDocumentMoniker": "TicketManagementSystem\\UserManagement.xaml",
-              "ToolTip": "C:\\Users\\EDT\\Desktop\\Test\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\UserManagement.xaml",
-              "RelativeToolTip": "TicketManagementSystem\\UserManagement.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-04-22T09:36:04.2Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "UserManagement.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\EDT\\Desktop\\Test\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\UserManagement.xaml.cs",
-              "RelativeDocumentMoniker": "TicketManagementSystem\\UserManagement.xaml.cs",
-              "ToolTip": "C:\\Users\\EDT\\Desktop\\Test\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\UserManagement.xaml.cs",
-              "RelativeToolTip": "TicketManagementSystem\\UserManagement.xaml.cs",
-              "ViewState": "AQIAAFAAAAAAAAAAAAA0wCUAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-22T11:21:04.942Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "AdminManagement.xaml",
-              "DocumentMoniker": "C:\\Users\\EDT\\Desktop\\Test\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\AdminManagement.xaml",
-              "RelativeDocumentMoniker": "TicketManagementSystem\\AdminManagement.xaml",
-              "ToolTip": "C:\\Users\\EDT\\Desktop\\Test\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\AdminManagement.xaml",
-              "RelativeToolTip": "TicketManagementSystem\\AdminManagement.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-04-22T11:45:47.467Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "TrainManagement.g.cs",
-              "DocumentMoniker": "C:\\Users\\EDT\\Desktop\\Test\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\obj\\x86\\Debug\\TrainManagement.g.cs",
-              "RelativeDocumentMoniker": "TicketManagementSystem\\obj\\x86\\Debug\\TrainManagement.g.cs",
-              "ToolTip": "C:\\Users\\EDT\\Desktop\\Test\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\obj\\x86\\Debug\\TrainManagement.g.cs",
-              "RelativeToolTip": "TicketManagementSystem\\obj\\x86\\Debug\\TrainManagement.g.cs",
-              "ViewState": "AQIAAEAAAAAAAAAAAAAwwFEAAAAyAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-22T11:24:58.075Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "UserProfile.xaml",
-              "DocumentMoniker": "C:\\Users\\EDT\\Desktop\\Test\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\UserProfile.xaml",
-              "RelativeDocumentMoniker": "TicketManagementSystem\\UserProfile.xaml",
-              "ToolTip": "C:\\Users\\EDT\\Desktop\\Test\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\UserProfile.xaml",
-              "RelativeToolTip": "TicketManagementSystem\\UserProfile.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-04-22T09:33:25.972Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "ForgetPassword.xaml",
-              "DocumentMoniker": "C:\\Users\\EDT\\Desktop\\Test\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\ForgetPassword.xaml",
-              "RelativeDocumentMoniker": "TicketManagementSystem\\ForgetPassword.xaml",
-              "ToolTip": "C:\\Users\\EDT\\Desktop\\Test\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\ForgetPassword.xaml",
-              "RelativeToolTip": "TicketManagementSystem\\ForgetPassword.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-04-22T09:30:23.161Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "NewUserRegister.xaml",
-              "DocumentMoniker": "C:\\Users\\EDT\\Desktop\\Test\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\NewUserRegister.xaml",
-              "RelativeDocumentMoniker": "TicketManagementSystem\\NewUserRegister.xaml",
-              "ToolTip": "C:\\Users\\EDT\\Desktop\\Test\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\NewUserRegister.xaml",
-              "RelativeToolTip": "TicketManagementSystem\\NewUserRegister.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-04-22T09:29:49.008Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "LoginPage.xaml",
-              "DocumentMoniker": "C:\\Users\\EDT\\Desktop\\Test\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\LoginPage.xaml",
-              "RelativeDocumentMoniker": "TicketManagementSystem\\LoginPage.xaml",
-              "ToolTip": "C:\\Users\\EDT\\Desktop\\Test\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\LoginPage.xaml",
-              "RelativeToolTip": "TicketManagementSystem\\LoginPage.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-04-22T09:27:33.289Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "LoginPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\EDT\\Desktop\\Test\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\LoginPage.xaml.cs",
-              "RelativeDocumentMoniker": "TicketManagementSystem\\LoginPage.xaml.cs",
-              "ToolTip": "C:\\Users\\EDT\\Desktop\\Test\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\LoginPage.xaml.cs",
-              "RelativeToolTip": "TicketManagementSystem\\LoginPage.xaml.cs",
-              "ViewState": "AQIAABgAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-22T09:27:30.248Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "ListStaticData.cs",
-              "DocumentMoniker": "C:\\Users\\EDT\\Desktop\\Test\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\Class\\ListStaticData.cs",
-              "RelativeDocumentMoniker": "TicketManagementSystem\\Class\\ListStaticData.cs",
-              "ToolTip": "C:\\Users\\EDT\\Desktop\\Test\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\Class\\ListStaticData.cs",
-              "RelativeToolTip": "TicketManagementSystem\\Class\\ListStaticData.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-22T09:11:34.024Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "SeatSelectionDialog.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\EDT\\Desktop\\Test\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\SeatSelectionDialog.xaml.cs",
-              "RelativeDocumentMoniker": "TicketManagementSystem\\SeatSelectionDialog.xaml.cs",
-              "ToolTip": "C:\\Users\\EDT\\Desktop\\Test\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\SeatSelectionDialog.xaml.cs",
-              "RelativeToolTip": "TicketManagementSystem\\SeatSelectionDialog.xaml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-22T09:03:19.089Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
               "Title": "SeatSelectionDialog.xaml",
-              "DocumentMoniker": "C:\\Users\\EDT\\Desktop\\Test\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\SeatSelectionDialog.xaml",
+              "DocumentMoniker": "C:\\Users\\Lau Tin Tin\\Desktop\\RAD Clone New\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\SeatSelectionDialog.xaml",
               "RelativeDocumentMoniker": "TicketManagementSystem\\SeatSelectionDialog.xaml",
-              "ToolTip": "C:\\Users\\EDT\\Desktop\\Test\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\SeatSelectionDialog.xaml",
+              "ToolTip": "C:\\Users\\Lau Tin Tin\\Desktop\\RAD Clone New\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\SeatSelectionDialog.xaml",
               "RelativeToolTip": "TicketManagementSystem\\SeatSelectionDialog.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-04-21T07:52:28.053Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "SeatSelectionPage.xaml",
-              "DocumentMoniker": "C:\\Users\\EDT\\Desktop\\Test\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\SeatSelectionPage.xaml",
-              "RelativeDocumentMoniker": "TicketManagementSystem\\SeatSelectionPage.xaml",
-              "ToolTip": "C:\\Users\\EDT\\Desktop\\Test\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\SeatSelectionPage.xaml",
-              "RelativeToolTip": "TicketManagementSystem\\SeatSelectionPage.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-04-21T07:53:11.333Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
->>>>>>> 8c02ea8bebb4cddf203356124421e5d520fb3db0
-              "Title": "BookingPage.xaml",
-              "DocumentMoniker": "C:\\Users\\EDT\\Desktop\\Test\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\BookingPage.xaml",
-              "RelativeDocumentMoniker": "TicketManagementSystem\\BookingPage.xaml",
-              "ToolTip": "C:\\Users\\EDT\\Desktop\\Test\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\BookingPage.xaml",
-              "RelativeToolTip": "TicketManagementSystem\\BookingPage.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-04-20T10:28:16.283Z",
+              "WhenOpened": "2024-04-22T22:56:38.76Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-<<<<<<< HEAD
-              "DocumentIndex": 0,
-=======
-              "DocumentIndex": 18,
->>>>>>> 8c02ea8bebb4cddf203356124421e5d520fb3db0
-              "Title": "BookingPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\EDT\\Desktop\\Test\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\BookingPage.xaml.cs",
-              "RelativeDocumentMoniker": "TicketManagementSystem\\BookingPage.xaml.cs",
-              "ToolTip": "C:\\Users\\EDT\\Desktop\\Test\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\BookingPage.xaml.cs",
-              "RelativeToolTip": "TicketManagementSystem\\BookingPage.xaml.cs",
-              "ViewState": "AQIAAHYAAAAAAAAAAADwv5EAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-20T10:29:10.184Z"
-            },
-            {
-              "$type": "Document",
-<<<<<<< HEAD
               "DocumentIndex": 6,
-=======
-              "DocumentIndex": 16,
->>>>>>> 8c02ea8bebb4cddf203356124421e5d520fb3db0
-              "Title": "SeatSelectionPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\EDT\\Desktop\\Test\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\SeatSelectionPage.xaml.cs",
-              "RelativeDocumentMoniker": "TicketManagementSystem\\SeatSelectionPage.xaml.cs",
-              "ToolTip": "C:\\Users\\EDT\\Desktop\\Test\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\SeatSelectionPage.xaml.cs",
-              "RelativeToolTip": "TicketManagementSystem\\SeatSelectionPage.xaml.cs",
-              "ViewState": "AQIAADwAAAAAAAAAAAAYwEwAAAA6AAAA",
+              "Title": "FirebaseHelper.cs",
+              "DocumentMoniker": "C:\\Users\\Lau Tin Tin\\Desktop\\RAD Clone New\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\Class\\FirebaseHelper.cs",
+              "RelativeDocumentMoniker": "TicketManagementSystem\\Class\\FirebaseHelper.cs",
+              "ToolTip": "C:\\Users\\Lau Tin Tin\\Desktop\\RAD Clone New\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\Class\\FirebaseHelper.cs",
+              "RelativeToolTip": "TicketManagementSystem\\Class\\FirebaseHelper.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABsAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-22T14:31:24.434Z",
+              "WhenOpened": "2024-04-22T22:53:15.131Z",
               "EditorCaption": ""
-            }
-          ]
-        },
-        {
-          "DockedWidth": 907,
-          "SelectedChildIndex": -1,
-          "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
             }
           ]
         }

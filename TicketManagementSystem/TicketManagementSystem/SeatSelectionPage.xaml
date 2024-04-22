@@ -17,29 +17,42 @@
         <StackPanel Grid.Row="0">
             <StackPanel Orientation="Horizontal" Padding="20" HorizontalAlignment="Center">
                 <TextBlock Text="Coach:" VerticalAlignment="Center"/>
-                <ComboBox x:Name="cbxTrain" Margin="20,0,0,0">
-                    <ComboBoxItem IsSelected="True">A</ComboBoxItem>
-                    <ComboBoxItem>B</ComboBoxItem>
-                    <ComboBoxItem>C</ComboBoxItem>
-                    <ComboBoxItem>D</ComboBoxItem>
-                    <ComboBoxItem>E</ComboBoxItem>
-                    <ComboBoxItem>F</ComboBoxItem>
+                <ComboBox x:Name="coachComboList" Margin="20,0,0,0">
+                    <ComboBoxItem IsSelected="True" Content="A"></ComboBoxItem>
+                    <ComboBoxItem Content="B"></ComboBoxItem>
+                    <ComboBoxItem Content="C"></ComboBoxItem>
+                    <ComboBoxItem Content="D"></ComboBoxItem>
+                    <ComboBoxItem Content="E"></ComboBoxItem>
+                    <ComboBoxItem Content="F"></ComboBoxItem>
                 </ComboBox>
             </StackPanel>
 
             <ScrollViewer VerticalScrollMode="Enabled" Height="500">
                 <Grid x:Name="mainGrid">
+                    <Grid x:Name="coachGrid">
+
+                    </Grid>
                 </Grid>
             </ScrollViewer>
         </StackPanel>
 
-        <Border Grid.Row="1" BorderBrush="Black" BorderThickness="1" Background="CadetBlue" CornerRadius="5" >
-            <TextBlock x:Name="SelectedSeatsTextBlock" HorizontalAlignment="Center" Visibility="Collapsed" Padding="5" Text=" " />
-        </Border>
+        <StackPanel Grid.Row="1" Orientation="Vertical" Margin="0,12,0,0">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                </Grid.RowDefinitions>
 
-        <Border Grid.Row="2" BorderBrush="Black" BorderThickness="1" Background="Red" CornerRadius="5" >
-            <TextBlock x:Name="DisplayErrorTextBlock" HorizontalAlignment="Center" Visibility="Collapsed" Padding="5" Text=" " />
-        </Border>
+                <Border Grid.Row="0" BorderBrush="Black" Background="CadetBlue" CornerRadius="5" Margin="5,0,0,5">
+                    <TextBlock x:Name="DisplayErrorTextBlock" HorizontalAlignment="Center" Visibility="Collapsed" Padding="5" Text=" " />
+                </Border>
+
+                <Border Grid.Row="1" BorderBrush="Black" Background="CadetBlue" CornerRadius="5" Margin="5,0,0,5">
+                    <TextBlock x:Name="SelectedSeatsTextBlock" HorizontalAlignment="Center" Visibility="Collapsed" Padding="5" Text=" " />
+                </Border>
+            </Grid>
+        </StackPanel>
+
 
     </Grid>
 </Page>

@@ -182,6 +182,7 @@
       <RootProperty Name="Background" />
       <RootProperty Name="CornerRadius" />
       <RootProperty Name="Child" />
+      <RootProperty Name="Margin" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.ContentPresenter">
       <RootProperty Name="HorizontalAlignment" />
@@ -240,11 +241,11 @@
       <RootEvent Name="PrimaryButtonClick" />
       <RootEvent Name="SecondaryButtonClick" />
     </RootType>
-    <RootType FullName="TicketManagementSystem.SeatSelectionDialog" />
     <RootType FullName="Windows.UI.Xaml.Controls.RowDefinition">
       <RootProperty Name="Height" />
     </RootType>
     <RootType FullName="TicketManagementSystem.SeatSelectionPage" />
+    <RootType FullName="TicketManagementSystem.SeatSelectionDialog" />
     <RootType FullName="TicketManagementSystem.TrainManagement" />
     <RootType FullName="TicketManagementSystem.UpdateRoute" />
     <RootType FullName="TicketManagementSystem.UserManagement" />

@@ -20,5 +20,6 @@ namespace TicketManagementSystem.Class
 
         public static List<Button> SelectedSeatButtons { get; set; } = new List<Button>();
         public static int noOfPax { get; set; }
+        public static string coach { get; set; }
     }
 }

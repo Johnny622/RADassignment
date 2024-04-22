@@ -12,6 +12,7 @@ namespace TicketManagementSystem.Class
         public string BookingId { get; set; }
         public string SeatNumber { get; set; }
         public bool IsReserved { get; set; }
+        public string Coach { get; set; }
         public string Name { get; set; }
         public string Gender { get; set; }
         public string Phone { get; set; }

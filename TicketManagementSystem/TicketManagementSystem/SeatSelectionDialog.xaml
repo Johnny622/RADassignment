@@ -13,5 +13,18 @@
     SecondaryButtonClick="ContentDialog_SecondaryButtonClick">
 
     <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <!-- Define rows here -->
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+
+        <StackPanel Grid.Row="0">
+            <local:SeatSelectionPage />
+        </StackPanel>
+
+        <StackPanel Grid.Row="1">
+            <TextBlock x:Name="ErrorMessageTextBlock" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="Red" Margin="0,20,0,0" Visibility="Collapsed" />
+        </StackPanel>
     </Grid>
 </ContentDialog>

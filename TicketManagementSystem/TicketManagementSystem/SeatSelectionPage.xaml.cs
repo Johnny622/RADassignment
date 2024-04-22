@@ -27,8 +27,6 @@ namespace TicketManagementSystem
     /// <summary>
     /// An empty page that can be used on its own or navigated to within a Frame.
     /// </summary>
-    /// 
-    /////if selected seat is less than the number of pax, cannot proceed to reserve
 
     public sealed partial class SeatSelectionPage : Page
     {
@@ -38,37 +36,52 @@ namespace TicketManagementSystem
 
         private List<Button> selectedSeatButtons = new List<Button>(); // Track selected seat buttons
 
+        private string coach;
+
         private int numberOfPax = ListStaticData.noOfPax;
 
         public SeatSelectionPage()
         {
             this.InitializeComponent();
-            GenerateSeats(40);
-            LoadLatestSeat();
-            
+            LoadLayoutForCoach(38, "A");
+            coachComboList.SelectionChanged += coachComboList_SelectionChanged;
         }
 
-        private void GenerateSeats(int totalSeats)
+        private void LoadLayoutForCoach(int totalSeats, string selectedCoach)
+        {
+            // Clear existing grids
+            mainGrid.Children.Clear();
+            mainGrid.RowDefinitions.Clear();
+            mainGrid.ColumnDefinitions.Clear();
+
+            Grid coachGrid = new Grid();
+            mainGrid.Children.Add(coachGrid);
+
+            GenerateSeats(coachGrid, totalSeats, selectedCoach);
+
+            // Reload latest seat appearance for the selected coach
+            LoadLatestSeat();
+            LoadSelectedSeat();
+        }
+
+        private void GenerateSeats(Grid coachGrid, int totalSeats, string coach)
         {
             const int seatsPerRow = 10;
             int columns = (totalSeats + seatsPerRow - 1) / seatsPerRow;
             int remainingSeats = totalSeats % seatsPerRow;
-            if (remainingSeats == 0)
-            {
-                remainingSeats = seatsPerRow;
-            }
 
             char[] seatLetters = { 'A', 'B', 'C', 'D' };
 
             for (int column = 0; column < columns; column++)
             {
-                mainGrid.ColumnDefinitions.Add(new ColumnDefinition());
+                coachGrid.ColumnDefinitions.Add(new ColumnDefinition());
 
                 int seatsInCurrentColumn = column == columns - 1 ? remainingSeats : seatsPerRow;
 
                 for (int row = 0; row < seatsInCurrentColumn; row++)
                 {
-                    mainGrid.RowDefinitions.Add(new RowDefinition());
+                    if (column == 0)
+                        coachGrid.RowDefinitions.Add(new RowDefinition());
 
                     TextBlock seatNumberTextBlock = new TextBlock
                     {
@@ -88,15 +101,16 @@ namespace TicketManagementSystem
                     {
                         Content = new StackPanel { Children = { seatImage, seatNumberTextBlock } },
                         Background = new SolidColorBrush(Colors.Transparent),
-                        Tag = $"{row + 1}{seatLetters[column]}"
+                        Tag = $"{row + 1}{seatLetters[column]}",
+                        Name = coach
                     };
+
 
                     seatButton.Click += SeatButton_Click;
 
                     Grid.SetColumn(seatButton, column);
                     Grid.SetRow(seatButton, row);
-
-                    mainGrid.Children.Add(seatButton);
+                    coachGrid.Children.Add(seatButton); // Add the button to coachGrid instead of mainGrid
                 }
             }
         }
@@ -115,12 +129,12 @@ namespace TicketManagementSystem
                         DeselectSeat(clickedButton);
                         ListStaticData.SelectedSeatButtons.Remove(clickedButton);
                     }
-                    else if (!IsSeatBooked(seatNumber)) 
+                    else if (!IsSeatBooked(seatNumber, clickedButton.Name)) //coach = clickedButton.Name
                     {
                         SelectSeat(clickedButton);
                         ListStaticData.SelectedSeatButtons.Add(clickedButton);
                     }
-                    
+
                 }
                 else
                 {
@@ -128,10 +142,19 @@ namespace TicketManagementSystem
                     {
                         DeselectSeat(clickedButton);
                         ListStaticData.SelectedSeatButtons.Remove(clickedButton);
+
+                        if (selectedSeatButtons.Count > numberOfPax)
+                        {
+                            DisplayDialog("You have already selected " + numberOfPax + " seats.");
+                        }
+                        else
+                        {
+                            DisplayDialog(null);
+                        }
                     }
                     else
                     {
-                        DisplayDialog("You have already selected " + numberOfPax + "seats.");
+                        DisplayDialog("You have already selected " + numberOfPax + " seats.");
                     }
                 }
 
@@ -143,15 +166,30 @@ namespace TicketManagementSystem
             }
         }
 
-        private bool IsSeatBooked(string seatNumber)
+        private void coachComboList_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-            return bookedList.Any(passenger => passenger.SeatNumber == seatNumber);
+            ComboBox comboBox = (ComboBox)sender;
+            if (comboBox.SelectedIndex != -1)
+            {
+                coach = ((ComboBoxItem)comboBox.SelectedItem).Content.ToString();
+                //ListStaticData.coach = coach;
+
+                LoadLayoutForCoach(38, coach);
+            }
+            else
+            {
+                DisplayDialog("No coach selected.");
+            }
+        }
+
+        private bool IsSeatBooked(string seatNumber, string coach)
+        {
+            return bookedList.Any(passenger => passenger.SeatNumber == seatNumber && passenger.Coach == coach);
         }
 
         private void DisplaySelectedSeats()
         {
             StringBuilder selectedSeatsText = new StringBuilder();
-            bool isMaxSeatsSelected = selectedSeatButtons.Count >= numberOfPax;
 
             if (selectedSeatButtons.Count > 0)
             {
@@ -159,7 +197,7 @@ namespace TicketManagementSystem
 
                 foreach (Button selectedSeat in selectedSeatButtons)
                 {
-                    selectedSeatsText.Append($"{selectedSeat.Tag.ToString()}, ");
+                    selectedSeatsText.Append($"{"(" + selectedSeat.Name + ")"}{selectedSeat.Tag.ToString()}, ");
                 }
 
                 // Remove the trailing comma and space
@@ -175,31 +213,34 @@ namespace TicketManagementSystem
             else
             {
                 SelectedSeatsTextBlock.Visibility = Visibility.Collapsed;
-            }           
+            }
         }
 
         private void SelectSeat(Button seatButton)
         {
             string seatNumber = seatButton.Tag.ToString();
+            string coach = seatButton.Name;
+
+            ListStaticData.coach = coach;
             selectedSeatButtons.Add(seatButton);
-            UpdateSeatAppearance(seatNumber, isBooked: true);
+            UpdateSeatAppearance(seatNumber, coach, isBooked: true);
         }
 
         private void DeselectSeat(Button seatButton)
         {
             string seatNumber = seatButton.Tag.ToString();
+            string coach = seatButton.Name;
+
             selectedSeatButtons.Remove(seatButton);
-            UpdateSeatAppearance(seatNumber, isBooked: false);
+            UpdateSeatAppearance(seatNumber, coach, isBooked: false);
         }
 
-        public void UpdateSeatAppearance(string seatNumber, bool isBooked)
+        public void UpdateSeatAppearance(string seatNumber, string coach, bool isBooked)
         {
-            // Find the corresponding button with the given seat number
-            Button seatButton = FindSeatButton(seatNumber);
+            Button seatButton = FindSeatButton(seatNumber, coach);
 
             if (seatButton != null)
             {
-                // Update the appearance of the seat button
                 if (seatButton.Content is StackPanel stackPanel)
                 {
                     if (stackPanel.Children[0] is Image seatImage)
@@ -217,11 +258,23 @@ namespace TicketManagementSystem
             }
         }
 
-        private Button FindSeatButton(string seatNumber)
+        private Button FindSeatButton(string seatNumber, string coach)
         {
             foreach (var child in mainGrid.Children)
-                if (child is Button seatButton && seatButton.Tag.ToString() == seatNumber)
-                    return seatButton;
+            {
+                if (child is Grid coachGrid)
+                {
+                    foreach (var gridChild in coachGrid.Children)
+                    {
+                        if (gridChild is Button seatButton &&
+                            seatButton.Tag.ToString() == seatNumber &&
+                            seatButton.Name == coach)
+                        {
+                            return seatButton;
+                        }
+                    }
+                }
+            }
 
             return null;
         }
@@ -230,29 +283,52 @@ namespace TicketManagementSystem
         {
             try
             {
+                //Load reserved seat from firebase
                 bookedList = await firebaseHelper.GetAllUsers();
 
                 if (bookedList.Count > 0)
                 {
                     foreach (PassengerDetails passenger in bookedList)
                     {
-                        // Update seat appearance for each booked seat
-                        UpdateSeatAppearance(passenger.SeatNumber, isBooked: true);
+                        UpdateSeatAppearance(passenger.SeatNumber, passenger.Coach, isBooked: true);
                     }
                 }
-
-                // UpdateAvailableSeats();
             }
-            catch (Exception ex)
+
+            catch (Exception theException)
             {
+                DisplayDialog("An error occurred: " + theException.Message);
+            }
+        }
+
+        private void LoadSelectedSeat()
+        {
+            try
+            {
+                foreach (Button selectedButton in selectedSeatButtons)
+                {
+                    UpdateSeatAppearance(selectedButton.Tag.ToString(), selectedButton.Name, isBooked: true);
+                }
+            }
+            catch (Exception theException)
+            {
+                DisplayDialog("An error occurred: " + theException.Message);
             }
         }
 
         private void DisplayDialog(string content)
         {
-            DisplayErrorTextBlock.Text = content;
-            DisplayErrorTextBlock.Visibility = Visibility.Visible;
+            if (string.IsNullOrEmpty(content))
+            {
+                DisplayErrorTextBlock.Visibility = Visibility.Collapsed;
+            }
+            else
+            {
+                DisplayErrorTextBlock.Text = content;
+                DisplayErrorTextBlock.Visibility = Visibility.Visible;
+            }
         }
-
     }
 }
+
+

@@ -29,7 +29,6 @@ namespace TicketManagementSystem
         public SeatSelectionDialog()
         {
             this.InitializeComponent();
-            this.Content = new SeatSelectionPage();
         }
 
         private void ContentDialog_PrimaryButtonClick(ContentDialog sender, ContentDialogButtonClickEventArgs args)  //cancel button
@@ -41,12 +40,15 @@ namespace TicketManagementSystem
         {
             if (ListStaticData.SelectedSeatButtons.Count < ListStaticData.noOfPax)
             {
-                // Raise the event with a message indicating insufficient seat selection
-                //
+                ErrorMessageTextBlock.Text = "Please select " + ListStaticData.noOfPax + " seats.";
+                ErrorMessageTextBlock.Visibility = Visibility.Visible;
+
                 args.Cancel = true; // Prevent the dialog from closing
             }
             else
             {
+                ErrorMessageTextBlock.Visibility = Visibility.Collapsed;
+
                 List<Button> selectedSeatButtonsCopy = new List<Button>(ListStaticData.SelectedSeatButtons);
 
                 if (selectedSeatButtonsCopy != null && selectedSeatButtonsCopy.Any())
@@ -59,11 +61,14 @@ namespace TicketManagementSystem
                         {
                             if (!string.IsNullOrEmpty(selectedSeat))
                             {
+                                string coach = ListStaticData.coach;
+
                                 //if(  payment successful  )
 
                                 PassengerDetails p = new PassengerDetails();
                                 p.IsReserved = true;
                                 p.SeatNumber = selectedSeat;
+                                p.Coach = coach;
 
                                 await firebaseHelper.AddUser(p);
 
@@ -82,7 +87,7 @@ namespace TicketManagementSystem
                         }
                         catch (Exception ex)
                         {
-                            DisplayDialog("Error", "Error: " + ex.Message);
+                            //DisplayDialog("Error", "Error: " + ex.Message);
                         }
                     }
                 }
@@ -92,21 +97,6 @@ namespace TicketManagementSystem
                 }
             }
 
-        }
-
-
-
-
-        private async void DisplayDialog(string title, string content)
-        {
-            ContentDialog noDialog = new ContentDialog
-            {
-                Title = title,
-                Content = content,
-                CloseButtonText = "Ok"
-            };
-
-            ContentDialogResult result = await noDialog.ShowAsync();
         }
 
     }

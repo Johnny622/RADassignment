@@ -79,12 +79,16 @@ namespace TicketManagementSystem
                             {
                                 ErrorMessage.Visibility = Visibility.Visible;
                                 ErrorMessage.Text = "Incorrect Password.";
+                                PasswordTextBox.Password = string.Empty;
+                                PasswordTextBox.Focus(FocusState.Programmatic);
                             }
                         }
                         else
                         {
                             ErrorMessage.Visibility = Visibility.Visible;
                             ErrorMessage.Text = "Email cannot find";
+                            PasswordTextBox.Password = string.Empty;
+                            EmailTextBox.Focus(FocusState.Programmatic);
                         }
                     }
                     else if (isAdmin)
@@ -107,12 +111,16 @@ namespace TicketManagementSystem
                             {
                                 ErrorMessage.Visibility = Visibility.Visible;
                                 ErrorMessage.Text = "Incorrect Password.";
+                                PasswordTextBox.Password = string.Empty;
+                                PasswordTextBox.Focus(FocusState.Programmatic);
                             }
                         }
                         else
                         {
                             ErrorMessage.Visibility = Visibility.Visible;
                             ErrorMessage.Text = "Email cannot find";
+                            PasswordTextBox.Password = string.Empty;
+                            EmailTextBox.Focus(FocusState.Programmatic);
                         }
 
                     }

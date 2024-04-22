@@ -74,9 +74,9 @@
                         <DatePicker x:Name="dpDepartDate"/>
                     </StackPanel>
                     <StackPanel Orientation="Horizontal" VerticalAlignment="Bottom" Margin="20,0,0,0">
-                        <CheckBox Content="Travelling 2 ways"/>
+                        <CheckBox x:Name="cbReturn" Content="Travelling 2 ways" Checked="cbReturn_Checked" Unchecked="cbReturn_Unchecked"/>
                     </StackPanel>
-                    <StackPanel Margin="20,0,0,0">
+                    <StackPanel x:Name="spReturn" Margin="20,0,0,0" Visibility="Collapsed">
                         <TextBlock Text="Return Date"/>
                         <DatePicker x:Name="dpReturnDate"/>
                     </StackPanel>
@@ -90,12 +90,12 @@
             </StackPanel>
             
             <!--Group2-->
-            <StackPanel x:Name="spGroup2" BorderBrush="#4f6170" BorderThickness="2" Padding="10" Margin="0,0,20,20" Visibility="Collapsed">
+            <StackPanel x:Name="spGroup2" BorderBrush="#4f6170" BorderThickness="2" Padding="10" Margin="0,0,20,20" Visibility="Visible">
                 <!--Group2:DepartDate-->
                 <StackPanel Margin="0,0,0,40">
                     <StackPanel Orientation="Horizontal">
                         <TextBlock Text="Depart Date: " FontWeight="Bold" Margin="0,0,10,0"/>
-                        <TextBlock Text="DDMMMYYYY" FontWeight="Bold"/>
+                        <TextBlock x:Name="tbDepartDate" Text="DDMMMYYYY" FontWeight="Bold"/>
                     </StackPanel>
                     <StackPanel Orientation="Horizontal" Padding="0,10,0,0">
                         <StackPanel>
@@ -131,33 +131,33 @@
                 </StackPanel>
                 
                 <!--Group2:ReturnDate-->
-                <StackPanel>
+                <StackPanel x:Name="spReturnInformation" Visibility="Collapsed">
                     <StackPanel Orientation="Horizontal">
                         <TextBlock Text="Return Date: " FontWeight="Bold" Margin="0,0,10,0"/>
-                        <TextBlock Text="DDMMMYYYY" FontWeight="Bold"/>
+                        <TextBlock x:Name="tbReturnDate" Text="DDMMMYYYY" FontWeight="Bold"/>
                     </StackPanel>
                     <StackPanel Orientation="Horizontal" Padding="0,10,0,0">
                         <StackPanel>
                             <TextBlock Text="Train"/>
-                            <ComboBox Width="250"/>
+                            <ComboBox x:Name="cbxReturnTrain" Width="250" SelectionChanged="cbxReturnTrain_SelectionChanged"/>
                         </StackPanel>
                         <StackPanel Margin="20,0,0,0">
                             <TextBlock Text="Depart Time"/>
-                            <TextBox IsReadOnly="True" Text="xx:xx pm" Width="100" TextAlignment="Center"/>
+                            <TextBox x:Name="txtReturnDepartTime" IsReadOnly="True" Text="xx:xx pm" Width="100" TextAlignment="Center"/>
                         </StackPanel>
                         <StackPanel Margin="20,0,0,0">
                             <TextBlock Text="ETA"/>
-                            <TextBox IsReadOnly="True" Text="xx:xx pm" Width="100" TextAlignment="Center"/>
+                            <TextBox x:Name="txtReturnETA" IsReadOnly="True" Text="xx:xx pm" Width="100" TextAlignment="Center"/>
                         </StackPanel>
                         <StackPanel Margin="20,0,0,0">
                             <TextBlock Text="Available Seat"/>
-                            <TextBox Text="0" IsReadOnly="True" TextAlignment="Center"/>
+                            <TextBox x:Name="txtReturnSeat" Text="0" IsReadOnly="True" TextAlignment="Center"/>
                         </StackPanel>
                         <StackPanel Margin="20,0,0,0">
                             <TextBlock Text="Price" Margin="25,0,0,0"/>
                             <StackPanel Orientation="Horizontal">
                                 <TextBlock Text="RM" VerticalAlignment="Center"/>
-                                <TextBox Text="23.00" IsReadOnly="True" Margin="3,0,0,0"/>
+                                <TextBox x:Name="txtReturnPrice" Text="0.00" IsReadOnly="True" Margin="3,0,0,0"/>
                             </StackPanel>
                         </StackPanel>
                         <Button Background="#A3D4FF" Height="32" Margin="100,20,20,20">

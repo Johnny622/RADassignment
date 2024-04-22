@@ -55,7 +55,14 @@ namespace TicketManagementSystem
                 string confpw = ConfPw.Password;
                 if (newpw.Length >= MIN_LENGTH && NumberUpperCase(newpw) >= 1 && NumberLowerCase(newpw) >= 1 && NumberDigits(newpw) >= 1)
                 {
-                    if (newpw.Equals(confpw))
+                    if (newpw.Equals(confpw) && newpw.Equals(CurPw.Password)) // new pw and old pw cant be same
+                    {
+                        ErrorMessage.Text = "New Password Cannot Same Will Current Password";
+                        NewPw.Password = string.Empty;
+                        ConfPw.Password = string.Empty;
+                        NewPw.Focus(FocusState.Programmatic);
+                    }
+                    else if (newpw.Equals(confpw))
                     {
                         ud.Password = confpw;
 
@@ -141,6 +148,11 @@ namespace TicketManagementSystem
             };
 
             ContentDialogResult result = await noDialog.ShowAsync();
+
+            if(result == ContentDialogResult.None)
+            {
+                this.Frame.Navigate(typeof(UserManagement));
+            }
         }
     }
 }

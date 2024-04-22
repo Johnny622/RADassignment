@@ -11,9 +11,16 @@
       <RootProperty Name="Children" />
       <RootProperty Name="Background" />
       <RootProperty Name="Name" />
+<<<<<<< HEAD
+=======
+      <RootProperty Name="BorderBrush" />
+      <RootProperty Name="RowDefinitions" />
+>>>>>>> d8ccfaa25956535c5ae62ca4e5062c8b1ff1b2bd
       <RootProperty Name="ColumnDefinitions" />
       <RootProperty Name="BorderBrush" />
       <RootEvent Name="PointerPressed" />
+      <RootMethod Name="GetRow" />
+      <RootMethod Name="SetRow" />
       <RootMethod Name="GetColumn" />
       <RootMethod Name="SetColumn" />
     </RootType>
@@ -147,6 +154,8 @@
     <RootType FullName="TicketManagementSystem.AdminProfile" />
     <RootType FullName="Windows.UI.Xaml.Controls.CheckBox">
       <RootProperty Name="Content" />
+      <RootEvent Name="Checked" />
+      <RootEvent Name="Unchecked" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.ScrollViewer">
       <RootProperty Name="HorizontalScrollBarVisibility" />
@@ -245,6 +254,9 @@
       <RootEvent Name="SecondaryButtonClick" />
     </RootType>
     <RootType FullName="TicketManagementSystem.SeatSelectionDialog" />
+    <RootType FullName="Windows.UI.Xaml.Controls.RowDefinition">
+      <RootProperty Name="Height" />
+    </RootType>
     <RootType FullName="TicketManagementSystem.SeatSelectionPage" />
     <RootType FullName="TicketManagementSystem.TrainManagement" />
     <RootType FullName="TicketManagementSystem.UpdateRoute" />

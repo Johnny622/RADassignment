@@ -9,10 +9,15 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
-        <StackPanel>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+
+        <StackPanel Grid.Row="0">
             <StackPanel Orientation="Horizontal" Padding="20" HorizontalAlignment="Center">
                 <TextBlock Text="Coach:" VerticalAlignment="Center"/>
-                <ComboBox Margin="20,0,0,0">
+                <ComboBox x:ConnectionId='5' x:Name="cbxTrain" Margin="20,0,0,0">
                     <ComboBoxItem IsSelected="True">A</ComboBoxItem>
                     <ComboBoxItem>B</ComboBoxItem>
                     <ComboBoxItem>C</ComboBoxItem>
@@ -23,10 +28,19 @@
             </StackPanel>
 
             <ScrollViewer VerticalScrollMode="Enabled" Height="500">
-                <Grid x:ConnectionId='2' x:Name="mainGrid">
+                <Grid x:ConnectionId='4' x:Name="mainGrid">
                 </Grid>
             </ScrollViewer>
         </StackPanel>
+
+        <Border Grid.Row="1" BorderBrush="Black" BorderThickness="1" Background="CadetBlue" CornerRadius="5" >
+            <TextBlock x:ConnectionId='3' x:Name="SelectedSeatsTextBlock" HorizontalAlignment="Center" Visibility="Collapsed" Padding="5" Text=" " />
+        </Border>
+
+        <Border Grid.Row="2" BorderBrush="Black" BorderThickness="1" Background="Red" CornerRadius="5" >
+            <TextBlock x:ConnectionId='2' x:Name="DisplayErrorTextBlock" HorizontalAlignment="Center" Visibility="Collapsed" Padding="5" Text=" " />
+        </Border>
+
     </Grid>
 </Page>
 

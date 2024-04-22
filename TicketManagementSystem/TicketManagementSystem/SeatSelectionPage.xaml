@@ -9,10 +9,15 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
-        <StackPanel>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+
+        <StackPanel Grid.Row="0">
             <StackPanel Orientation="Horizontal" Padding="20" HorizontalAlignment="Center">
                 <TextBlock Text="Coach:" VerticalAlignment="Center"/>
-                <ComboBox Margin="20,0,0,0">
+                <ComboBox x:Name="cbxTrain" Margin="20,0,0,0">
                     <ComboBoxItem IsSelected="True">A</ComboBoxItem>
                     <ComboBoxItem>B</ComboBoxItem>
                     <ComboBoxItem>C</ComboBoxItem>
@@ -27,5 +32,14 @@
                 </Grid>
             </ScrollViewer>
         </StackPanel>
+
+        <Border Grid.Row="1" BorderBrush="Black" BorderThickness="1" Background="CadetBlue" CornerRadius="5" >
+            <TextBlock x:Name="SelectedSeatsTextBlock" HorizontalAlignment="Center" Visibility="Collapsed" Padding="5" Text=" " />
+        </Border>
+
+        <Border Grid.Row="2" BorderBrush="Black" BorderThickness="1" Background="Red" CornerRadius="5" >
+            <TextBlock x:Name="DisplayErrorTextBlock" HorizontalAlignment="Center" Visibility="Collapsed" Padding="5" Text=" " />
+        </Border>
+
     </Grid>
 </Page>

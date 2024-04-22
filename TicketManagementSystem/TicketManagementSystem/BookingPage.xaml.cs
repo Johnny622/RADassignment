@@ -1,5 +1,6 @@
 ﻿using Firebase.Database;
 using Firebase.Database.Query;
+using LiteDB;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -47,7 +48,7 @@ namespace TicketManagementSystem
 
         private void btnUserMng_Click(object sender, RoutedEventArgs e)
         {
-
+            Frame.Navigate(typeof(UserManagement));
         }
 
         private async void btnChooseSeat_Click(object sender, RoutedEventArgs e)
@@ -98,11 +99,13 @@ namespace TicketManagementSystem
                 {
                     cbxDestination.Items.Add(destination);
                 }
+                cbxOrigin.SelectedIndex = 0;
+                cbxDestination.SelectedIndex = 0;
             }
             // Catch any exceptions
             catch (Exception ex)
             {
-                // Handle the exception
+                string errorMessage = ex.Message; 
             }
         }
 
@@ -110,43 +113,120 @@ namespace TicketManagementSystem
         {
             try
             {
-                //changeToTrain class
+                cbxTrain.Items.Clear();
+                tbDepartTime.Text = "NA";
+                tbArrivalTime.Text = "NA";
+                seat.Text = "0";
+                price.Text = "0.00";
+                List<TrainDetails> trainDetails = new List<TrainDetails>();
+                trainDetails = await firebaseHelper.GetAllRoute();
+                int pax;
+                if (int.TryParse(txtPax.Text, out pax))
+                {
+                    ListStaticData.noOfPax = pax;
+                }
+                else
+                {
+                    DisplayDialog("Error Input", "Must be a number");
+                }
+
+                foreach (TrainDetails detail in trainDetails)
+                {
+                    string origin = detail.origin.ToUpper();
+                    string userOrigin = cbxOrigin.SelectedItem.ToString();
+                    string destination = detail.destination.ToUpper();
+                    string userDestination = cbxDestination.SelectedItem.ToString();
+
+                    string departDate = detail.departdate.ToString();
+                    string userDepartDate = dpDepartDate.Date.ToString("dd-MM-yyyy");
+                    string userReturnDate = dpReturnDate.Date.ToString("dd-MM-yyyy");
+                    int trainNo = detail.trainID;
+
+                    //depart information
+                    if (userOrigin.Equals(origin) && userDestination.Equals(destination) && userDepartDate.Equals(departDate))
+                    {                       
+                        cbxTrain.Items.Add(trainNo);
+                    }
+                    //return information
+                    if (userDestination.Equals(origin) && userOrigin.Equals(destination) && userReturnDate.Equals(departDate))
+                    {
+                        cbxReturnTrain.Items.Add(trainNo);
+                    }
+                }
+                cbxTrain.SelectedIndex = 0;
+                cbxReturnTrain.SelectedIndex = 0;
+            }
+            catch (Exception ex)
+            {
+                DisplayDialog("Error Message",ex.Message);
+            }
+        }
+
+        private async void cbxTrain_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            var selectedItem = cbxTrain.SelectedItem;
+
+            if (selectedItem != null)
+            {
                 List<TrainDetails> trainDetails = new List<TrainDetails>();
                 trainDetails = await firebaseHelper.GetAllRoute();
                 var i = 1;
                 foreach (TrainDetails detail in trainDetails)
                 {
-                    string origin = detail.origin.ToUpper();
-                    string userOrigin = cbxOrigin.SelectedItem.ToString();
-
-                    string departDate = detail.departdate.ToString();
-                    string userDepartDate = dpDepartDate.Date.ToString("dd/M/yyyy");
-
-                    if (userOrigin.Equals(origin) && userDepartDate.Equals(departDate))
+                    if (selectedItem.Equals(detail.trainID))
                     {
-                        cbxTrain.Items.Add("Train" + i);
-                        i++;
+                        tbDepartTime.Text = detail.departtime.ToString();
+                        tbArrivalTime.Text = detail.arrivaltime.ToString();
+                        seat.Text = detail.availableseat.ToString();
+                        price.Text = detail.price.ToString();
                     }
                 }
-                cbxTrain.SelectedIndex = 0;
-            }
-            catch (Exception ex)
-            {
-                // Handle exceptions
             }
         }
 
-        private void cbxTrain_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        private async void cbxReturnTrain_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-            // 获取用户选择的项
-            var selectedItem = cbxTrain.SelectedItem;
+            var selectedItem = cbxReturnTrain.SelectedItem;
 
-            // 在这里执行你想要的操作，例如获取用户选择项的相关细节等
-            // 例如：
             if (selectedItem != null)
             {
-                
+                List<TrainDetails> trainDetails = new List<TrainDetails>();
+                trainDetails = await firebaseHelper.GetAllRoute();
+                var i = 1;
+                foreach (TrainDetails detail in trainDetails)
+                {
+                    if (selectedItem.Equals(detail.trainID))
+                    {
+                        txtReturnDepartTime.Text = detail.departtime.ToString();
+                        txtReturnETA.Text = detail.arrivaltime.ToString();
+                        txtReturnSeat.Text = detail.availableseat.ToString();
+                        txtReturnPrice.Text = detail.price.ToString();
+                    }
+                }
             }
+        }
+
+        private async void DisplayDialog(string title, string content)
+        {
+            ContentDialog noDialog = new ContentDialog
+            {
+                Title = title,
+                Content = content,
+                CloseButtonText = "Ok"
+
+            };
+
+            ContentDialogResult result = await noDialog.ShowAsync();
+        }
+
+        private void cbReturn_Checked(object sender, RoutedEventArgs e)
+        {
+            spReturn.Visibility = Visibility.Visible;
+        }
+
+        private void cbReturn_Unchecked(object sender, RoutedEventArgs e)
+        {
+            spReturn.Visibility = Visibility.Collapsed;
         }
     }
 }

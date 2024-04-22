@@ -42,7 +42,7 @@
 
                     <Button Background="Transparent" HorizontalAlignment="Stretch">
                         <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" Width="230">
-                            <Image Source="Assets/food.png" Width="30"/>
+                            <Image Source="Assets/meal.png" Width="30"/>
                             <TextBlock Text="FOODS &amp; DRINKS" Padding="10" VerticalAlignment="Center" Foreground="White" FontWeight="Bold" />
                         </StackPanel>
                     </Button>

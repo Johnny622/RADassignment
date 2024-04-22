@@ -72,7 +72,7 @@ namespace TicketManagementSystem
                         BackToLoginPage.Visibility = Visibility.Visible;
                         NewPwTextBox.Text = newpw;
                     }
-                    else { ErrorMessage.Text = "Phone Number is not match!"; }
+                    else { ErrorMessage.Text = "Phone Number is not match!"; VerifiedPhone.Text = string.Empty; VerifiedPhone.Focus(FocusState.Programmatic); }
                 }
                 else if (ad!=null && ad.Email == ConvertToLowerCase(VerifiedEmail.Text))
                 {
@@ -92,9 +92,9 @@ namespace TicketManagementSystem
                         BackToLoginPage.Visibility = Visibility.Visible;
                         NewPwTextBox.Text = newpw;
                     }
-                    else { ErrorMessage.Text = "Phone Number is not match!"; }
+                    else { ErrorMessage.Text = "Phone Number is not match!"; VerifiedPhone.Text = string.Empty; VerifiedPhone.Focus(FocusState.Programmatic); }
                 }
-                else { ErrorMessage.Text = "Email: " + VerifiedEmail.Text + " not found!"; }
+                else { ErrorMessage.Text = "Email: " + VerifiedEmail.Text + " not found!"; VerifiedPhone.Text = string.Empty; VerifiedEmail.Focus(FocusState.Programmatic); }
 
 
             }
@@ -108,7 +108,7 @@ namespace TicketManagementSystem
 
         private string GenerateNewPassword()
         {
-            string NewPw = RCHAR().ToString() + rchar().ToString() + RCHAR().ToString() + RINT().ToString() + RINT().ToString() + RINT().ToString() + rchar().ToString();
+            string NewPw = RCHAR().ToString() + rchar().ToString() + RCHAR().ToString() + RINT().ToString() + RINT().ToString() + RINT().ToString() + rchar().ToString() + RINT().ToString();
             return NewPw;
         }
 

@@ -11,18 +11,14 @@
       <RootProperty Name="Children" />
       <RootProperty Name="Background" />
       <RootProperty Name="Name" />
-<<<<<<< HEAD
-=======
-      <RootProperty Name="BorderBrush" />
-      <RootProperty Name="RowDefinitions" />
->>>>>>> d8ccfaa25956535c5ae62ca4e5062c8b1ff1b2bd
       <RootProperty Name="ColumnDefinitions" />
       <RootProperty Name="BorderBrush" />
+      <RootProperty Name="RowDefinitions" />
       <RootEvent Name="PointerPressed" />
-      <RootMethod Name="GetRow" />
-      <RootMethod Name="SetRow" />
       <RootMethod Name="GetColumn" />
       <RootMethod Name="SetColumn" />
+      <RootMethod Name="GetRow" />
+      <RootMethod Name="SetRow" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.StackPanel">
       <RootProperty Name="Orientation" />
@@ -55,8 +51,6 @@
       <RootProperty Name="RequestedTheme" />
       <RootProperty Name="RenderTransformOrigin" />
       <RootProperty Name="FontStyle" />
-      <RootProperty Name="RenderTransform" />
-      <RootProperty Name="Projection" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.TextBox">
       <RootProperty Name="FontSize" />
@@ -228,21 +222,16 @@
       <RootProperty Name="HorizontalAlignment" />
       <RootEvent Name="Click" />
     </RootType>
-    <RootType FullName="Windows.UI.Xaml.Media.CompositeTransform">
-      <RootProperty Name="TranslateX" />
-      <RootProperty Name="Rotation" />
-    </RootType>
-    <RootType FullName="Windows.UI.Xaml.Media.PlaneProjection">
-      <RootProperty Name="RotationX" />
-      <RootProperty Name="RotationY" />
-      <RootProperty Name="RotationZ" />
-      <RootProperty Name="CenterOfRotationX" />
-      <RootProperty Name="CenterOfRotationY" />
-      <RootProperty Name="CenterOfRotationZ" />
-    </RootType>
     <RootType FullName="TicketManagementSystem.LoginPage" />
     <RootType FullName="TicketManagementSystem.MainPage" />
     <RootType FullName="TicketManagementSystem.NewAdminRegister" />
+    <RootType FullName="Windows.UI.Xaml.Controls.RelativePanel">
+      <RootProperty Name="Children" />
+      <RootMethod Name="GetRightOf" />
+      <RootMethod Name="SetRightOf" />
+      <RootMethod Name="GetBelow" />
+      <RootMethod Name="SetBelow" />
+    </RootType>
     <RootType FullName="TicketManagementSystem.NewUserRegister" />
     <RootType FullName="TicketManagementSystem.PassengerDetailPage" />
     <RootType FullName="Windows.UI.Xaml.Controls.ContentDialog">

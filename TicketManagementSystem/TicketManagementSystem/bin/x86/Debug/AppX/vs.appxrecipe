@@ -30,29 +30,13 @@
     <AppXManifest Include="C:\Users\Janet\Desktop\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-<<<<<<< HEAD
-      <Modified>2024-04-22T08:18:54.186</Modified>
-=======
-<<<<<<< HEAD
-      <Modified>2024-04-22T04:47:54.254</Modified>
-=======
-      <Modified>2024-04-21T17:56:17.732</Modified>
->>>>>>> d8ccfaa25956535c5ae62ca4e5062c8b1ff1b2bd
->>>>>>> 0f25cd6b3230822f825137848b005b1590d5f96f
+      <Modified>2024-04-22T17:39:29.251</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Janet\Desktop\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\TicketManagementSystem.exe">
       <PackagePath>entrypoint\TicketManagementSystem.exe</PackagePath>
-<<<<<<< HEAD
-      <Modified>2024-04-22T08:18:53.061</Modified>
-=======
-<<<<<<< HEAD
-      <Modified>2024-04-22T04:47:52.950</Modified>
-=======
-      <Modified>2024-04-21T17:56:14.963</Modified>
->>>>>>> d8ccfaa25956535c5ae62ca4e5062c8b1ff1b2bd
->>>>>>> 0f25cd6b3230822f825137848b005b1590d5f96f
+      <Modified>2024-04-22T17:39:27.278</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Janet\.nuget\packages\firebaseadmin\2.4.0\lib\netstandard2.0\FirebaseAdmin.dll">
       <PackagePath>FirebaseAdmin.dll</PackagePath>
@@ -198,6 +182,10 @@
       <PackagePath>Assets\rail.png</PackagePath>
       <Modified>2024-03-25T16:08:19.424</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Janet\Desktop\RADassignment\TicketManagementSystem\TicketManagementSystem\Assets\research.png">
+      <PackagePath>Assets\research.png</PackagePath>
+      <Modified>2024-04-22T15:19:54.678</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Janet\Desktop\RADassignment\TicketManagementSystem\TicketManagementSystem\Assets\search.png">
       <PackagePath>Assets\search.png</PackagePath>
       <Modified>2024-03-26T13:36:59.192</Modified>
@@ -262,271 +250,107 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Janet\Desktop\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\TicketManagementSystem.xr.xml">
       <PackagePath>TicketManagementSystem.xr.xml</PackagePath>
-<<<<<<< HEAD
-      <Modified>2024-04-22T04:14:51.904</Modified>
-=======
-      <Modified>2024-04-21T07:30:17.916</Modified>
->>>>>>> d8ccfaa25956535c5ae62ca4e5062c8b1ff1b2bd
+      <Modified>2024-04-22T15:07:52.975</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Janet\Desktop\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-<<<<<<< HEAD
-      <Modified>2024-04-22T08:18:52.840</Modified>
+      <Modified>2024-04-22T17:39:27.016</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Janet\Desktop\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\AdminChangePassword.xbf">
-      <PackagePath>AdminChangePassword.xbf</PackagePath>
-      <Modified>2024-04-22T08:18:52.852</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Janet\Desktop\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\AdminEditUser.xbf">
-      <PackagePath>AdminEditUser.xbf</PackagePath>
-      <Modified>2024-04-22T08:18:52.852</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Janet\Desktop\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\AdminManagement.xbf">
-      <PackagePath>AdminManagement.xbf</PackagePath>
-      <Modified>2024-04-22T08:18:52.806</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Janet\Desktop\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\AdminProfile.xbf">
-      <PackagePath>AdminProfile.xbf</PackagePath>
-      <Modified>2024-04-22T08:18:52.806</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Janet\Desktop\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\BookingPage.xbf">
-      <PackagePath>BookingPage.xbf</PackagePath>
-      <Modified>2024-04-22T08:18:52.824</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Janet\Desktop\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\ChangePassword.xbf">
-      <PackagePath>ChangePassword.xbf</PackagePath>
-      <Modified>2024-04-22T08:18:52.852</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Janet\Desktop\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\CustomStyles.xbf">
-      <PackagePath>CustomStyles.xbf</PackagePath>
-      <Modified>2024-04-22T08:18:52.840</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Janet\Desktop\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\ForgetPassword.xbf">
-      <PackagePath>ForgetPassword.xbf</PackagePath>
-      <Modified>2024-04-22T08:18:52.853</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Janet\Desktop\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\LoginPage.xbf">
-      <PackagePath>LoginPage.xbf</PackagePath>
-      <Modified>2024-04-22T08:18:52.853</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Janet\Desktop\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\MainPage.xbf">
-      <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2024-04-22T08:18:52.853</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Janet\Desktop\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\NewAdminRegister.xbf">
-      <PackagePath>NewAdminRegister.xbf</PackagePath>
-      <Modified>2024-04-22T08:18:52.853</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Janet\Desktop\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\NewUserRegister.xbf">
-      <PackagePath>NewUserRegister.xbf</PackagePath>
-      <Modified>2024-04-22T08:18:52.824</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Janet\Desktop\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\PassengerDetailPage.xbf">
-      <PackagePath>PassengerDetailPage.xbf</PackagePath>
-      <Modified>2024-04-22T08:18:52.853</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Janet\Desktop\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\SeatSelectionDialog.xbf">
-      <PackagePath>SeatSelectionDialog.xbf</PackagePath>
-      <Modified>2024-04-22T08:18:52.853</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Janet\Desktop\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\SeatSelectionPage.xbf">
-      <PackagePath>SeatSelectionPage.xbf</PackagePath>
-      <Modified>2024-04-22T08:18:52.853</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Janet\Desktop\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\TrainManagement.xbf">
-      <PackagePath>TrainManagement.xbf</PackagePath>
-      <Modified>2024-04-22T08:18:52.840</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Janet\Desktop\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\UserManagement.xbf">
-      <PackagePath>UserManagement.xbf</PackagePath>
-      <Modified>2024-04-22T08:18:52.853</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Janet\Desktop\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\UserProfile.xbf">
-      <PackagePath>UserProfile.xbf</PackagePath>
-      <Modified>2024-04-22T08:18:52.840</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Janet\Desktop\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\ViewUserList.xbf">
-      <PackagePath>ViewUserList.xbf</PackagePath>
-      <Modified>2024-04-22T08:18:52.854</Modified>
-=======
-<<<<<<< HEAD
-      <Modified>2024-04-22T04:47:52.611</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\EDT\Documents\Y2S3\Rapid\New folder\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\AddRoute.xbf">
+    <AppxPackagedFile Include="C:\Users\Janet\Desktop\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\AddRoute.xbf">
       <PackagePath>AddRoute.xbf</PackagePath>
-      <Modified>2024-04-22T04:47:52.619</Modified>
-=======
-      <Modified>2024-04-21T17:56:14.687</Modified>
->>>>>>> d8ccfaa25956535c5ae62ca4e5062c8b1ff1b2bd
+      <Modified>2024-04-22T17:39:27.017</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Janet\Desktop\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\AdminChangePassword.xbf">
       <PackagePath>AdminChangePassword.xbf</PackagePath>
-<<<<<<< HEAD
-      <Modified>2024-04-22T04:47:52.619</Modified>
-=======
-      <Modified>2024-04-21T17:56:14.687</Modified>
->>>>>>> d8ccfaa25956535c5ae62ca4e5062c8b1ff1b2bd
+      <Modified>2024-04-22T17:39:27.017</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Janet\Desktop\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\AdminEditUser.xbf">
       <PackagePath>AdminEditUser.xbf</PackagePath>
-<<<<<<< HEAD
-      <Modified>2024-04-22T04:47:52.619</Modified>
-=======
-      <Modified>2024-04-21T17:56:14.687</Modified>
->>>>>>> d8ccfaa25956535c5ae62ca4e5062c8b1ff1b2bd
+      <Modified>2024-04-22T17:39:27.017</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Janet\Desktop\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\AdminManagement.xbf">
       <PackagePath>AdminManagement.xbf</PackagePath>
-<<<<<<< HEAD
-      <Modified>2024-04-22T04:47:52.565</Modified>
-=======
-      <Modified>2024-04-21T17:56:14.660</Modified>
->>>>>>> d8ccfaa25956535c5ae62ca4e5062c8b1ff1b2bd
+      <Modified>2024-04-22T17:39:26.980</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Janet\Desktop\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\AdminProfile.xbf">
       <PackagePath>AdminProfile.xbf</PackagePath>
-<<<<<<< HEAD
-      <Modified>2024-04-22T04:47:52.565</Modified>
-=======
-      <Modified>2024-04-21T17:56:14.664</Modified>
->>>>>>> d8ccfaa25956535c5ae62ca4e5062c8b1ff1b2bd
+      <Modified>2024-04-22T17:39:26.980</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Janet\Desktop\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\BookingPage.xbf">
       <PackagePath>BookingPage.xbf</PackagePath>
-<<<<<<< HEAD
-      <Modified>2024-04-22T04:47:52.582</Modified>
-=======
-      <Modified>2024-04-21T17:56:14.664</Modified>
->>>>>>> d8ccfaa25956535c5ae62ca4e5062c8b1ff1b2bd
+      <Modified>2024-04-22T17:39:26.980</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Janet\Desktop\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\ChangePassword.xbf">
       <PackagePath>ChangePassword.xbf</PackagePath>
-<<<<<<< HEAD
-      <Modified>2024-04-22T04:47:52.620</Modified>
-=======
-      <Modified>2024-04-21T17:56:14.688</Modified>
->>>>>>> d8ccfaa25956535c5ae62ca4e5062c8b1ff1b2bd
+      <Modified>2024-04-22T17:39:27.017</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Janet\Desktop\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\CustomStyles.xbf">
       <PackagePath>CustomStyles.xbf</PackagePath>
-<<<<<<< HEAD
-      <Modified>2024-04-22T04:47:52.611</Modified>
+      <Modified>2024-04-22T17:39:27.016</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\EDT\Documents\Y2S3\Rapid\New folder\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\DeleteRoute.xbf">
+    <AppxPackagedFile Include="C:\Users\Janet\Desktop\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\DeleteRoute.xbf">
       <PackagePath>DeleteRoute.xbf</PackagePath>
-      <Modified>2024-04-22T04:47:52.620</Modified>
+      <Modified>2024-04-22T17:39:27.017</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\EDT\Documents\Y2S3\Rapid\New folder\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\DisplayRoute.xbf">
+    <AppxPackagedFile Include="C:\Users\Janet\Desktop\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\DisplayRoute.xbf">
       <PackagePath>DisplayRoute.xbf</PackagePath>
-      <Modified>2024-04-22T04:47:52.621</Modified>
-=======
-      <Modified>2024-04-21T17:56:14.680</Modified>
->>>>>>> d8ccfaa25956535c5ae62ca4e5062c8b1ff1b2bd
+      <Modified>2024-04-22T17:39:27.017</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Janet\Desktop\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\ForgetPassword.xbf">
       <PackagePath>ForgetPassword.xbf</PackagePath>
-<<<<<<< HEAD
-      <Modified>2024-04-22T04:47:52.621</Modified>
-=======
-      <Modified>2024-04-21T17:56:14.688</Modified>
->>>>>>> d8ccfaa25956535c5ae62ca4e5062c8b1ff1b2bd
+      <Modified>2024-04-22T17:39:27.018</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Janet\Desktop\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\LoginPage.xbf">
       <PackagePath>LoginPage.xbf</PackagePath>
-<<<<<<< HEAD
-      <Modified>2024-04-22T04:47:52.621</Modified>
-=======
-      <Modified>2024-04-21T17:56:14.688</Modified>
->>>>>>> d8ccfaa25956535c5ae62ca4e5062c8b1ff1b2bd
+      <Modified>2024-04-22T17:39:27.018</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Janet\Desktop\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-<<<<<<< HEAD
-      <Modified>2024-04-22T04:47:52.621</Modified>
-=======
-      <Modified>2024-04-21T17:56:14.688</Modified>
->>>>>>> d8ccfaa25956535c5ae62ca4e5062c8b1ff1b2bd
+      <Modified>2024-04-22T17:39:27.018</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Janet\Desktop\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\NewAdminRegister.xbf">
       <PackagePath>NewAdminRegister.xbf</PackagePath>
-<<<<<<< HEAD
-      <Modified>2024-04-22T04:47:52.621</Modified>
-=======
-      <Modified>2024-04-21T17:56:14.688</Modified>
->>>>>>> d8ccfaa25956535c5ae62ca4e5062c8b1ff1b2bd
+      <Modified>2024-04-22T17:39:27.018</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Janet\Desktop\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\NewUserRegister.xbf">
       <PackagePath>NewUserRegister.xbf</PackagePath>
-<<<<<<< HEAD
-      <Modified>2024-04-22T04:47:52.603</Modified>
-=======
-      <Modified>2024-04-21T17:56:14.664</Modified>
->>>>>>> d8ccfaa25956535c5ae62ca4e5062c8b1ff1b2bd
+      <Modified>2024-04-22T17:39:26.998</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Janet\Desktop\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\PassengerDetailPage.xbf">
       <PackagePath>PassengerDetailPage.xbf</PackagePath>
-<<<<<<< HEAD
-      <Modified>2024-04-22T04:47:52.622</Modified>
-=======
-      <Modified>2024-04-21T17:56:14.688</Modified>
->>>>>>> d8ccfaa25956535c5ae62ca4e5062c8b1ff1b2bd
+      <Modified>2024-04-22T17:39:27.018</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Janet\Desktop\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\SeatSelectionDialog.xbf">
       <PackagePath>SeatSelectionDialog.xbf</PackagePath>
-<<<<<<< HEAD
-      <Modified>2024-04-22T04:47:52.622</Modified>
-=======
-      <Modified>2024-04-21T17:56:14.688</Modified>
->>>>>>> d8ccfaa25956535c5ae62ca4e5062c8b1ff1b2bd
+      <Modified>2024-04-22T17:39:27.019</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Janet\Desktop\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\SeatSelectionPage.xbf">
       <PackagePath>SeatSelectionPage.xbf</PackagePath>
-<<<<<<< HEAD
-      <Modified>2024-04-22T04:47:52.622</Modified>
-=======
-      <Modified>2024-04-21T17:56:14.689</Modified>
->>>>>>> d8ccfaa25956535c5ae62ca4e5062c8b1ff1b2bd
+      <Modified>2024-04-22T17:39:27.019</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Janet\Desktop\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\TrainManagement.xbf">
       <PackagePath>TrainManagement.xbf</PackagePath>
-<<<<<<< HEAD
-      <Modified>2024-04-22T04:47:52.622</Modified>
+      <Modified>2024-04-22T17:39:27.019</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\EDT\Documents\Y2S3\Rapid\New folder\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\UpdateRoute.xbf">
+    <AppxPackagedFile Include="C:\Users\Janet\Desktop\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\UpdateRoute.xbf">
       <PackagePath>UpdateRoute.xbf</PackagePath>
-      <Modified>2024-04-22T04:47:52.622</Modified>
-=======
-      <Modified>2024-04-21T17:56:14.680</Modified>
->>>>>>> d8ccfaa25956535c5ae62ca4e5062c8b1ff1b2bd
+      <Modified>2024-04-22T17:39:27.019</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Janet\Desktop\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\UserManagement.xbf">
       <PackagePath>UserManagement.xbf</PackagePath>
-<<<<<<< HEAD
-      <Modified>2024-04-22T04:47:52.622</Modified>
-=======
-      <Modified>2024-04-21T17:56:14.689</Modified>
->>>>>>> d8ccfaa25956535c5ae62ca4e5062c8b1ff1b2bd
+      <Modified>2024-04-22T17:39:27.019</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Janet\Desktop\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\UserProfile.xbf">
       <PackagePath>UserProfile.xbf</PackagePath>
-<<<<<<< HEAD
-      <Modified>2024-04-22T04:47:52.611</Modified>
+      <Modified>2024-04-22T17:39:27.014</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\EDT\Documents\Y2S3\Rapid\New folder\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\ViewRoute.xbf">
+    <AppxPackagedFile Include="C:\Users\Janet\Desktop\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\ViewRoute.xbf">
       <PackagePath>ViewRoute.xbf</PackagePath>
-      <Modified>2024-04-22T04:47:52.623</Modified>
-=======
-      <Modified>2024-04-21T17:56:14.680</Modified>
->>>>>>> d8ccfaa25956535c5ae62ca4e5062c8b1ff1b2bd
+      <Modified>2024-04-22T17:39:27.020</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Janet\Desktop\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\ViewUserList.xbf">
       <PackagePath>ViewUserList.xbf</PackagePath>
-<<<<<<< HEAD
-      <Modified>2024-04-22T04:47:52.623</Modified>
-=======
-      <Modified>2024-04-21T17:56:14.690</Modified>
->>>>>>> d8ccfaa25956535c5ae62ca4e5062c8b1ff1b2bd
->>>>>>> 0f25cd6b3230822f825137848b005b1590d5f96f
+      <Modified>2024-04-22T17:39:27.020</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.19041.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -534,23 +358,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Janet\Desktop\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-<<<<<<< HEAD
-      <Modified>2024-04-22T02:57:12.443</Modified>
-=======
-      <Modified>2024-04-21T07:30:19.436</Modified>
->>>>>>> d8ccfaa25956535c5ae62ca4e5062c8b1ff1b2bd
+      <Modified>2024-04-22T15:21:28.230</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Janet\Desktop\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\Core\TicketManagementSystem.exe">
       <PackagePath>TicketManagementSystem.exe</PackagePath>
-<<<<<<< HEAD
-      <Modified>2024-04-22T08:18:54.182</Modified>
-=======
-<<<<<<< HEAD
-      <Modified>2024-04-22T04:47:54.240</Modified>
-=======
-      <Modified>2024-04-21T17:56:17.724</Modified>
->>>>>>> d8ccfaa25956535c5ae62ca4e5062c8b1ff1b2bd
->>>>>>> 0f25cd6b3230822f825137848b005b1590d5f96f
+      <Modified>2024-04-22T17:39:29.238</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

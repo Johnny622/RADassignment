@@ -13,6 +13,8 @@ using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
 using TicketManagementSystem.Class;
+using Windows.UI.Xaml.Documents;
+using Windows.UI.Text;
 
 // The Blank Page item template is documented at https://go.microsoft.com/fwlink/?LinkId=234238
 
@@ -27,7 +29,7 @@ namespace TicketManagementSystem
         public PassengerDetailPage()
         {
             this.InitializeComponent();
-            generatePassengerDetail(2);
+            generatePassengerDetail(ListStaticData.noOfPax);
         }
 
         private void btnBar_Click(object sender, RoutedEventArgs e)
@@ -58,7 +60,11 @@ namespace TicketManagementSystem
                 mainGrid.RowDefinitions.Add(new RowDefinition());
 
                 StackPanel stackPanel_vertical1 = new StackPanel();
-                stackPanel_vertical1.Children.Add(new TextBlock { Text = "Passenger (" + (i + 1) + "/" + numOfPax + ")" });
+                stackPanel_vertical1.Children.Add(new TextBlock 
+                {
+                    Text = "Passenger (" + (i + 1) + "/" + numOfPax + ")",
+                    FontWeight = FontWeights.Bold
+                });
                 StackPanel stackPanel_horizontal = new StackPanel
                 {
                     Orientation = Orientation.Horizontal
@@ -68,11 +74,14 @@ namespace TicketManagementSystem
                 {
                     TextBlock label = createLabel(labels[j]);
                     StackPanel stackPanel_vertical = new StackPanel();
+                    stackPanel_vertical.Margin = new Thickness(5);
                     stackPanel_vertical.Children.Add(label);
 
                     if (j == 0)
                     {
-                        TextBox tb = new TextBox();
+                        TextBox tb = new TextBox {
+                            Width = 200
+                        };
                         stackPanel_vertical.Children.Add(tb);
                     }
                     else if (j == 1)
@@ -82,7 +91,10 @@ namespace TicketManagementSystem
                     }
                     else if (j == 2)
                     {
-                        TextBox tb = new TextBox();
+                        TextBox tb = new TextBox 
+                        {
+                            Width = 150
+                        };
                         tb.InputScope = new InputScope()
                         {
                             Names = { new InputScopeName() { NameValue = InputScopeNameValue.TelephoneNumber } }
@@ -117,7 +129,8 @@ namespace TicketManagementSystem
         {
             TextBlock label = new TextBlock
             {
-                Text = name
+                Text = name,
+                FontWeight = FontWeights.Bold
             };
             return label;
         }
@@ -125,7 +138,8 @@ namespace TicketManagementSystem
         {
             ComboBox comboBox = new ComboBox()
             {
-                Name = "cbxGender"
+                Name = "cbxGender",
+                Width = 100
             };
             ComboBoxItem item1 = new ComboBoxItem();
             ComboBoxItem item2 = new ComboBoxItem();
@@ -224,5 +238,10 @@ namespace TicketManagementSystem
 
         }
 
+        private void btnBookingPage_Click(object sender, RoutedEventArgs e)
+        {
+            Frame.Navigate(typeof(BookingPage));
+
+        }
     }
 }

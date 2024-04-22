@@ -136,6 +136,9 @@
     <AppxPackagedFile Include="C:\Users\Janet\Desktop\RADassignment\TicketManagementSystem\TicketManagementSystem\Assets\rail.png">
       <PackagePath>Assets\rail.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Janet\Desktop\RADassignment\TicketManagementSystem\TicketManagementSystem\Assets\research.png">
+      <PackagePath>Assets\research.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Janet\Desktop\RADassignment\TicketManagementSystem\TicketManagementSystem\Assets\search.png">
       <PackagePath>Assets\search.png</PackagePath>
     </AppxPackagedFile>

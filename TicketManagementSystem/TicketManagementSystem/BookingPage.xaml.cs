@@ -3,6 +3,7 @@ using Firebase.Database.Query;
 using LiteDB;
 using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.IO;
 using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
@@ -27,6 +28,8 @@ namespace TicketManagementSystem
     public sealed partial class BookingPage : Page
     {
         FirebaseHelper firebaseHelper = new FirebaseHelper();
+        private bool isDataLoaded = false;
+
         public BookingPage()
         {
             this.InitializeComponent();
@@ -101,14 +104,51 @@ namespace TicketManagementSystem
                 }
                 cbxOrigin.SelectedIndex = 0;
                 cbxDestination.SelectedIndex = 0;
+
+                isDataLoaded = true;
+                SearchFromDisplayRoute();
             }
             // Catch any exceptions
             catch (Exception ex)
             {
-                string errorMessage = ex.Message; 
+                string errorMessage = ex.Message;
             }
         }
 
+        private void SearchFromDisplayRoute()
+        {
+            if (isDataLoaded)
+            {
+                TrainDetails fromRoute = DisplayRoute.selectedTrain;
+                if (fromRoute != null)
+                {
+                    foreach (string item in cbxOrigin.Items)
+                    {
+                        if (item.ToUpper() == fromRoute.origin.ToUpper())
+                        {
+                            cbxOrigin.SelectedItem = item;
+                            break;
+                        }
+                    }
+                    foreach (string item in cbxDestination.Items)
+                    {
+                        if (item.ToUpper() == fromRoute.destination.ToUpper())
+                        {
+                            cbxDestination.SelectedItem = item;
+                            break;
+                        }
+                    }
+                    string departdateString = fromRoute.departdate;
+                    if (DateTimeOffset.TryParse(departdateString, out DateTimeOffset departdate))
+                    {
+                        dpDepartDate.Date = departdate;
+                    }
+
+                }
+            }
+        }
+        string userDepartDate;
+        string userReturnDate;
         private async void SearchTrains()
         {
             try
@@ -132,10 +172,11 @@ namespace TicketManagementSystem
                 }
                 else
                 {
-                    DisplayDialog("Error Input", "Must be a number");
+                    DisplayDialog("Error Input", "Pax must be a number");
+                    return;
                 }
 
-                if(cbReturn.IsChecked == true)
+                if (cbReturn.IsChecked == true)
                 {
                     spReturnInformation.Visibility = Visibility.Visible;
                 }
@@ -148,13 +189,13 @@ namespace TicketManagementSystem
                     string userDestination = cbxDestination.SelectedItem.ToString();
 
                     string departDate = detail.departdate.ToString();
-                    string userDepartDate = dpDepartDate.Date.ToString("dd-MM-yyyy");
-                    string userReturnDate = dpReturnDate.Date.ToString("dd-MM-yyyy");
+                    userDepartDate = dpDepartDate.Date.ToString("dd-MM-yyyy");
+                    userReturnDate = dpReturnDate.Date.ToString("dd-MM-yyyy");
                     string trainNo = detail.trainID;
 
                     //depart information
                     if (userOrigin.Equals(origin) && userDestination.Equals(destination) && userDepartDate.Equals(departDate))
-                    {                       
+                    {
                         cbxTrain.Items.Add(trainNo);
                     }
                     //return information
@@ -165,10 +206,12 @@ namespace TicketManagementSystem
                 }
                 cbxTrain.SelectedIndex = 0;
                 cbxReturnTrain.SelectedIndex = 0;
+                tbDepartDate.Text = userDepartDate;
+                tbReturnDate.Text = userReturnDate;
             }
             catch (Exception ex)
             {
-                DisplayDialog("Error Message",ex.Message);
+                DisplayDialog("Error Message", ex.Message);
             }
         }
 
@@ -191,12 +234,13 @@ namespace TicketManagementSystem
                         tbDepartTime.Text = detail.departtime.ToString();
                         tbArrivalTime.Text = detail.arrivaltime.ToString();
                         seat.Text = "240";
-                        price.Text = detail.price.ToString();
+                        decimal decPrice = decimal.Parse(detail.price);
+                        price.Text = decPrice.ToString("N2");
                     }
                 }
                 departPrice = decimal.Parse(price.Text);
                 returnPrice = decimal.Parse(txtReturnPrice.Text);
-                totalTicketPrice = departPrice + returnPrice;
+                totalTicketPrice = (departPrice * ListStaticData.noOfPax) + (returnPrice * ListStaticData.noOfPax);
                 txtTotal.Text = totalTicketPrice.ToString("N2");
             }
         }
@@ -218,12 +262,13 @@ namespace TicketManagementSystem
                         txtReturnDepartTime.Text = detail.departtime.ToString();
                         txtReturnETA.Text = detail.arrivaltime.ToString();
                         txtReturnSeat.Text = detail.availableseat.ToString();
-                        txtReturnPrice.Text = detail.price.ToString();
+                        decimal decPrice = decimal.Parse(detail.price);
+                        txtReturnPrice.Text = decPrice.ToString("N2");
                     }
                 }
                 departPrice = decimal.Parse(price.Text);
                 returnPrice = decimal.Parse(txtReturnPrice.Text);
-                totalTicketPrice = departPrice + returnPrice;
+                totalTicketPrice = (departPrice * ListStaticData.noOfPax) + (returnPrice * ListStaticData.noOfPax);
                 txtTotal.Text = totalTicketPrice.ToString("N2");
             }
         }
@@ -241,6 +286,16 @@ namespace TicketManagementSystem
             ContentDialogResult result = await noDialog.ShowAsync();
         }
 
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btnBookingPage_Click(object sender, RoutedEventArgs e)
+        {
+            Frame.Navigate(typeof(BookingPage));
+        }
+
         private void cbReturn_Checked(object sender, RoutedEventArgs e)
         {
             spReturn.Visibility = Visibility.Visible;
@@ -249,6 +304,11 @@ namespace TicketManagementSystem
         private void cbReturn_Unchecked(object sender, RoutedEventArgs e)
         {
             spReturn.Visibility = Visibility.Collapsed;
+        }
+
+        private void btnViewAll_Click(object sender, RoutedEventArgs e)
+        {
+            Frame.Navigate(typeof(DisplayRoute));
         }
     }
 }

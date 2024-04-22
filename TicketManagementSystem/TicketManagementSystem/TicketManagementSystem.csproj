@@ -222,6 +222,7 @@
     <Content Include="Assets\profile-icon3.jpg" />
     <Content Include="Assets\profile-user.png" />
     <Content Include="Assets\rail.png" />
+    <Content Include="Assets\research.png" />
     <Content Include="Assets\search.png" />
     <Content Include="Assets\seat.png" />
     <Content Include="Assets\software-engineer.png" />

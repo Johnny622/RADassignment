@@ -32,7 +32,7 @@
                         </StackPanel>
                     </Button>
 
-                    <Button Background="#D7ECFF" Margin="0 0 0 30" HorizontalAlignment="Stretch">
+                    <Button x:Name="btnBookingPage" Background="#D7ECFF" Margin="0 0 0 30" HorizontalAlignment="Stretch" Click="btnBookingPage_Click">
                         <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" Width="230">
                             <Image Source="Assets/booking.png" Width="30"/>
                             <TextBlock Text="BOOKING" Padding="10" VerticalAlignment="Center" Foreground="Black" FontWeight="Bold" />
@@ -81,6 +81,13 @@
                         <DatePicker x:Name="dpReturnDate"/>
                     </StackPanel>
                 </StackPanel>
+                <Button x:Name="btnViewAll" Background="#A3D4FF" Height="50" HorizontalAlignment="Right" Margin="20,0,20,0" Click="btnViewAll_Click">
+                    <StackPanel Orientation="Horizontal" Width="150">
+                        <Image Source="Assets/research.png" Width="30"/>
+                        <TextBlock Text="View All Route" FontSize="17" Foreground="Black" FontWeight="Bold" Width="120" VerticalAlignment="Center" TextAlignment="Center"/>
+                    </StackPanel>
+                </Button>
+                
                 <Button x:Name="btnSearch" Background="#A3D4FF" Height="50" HorizontalAlignment="Right" Margin="20" Click="btnSearch_Click">
                     <StackPanel Orientation="Horizontal" Width="150">
                         <Image Source="Assets/search.png" Width="30"/>

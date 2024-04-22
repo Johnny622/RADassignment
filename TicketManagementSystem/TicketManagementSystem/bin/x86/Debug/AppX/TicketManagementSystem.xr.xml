@@ -11,18 +11,14 @@
       <RootProperty Name="Children" />
       <RootProperty Name="Background" />
       <RootProperty Name="Name" />
-<<<<<<< HEAD
-=======
-      <RootProperty Name="BorderBrush" />
-      <RootProperty Name="RowDefinitions" />
->>>>>>> d8ccfaa25956535c5ae62ca4e5062c8b1ff1b2bd
       <RootProperty Name="ColumnDefinitions" />
       <RootProperty Name="BorderBrush" />
+      <RootProperty Name="RowDefinitions" />
       <RootEvent Name="PointerPressed" />
-      <RootMethod Name="GetRow" />
-      <RootMethod Name="SetRow" />
       <RootMethod Name="GetColumn" />
       <RootMethod Name="SetColumn" />
+      <RootMethod Name="GetRow" />
+      <RootMethod Name="SetRow" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.StackPanel">
       <RootProperty Name="Orientation" />
@@ -164,8 +160,6 @@
       <RootProperty Name="VerticalScrollMode" />
       <RootProperty Name="Height" />
       <RootProperty Name="Width" />
-      <RootProperty Name="BorderThickness" />
-      <RootProperty Name="BorderBrush" />
       <RootMethod Name="GetVerticalScrollMode" />
       <RootMethod Name="SetVerticalScrollMode" />
     </RootType>

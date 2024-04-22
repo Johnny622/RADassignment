@@ -25,7 +25,7 @@ namespace TicketManagementSystem
     /// </summary>
     public sealed partial class DisplayRoute : Page
     {
-
+        public static TrainDetails selectedTrain = null;
 
         FirebaseHelper firebaseHelper = new FirebaseHelper();
         public DisplayRoute()
@@ -73,6 +73,8 @@ namespace TicketManagementSystem
                 TextBlock priceTextBlock = new TextBlock();
                 priceTextBlock.Text = "Price: " + trainDetail.price.ToString();
 
+                trainButton.Tag = trainDetail;
+
                 // Add UI elements to the button
                 trainButton.Content = new StackPanel
                 {
@@ -100,7 +102,14 @@ namespace TicketManagementSystem
 
         private void TrainButton_Click(object sender, RoutedEventArgs e)
         {
-            this.Frame.Navigate(typeof(BookingPage));
+            Button clickedButton = (Button)sender;
+
+            selectedTrain = clickedButton.Tag as TrainDetails;
+
+            if (selectedTrain != null)
+            {
+                this.Frame.Navigate(typeof(BookingPage));
+            }
         }
 
         private void backBtn_Click(object sender, RoutedEventArgs e)

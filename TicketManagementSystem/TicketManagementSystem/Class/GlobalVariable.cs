@@ -18,5 +18,7 @@ namespace TicketManagementSystem
         public static string CurrentAdminEmail { get; set; }
 
         public static string CurrentPosition {  get; set; }
+
+        public static string CurrentTrainID {  get; set; }
     }
 }

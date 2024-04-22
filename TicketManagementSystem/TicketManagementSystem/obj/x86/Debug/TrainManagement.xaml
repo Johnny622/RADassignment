@@ -9,87 +9,62 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
-
-          <SplitView x:ConnectionId='2' x:Name="menuSplitView" DisplayMode="CompactOverlay" IsPaneOpen="False" CompactPaneLength="50" OpenPaneLength="240">
-      <SplitView.Pane>
-          <StackPanel Background="#4863A0">
-              <StackPanel Orientation="Horizontal" Margin="0 0 0 50">
-                  <Button x:ConnectionId='18' x:Name="btnBar" Background="Transparent" Margin="0,10,0,0"                     >
-                      <Image Source="Assets/bars.png" Width="30"/>
-                  </Button>
-              </StackPanel>
-
-              <Button x:ConnectionId='17' Name="btnUserMng" Background="Transparent" Margin="0,0,0,30" HorizontalAlignment="Stretch"                         >
-                  <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" Margin="0 0 0 0" Width="230">
-                      <Image Source="Assets/user.png" Width="30"/>
-                      <TextBlock Text="ADMIN PROFILE" Padding="10" VerticalAlignment="Center" Foreground="White" FontWeight="Bold" />
-                  </StackPanel>
-              </Button>
-
-              <Button Background="Transparent" Margin="0 0 0 30" HorizontalAlignment="Stretch">
-                  <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" Width="230">
-                      <Image Source="Assets/rail.png" Width="30"/>
-                      <TextBlock Text="ROUTE MANAGEMENT" Padding="10" VerticalAlignment="Center" Foreground="White" FontWeight="Bold" />
-                  </StackPanel>
-              </Button>
-
-          </StackPanel>
-      </SplitView.Pane>
-  </SplitView>
-  
-  <StackPanel x:ConnectionId='3' x:Name="rightContent" Orientation="Vertical" Margin="80,0,0,0">
-      <TextBlock Text="Route Management" FontFamily="Bahnschrift SemiBold" FontSize="24" FontWeight="Bold" Foreground="DarkBlue" Margin="0,20"/>
-
-      <StackPanel x:ConnectionId='4' x:Name="border1" BorderBrush="#4f6170" BorderThickness="2" Padding="10" Margin="0,0,20,20">
-          <StackPanel Orientation="Horizontal">
-              <StackPanel Width="1356">
-                  <TextBlock Text="Add Route" FontFamily="Bahnschrift SemiBold" FontSize="24" FontWeight="Bold" Foreground="DarkBlue" Margin="0,20"></TextBlock>
-                  <TextBox x:ConnectionId='5' x:Name="origin" FontSize="24" PlaceholderText="Please enter the origin"  Margin="0,20" CornerRadius="5"/>
-                  <TextBox x:ConnectionId='6' x:Name="destination" FontSize="24" PlaceholderText="Please enter the destination" Margin="0,20" CornerRadius="5"/>
-                  <StackPanel Orientation="Horizontal">
-                      <TextBlock Text="Train ID" FontFamily="Bahnschrift SemiBold" FontSize="16" FontWeight="Bold" Foreground="Blue" Margin="0,40,40,20"/>
-                      <TextBox x:ConnectionId='14' x:Name="trainID" FontSize="24" Margin="70,20" CornerRadius="5"/>
-                      <TextBlock Text="Price" FontFamily="Bahnschrift SemiBold" FontSize="16" FontWeight="Bold" Foreground="Blue" Margin="0,40,40,20"/>
-                      <TextBox x:ConnectionId='15' x:Name="price" FontSize="24" Margin="70,20" CornerRadius="5"/>
-                      <TextBlock Text="Available Seat" FontFamily="Bahnschrift SemiBold" FontSize="16" FontWeight="Bold" Foreground="Blue" Margin="0,40,40,20"/>
-                      <TextBox x:ConnectionId='16' x:Name="availableseat" FontSize="24" Margin="0,20" CornerRadius="5"/>
-                  </StackPanel>
-                
-
-                  <StackPanel  Orientation="Horizontal">
-                      <TextBlock Text="Departure Date" FontFamily="Bahnschrift SemiBold" FontSize="16" FontWeight="Bold" Foreground="Blue" Margin="0,20,40,20"/>
-                      <DatePicker x:ConnectionId='12'  x:Name="departdate" Margin="0,20" CornerRadius="5"></DatePicker>
-                      <TextBlock Text="Departure Time" FontFamily="Bahnschrift SemiBold" FontSize="16" FontWeight="Bold" Foreground="Blue" Margin="50,20,40,20"/>
-                      <TimePicker x:ConnectionId='13' x:Name="departtime" Margin="0,20" CornerRadius="5"></TimePicker>
-                   
-                  </StackPanel>
-                       
-                  <StackPanel  Orientation="Horizontal">
-                      <TextBlock Text="Arrival Date" FontFamily="Bahnschrift SemiBold" FontSize="16" FontWeight="Bold" Foreground="Blue" Margin="0,20,66,20"/>
-                      <DatePicker x:ConnectionId='10'   x:Name="arrivaldate" Margin="0,20" CornerRadius="5"></DatePicker>
-                      <TextBlock Text="Arrival Time" FontFamily="Bahnschrift SemiBold" FontSize="16" FontWeight="Bold" Foreground="Blue" Margin="50,20,66,20"/>
-                      <TimePicker x:ConnectionId='11' x:Name="arrivaltime" Margin="0,20" CornerRadius="5"></TimePicker>
-                     
-                  </StackPanel>
-                        <StackPanel Orientation="Horizontal">
-                        <Button x:ConnectionId='8' x:Name="btnAdd" Background="#A3D4FF" Height="50" HorizontalAlignment="Left" Margin="20"                      Width="138">
-                      <StackPanel Orientation="Horizontal" Width="150">
-                          <TextBlock Text="ADD" FontSize="18" Foreground="Black" FontWeight="Bold" Width="120" VerticalAlignment="Center" TextAlignment="Center"/>
-                      </StackPanel>
-                    
-                  </Button>
-                        <Button x:ConnectionId='9' x:Name="btnBack" Background="#A3D4FF" Height="50" HorizontalAlignment="Left" Margin="20"                       Width="138">
-                            <StackPanel Orientation="Horizontal" Width="150">
-                                <TextBlock Text="BACK" FontSize="18" Foreground="Black" FontWeight="Bold" Width="120" VerticalAlignment="Center" TextAlignment="Center"/>
-                            </StackPanel>
-
+        <SplitView x:ConnectionId='2' x:Name="menuSplitView" DisplayMode="CompactOverlay" IsPaneOpen="False" CompactPaneLength="50" OpenPaneLength="240" Background="#D7ECFF">
+            <SplitView.Pane>
+                <StackPanel Background="#4863A0">
+                    <StackPanel Orientation="Horizontal" Margin="0 0 0 50">
+                        <Button x:ConnectionId='11' x:Name="btnBar" Background="Transparent" Margin="0,10,0,0"                     >
+                            <Image Source="Assets/bars.png" Width="30"/>
                         </Button>
+                    </StackPanel>
+
+                    <Button x:ConnectionId='9' Name="btnUserMng" Background="#D7ECFF" Margin="0,0,0,30" HorizontalAlignment="Stretch" >
+                        <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" Margin="0 0 0 0" Width="230">
+                            <Image Source="Assets/user.png" Width="30"/>
+                            <TextBlock Text="USER MANAGEMENT" Padding="10" VerticalAlignment="Center" Foreground="Black" FontWeight="Bold" />
                         </StackPanel>
-                        <TextBlock x:ConnectionId='7' x:Name="ErrorMessage" FontSize="22" Foreground="Red" HorizontalAlignment="Center"/>
-              </StackPanel>
-          </StackPanel>
-      </StackPanel>
-  </StackPanel>
+                    </Button>
+
+                    <Button x:ConnectionId='10' x:Name="btnTrainMng" Background="Transparent" Margin="0 0 0 30" HorizontalAlignment="Stretch"                          >
+                        <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" Width="230">
+                            <Image Source="Assets/rail.png" Width="30"/>
+                            <TextBlock Text="TRAIN MANAGEMENT" Padding="10" VerticalAlignment="Center" Foreground="White" FontWeight="Bold" />
+                        </StackPanel>
+                    </Button>
+
+                    <Button Background="Transparent" Margin="0 0 0 30" HorizontalAlignment="Stretch">
+                        <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" Width="230">
+                            <Image Source="Assets/booking.png" Width="30"/>
+                            <TextBlock Text="BOOKING PAGE" Padding="10" VerticalAlignment="Center" Foreground="White" FontWeight="Bold" />
+                        </StackPanel>
+                    </Button>
+
+                    <Button Background="Transparent" HorizontalAlignment="Stretch">
+                        <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" Width="230">
+                            <Image Source="Assets/food.png" Width="30"/>
+                            <TextBlock Text="FOODS &amp; DRINKS" Padding="10" VerticalAlignment="Center" Foreground="White" FontWeight="Bold" />
+                        </StackPanel>
+                    </Button>
+                </StackPanel>
+            </SplitView.Pane>
+        </SplitView>
+
+        <StackPanel x:ConnectionId='3' x:Name="rightContent" Orientation="Vertical" Margin="80,0,0,0" >
+            <TextBlock Text="TRAIN MANAGEMENT" FontFamily="Bahnschrift SemiBold" FontSize="24" FontWeight="Bold" Foreground="DarkBlue" Margin="0,20"/>
+            <Image Source="Assets/ets-logo.png" Height="40" HorizontalAlignment="Left" Margin="0,0,0,10"/>
+
+            <StackPanel Orientation="Vertical" HorizontalAlignment="Center" Margin="0,50">
+                <Image x:ConnectionId='4' x:Name="trainroute" Source="Assets/rail.png" Width="80"/>
+                <TextBlock x:ConnectionId='5' x:Name="WelcomeMsg"  FontSize="28" HorizontalAlignment="Center" ></TextBlock>
+                <StackPanel Orientation="Vertical" BorderBrush="Gray" BorderThickness="1" Margin="0,10,0,0">
+                    <Button x:ConnectionId='6' x:Name="addRoute" FontSize="24" HorizontalAlignment="Stretch" Background="Transparent"  Content="Add Route" Margin="5,5"                           />
+                    <Line X1="10" X2="770" Stroke="Gray" StrokeThickness="1"/>
+                    <Button x:ConnectionId='7' x:Name="deleteRoute" FontSize="24" HorizontalAlignment="Stretch" Background="Transparent"  Content="Delete Route" Margin="5,5"                              />
+                    <Line X1="10" X2="770" Stroke="Gray" StrokeThickness="1"/>
+                    <Button x:ConnectionId='8' x:Name="viewRoute"  FontSize="24" HorizontalAlignment="Stretch" Background="Transparent"  Content="View Route" Margin="5,5"                           />
+                </StackPanel>
+            </StackPanel>
+        </StackPanel>
     </Grid>
 </Page>
 

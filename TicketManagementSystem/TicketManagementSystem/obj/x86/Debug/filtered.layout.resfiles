@@ -30,6 +30,7 @@ Assets\train2.png
 Assets\trainSchedule.png
 Assets\user.png
 Assets\Wide310x150Logo.scale-200.png
+AddRoute.xbf
 AdminChangePassword.xbf
 AdminEditUser.xbf
 AdminManagement.xbf
@@ -38,6 +39,8 @@ App.xbf
 BookingPage.xbf
 ChangePassword.xbf
 CustomStyles.xbf
+DeleteRoute.xbf
+DisplayRoute.xbf
 ForgetPassword.xbf
 LoginPage.xbf
 MainPage.xbf
@@ -48,7 +51,9 @@ SeatSelectionDialog.xbf
 SeatSelectionPage.xbf
 TicketManagementSystem.xr.xml
 TrainManagement.xbf
+UpdateRoute.xbf
 UserManagement.xbf
 UserProfile.xbf
+ViewRoute.xbf
 ViewUserList.xbf
 Properties\Default.rd.xml

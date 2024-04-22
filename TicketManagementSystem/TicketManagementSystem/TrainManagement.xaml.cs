@@ -23,94 +23,32 @@ namespace TicketManagementSystem
     /// </summary>
     public sealed partial class TrainManagement : Page
     {
-        FirebaseHelper firebaseHelper = new FirebaseHelper();
+       // FirebaseHelper firebaseHelper = new FirebaseHelper();
         public TrainManagement()
         {
             this.InitializeComponent();
         }
 
-        public async void btnAdd_Click(object sender, RoutedEventArgs e)
-        {
-            if (AllTextboxesFilled())
-            {
-                List<TrainDetails> trainDetails = await firebaseHelper.GetAllRoute();
-
-                try
-                {
-                    TrainDetails traindetail = new TrainDetails();
-                    traindetail.origin = origin.Text.ToString();
-                    traindetail.destination = destination.Text.ToString();
-                    traindetail.trainID = int.Parse(trainID.Text);
-                    traindetail.price = int.Parse(price.Text);
-                    traindetail.availableseat = int.Parse(availableseat.Text);
-                    traindetail.departdate = departdate.SelectedDate.Value.ToString("dd-MM-yyyy");
-                    traindetail.arrivaldate = arrivaldate.SelectedDate.Value.ToString("dd-MM-yyyy");
-                    traindetail.departtime = departtime.SelectedTime.Value.ToString();
-                    traindetail.arrivaltime = arrivaltime.SelectedTime.Value.ToString();
-
-                    await firebaseHelper.AddRoute(traindetail);
-
-                    DisplayDialog("Successful Message", "Add Route Successfully");
-                }
-                catch
-                {
-                    DisplayDialog("Error Message", "Fail to add route");
-                }
-
-            }
-            else
-            {
-                DisplayDialog("Error Message", "Please key in the fields");
-            }
-
-        }
-
         private void btnBar_Click(object sender, RoutedEventArgs e)
         {
-            menuSplitView.IsPaneOpen = !menuSplitView.IsPaneOpen;
-            if (menuSplitView.IsPaneOpen == true)
-            {
-                rightContent.Margin = new Thickness(270, 0, 0, 0);
-            }
-            else
-            {
-                rightContent.Margin = new Thickness(80, 0, 0, 0);
-            }
+            if (menuSplitView.IsPaneOpen == false) { menuSplitView.IsPaneOpen = true; rightContent.Margin = new Thickness(270, 0, 0, 0); }
+            else if (menuSplitView.IsPaneOpen == true) { menuSplitView.IsPaneOpen = false; rightContent.Margin = new Thickness(80, 0, 0, 0); }
         }
-
-        private void btnUserMng_Click(object sender, RoutedEventArgs e)
+        private void btnTrainMng_Click(object sender, RoutedEventArgs e)
         {
-
+            this.Frame.Navigate(typeof(BookingPage));
         }
-
-        private void btnBack_Click(object sender, RoutedEventArgs e)
+        private void addRoutebtn_Click(object sender, RoutedEventArgs e)
         {
-            this.Frame.Navigate(typeof(AdminManagement));
+            this.Frame.Navigate(typeof(AddRoute));
         }
-
-        private bool AllTextboxesFilled()
+        private void deleteRoutebtn_Click(object sender, RoutedEventArgs e)
         {
-            // Check if all textboxes are not empty
-            return origin.Text != "" &&
-                   destination.Text != "" &&
-                   trainID != null &&
-                   price.Text != "" &&
-                   availableseat.Text != "" &&
-                   departdate.SelectedDate != null &&
-                   arrivaldate.SelectedDate != null &&
-                   departtime.SelectedTime != null &&
-                   arrivaltime.SelectedTime != null;
+            this.Frame.Navigate(typeof(DeleteRoute));
         }
-
-        private async void DisplayDialog(string title, string content) // done and navigate to login page
+        private void viewRoutebtn_Click(object sender, RoutedEventArgs e)
         {
-            ContentDialog noDialog = new ContentDialog
-            {
-                Title = title,
-                Content = content,
-                CloseButtonText = "Ok"
-
-            };
+            this.Frame.Navigate(typeof(DisplayRoute));
         }
     }
 }

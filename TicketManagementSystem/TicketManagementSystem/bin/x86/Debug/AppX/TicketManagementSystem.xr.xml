@@ -124,6 +124,9 @@
       <RootProperty Name="CornerRadius" />
       <RootProperty Name="Items" />
       <RootProperty Name="MaxDropDownHeight" />
+      <RootProperty Name="FontFamily" />
+      <RootProperty Name="FontWeight" />
+      <RootProperty Name="Foreground" />
       <RootEvent Name="SelectionChanged" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.ComboBoxItem">

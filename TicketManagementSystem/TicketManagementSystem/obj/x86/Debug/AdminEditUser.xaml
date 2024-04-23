@@ -1,0 +1,34 @@
+﻿<Page
+    x:Class="TicketManagementSystem.AdminEditUser"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:TicketManagementSystem"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid Background="#D7ECFF">
+        <StackPanel Orientation="Vertical" Margin="30,20">
+            <Button x:ConnectionId='2' x:Name="backBtn" Content="&lt; Back" Background="Transparent" FontSize="22"                      />
+            <TextBlock Text="EDIT USER INFORMATION" Foreground="DarkBlue" FontSize="24" FontWeight="Bold"/>
+            <Image Source="Assets/ets-logo.png" Height="40" HorizontalAlignment="Left" Margin="0,20,0,20"/>
+            <TextBlock Text="Username:" FontSize="24"/>
+            <TextBox x:ConnectionId='3' x:Name="UserName" FontSize="24" PlaceholderText="User Name" Margin="0,5" CornerRadius="5"/>
+            <TextBlock Text="UserEmail:" FontSize="24"/>
+            <TextBox x:ConnectionId='4' x:Name="UserEmail" FontSize="24" PlaceholderText="User Email" Margin="0,5" CornerRadius="5"/>
+            <TextBlock Text="UserIC:" FontSize="24"/>
+            <TextBox x:ConnectionId='5' x:Name="UserIC" FontSize="24" PlaceholderText="User IC" IsReadOnly="True" Margin="0,5" CornerRadius="5"  Background="#FFC7C7C7"/>
+            <TextBlock Text="UserPhone:" FontSize="24"/>
+            <TextBox x:ConnectionId='6' x:Name="UserPhone" FontSize="24" PlaceholderText="User Phone" Margin="0,5" CornerRadius="5"/>
+            <TextBlock Text="Gender:" FontSize="24"/>
+            <ComboBox x:ConnectionId='7' x:Name="UserGender" FontSize="24" Width="500" Margin="0,5" CornerRadius="5">
+                <ComboBoxItem Content="Please Select"/>
+                <ComboBoxItem x:ConnectionId='9' x:Name="Male" Content="Male"/>
+                <ComboBoxItem x:ConnectionId='10' x:Name="Female" Content="Female"/>
+            </ComboBox>
+            <Button x:ConnectionId='8' x:Name="SubmitBtn" Content="Save" FontSize="24" Width="300" Margin="0,20" HorizontalAlignment="Center" CornerRadius="10" Background="#FFFFBE2F" BorderBrush="Black"                        />
+        </StackPanel>
+    </Grid>
+</Page>
+

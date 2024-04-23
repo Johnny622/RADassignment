@@ -21,15 +21,14 @@ namespace TicketManagementSystem.Class
            .PostAsync(JsonConvert.SerializeObject(passenger));
         }
 
-        public async Task<List<PassengerDetails>> GetAllPassengers()
+        public async Task<List<PassengerDetails>> GetAllUsers()
         {
+
             return (await firebase
               .Child("Passengers")
               .OnceAsync<PassengerDetails>()).Select(item => new PassengerDetails
               {
                   Name = item.Object.Name,
-                  IC = item.Object.IC,
-                  Gender = item.Object.Gender,
                   Phone = item.Object.Phone,
                   SeatNumber = item.Object.SeatNumber,
                   Coach = item.Object.Coach,

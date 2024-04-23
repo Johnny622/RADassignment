@@ -51,6 +51,7 @@
                             <TextBlock Text="FOODS &amp; DRINKS" Padding="10" VerticalAlignment="Center" Foreground="White" FontWeight="Bold" />
                         </StackPanel>
                     </Button>
+                    
                 </StackPanel>
             </SplitView.Pane>
         </SplitView>
@@ -61,7 +62,7 @@
                 <StackPanel Orientation="Horizontal" Margin="0,0,0,30">
                     <Image Source="Assets/sandwich.jpeg" Width="100" Height="100"/>
                     <StackPanel Margin="10,0,0,0">
-                        <TextBlock Text="Chicken Sandwich" Foreground="Black" FontWeight="Bold"/>
+                        <TextBlock Text="Chicken Sandwich and Cordial" Foreground="Black" FontWeight="Bold"/>
                         <TextBlock Text="RM 5.00" Foreground="Black"/>
                         <StackPanel Orientation="Horizontal" Margin="0,5,0,0">
                             <TextBox x:ConnectionId='7' x:Name="quantityTextBox1"                                           Width="30"/>
@@ -73,7 +74,7 @@
                 <StackPanel Orientation="Horizontal" Margin="0,0,0,30">
                     <Image Source="Assets/pasta.jpeg" Width="100" Height="100"/>
                     <StackPanel Margin="10,0,0,0">
-                        <TextBlock Text="Chicken Pasta" Foreground="Black" FontWeight="Bold"/>
+                        <TextBlock Text="Chicken Pasta and Mineral Water" Foreground="Black" FontWeight="Bold"/>
                         <TextBlock Text="RM 7.00" Foreground="Black"/>
                         <StackPanel Orientation="Horizontal" Margin="0,5,0,0">
                             <TextBox x:ConnectionId='6' x:Name="quantityTextBox2" Text="1"                                           Width="30"/>
@@ -87,7 +88,7 @@
                 </StackPanel>
 
                 <!-- Confirm Button -->
-                <Button x:ConnectionId='4' Content="Confirm Payment"                              Margin="0,20"/>
+                <Button x:ConnectionId='4' Content="Confirm Payment" Background="Silver"                              Margin="0,20"/>
             </StackPanel>
         </Grid>
         <StackPanel x:ConnectionId='3' x:Name="rightContent" Orientation="Vertical" Margin="80,0,0,0" >

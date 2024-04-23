@@ -30,13 +30,13 @@
     <AppXManifest Include="C:\Users\thiva\source\repos\Johnny622\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-04-23T19:11:47.712</Modified>
+      <Modified>2024-04-23T22:10:53.340</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\thiva\source\repos\Johnny622\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\TicketManagementSystem.exe">
       <PackagePath>entrypoint\TicketManagementSystem.exe</PackagePath>
-      <Modified>2024-04-23T19:11:46.402</Modified>
+      <Modified>2024-04-23T22:10:52.231</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\thiva\.nuget\packages\bouncycastle\1.8.9\lib\BouncyCastle.Crypto.dll">
       <PackagePath>BouncyCastle.Crypto.dll</PackagePath>
@@ -278,123 +278,123 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\thiva\source\repos\Johnny622\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\TicketManagementSystem.xr.xml">
       <PackagePath>TicketManagementSystem.xr.xml</PackagePath>
-      <Modified>2024-04-23T18:51:54.790</Modified>
+      <Modified>2024-04-23T21:54:20.907</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\thiva\source\repos\Johnny622\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2024-04-23T19:11:46.126</Modified>
+      <Modified>2024-04-23T22:10:51.980</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\thiva\source\repos\Johnny622\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\AddRoute.xbf">
       <PackagePath>AddRoute.xbf</PackagePath>
-      <Modified>2024-04-23T19:11:46.126</Modified>
+      <Modified>2024-04-23T22:10:51.980</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\thiva\source\repos\Johnny622\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\AdminChangePassword.xbf">
       <PackagePath>AdminChangePassword.xbf</PackagePath>
-      <Modified>2024-04-23T19:11:46.127</Modified>
+      <Modified>2024-04-23T22:10:51.980</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\thiva\source\repos\Johnny622\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\AdminEditUser.xbf">
       <PackagePath>AdminEditUser.xbf</PackagePath>
-      <Modified>2024-04-23T19:11:46.127</Modified>
+      <Modified>2024-04-23T22:10:51.980</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\thiva\source\repos\Johnny622\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\AdminManagement.xbf">
       <PackagePath>AdminManagement.xbf</PackagePath>
-      <Modified>2024-04-23T19:11:46.070</Modified>
+      <Modified>2024-04-23T22:10:51.933</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\thiva\source\repos\Johnny622\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\AdminProfile.xbf">
       <PackagePath>AdminProfile.xbf</PackagePath>
-      <Modified>2024-04-23T19:11:46.073</Modified>
+      <Modified>2024-04-23T22:10:51.933</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\thiva\source\repos\Johnny622\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\BookingPage.xbf">
       <PackagePath>BookingPage.xbf</PackagePath>
-      <Modified>2024-04-23T19:11:46.080</Modified>
+      <Modified>2024-04-23T22:10:51.949</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\thiva\source\repos\Johnny622\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\ChangePassword.xbf">
       <PackagePath>ChangePassword.xbf</PackagePath>
-      <Modified>2024-04-23T19:11:46.083</Modified>
+      <Modified>2024-04-23T22:10:51.949</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\thiva\source\repos\Johnny622\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\CustomStyles.xbf">
       <PackagePath>CustomStyles.xbf</PackagePath>
-      <Modified>2024-04-23T19:11:46.126</Modified>
+      <Modified>2024-04-23T22:10:51.980</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\thiva\source\repos\Johnny622\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\DeleteRoute.xbf">
       <PackagePath>DeleteRoute.xbf</PackagePath>
-      <Modified>2024-04-23T19:11:46.128</Modified>
+      <Modified>2024-04-23T22:10:51.996</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\thiva\source\repos\Johnny622\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\DisplayRoute.xbf">
       <PackagePath>DisplayRoute.xbf</PackagePath>
-      <Modified>2024-04-23T19:11:46.129</Modified>
+      <Modified>2024-04-23T22:10:51.996</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\thiva\source\repos\Johnny622\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\Food&amp;Drinks.xbf">
       <PackagePath>Food&amp;Drinks.xbf</PackagePath>
-      <Modified>2024-04-23T19:11:46.088</Modified>
+      <Modified>2024-04-23T22:10:51.949</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\thiva\source\repos\Johnny622\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\ForgetPassword.xbf">
       <PackagePath>ForgetPassword.xbf</PackagePath>
-      <Modified>2024-04-23T19:11:46.129</Modified>
+      <Modified>2024-04-23T22:10:51.996</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\thiva\source\repos\Johnny622\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\HelpManagement.xbf">
       <PackagePath>HelpManagement.xbf</PackagePath>
-      <Modified>2024-04-23T19:11:46.130</Modified>
+      <Modified>2024-04-23T22:10:51.996</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\thiva\source\repos\Johnny622\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\LoginPage.xbf">
       <PackagePath>LoginPage.xbf</PackagePath>
-      <Modified>2024-04-23T19:11:46.130</Modified>
+      <Modified>2024-04-23T22:10:51.996</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\thiva\source\repos\Johnny622\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2024-04-23T19:11:46.130</Modified>
+      <Modified>2024-04-23T22:10:51.996</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\thiva\source\repos\Johnny622\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\NewAdminRegister.xbf">
       <PackagePath>NewAdminRegister.xbf</PackagePath>
-      <Modified>2024-04-23T19:11:46.131</Modified>
+      <Modified>2024-04-23T22:10:51.996</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\thiva\source\repos\Johnny622\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\NewUserRegister.xbf">
       <PackagePath>NewUserRegister.xbf</PackagePath>
-      <Modified>2024-04-23T19:11:46.101</Modified>
+      <Modified>2024-04-23T22:10:51.965</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\thiva\source\repos\Johnny622\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\PassengerDetailPage.xbf">
       <PackagePath>PassengerDetailPage.xbf</PackagePath>
-      <Modified>2024-04-23T19:11:46.131</Modified>
+      <Modified>2024-04-23T22:10:51.996</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\thiva\source\repos\Johnny622\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\Payment.xbf">
       <PackagePath>Payment.xbf</PackagePath>
-      <Modified>2024-04-23T19:11:46.131</Modified>
+      <Modified>2024-04-23T22:10:51.996</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\thiva\source\repos\Johnny622\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\SeatSelectionDialog.xbf">
       <PackagePath>SeatSelectionDialog.xbf</PackagePath>
-      <Modified>2024-04-23T19:11:46.132</Modified>
+      <Modified>2024-04-23T22:10:51.996</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\thiva\source\repos\Johnny622\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\SeatSelectionPage.xbf">
       <PackagePath>SeatSelectionPage.xbf</PackagePath>
-      <Modified>2024-04-23T19:11:46.132</Modified>
+      <Modified>2024-04-23T22:10:51.996</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\thiva\source\repos\Johnny622\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\SummaryTrainInfo.xbf">
       <PackagePath>SummaryTrainInfo.xbf</PackagePath>
-      <Modified>2024-04-23T19:11:46.132</Modified>
+      <Modified>2024-04-23T22:10:51.996</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\thiva\source\repos\Johnny622\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\TrainManagement.xbf">
       <PackagePath>TrainManagement.xbf</PackagePath>
-      <Modified>2024-04-23T19:11:46.114</Modified>
+      <Modified>2024-04-23T22:10:51.980</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\thiva\source\repos\Johnny622\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\UpdateRoute.xbf">
       <PackagePath>UpdateRoute.xbf</PackagePath>
-      <Modified>2024-04-23T19:11:46.133</Modified>
+      <Modified>2024-04-23T22:10:51.996</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\thiva\source\repos\Johnny622\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\UserManagement.xbf">
       <PackagePath>UserManagement.xbf</PackagePath>
-      <Modified>2024-04-23T19:11:46.120</Modified>
+      <Modified>2024-04-23T22:10:51.980</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\thiva\source\repos\Johnny622\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\UserProfile.xbf">
       <PackagePath>UserProfile.xbf</PackagePath>
-      <Modified>2024-04-23T19:11:46.123</Modified>
+      <Modified>2024-04-23T22:10:51.980</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\thiva\source\repos\Johnny622\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\ViewRoute.xbf">
       <PackagePath>ViewRoute.xbf</PackagePath>
-      <Modified>2024-04-23T19:11:46.134</Modified>
+      <Modified>2024-04-23T22:10:51.996</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\thiva\source\repos\Johnny622\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\ViewUserList.xbf">
       <PackagePath>ViewUserList.xbf</PackagePath>
-      <Modified>2024-04-23T19:11:46.134</Modified>
+      <Modified>2024-04-23T22:10:51.996</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.19041.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -402,11 +402,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\thiva\source\repos\Johnny622\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2024-04-23T18:51:56.243</Modified>
+      <Modified>2024-04-23T20:29:35.676</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\thiva\source\repos\Johnny622\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\Core\TicketManagementSystem.exe">
       <PackagePath>TicketManagementSystem.exe</PackagePath>
-      <Modified>2024-04-23T19:11:47.696</Modified>
+      <Modified>2024-04-23T22:10:53.340</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

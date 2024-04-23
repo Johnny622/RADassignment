@@ -307,7 +307,7 @@ namespace TicketManagementSystem
             try
             {
                 //Load reserved seat from firebase
-                bookedList = await firebaseHelper.GetAllPassengers();
+                bookedList = await firebaseHelper.GetAllUsers();
 
                 if (bookedList.Count > 0)
                 {

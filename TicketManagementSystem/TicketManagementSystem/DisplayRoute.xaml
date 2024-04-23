@@ -15,6 +15,13 @@
                 <TextBlock Text="VIEW ALL ROUTE" FontFamily="Bahnschrift SemiBold" FontSize="24" FontWeight="Bold" Foreground="DarkBlue" Margin="20,10"/>
                 <Image Source="Assets/ets-logo.png" Height="40" HorizontalAlignment="Left" Margin="20,10"/>
 
+                <StackPanel Orientation="Horizontal" Margin="20,10" BorderBrush="#4863A0" BorderThickness="2">
+                    <TextBlock Text="Origin : " FontFamily="Bahnschrift SemiBold" FontSize="16" FontWeight="Bold" Foreground="DarkBlue" Margin="20,10"/>
+                    <ComboBox x:Name="origin"  FontFamily="Bahnschrift SemiBold" FontSize="20" FontWeight="Bold" Foreground="DarkBlue" Margin="20,10"/>
+                    <TextBlock Text="Destination : " FontFamily="Bahnschrift SemiBold" FontSize="16" FontWeight="Bold" Foreground="DarkBlue" Margin="20,10"/>
+                    <ComboBox x:Name="destination"  FontFamily="Bahnschrift SemiBold" FontSize="20" FontWeight="Bold" Foreground="DarkBlue" Margin="20,10"/>
+
+                </StackPanel>
                 <StackPanel Orientation="Vertical" BorderBrush="#4863A0" BorderThickness="2">
                     <StackPanel x:Name="trainDetailsContainer" Margin="10"/>
                 </StackPanel>

@@ -13,12 +13,14 @@ Assets\LockScreenLogo.scale-200.png
 Assets\management.png
 Assets\meal.png
 Assets\next.png
+Assets\pasta.jpeg
 Assets\profile-icon.jpg
 Assets\profile-icon2.jpg
 Assets\profile-icon3.jpg
 Assets\profile-user.png
 Assets\rail.png
 Assets\research.png
+Assets\sandwich.jpeg
 Assets\search.png
 Assets\seat.png
 Assets\software-engineer.png
@@ -44,6 +46,7 @@ ChangePassword.xbf
 CustomStyles.xbf
 DeleteRoute.xbf
 DisplayRoute.xbf
+Food&Drinks.xbf
 ForgetPassword.xbf
 HelpManagement.xbf
 LoginPage.xbf

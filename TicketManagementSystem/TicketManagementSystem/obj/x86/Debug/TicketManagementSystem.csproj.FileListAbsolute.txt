@@ -586,3 +586,8 @@ C:\Users\thiva\OneDrive\Documents\GitHub\RADassignment\TicketManagementSystem\Ti
 C:\Users\thiva\OneDrive\Documents\GitHub\RADassignment\TicketManagementSystem\TicketManagementSystem\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt
 C:\Users\thiva\OneDrive\Documents\GitHub\RADassignment\TicketManagementSystem\TicketManagementSystem\obj\x86\Debug\ProjectArchitectures.txt
 C:\Users\thiva\OneDrive\Documents\GitHub\RADassignment\TicketManagementSystem\TicketManagementSystem\obj\x86\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_637424527200000000.json
+C:\Users\Janet\Desktop\RADassignment\TicketManagementSystem\TicketManagementSystem\obj\x86\Debug\Food&Drinks.g.i.cs
+C:\Users\Janet\Desktop\RADassignment\TicketManagementSystem\TicketManagementSystem\obj\x86\Debug\Food&Drinks.g.cs
+C:\Users\Janet\Desktop\RADassignment\TicketManagementSystem\TicketManagementSystem\obj\x86\Debug\Food&Drinks.xaml
+C:\Users\Janet\Desktop\RADassignment\TicketManagementSystem\TicketManagementSystem\obj\x86\Debug\Food&Drinks.xbf
+C:\Users\Janet\Desktop\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\Food&Drinks.xbf

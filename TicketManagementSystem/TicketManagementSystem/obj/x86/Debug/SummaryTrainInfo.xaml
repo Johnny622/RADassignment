@@ -9,6 +9,7 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
+<<<<<<< HEAD
         <SplitView x:ConnectionId='2' x:Name="menuSplitView" DisplayMode="CompactOverlay" IsPaneOpen="False" CompactPaneLength="50" OpenPaneLength="240">
             <SplitView.Pane>
                 <StackPanel Background="#4863A0">
@@ -73,6 +74,9 @@
                 <TextBlock Text="DOWNLOAD PDF" FontSize="14" Foreground="Black" FontWeight="Bold" Width="120" VerticalAlignment="Center" TextAlignment="Center"/>
             </StackPanel>
         </Button>
+=======
+
+>>>>>>> b2ff9e21d4574a1045f4eee83d05f944aa5cd1aa
     </Grid>
 </Page>
 

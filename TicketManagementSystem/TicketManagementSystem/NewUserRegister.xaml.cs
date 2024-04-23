@@ -265,5 +265,13 @@ namespace TicketManagementSystem
         {
             this.Frame.Navigate(typeof(LoginPage));
         }
+
+        private void StackPanel_KeyDown(object sender, KeyRoutedEventArgs e)
+        {
+            if (e.Key == Windows.System.VirtualKey.Enter)
+            {
+                SignUpSubmitBtn_Click(sender, e);
+            }
+        }
     }
 }

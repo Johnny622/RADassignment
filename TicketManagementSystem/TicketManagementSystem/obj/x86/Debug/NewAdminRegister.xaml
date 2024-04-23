@@ -20,14 +20,22 @@
             </LinearGradientBrush>
         </Grid.Background>
         <ScrollViewer VerticalScrollBarVisibility="Auto">
+<<<<<<< HEAD
             <StackPanel Orientation="Vertical" Width="1000" Height="700" BorderThickness="2">
+=======
+            <StackPanel x:ConnectionId='2' Orientation="Vertical" Width="1000" Height="700" BorderThickness="2"                             >
+>>>>>>> b2ff9e21d4574a1045f4eee83d05f944aa5cd1aa
                 <StackPanel.BorderBrush>
                     <SolidColorBrush Color="Black" Opacity="0.5"/>
                 </StackPanel.BorderBrush>
                 <StackPanel.Background>
                     <SolidColorBrush Color="White" Opacity="0.5"/>
                 </StackPanel.Background>
+<<<<<<< HEAD
                 <Button x:ConnectionId='2' x:Name="BackBtn" Content="&lt;Back" Background="Transparent" FontSize="24"                      />
+=======
+                <Button x:ConnectionId='3' x:Name="BackBtn" Content="&lt;Back" Background="Transparent" FontSize="24"                      />
+>>>>>>> b2ff9e21d4574a1045f4eee83d05f944aa5cd1aa
                 <StackPanel>
                     <Line X1="0" X2="1000" Stroke="Black" StrokeThickness="3"/>
                     <TextBlock Text="Add New Admin" FontSize="24" FontWeight="Bold" HorizontalAlignment="Center" Margin="10"/>
@@ -43,40 +51,67 @@
                             <TextBlock Text="Email" FontSize="20"/>
                             <TextBlock Text="*" FontSize="20" Foreground="Red"/>
                         </StackPanel>
+<<<<<<< HEAD
                         <TextBox x:ConnectionId='5' x:Name="SignUpEmail" FontSize="20"/>
+=======
+                        <TextBox x:ConnectionId='6' x:Name="SignUpEmail" FontSize="20"/>
+>>>>>>> b2ff9e21d4574a1045f4eee83d05f944aa5cd1aa
 
                         <StackPanel Orientation="Horizontal">
                             <TextBlock Text="Password" FontSize="20"/>
                             <TextBlock Text="***" FontSize="20" Foreground="Red"/>
                         </StackPanel>
+<<<<<<< HEAD
                         <PasswordBox x:ConnectionId='6' x:Name="SignUpPassword" FontSize="20"/>
+=======
+                        <PasswordBox x:ConnectionId='7' x:Name="SignUpPassword" FontSize="20"/>
+>>>>>>> b2ff9e21d4574a1045f4eee83d05f944aa5cd1aa
 
                         <StackPanel Orientation="Horizontal">
                             <TextBlock Text="Contact" FontSize="20"/>
                             <TextBlock Text="*" FontSize="20" Foreground="Red"/>
                         </StackPanel>
+<<<<<<< HEAD
                         <TextBox x:ConnectionId='7' x:Name="SignUpContact" FontSize="20"/>
+=======
+                        <TextBox x:ConnectionId='8' x:Name="SignUpContact" FontSize="20"/>
+>>>>>>> b2ff9e21d4574a1045f4eee83d05f944aa5cd1aa
 
                         <StackPanel Orientation="Horizontal">
                             <TextBlock Text="Full name as per MyKad" FontSize="20"/>
                             <TextBlock Text="**" FontSize="20" Foreground="Red"/>
                         </StackPanel>
+<<<<<<< HEAD
                         <TextBox x:ConnectionId='8' x:Name="SignUpFullName" FontSize="20"/>
+=======
+                        <TextBox x:ConnectionId='9' x:Name="SignUpFullName" FontSize="20"/>
+>>>>>>> b2ff9e21d4574a1045f4eee83d05f944aa5cd1aa
 
                         <StackPanel Orientation="Horizontal">
                             <TextBlock Text="MyKad No." FontSize="20"/>
                             <TextBlock Text="**" FontSize="20" Foreground="Red"/>
                         </StackPanel>
+<<<<<<< HEAD
                         <TextBox x:ConnectionId='9' x:Name="SignUpMyKad" FontSize="20"/>
+=======
+                        <TextBox x:ConnectionId='10' x:Name="SignUpMyKad" FontSize="20"/>
+>>>>>>> b2ff9e21d4574a1045f4eee83d05f944aa5cd1aa
 
                         <StackPanel Orientation="Horizontal">
                             <TextBlock Text="Gender" FontSize="20"/>
                             <TextBlock Text="*" FontSize="20" Foreground="Red"/>
                         </StackPanel>
+<<<<<<< HEAD
                         <ComboBox x:ConnectionId='10' x:Name="SignUpGender" FontSize="20" Width="480">
                             <ComboBoxItem Content="Please Select" IsSelected="True"/>
                             <ComboBoxItem x:ConnectionId='11' x:Name="Male" Content="Male"/>
                             <ComboBoxItem x:ConnectionId='12' x:Name="Female" Content="Female"/>
+=======
+                        <ComboBox x:ConnectionId='11' x:Name="SignUpGender" FontSize="20" Width="480">
+                            <ComboBoxItem Content="Please Select" IsSelected="True"/>
+                            <ComboBoxItem x:ConnectionId='12' x:Name="Male" Content="Male"/>
+                            <ComboBoxItem x:ConnectionId='13' x:Name="Female" Content="Female"/>
+>>>>>>> b2ff9e21d4574a1045f4eee83d05f944aa5cd1aa
                         </ComboBox>
                     </StackPanel>
                 </StackPanel>
@@ -94,8 +129,13 @@
                     <TextBlock Text=" Password Requirement : Minimum 8 character - at least 1 uppercase , lowercase and numbers" FontSize="16"/>
                 </StackPanel>
 
+<<<<<<< HEAD
                 <TextBlock x:ConnectionId='3' x:Name="ErrorMessage" FontSize="16" Foreground="Red" HorizontalAlignment="Center"/>
                 <Button x:ConnectionId='4' x:Name="SignUpSubmitBtn" FontSize="24" Content="Add" HorizontalAlignment="Stretch" Background="#FFFFAF00" Margin="10,0,10,10"                              />
+=======
+                <TextBlock x:ConnectionId='4' x:Name="ErrorMessage" FontSize="16" Foreground="Red" HorizontalAlignment="Center"/>
+                <Button x:ConnectionId='5' x:Name="SignUpSubmitBtn" FontSize="24" Content="Add" HorizontalAlignment="Stretch" Background="#FFFFAF00" Margin="10,0,10,10"                              />
+>>>>>>> b2ff9e21d4574a1045f4eee83d05f944aa5cd1aa
 
             </StackPanel>
         </ScrollViewer>

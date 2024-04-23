@@ -1,6 +1,7 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< HEAD
     "C:\\Users\\Janet\\Desktop\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\TicketManagementSystem.csproj": {}
   },
   "projects": {
@@ -12,6 +13,19 @@
         "projectPath": "C:\\Users\\Janet\\Desktop\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\TicketManagementSystem.csproj",
         "packagesPath": "C:\\Users\\Janet\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\Janet\\Desktop\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\obj\\",
+=======
+    "C:\\Users\\thiva\\OneDrive\\Documents\\GitHub\\RADassignment\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\TicketManagementSystem.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\thiva\\OneDrive\\Documents\\GitHub\\RADassignment\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\TicketManagementSystem.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\thiva\\OneDrive\\Documents\\GitHub\\RADassignment\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\TicketManagementSystem.csproj",
+        "projectName": "TicketManagementSystem",
+        "projectPath": "C:\\Users\\thiva\\OneDrive\\Documents\\GitHub\\RADassignment\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\TicketManagementSystem.csproj",
+        "packagesPath": "C:\\Users\\thiva\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\thiva\\OneDrive\\Documents\\GitHub\\RADassignment\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\obj\\",
+>>>>>>> b2ff9e21d4574a1045f4eee83d05f944aa5cd1aa
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
@@ -19,7 +33,11 @@
           "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\"
         ],
         "configFilePaths": [
+<<<<<<< HEAD
           "C:\\Users\\Janet\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
+          "C:\\Users\\thiva\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> b2ff9e21d4574a1045f4eee83d05f944aa5cd1aa
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -63,10 +81,13 @@
             "Microsoft.NETCore.UniversalWindowsPlatform": {
               "target": "Package",
               "version": "[6.2.14, )"
+<<<<<<< HEAD
             },
             "iTextSharp": {
               "target": "Package",
               "version": "[5.5.13.3, )"
+=======
+>>>>>>> b2ff9e21d4574a1045f4eee83d05f944aa5cd1aa
             }
           },
           "imports": [

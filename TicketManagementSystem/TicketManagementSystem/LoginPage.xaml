@@ -32,7 +32,7 @@
         <StackPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center" Height="460" Width="519" Background="LightGray" Opacity="0.7" >
             <TextBlock Text="Login" FontSize="24" HorizontalAlignment="Center" FontWeight="Bold" Margin="5,0,5,0"/>
             <StackPanel Orientation="Horizontal" Margin="5,5,5,5">
-                <Button x:Name="LoginBtnUser" Content="User" Width="250" FontFamily="Bahnschrift SemiBold" FontWeight="Black" Click="LoginBtnUser_Click" >
+                <Button x:Name="LoginBtnUser" Content="User" Width="250" FontFamily="Bahnschrift SemiBold" FontWeight="Black" Click="LoginBtnUser_Click" KeyDown="LoginEnter_KeyDown" >
                     <Button.Background>
                         <SolidColorBrush Color="#FF383333" Opacity="0.2"/>
                     </Button.Background>
@@ -40,7 +40,7 @@
                         <SolidColorBrush Color="Black" Opacity="0.4"/>
                     </Button.BorderBrush>
                 </Button>
-                <Button Name="LoginBtnAdmin" Content="Admin" Width="250" Margin="7,0,0,0" FontFamily="Bahnschrift SemiBold" FontWeight="Black" Click="LoginBtnAdmin_Click">
+                <Button Name="LoginBtnAdmin" Content="Admin" Width="250" Margin="7,0,0,0" FontFamily="Bahnschrift SemiBold" FontWeight="Black" Click="LoginBtnAdmin_Click" KeyDown="LoginEnter_KeyDown">
                     <Button.Background>
                         <SolidColorBrush Color="#FF383333" Opacity="0.2"/>
                     </Button.Background>
@@ -52,12 +52,12 @@
             <TextBlock Text="Email"  FontSize="24" Margin="5,0,5,0"/>
             <StackPanel Orientation="Horizontal" Margin="5,5,5,5" >
                 <Image Source="Assets/profile-icon2.jpg" Height="50"/>
-                <TextBox x:Name="EmailTextBox" FontSize="24" Width="458" PlaceholderText="*Required*"/>
+                <TextBox x:Name="EmailTextBox" FontSize="24" Width="458" PlaceholderText="*Required*" KeyDown="LoginUserNameEnter_KeyDown"/>
             </StackPanel>
             <TextBlock Text="Password" FontSize="24"/>
             <StackPanel Orientation="Horizontal" Margin="5,5,5,5" >
                 <Image Source="Assets/key2.png" Height="50" />
-                <PasswordBox x:Name="PasswordTextBox" FontSize="24" Width="458" PlaceholderText="*Required*"/>
+                <PasswordBox x:Name="PasswordTextBox" FontSize="24" Width="458" PlaceholderText="*Required*" KeyDown="LoginEnter_KeyDown"/>
             </StackPanel>
             <TextBlock x:Name="ErrorMessage" Foreground="Red" FontSize="24" HorizontalAlignment="Center" Visibility="Collapsed"/>
             <HyperlinkButton x:Name="ForgetPw" Content="Forget Password ?" FontSize="16" Foreground="Blue" HorizontalAlignment="Center" Click="ForgetPw_Click" />

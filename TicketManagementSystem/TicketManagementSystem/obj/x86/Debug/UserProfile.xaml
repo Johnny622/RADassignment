@@ -59,6 +59,7 @@
             <TextBlock Text="MY PROFILE" FontFamily="Bahnschrift SemiBold" FontSize="24" FontWeight="Bold" Foreground="DarkBlue" Margin="0,20"/>
             <Image Source="Assets/ets-logo.png" Height="40" HorizontalAlignment="Left" Margin="0,0,0,10"/>
 
+<<<<<<< HEAD
             <StackPanel Orientation="Vertical" Margin="50,50">
                 <TextBox x:ConnectionId='4' x:Name="UserName" FontSize="20" PlaceholderText="User Name" IsReadOnly="True" Margin="0,15" CornerRadius="5" Background="#FFC7C7C7"/>
                 <TextBox x:ConnectionId='5' x:Name="UserEmail" FontSize="20" PlaceholderText="User Email" Margin="0,15" CornerRadius="5"/>
@@ -66,12 +67,31 @@
                 <TextBox x:ConnectionId='7' x:Name="UserIC" FontSize="20" PlaceholderText="User IC" IsReadOnly="True" Margin="0,15" CornerRadius="5"  Background="#FFC7C7C7"/>
                 <TextBox x:ConnectionId='8' x:Name="UserPhone" FontSize="20" PlaceholderText="User Phone" Margin="0,15" CornerRadius="5"/>
                 <ComboBox x:ConnectionId='9' x:Name="UserGender" FontSize="20" Width="500" Margin="0,15" CornerRadius="5">
+=======
+            <StackPanel>
+                <TextBlock Text="Username :" FontSize="20"/>
+                <TextBox x:ConnectionId='4' x:Name="UserName" FontSize="20" PlaceholderText="User Name" IsReadOnly="True" Margin="0,5,20,5" CornerRadius="5" Background="#FFC7C7C7"                              />
+                <TextBlock Text="Email :" FontSize="20"/>
+                <TextBox x:ConnectionId='5' x:Name="UserEmail" FontSize="20" PlaceholderText="User Email" Margin="0,5,20,5" CornerRadius="5"                              />
+                <TextBlock Text="ID :" FontSize="20"/>
+                <TextBox x:ConnectionId='6' x:Name="UserID" FontSize="20" PlaceholderText="User ID" IsReadOnly="True" Margin="0,5,20,5" CornerRadius="5"  Background="#FFC7C7C7"                              />
+                <TextBlock Text="IC :" FontSize="20"/>
+                <TextBox x:ConnectionId='7' x:Name="UserIC" FontSize="20" PlaceholderText="User IC" IsReadOnly="True" Margin="0,5,20,5" CornerRadius="5"  Background="#FFC7C7C7"                              />
+                <TextBlock Text="Phone Number :" FontSize="20"/>
+                <TextBox x:ConnectionId='8' x:Name="UserPhone" FontSize="20" PlaceholderText="User Phone" Margin="0,5,20,5" CornerRadius="5"                              />
+                <TextBlock Text="Gender :" FontSize="20"/>
+                <ComboBox x:ConnectionId='9' x:Name="UserGender" FontSize="20" Width="500" Margin="0,5,20,5" CornerRadius="5"                            >
+>>>>>>> b2ff9e21d4574a1045f4eee83d05f944aa5cd1aa
                     <ComboBoxItem Content="Please Select"/>
                     <ComboBoxItem x:ConnectionId='12' x:Name="Male" Content="Male"/>
                     <ComboBoxItem x:ConnectionId='13' x:Name="Female" Content="Female"/>
                 </ComboBox>
                 <TextBlock x:ConnectionId='10' x:Name="ErrorMessage" FontSize="20" HorizontalAlignment="Center" Foreground="Red"/>
+<<<<<<< HEAD
                 <Button x:ConnectionId='11' x:Name="SubmitBtn" Content="Save" FontSize="24" Width="300" Margin="0,15" HorizontalAlignment="Center" CornerRadius="10" Background="#FFFFBE2F" BorderBrush="Black"                        />
+=======
+                <Button x:ConnectionId='11' x:Name="SubmitBtn" Content="Save" FontSize="20" Width="300" HorizontalAlignment="Center" CornerRadius="10" Background="#FFFFBE2F" BorderBrush="Black"                        />
+>>>>>>> b2ff9e21d4574a1045f4eee83d05f944aa5cd1aa
             </StackPanel>
         </StackPanel>
     </Grid>

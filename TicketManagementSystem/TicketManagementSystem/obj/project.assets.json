@@ -2,6 +2,7 @@
   "version": 3,
   "targets": {
     "UAP,Version=v10.0.17763": {
+<<<<<<< HEAD
       "BouncyCastle/1.8.9": {
         "type": "package",
         "compile": {
@@ -11,6 +12,8 @@
           "lib/BouncyCastle.Crypto.dll": {}
         }
       },
+=======
+>>>>>>> b2ff9e21d4574a1045f4eee83d05f944aa5cd1aa
       "FirebaseAdmin/2.4.0": {
         "type": "package",
         "dependencies": {
@@ -161,6 +164,7 @@
           }
         }
       },
+<<<<<<< HEAD
       "iTextSharp/5.5.13.3": {
         "type": "package",
         "dependencies": {
@@ -173,6 +177,8 @@
           "lib/itextsharp.dll": {}
         }
       },
+=======
+>>>>>>> b2ff9e21d4574a1045f4eee83d05f944aa5cd1aa
       "LiteDB/4.1.4": {
         "type": "package",
         "dependencies": {
@@ -1118,6 +1124,7 @@
       }
     },
     "UAP,Version=v10.0.17763/win10-arm": {
+<<<<<<< HEAD
       "BouncyCastle/1.8.9": {
         "type": "package",
         "compile": {
@@ -1127,6 +1134,8 @@
           "lib/BouncyCastle.Crypto.dll": {}
         }
       },
+=======
+>>>>>>> b2ff9e21d4574a1045f4eee83d05f944aa5cd1aa
       "FirebaseAdmin/2.4.0": {
         "type": "package",
         "dependencies": {
@@ -1277,6 +1286,7 @@
           }
         }
       },
+<<<<<<< HEAD
       "iTextSharp/5.5.13.3": {
         "type": "package",
         "dependencies": {
@@ -1289,6 +1299,8 @@
           "lib/itextsharp.dll": {}
         }
       },
+=======
+>>>>>>> b2ff9e21d4574a1045f4eee83d05f944aa5cd1aa
       "LiteDB/4.1.4": {
         "type": "package",
         "dependencies": {
@@ -2540,6 +2552,7 @@
       }
     },
     "UAP,Version=v10.0.17763/win10-arm-aot": {
+<<<<<<< HEAD
       "BouncyCastle/1.8.9": {
         "type": "package",
         "compile": {
@@ -2549,6 +2562,8 @@
           "lib/BouncyCastle.Crypto.dll": {}
         }
       },
+=======
+>>>>>>> b2ff9e21d4574a1045f4eee83d05f944aa5cd1aa
       "FirebaseAdmin/2.4.0": {
         "type": "package",
         "dependencies": {
@@ -2699,6 +2714,7 @@
           }
         }
       },
+<<<<<<< HEAD
       "iTextSharp/5.5.13.3": {
         "type": "package",
         "dependencies": {
@@ -2711,6 +2727,8 @@
           "lib/itextsharp.dll": {}
         }
       },
+=======
+>>>>>>> b2ff9e21d4574a1045f4eee83d05f944aa5cd1aa
       "LiteDB/4.1.4": {
         "type": "package",
         "dependencies": {
@@ -4026,6 +4044,7 @@
       }
     },
     "UAP,Version=v10.0.17763/win10-arm64-aot": {
+<<<<<<< HEAD
       "BouncyCastle/1.8.9": {
         "type": "package",
         "compile": {
@@ -4035,6 +4054,8 @@
           "lib/BouncyCastle.Crypto.dll": {}
         }
       },
+=======
+>>>>>>> b2ff9e21d4574a1045f4eee83d05f944aa5cd1aa
       "FirebaseAdmin/2.4.0": {
         "type": "package",
         "dependencies": {
@@ -4185,6 +4206,7 @@
           }
         }
       },
+<<<<<<< HEAD
       "iTextSharp/5.5.13.3": {
         "type": "package",
         "dependencies": {
@@ -4197,6 +4219,8 @@
           "lib/itextsharp.dll": {}
         }
       },
+=======
+>>>>>>> b2ff9e21d4574a1045f4eee83d05f944aa5cd1aa
       "LiteDB/4.1.4": {
         "type": "package",
         "dependencies": {
@@ -5512,6 +5536,7 @@
       }
     },
     "UAP,Version=v10.0.17763/win10-x64": {
+<<<<<<< HEAD
       "BouncyCastle/1.8.9": {
         "type": "package",
         "compile": {
@@ -5521,6 +5546,8 @@
           "lib/BouncyCastle.Crypto.dll": {}
         }
       },
+=======
+>>>>>>> b2ff9e21d4574a1045f4eee83d05f944aa5cd1aa
       "FirebaseAdmin/2.4.0": {
         "type": "package",
         "dependencies": {
@@ -5671,6 +5698,7 @@
           }
         }
       },
+<<<<<<< HEAD
       "iTextSharp/5.5.13.3": {
         "type": "package",
         "dependencies": {
@@ -5683,6 +5711,8 @@
           "lib/itextsharp.dll": {}
         }
       },
+=======
+>>>>>>> b2ff9e21d4574a1045f4eee83d05f944aa5cd1aa
       "LiteDB/4.1.4": {
         "type": "package",
         "dependencies": {
@@ -6934,6 +6964,7 @@
       }
     },
     "UAP,Version=v10.0.17763/win10-x64-aot": {
+<<<<<<< HEAD
       "BouncyCastle/1.8.9": {
         "type": "package",
         "compile": {
@@ -6943,6 +6974,8 @@
           "lib/BouncyCastle.Crypto.dll": {}
         }
       },
+=======
+>>>>>>> b2ff9e21d4574a1045f4eee83d05f944aa5cd1aa
       "FirebaseAdmin/2.4.0": {
         "type": "package",
         "dependencies": {
@@ -7093,6 +7126,7 @@
           }
         }
       },
+<<<<<<< HEAD
       "iTextSharp/5.5.13.3": {
         "type": "package",
         "dependencies": {
@@ -7105,6 +7139,8 @@
           "lib/itextsharp.dll": {}
         }
       },
+=======
+>>>>>>> b2ff9e21d4574a1045f4eee83d05f944aa5cd1aa
       "LiteDB/4.1.4": {
         "type": "package",
         "dependencies": {
@@ -8420,6 +8456,7 @@
       }
     },
     "UAP,Version=v10.0.17763/win10-x86": {
+<<<<<<< HEAD
       "BouncyCastle/1.8.9": {
         "type": "package",
         "compile": {
@@ -8429,6 +8466,8 @@
           "lib/BouncyCastle.Crypto.dll": {}
         }
       },
+=======
+>>>>>>> b2ff9e21d4574a1045f4eee83d05f944aa5cd1aa
       "FirebaseAdmin/2.4.0": {
         "type": "package",
         "dependencies": {
@@ -8579,6 +8618,7 @@
           }
         }
       },
+<<<<<<< HEAD
       "iTextSharp/5.5.13.3": {
         "type": "package",
         "dependencies": {
@@ -8591,6 +8631,8 @@
           "lib/itextsharp.dll": {}
         }
       },
+=======
+>>>>>>> b2ff9e21d4574a1045f4eee83d05f944aa5cd1aa
       "LiteDB/4.1.4": {
         "type": "package",
         "dependencies": {
@@ -9842,6 +9884,7 @@
       }
     },
     "UAP,Version=v10.0.17763/win10-x86-aot": {
+<<<<<<< HEAD
       "BouncyCastle/1.8.9": {
         "type": "package",
         "compile": {
@@ -9851,6 +9894,8 @@
           "lib/BouncyCastle.Crypto.dll": {}
         }
       },
+=======
+>>>>>>> b2ff9e21d4574a1045f4eee83d05f944aa5cd1aa
       "FirebaseAdmin/2.4.0": {
         "type": "package",
         "dependencies": {
@@ -10001,6 +10046,7 @@
           }
         }
       },
+<<<<<<< HEAD
       "iTextSharp/5.5.13.3": {
         "type": "package",
         "dependencies": {
@@ -10013,6 +10059,8 @@
           "lib/itextsharp.dll": {}
         }
       },
+=======
+>>>>>>> b2ff9e21d4574a1045f4eee83d05f944aa5cd1aa
       "LiteDB/4.1.4": {
         "type": "package",
         "dependencies": {
@@ -11329,6 +11377,7 @@
     }
   },
   "libraries": {
+<<<<<<< HEAD
     "BouncyCastle/1.8.9": {
       "sha512": "axnBgvdD5n+FnEG6efk/tfKuMFru7R/EoISH9zjh319yb3HD24TEHSAbNN/lTRT2ulOGRxDgOsCjkuk08iwWPg==",
       "type": "package",
@@ -11342,6 +11391,8 @@
         "lib/BouncyCastle.Crypto.dll"
       ]
     },
+=======
+>>>>>>> b2ff9e21d4574a1045f4eee83d05f944aa5cd1aa
     "FirebaseAdmin/2.4.0": {
       "sha512": "0O89+8oFnHys8TPsk6af0nqcthedok4R467q/tQ/mUyKsXgG45fu1U0acnkKpOGSXT+550cyFfcUj5QlicoOvg==",
       "type": "package",
@@ -11506,6 +11557,7 @@
         "lib/netstandard2.0/Google.Apis.Core.xml"
       ]
     },
+<<<<<<< HEAD
     "iTextSharp/5.5.13.3": {
       "sha512": "vtnMhTEJdZFCkLqaQLjD8aqTBIVKHPrSFuSXnxbLEJlvE/j/l88fvG9wtsejXTmhtErMo0lA9T2LdfdfbwplYw==",
       "type": "package",
@@ -11522,6 +11574,8 @@
         "notice.txt"
       ]
     },
+=======
+>>>>>>> b2ff9e21d4574a1045f4eee83d05f944aa5cd1aa
     "LiteDB/4.1.4": {
       "sha512": "g4g9JlHzRBZl+Gd2UbiRdszZ7t8wozU2wX7+5xY5uE79tmcgcDhha+ubAP84G1VLbwQmhBGCzRfIx+epLmJciQ==",
       "type": "package",
@@ -17774,23 +17828,39 @@
       "FirebaseAuthentication.net >= 4.1.0",
       "FirebaseDatabase.net >= 4.2.0",
       "FirebaseStorage.net >= 1.0.3",
+<<<<<<< HEAD
       "Microsoft.NETCore.UniversalWindowsPlatform >= 6.2.14",
       "iTextSharp >= 5.5.13.3"
     ]
   },
   "packageFolders": {
     "C:\\Users\\Janet\\.nuget\\packages\\": {},
+=======
+      "Microsoft.NETCore.UniversalWindowsPlatform >= 6.2.14"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\thiva\\.nuget\\packages\\": {},
+>>>>>>> b2ff9e21d4574a1045f4eee83d05f944aa5cd1aa
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
       "projectUniqueName": "C:\\Users\\Janet\\Desktop\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\TicketManagementSystem.csproj",
       "projectName": "TicketManagementSystem",
       "projectPath": "C:\\Users\\Janet\\Desktop\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\TicketManagementSystem.csproj",
       "packagesPath": "C:\\Users\\Janet\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Janet\\Desktop\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\obj\\",
+=======
+      "projectUniqueName": "C:\\Users\\thiva\\OneDrive\\Documents\\GitHub\\RADassignment\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\TicketManagementSystem.csproj",
+      "projectName": "TicketManagementSystem",
+      "projectPath": "C:\\Users\\thiva\\OneDrive\\Documents\\GitHub\\RADassignment\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\TicketManagementSystem.csproj",
+      "packagesPath": "C:\\Users\\thiva\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\thiva\\OneDrive\\Documents\\GitHub\\RADassignment\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\obj\\",
+>>>>>>> b2ff9e21d4574a1045f4eee83d05f944aa5cd1aa
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -17798,7 +17868,11 @@
         "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\"
       ],
       "configFilePaths": [
+<<<<<<< HEAD
         "C:\\Users\\Janet\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
+        "C:\\Users\\thiva\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> b2ff9e21d4574a1045f4eee83d05f944aa5cd1aa
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -17842,10 +17916,13 @@
           "Microsoft.NETCore.UniversalWindowsPlatform": {
             "target": "Package",
             "version": "[6.2.14, )"
+<<<<<<< HEAD
           },
           "iTextSharp": {
             "target": "Package",
             "version": "[5.5.13.3, )"
+=======
+>>>>>>> b2ff9e21d4574a1045f4eee83d05f944aa5cd1aa
           }
         },
         "imports": [
@@ -17878,6 +17955,7 @@
         "#import": []
       }
     }
+<<<<<<< HEAD
   },
   "logs": [
     {
@@ -17901,4 +17979,7 @@
       ]
     }
   ]
+=======
+  }
+>>>>>>> b2ff9e21d4574a1045f4eee83d05f944aa5cd1aa
 }

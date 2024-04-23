@@ -20,7 +20,7 @@
             </LinearGradientBrush>
         </Grid.Background>
         <ScrollViewer VerticalScrollBarVisibility="Auto">
-            <StackPanel Orientation="Vertical" Width="1000" Height="700" BorderThickness="2">
+            <StackPanel Orientation="Vertical" Width="1000" Height="700" BorderThickness="2" KeyDown="StackPanel_KeyDown">
                 <StackPanel.BorderBrush>
                     <SolidColorBrush Color="Black" Opacity="0.5"/>
                 </StackPanel.BorderBrush>

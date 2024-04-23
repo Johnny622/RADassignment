@@ -13,19 +13,19 @@
             <SplitView.Pane>
                 <StackPanel Background="#4863A0">
                     <StackPanel Orientation="Horizontal" Margin="0 0 0 50">
-                        <Button x:Name="btnBar" Background="Transparent" Margin="0,10,0,0" Click="btnBar_Click" >
+                        <Button x:Name="btnBar" Background="Transparent" Margin="0,10,0,0"  >
                             <Image Source="Assets/bars.png" Width="30"/>
                         </Button>
                     </StackPanel>
 
-                    <Button Name="btnUserMng" Background="Transparent" Margin="0,0,0,30" HorizontalAlignment="Stretch" Click="btnUserMng_Click" >
+                    <Button Name="btnUserMng" Background="Transparent" Margin="0,0,0,30" HorizontalAlignment="Stretch" >
                         <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" Margin="0 0 0 0" Width="230">
                             <Image Source="Assets/user.png" Width="30" RenderTransformOrigin="0.5,0.61"/>
                             <TextBlock Text="USER MANAGEMENT" Padding="10" VerticalAlignment="Center" Foreground="White" FontWeight="Bold" />
                         </StackPanel>
                     </Button>
 
-                    <Button x:Name="btnTrainMng" Background="Transparent" Margin="0 0 0 30" HorizontalAlignment="Stretch" Click="btnTrainMng_Click" >
+                    <Button x:Name="btnTrainMng" Background="Transparent" Margin="0 0 0 30" HorizontalAlignment="Stretch"  >
                         <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" Width="230">
                             <Image Source="Assets/rail.png" Width="30"/>
                             <TextBlock Text="TRAIN MANAGEMENT" Padding="10" VerticalAlignment="Center" Foreground="White" FontWeight="Bold" />
@@ -58,9 +58,9 @@
                         <TextBlock Text="Chicken Sandwich" Foreground="Black" FontWeight="Bold"/>
                         <TextBlock Text="RM 5.00" Foreground="Black"/>
                         <StackPanel Orientation="Horizontal" Margin="0,5,0,0">
-                            <Button Content="-" Margin="0,0,5,0" Width="30" Click="DecreaseQuantity_Click"/>
+                            <Button Content="-" Margin="0,0,5,0" Width="30" />
                             <TextBlock x:Name="quantityTextBlock1" Text="1" VerticalAlignment="Center" Width="30"/>
-                            <Button Content="+" Width="30" Click="IncreaseQuantity_Click"/>
+                            <Button Content="+" Width="30"/>
                         </StackPanel>
                     </StackPanel>
                 </StackPanel>
@@ -72,9 +72,9 @@
                         <TextBlock Text="Chicken Pasta" Foreground="Black" FontWeight="Bold"/>
                         <TextBlock Text="RM 7.00" Foreground="Black"/>
                         <StackPanel Orientation="Horizontal" Margin="0,5,0,0">
-                            <Button Content="-" Margin="0,0,5,0" Width="30" Click="DecreaseQuantity_Click"/>
+                            <Button Content="-" Margin="0,0,5,0" Width="30" />
                             <TextBlock x:Name="quantityTextBlock2" Text="1" VerticalAlignment="Center" Width="30"/>
-                            <Button Content="+" Width="30" Click="IncreaseQuantity_Click"/>
+                            <Button Content="+" Width="30"/>
                         </StackPanel>
                     </StackPanel>
                 </StackPanel>

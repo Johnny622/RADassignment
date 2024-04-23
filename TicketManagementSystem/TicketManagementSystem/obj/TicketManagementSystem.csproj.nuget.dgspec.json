@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ACER\\Desktop\\Y2S3\\--Clone Resposity--\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\TicketManagementSystem.csproj": {}
+    "C:\\Users\\thiva\\OneDrive\\Documents\\GitHub\\RADassignment\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\TicketManagementSystem.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ACER\\Desktop\\Y2S3\\--Clone Resposity--\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\TicketManagementSystem.csproj": {
+    "C:\\Users\\thiva\\OneDrive\\Documents\\GitHub\\RADassignment\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\TicketManagementSystem.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ACER\\Desktop\\Y2S3\\--Clone Resposity--\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\TicketManagementSystem.csproj",
+        "projectUniqueName": "C:\\Users\\thiva\\OneDrive\\Documents\\GitHub\\RADassignment\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\TicketManagementSystem.csproj",
         "projectName": "TicketManagementSystem",
-        "projectPath": "C:\\Users\\ACER\\Desktop\\Y2S3\\--Clone Resposity--\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\TicketManagementSystem.csproj",
-        "packagesPath": "C:\\Users\\ACER\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ACER\\Desktop\\Y2S3\\--Clone Resposity--\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\obj\\",
+        "projectPath": "C:\\Users\\thiva\\OneDrive\\Documents\\GitHub\\RADassignment\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\TicketManagementSystem.csproj",
+        "packagesPath": "C:\\Users\\thiva\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\thiva\\OneDrive\\Documents\\GitHub\\RADassignment\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
@@ -19,7 +19,7 @@
           "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\ACER\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\thiva\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

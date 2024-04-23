@@ -126,5 +126,10 @@ namespace TicketManagementSystem
         {
             this.Frame.Navigate(typeof(HelpManagement));
         }
+
+        private void btnFood_Click(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(Food_Drinks));
+        }
     }
 }

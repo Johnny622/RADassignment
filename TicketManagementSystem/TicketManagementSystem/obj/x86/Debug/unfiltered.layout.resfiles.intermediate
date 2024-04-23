@@ -7,7 +7,7 @@ Assets\chair.png
 Assets\ets-logo.png
 Assets\ets-train.jpg
 Assets\food.png
-Assets\help.jpg
+Assets\help.png
 Assets\key2.png
 Assets\LockScreenLogo.scale-200.png
 Assets\management.png
@@ -28,6 +28,7 @@ Assets\Square44x44Logo.scale-200.png
 Assets\Square44x44Logo.targetsize-24_altform-unplated.png
 Assets\StoreLogo.backup.png
 Assets\StoreLogo.png
+Assets\tng.jpg
 Assets\train2.png
 Assets\trainSchedule.png
 Assets\user.png
@@ -44,13 +45,16 @@ CustomStyles.xbf
 DeleteRoute.xbf
 DisplayRoute.xbf
 ForgetPassword.xbf
+HelpManagement.xbf
 LoginPage.xbf
 MainPage.xbf
 NewAdminRegister.xbf
 NewUserRegister.xbf
 PassengerDetailPage.xbf
+Payment.xbf
 SeatSelectionDialog.xbf
 SeatSelectionPage.xbf
+SummaryTrainInfo.xbf
 TicketManagementSystem.xr.xml
 TrainManagement.xbf
 UpdateRoute.xbf

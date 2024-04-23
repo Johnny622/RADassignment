@@ -175,12 +175,18 @@
     <Compile Include="PassengerDetailPage.xaml.cs">
       <DependentUpon>PassengerDetailPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Payment.xaml.cs">
+      <DependentUpon>Payment.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SeatSelectionDialog.xaml.cs">
       <DependentUpon>SeatSelectionDialog.xaml</DependentUpon>
     </Compile>
     <Compile Include="SeatSelectionPage.xaml.cs">
       <DependentUpon>SeatSelectionPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="SummaryTrainInfo.xaml.cs">
+      <DependentUpon>SummaryTrainInfo.xaml</DependentUpon>
     </Compile>
     <Compile Include="TrainManagement.xaml.cs">
       <DependentUpon>TrainManagement.xaml</DependentUpon>
@@ -236,6 +242,7 @@
     <Content Include="Assets\Square44x44Logo.targetsize-24_altform-unplated.png" />
     <Content Include="Assets\StoreLogo.backup.png" />
     <Content Include="Assets\StoreLogo.png" />
+    <Content Include="Assets\tng.jpg" />
     <Content Include="Assets\train2.png" />
     <Content Include="Assets\trainSchedule.png" />
     <Content Include="Assets\user.png" />
@@ -315,11 +322,19 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Payment.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="SeatSelectionDialog.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="SeatSelectionPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="SummaryTrainInfo.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

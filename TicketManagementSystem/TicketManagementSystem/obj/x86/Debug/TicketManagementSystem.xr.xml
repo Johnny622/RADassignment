@@ -214,6 +214,7 @@
       <RootProperty Name="Opacity" />
     </RootType>
     <RootType FullName="TicketManagementSystem.ForgetPassword" />
+    <RootType FullName="TicketManagementSystem.HelpManagement" />
     <RootType FullName="Windows.UI.Xaml.Controls.HyperlinkButton">
       <RootProperty Name="Content" />
       <RootProperty Name="FontSize" />
@@ -241,11 +242,13 @@
       <RootEvent Name="PrimaryButtonClick" />
       <RootEvent Name="SecondaryButtonClick" />
     </RootType>
+    <RootType FullName="TicketManagementSystem.Payment" />
     <RootType FullName="Windows.UI.Xaml.Controls.RowDefinition">
       <RootProperty Name="Height" />
     </RootType>
     <RootType FullName="TicketManagementSystem.SeatSelectionPage" />
     <RootType FullName="TicketManagementSystem.SeatSelectionDialog" />
+    <RootType FullName="TicketManagementSystem.SummaryTrainInfo" />
     <RootType FullName="TicketManagementSystem.TrainManagement" />
     <RootType FullName="TicketManagementSystem.UpdateRoute" />
     <RootType FullName="TicketManagementSystem.UserManagement" />

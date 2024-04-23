@@ -174,68 +174,78 @@ namespace TicketManagementSystem
 
         private async void btnConfirm_Click(object sender, RoutedEventArgs e)
         {
-            List<PassengerDetails> passengerDetailsList = new List<PassengerDetails>();
+            Payment paymentDialog = new Payment();
+            await paymentDialog.ShowAsync();
 
-            foreach (var child in mainGrid.Children)
+            if(Payment.paid == true)
             {
-                if (child is StackPanel stackPanel)
+                List<PassengerDetails> passengerDetailsList = new List<PassengerDetails>();
+
+                foreach (var child in mainGrid.Children)
                 {
-                    string name = "";
-                    string gender = "";
-                    string phone = "";
-                    string ic = "";
-                    string labelText = "";
-                    var secondChild = stackPanel.Children[1];
-
-                    if (secondChild is StackPanel horizontalSPDetails)
+                    if (child is StackPanel stackPanel)
                     {
-                        foreach (var element in horizontalSPDetails.Children)
-                        {
-                            if (element is StackPanel verticalSPDetails)
-                            {
-                                foreach (var innerElement in verticalSPDetails.Children)
-                                {
-                                    if (innerElement is TextBlock label)
-                                    {
-                                        labelText = label.Text;
-                                    }
-                                    if (innerElement is TextBox textBox)
-                                    {
-                                        string text = textBox.Text;
+                        string name = "";
+                        string gender = "";
+                        string phone = "";
+                        string ic = "";
+                        string labelText = "";
+                        var secondChild = stackPanel.Children[1];
 
-                                        if (labelText == "Name")
-                                            name = text;
-                                        else if (labelText == "Phone")
-                                            phone = text;
-                                        else if (labelText == "I/C")
-                                            ic = text;
-                                    }
-                                    else if (innerElement is ComboBox comboBox)
+                        if (secondChild is StackPanel horizontalSPDetails)
+                        {
+                            foreach (var element in horizontalSPDetails.Children)
+                            {
+                                if (element is StackPanel verticalSPDetails)
+                                {
+                                    foreach (var innerElement in verticalSPDetails.Children)
                                     {
-                                        if (comboBox.SelectedItem != null)
+                                        if (innerElement is TextBlock label)
                                         {
-                                            gender = (comboBox.SelectedItem as ComboBoxItem)?.Content?.ToString();
+                                            labelText = label.Text;
+                                        }
+                                        if (innerElement is TextBox textBox)
+                                        {
+                                            string text = textBox.Text;
+
+                                            if (labelText == "Name")
+                                                name = text;
+                                            else if (labelText == "Phone")
+                                                phone = text;
+                                            else if (labelText == "I/C")
+                                                ic = text;
+                                        }
+                                        else if (innerElement is ComboBox comboBox)
+                                        {
+                                            if (comboBox.SelectedItem != null)
+                                            {
+                                                gender = (comboBox.SelectedItem as ComboBoxItem)?.Content?.ToString();
+                                            }
                                         }
                                     }
                                 }
                             }
                         }
-                    }
 
-                    try
-                    {
-                        PassengerDetails details = new PassengerDetails(name, gender, phone, ic);
-                        passengerDetailsList.Add(details);
+                        try
+                        {
+                            PassengerDetails details = new PassengerDetails(name, gender, phone, ic);
+                            passengerDetailsList.Add(details);
 
-                        await firebaseHelper.AddUser(details);
-                    }
-                    catch (Exception ex)
-                    {
-                        Console.WriteLine(ex.ToString());
+                            await firebaseHelper.AddUser(details);
+                            Frame.Navigate(typeof(SummaryTrainInfo));
+                        }
+                        catch (Exception ex)
+                        {
+                            Console.WriteLine(ex.ToString());
+                        }
                     }
                 }
             }
-
+            else
+            {
+                DisplayDialog("Payment Failed", "Your payment is unsuccessfully");
+            }            
         }
 
         private void btnBookingPage_Click(object sender, RoutedEventArgs e)
@@ -248,5 +258,19 @@ namespace TicketManagementSystem
         {
             this.Frame.Navigate(typeof(HelpManagement));
         }
+
+        private async void DisplayDialog(string title, string content)
+        {
+            ContentDialog noDialog = new ContentDialog
+            {
+                Title = title,
+                Content = content,
+                CloseButtonText = "Ok"
+
+            };
+
+            ContentDialogResult result = await noDialog.ShowAsync();
+        }
+
     }
 }

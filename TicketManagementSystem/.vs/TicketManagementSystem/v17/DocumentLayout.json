@@ -1,5 +1,6 @@
 {
   "Version": 1,
+<<<<<<< HEAD
   "WorkspaceRootPath": "C:\\Users\\EDT\\Desktop\\New folder (2)\\RADassignment\\TicketManagementSystem\\",
   "Documents": [
     {
@@ -81,6 +82,85 @@
     {
       "AbsoluteMoniker": "D:0:0:{12FFD5F2-CE33-42CC-8F13-9B90EF87164E}|TicketManagementSystem\\TicketManagementSystem.csproj|C:\\Users\\EDT\\Desktop\\New folder (2)\\RADassignment\\TicketManagementSystem\\ticketmanagementsystem\\adminchangepassword.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{12FFD5F2-CE33-42CC-8F13-9B90EF87164E}|TicketManagementSystem\\TicketManagementSystem.csproj|solutionrelative:ticketmanagementsystem\\adminchangepassword.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+=======
+  "WorkspaceRootPath": "C:\\Users\\thiva\\OneDrive\\Documents\\GitHub\\RADassignment\\RADassignment\\TicketManagementSystem\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{12FFD5F2-CE33-42CC-8F13-9B90EF87164E}|TicketManagementSystem\\TicketManagementSystem.csproj|C:\\Users\\thiva\\OneDrive\\Documents\\GitHub\\RADassignment\\RADassignment\\TicketManagementSystem\\ticketmanagementsystem\\food\u0026drinks.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12FFD5F2-CE33-42CC-8F13-9B90EF87164E}|TicketManagementSystem\\TicketManagementSystem.csproj|solutionrelative:ticketmanagementsystem\\food\u0026drinks.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12FFD5F2-CE33-42CC-8F13-9B90EF87164E}|TicketManagementSystem\\TicketManagementSystem.csproj|c:\\users\\thiva\\onedrive\\documents\\github\\radassignment\\radassignment\\ticketmanagementsystem\\ticketmanagementsystem\\food\u0026drinks.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{12FFD5F2-CE33-42CC-8F13-9B90EF87164E}|TicketManagementSystem\\TicketManagementSystem.csproj|solutionrelative:ticketmanagementsystem\\food\u0026drinks.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12FFD5F2-CE33-42CC-8F13-9B90EF87164E}|TicketManagementSystem\\TicketManagementSystem.csproj|C:\\Users\\thiva\\OneDrive\\Documents\\GitHub\\RADassignment\\RADassignment\\TicketManagementSystem\\ticketmanagementsystem\\helpmanagement.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{12FFD5F2-CE33-42CC-8F13-9B90EF87164E}|TicketManagementSystem\\TicketManagementSystem.csproj|solutionrelative:ticketmanagementsystem\\helpmanagement.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12FFD5F2-CE33-42CC-8F13-9B90EF87164E}|TicketManagementSystem\\TicketManagementSystem.csproj|C:\\Users\\thiva\\OneDrive\\Documents\\GitHub\\RADassignment\\RADassignment\\TicketManagementSystem\\ticketmanagementsystem\\helpmanagement.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12FFD5F2-CE33-42CC-8F13-9B90EF87164E}|TicketManagementSystem\\TicketManagementSystem.csproj|solutionrelative:ticketmanagementsystem\\helpmanagement.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12FFD5F2-CE33-42CC-8F13-9B90EF87164E}|TicketManagementSystem\\TicketManagementSystem.csproj|C:\\Users\\thiva\\OneDrive\\Documents\\GitHub\\RADassignment\\RADassignment\\TicketManagementSystem\\ticketmanagementsystem\\usermanagement.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12FFD5F2-CE33-42CC-8F13-9B90EF87164E}|TicketManagementSystem\\TicketManagementSystem.csproj|solutionrelative:ticketmanagementsystem\\usermanagement.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12FFD5F2-CE33-42CC-8F13-9B90EF87164E}|TicketManagementSystem\\TicketManagementSystem.csproj|C:\\Users\\thiva\\OneDrive\\Documents\\GitHub\\RADassignment\\RADassignment\\TicketManagementSystem\\ticketmanagementsystem\\changepassword.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12FFD5F2-CE33-42CC-8F13-9B90EF87164E}|TicketManagementSystem\\TicketManagementSystem.csproj|solutionrelative:ticketmanagementsystem\\changepassword.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12FFD5F2-CE33-42CC-8F13-9B90EF87164E}|TicketManagementSystem\\TicketManagementSystem.csproj|C:\\Users\\thiva\\OneDrive\\Documents\\GitHub\\RADassignment\\RADassignment\\TicketManagementSystem\\ticketmanagementsystem\\userprofile.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12FFD5F2-CE33-42CC-8F13-9B90EF87164E}|TicketManagementSystem\\TicketManagementSystem.csproj|solutionrelative:ticketmanagementsystem\\userprofile.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12FFD5F2-CE33-42CC-8F13-9B90EF87164E}|TicketManagementSystem\\TicketManagementSystem.csproj|C:\\Users\\thiva\\OneDrive\\Documents\\GitHub\\RADassignment\\RADassignment\\TicketManagementSystem\\ticketmanagementsystem\\viewuserlist.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{12FFD5F2-CE33-42CC-8F13-9B90EF87164E}|TicketManagementSystem\\TicketManagementSystem.csproj|solutionrelative:ticketmanagementsystem\\viewuserlist.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12FFD5F2-CE33-42CC-8F13-9B90EF87164E}|TicketManagementSystem\\TicketManagementSystem.csproj|C:\\Users\\thiva\\OneDrive\\Documents\\GitHub\\RADassignment\\RADassignment\\TicketManagementSystem\\ticketmanagementsystem\\userprofile.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{12FFD5F2-CE33-42CC-8F13-9B90EF87164E}|TicketManagementSystem\\TicketManagementSystem.csproj|solutionrelative:ticketmanagementsystem\\userprofile.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12FFD5F2-CE33-42CC-8F13-9B90EF87164E}|TicketManagementSystem\\TicketManagementSystem.csproj|C:\\Users\\thiva\\OneDrive\\Documents\\GitHub\\RADassignment\\RADassignment\\TicketManagementSystem\\ticketmanagementsystem\\changepassword.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{12FFD5F2-CE33-42CC-8F13-9B90EF87164E}|TicketManagementSystem\\TicketManagementSystem.csproj|solutionrelative:ticketmanagementsystem\\changepassword.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12FFD5F2-CE33-42CC-8F13-9B90EF87164E}|TicketManagementSystem\\TicketManagementSystem.csproj|C:\\Users\\thiva\\OneDrive\\Documents\\GitHub\\RADassignment\\RADassignment\\TicketManagementSystem\\ticketmanagementsystem\\usermanagement.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{12FFD5F2-CE33-42CC-8F13-9B90EF87164E}|TicketManagementSystem\\TicketManagementSystem.csproj|solutionrelative:ticketmanagementsystem\\usermanagement.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12FFD5F2-CE33-42CC-8F13-9B90EF87164E}|TicketManagementSystem\\TicketManagementSystem.csproj|C:\\Users\\thiva\\OneDrive\\Documents\\GitHub\\RADassignment\\RADassignment\\TicketManagementSystem\\ticketmanagementsystem\\newadminregister.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{12FFD5F2-CE33-42CC-8F13-9B90EF87164E}|TicketManagementSystem\\TicketManagementSystem.csproj|solutionrelative:ticketmanagementsystem\\newadminregister.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12FFD5F2-CE33-42CC-8F13-9B90EF87164E}|TicketManagementSystem\\TicketManagementSystem.csproj|C:\\Users\\thiva\\OneDrive\\Documents\\GitHub\\RADassignment\\RADassignment\\TicketManagementSystem\\ticketmanagementsystem\\forgetpassword.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{12FFD5F2-CE33-42CC-8F13-9B90EF87164E}|TicketManagementSystem\\TicketManagementSystem.csproj|solutionrelative:ticketmanagementsystem\\forgetpassword.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12FFD5F2-CE33-42CC-8F13-9B90EF87164E}|TicketManagementSystem\\TicketManagementSystem.csproj|C:\\Users\\thiva\\OneDrive\\Documents\\GitHub\\RADassignment\\RADassignment\\TicketManagementSystem\\ticketmanagementsystem\\deleteroute.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{12FFD5F2-CE33-42CC-8F13-9B90EF87164E}|TicketManagementSystem\\TicketManagementSystem.csproj|solutionrelative:ticketmanagementsystem\\deleteroute.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12FFD5F2-CE33-42CC-8F13-9B90EF87164E}|TicketManagementSystem\\TicketManagementSystem.csproj|C:\\Users\\thiva\\OneDrive\\Documents\\GitHub\\RADassignment\\RADassignment\\TicketManagementSystem\\ticketmanagementsystem\\adminprofile.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{12FFD5F2-CE33-42CC-8F13-9B90EF87164E}|TicketManagementSystem\\TicketManagementSystem.csproj|solutionrelative:ticketmanagementsystem\\adminprofile.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12FFD5F2-CE33-42CC-8F13-9B90EF87164E}|TicketManagementSystem\\TicketManagementSystem.csproj|C:\\Users\\thiva\\OneDrive\\Documents\\GitHub\\RADassignment\\RADassignment\\TicketManagementSystem\\ticketmanagementsystem\\adminmanagement.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{12FFD5F2-CE33-42CC-8F13-9B90EF87164E}|TicketManagementSystem\\TicketManagementSystem.csproj|solutionrelative:ticketmanagementsystem\\adminmanagement.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12FFD5F2-CE33-42CC-8F13-9B90EF87164E}|TicketManagementSystem\\TicketManagementSystem.csproj|C:\\Users\\thiva\\OneDrive\\Documents\\GitHub\\RADassignment\\RADassignment\\TicketManagementSystem\\ticketmanagementsystem\\adminedituser.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{12FFD5F2-CE33-42CC-8F13-9B90EF87164E}|TicketManagementSystem\\TicketManagementSystem.csproj|solutionrelative:ticketmanagementsystem\\adminedituser.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12FFD5F2-CE33-42CC-8F13-9B90EF87164E}|TicketManagementSystem\\TicketManagementSystem.csproj|C:\\Users\\thiva\\OneDrive\\Documents\\GitHub\\RADassignment\\RADassignment\\TicketManagementSystem\\ticketmanagementsystem\\adminchangepassword.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{12FFD5F2-CE33-42CC-8F13-9B90EF87164E}|TicketManagementSystem\\TicketManagementSystem.csproj|solutionrelative:ticketmanagementsystem\\adminchangepassword.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12FFD5F2-CE33-42CC-8F13-9B90EF87164E}|TicketManagementSystem\\TicketManagementSystem.csproj|C:\\Users\\thiva\\OneDrive\\Documents\\GitHub\\RADassignment\\RADassignment\\TicketManagementSystem\\ticketmanagementsystem\\trainmanagement.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{12FFD5F2-CE33-42CC-8F13-9B90EF87164E}|TicketManagementSystem\\TicketManagementSystem.csproj|solutionrelative:ticketmanagementsystem\\trainmanagement.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+>>>>>>> 783e83d3132e788faae02af37ee968233c1c0037
     }
   ],
   "DocumentGroupContainers": [
@@ -93,25 +173,46 @@
           "SelectedChildIndex": 0,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 0,
+<<<<<<< HEAD
               "Title": "TrainManagement.xaml.cs",
               "DocumentMoniker": "C:\\Users\\EDT\\Desktop\\New folder (2)\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\TrainManagement.xaml.cs",
               "RelativeDocumentMoniker": "TicketManagementSystem\\TrainManagement.xaml.cs",
               "ToolTip": "C:\\Users\\EDT\\Desktop\\New folder (2)\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\TrainManagement.xaml.cs",
               "RelativeToolTip": "TicketManagementSystem\\TrainManagement.xaml.cs",
               "ViewState": "AQIAAC0AAAAAAAAAAAAowAAAAAAAAAAA",
+=======
+              "Title": "Food\u0026Drinks.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\thiva\\OneDrive\\Documents\\GitHub\\RADassignment\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\Food\u0026Drinks.xaml.cs",
+              "RelativeDocumentMoniker": "TicketManagementSystem\\Food\u0026Drinks.xaml.cs",
+              "ToolTip": "C:\\Users\\thiva\\OneDrive\\Documents\\GitHub\\RADassignment\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\Food\u0026Drinks.xaml.cs",
+              "RelativeToolTip": "TicketManagementSystem\\Food\u0026Drinks.xaml.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
+>>>>>>> 783e83d3132e788faae02af37ee968233c1c0037
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-23T13:50:58.625Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 2,
               "Title": "Food\u0026Drinks.xaml",
               "DocumentMoniker": "C:\\Users\\EDT\\Desktop\\New folder (2)\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\Food\u0026Drinks.xaml",
               "RelativeDocumentMoniker": "TicketManagementSystem\\Food\u0026Drinks.xaml",
               "ToolTip": "C:\\Users\\EDT\\Desktop\\New folder (2)\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\Food\u0026Drinks.xaml",
+=======
+              "DocumentIndex": 1,
+              "Title": "Food\u0026Drinks.xaml",
+              "DocumentMoniker": "C:\\Users\\thiva\\OneDrive\\Documents\\GitHub\\RADassignment\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\Food\u0026Drinks.xaml",
+              "RelativeDocumentMoniker": "TicketManagementSystem\\Food\u0026Drinks.xaml",
+              "ToolTip": "C:\\Users\\thiva\\OneDrive\\Documents\\GitHub\\RADassignment\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\Food\u0026Drinks.xaml",
+>>>>>>> 783e83d3132e788faae02af37ee968233c1c0037
               "RelativeToolTip": "TicketManagementSystem\\Food\u0026Drinks.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-04-23T13:41:30.289Z",
@@ -121,9 +222,15 @@
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "HelpManagement.xaml",
+<<<<<<< HEAD
               "DocumentMoniker": "C:\\Users\\EDT\\Desktop\\New folder (2)\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\HelpManagement.xaml",
               "RelativeDocumentMoniker": "TicketManagementSystem\\HelpManagement.xaml",
               "ToolTip": "C:\\Users\\EDT\\Desktop\\New folder (2)\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\HelpManagement.xaml",
+=======
+              "DocumentMoniker": "C:\\Users\\thiva\\OneDrive\\Documents\\GitHub\\RADassignment\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\HelpManagement.xaml",
+              "RelativeDocumentMoniker": "TicketManagementSystem\\HelpManagement.xaml",
+              "ToolTip": "C:\\Users\\thiva\\OneDrive\\Documents\\GitHub\\RADassignment\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\HelpManagement.xaml",
+>>>>>>> 783e83d3132e788faae02af37ee968233c1c0037
               "RelativeToolTip": "TicketManagementSystem\\HelpManagement.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-04-23T13:39:44.247Z"
@@ -132,9 +239,15 @@
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "HelpManagement.xaml.cs",
+<<<<<<< HEAD
               "DocumentMoniker": "C:\\Users\\EDT\\Desktop\\New folder (2)\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\HelpManagement.xaml.cs",
               "RelativeDocumentMoniker": "TicketManagementSystem\\HelpManagement.xaml.cs",
               "ToolTip": "C:\\Users\\EDT\\Desktop\\New folder (2)\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\HelpManagement.xaml.cs",
+=======
+              "DocumentMoniker": "C:\\Users\\thiva\\OneDrive\\Documents\\GitHub\\RADassignment\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\HelpManagement.xaml.cs",
+              "RelativeDocumentMoniker": "TicketManagementSystem\\HelpManagement.xaml.cs",
+              "ToolTip": "C:\\Users\\thiva\\OneDrive\\Documents\\GitHub\\RADassignment\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\HelpManagement.xaml.cs",
+>>>>>>> 783e83d3132e788faae02af37ee968233c1c0037
               "RelativeToolTip": "TicketManagementSystem\\HelpManagement.xaml.cs",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -144,9 +257,15 @@
               "$type": "Document",
               "DocumentIndex": 9,
               "Title": "ViewUserList.xaml",
+<<<<<<< HEAD
               "DocumentMoniker": "C:\\Users\\EDT\\Desktop\\New folder (2)\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\ViewUserList.xaml",
               "RelativeDocumentMoniker": "TicketManagementSystem\\ViewUserList.xaml",
               "ToolTip": "C:\\Users\\EDT\\Desktop\\New folder (2)\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\ViewUserList.xaml",
+=======
+              "DocumentMoniker": "C:\\Users\\thiva\\OneDrive\\Documents\\GitHub\\RADassignment\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\ViewUserList.xaml",
+              "RelativeDocumentMoniker": "TicketManagementSystem\\ViewUserList.xaml",
+              "ToolTip": "C:\\Users\\thiva\\OneDrive\\Documents\\GitHub\\RADassignment\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\ViewUserList.xaml",
+>>>>>>> 783e83d3132e788faae02af37ee968233c1c0037
               "RelativeToolTip": "TicketManagementSystem\\ViewUserList.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-04-23T13:37:22.017Z"
@@ -234,9 +353,15 @@
               "$type": "Document",
               "DocumentIndex": 8,
               "Title": "UserProfile.xaml.cs",
+<<<<<<< HEAD
               "DocumentMoniker": "C:\\Users\\EDT\\Desktop\\New folder (2)\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\UserProfile.xaml.cs",
               "RelativeDocumentMoniker": "TicketManagementSystem\\UserProfile.xaml.cs",
               "ToolTip": "C:\\Users\\EDT\\Desktop\\New folder (2)\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\UserProfile.xaml.cs",
+=======
+              "DocumentMoniker": "C:\\Users\\thiva\\OneDrive\\Documents\\GitHub\\RADassignment\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\UserProfile.xaml.cs",
+              "RelativeDocumentMoniker": "TicketManagementSystem\\UserProfile.xaml.cs",
+              "ToolTip": "C:\\Users\\thiva\\OneDrive\\Documents\\GitHub\\RADassignment\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\UserProfile.xaml.cs",
+>>>>>>> 783e83d3132e788faae02af37ee968233c1c0037
               "RelativeToolTip": "TicketManagementSystem\\UserProfile.xaml.cs",
               "ViewState": "AQIAAKAAAAAAAAAAAAAcwLQAAAA1AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -246,9 +371,15 @@
               "$type": "Document",
               "DocumentIndex": 10,
               "Title": "UserProfile.xaml",
+<<<<<<< HEAD
               "DocumentMoniker": "C:\\Users\\EDT\\Desktop\\New folder (2)\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\UserProfile.xaml",
               "RelativeDocumentMoniker": "TicketManagementSystem\\UserProfile.xaml",
               "ToolTip": "C:\\Users\\EDT\\Desktop\\New folder (2)\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\UserProfile.xaml",
+=======
+              "DocumentMoniker": "C:\\Users\\thiva\\OneDrive\\Documents\\GitHub\\RADassignment\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\UserProfile.xaml",
+              "RelativeDocumentMoniker": "TicketManagementSystem\\UserProfile.xaml",
+              "ToolTip": "C:\\Users\\thiva\\OneDrive\\Documents\\GitHub\\RADassignment\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\UserProfile.xaml",
+>>>>>>> 783e83d3132e788faae02af37ee968233c1c0037
               "RelativeToolTip": "TicketManagementSystem\\UserProfile.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-04-23T13:37:06.808Z"
@@ -257,9 +388,15 @@
               "$type": "Document",
               "DocumentIndex": 6,
               "Title": "UserManagement.xaml.cs",
+<<<<<<< HEAD
               "DocumentMoniker": "C:\\Users\\EDT\\Desktop\\New folder (2)\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\UserManagement.xaml.cs",
               "RelativeDocumentMoniker": "TicketManagementSystem\\UserManagement.xaml.cs",
               "ToolTip": "C:\\Users\\EDT\\Desktop\\New folder (2)\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\UserManagement.xaml.cs",
+=======
+              "DocumentMoniker": "C:\\Users\\thiva\\OneDrive\\Documents\\GitHub\\RADassignment\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\UserManagement.xaml.cs",
+              "RelativeDocumentMoniker": "TicketManagementSystem\\UserManagement.xaml.cs",
+              "ToolTip": "C:\\Users\\thiva\\OneDrive\\Documents\\GitHub\\RADassignment\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\UserManagement.xaml.cs",
+>>>>>>> 783e83d3132e788faae02af37ee968233c1c0037
               "RelativeToolTip": "TicketManagementSystem\\UserManagement.xaml.cs",
               "ViewState": "AQIAAHUAAAAAAAAAAAAIwIMAAAA1AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -269,9 +406,15 @@
               "$type": "Document",
               "DocumentIndex": 14,
               "Title": "ForgetPassword.xaml",
+<<<<<<< HEAD
               "DocumentMoniker": "C:\\Users\\EDT\\Desktop\\New folder (2)\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\ForgetPassword.xaml",
               "RelativeDocumentMoniker": "TicketManagementSystem\\ForgetPassword.xaml",
               "ToolTip": "C:\\Users\\EDT\\Desktop\\New folder (2)\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\ForgetPassword.xaml",
+=======
+              "DocumentMoniker": "C:\\Users\\thiva\\OneDrive\\Documents\\GitHub\\RADassignment\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\ForgetPassword.xaml",
+              "RelativeDocumentMoniker": "TicketManagementSystem\\ForgetPassword.xaml",
+              "ToolTip": "C:\\Users\\thiva\\OneDrive\\Documents\\GitHub\\RADassignment\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\ForgetPassword.xaml",
+>>>>>>> 783e83d3132e788faae02af37ee968233c1c0037
               "RelativeToolTip": "TicketManagementSystem\\ForgetPassword.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-04-23T13:36:24.114Z"
@@ -280,9 +423,15 @@
               "$type": "Document",
               "DocumentIndex": 15,
               "Title": "DeleteRoute.xaml",
+<<<<<<< HEAD
               "DocumentMoniker": "C:\\Users\\EDT\\Desktop\\New folder (2)\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\DeleteRoute.xaml",
               "RelativeDocumentMoniker": "TicketManagementSystem\\DeleteRoute.xaml",
               "ToolTip": "C:\\Users\\EDT\\Desktop\\New folder (2)\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\DeleteRoute.xaml",
+=======
+              "DocumentMoniker": "C:\\Users\\thiva\\OneDrive\\Documents\\GitHub\\RADassignment\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\DeleteRoute.xaml",
+              "RelativeDocumentMoniker": "TicketManagementSystem\\DeleteRoute.xaml",
+              "ToolTip": "C:\\Users\\thiva\\OneDrive\\Documents\\GitHub\\RADassignment\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\DeleteRoute.xaml",
+>>>>>>> 783e83d3132e788faae02af37ee968233c1c0037
               "RelativeToolTip": "TicketManagementSystem\\DeleteRoute.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-04-23T13:36:15.906Z"
@@ -291,9 +440,15 @@
               "$type": "Document",
               "DocumentIndex": 7,
               "Title": "ChangePassword.xaml.cs",
+<<<<<<< HEAD
               "DocumentMoniker": "C:\\Users\\EDT\\Desktop\\New folder (2)\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\ChangePassword.xaml.cs",
               "RelativeDocumentMoniker": "TicketManagementSystem\\ChangePassword.xaml.cs",
               "ToolTip": "C:\\Users\\EDT\\Desktop\\New folder (2)\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\ChangePassword.xaml.cs",
+=======
+              "DocumentMoniker": "C:\\Users\\thiva\\OneDrive\\Documents\\GitHub\\RADassignment\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\ChangePassword.xaml.cs",
+              "RelativeDocumentMoniker": "TicketManagementSystem\\ChangePassword.xaml.cs",
+              "ToolTip": "C:\\Users\\thiva\\OneDrive\\Documents\\GitHub\\RADassignment\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\ChangePassword.xaml.cs",
+>>>>>>> 783e83d3132e788faae02af37ee968233c1c0037
               "RelativeToolTip": "TicketManagementSystem\\ChangePassword.xaml.cs",
               "ViewState": "AQIAAJwAAAAAAAAAAAAIwKAAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -303,20 +458,100 @@
               "$type": "Document",
               "DocumentIndex": 11,
               "Title": "ChangePassword.xaml",
+<<<<<<< HEAD
               "DocumentMoniker": "C:\\Users\\EDT\\Desktop\\New folder (2)\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\ChangePassword.xaml",
               "RelativeDocumentMoniker": "TicketManagementSystem\\ChangePassword.xaml",
               "ToolTip": "C:\\Users\\EDT\\Desktop\\New folder (2)\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\ChangePassword.xaml",
+=======
+              "DocumentMoniker": "C:\\Users\\thiva\\OneDrive\\Documents\\GitHub\\RADassignment\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\ChangePassword.xaml",
+              "RelativeDocumentMoniker": "TicketManagementSystem\\ChangePassword.xaml",
+              "ToolTip": "C:\\Users\\thiva\\OneDrive\\Documents\\GitHub\\RADassignment\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\ChangePassword.xaml",
+>>>>>>> 783e83d3132e788faae02af37ee968233c1c0037
               "RelativeToolTip": "TicketManagementSystem\\ChangePassword.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-04-23T13:32:31.059Z"
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 12,
               "Title": "UserManagement.xaml",
               "DocumentMoniker": "C:\\Users\\EDT\\Desktop\\New folder (2)\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\UserManagement.xaml",
               "RelativeDocumentMoniker": "TicketManagementSystem\\UserManagement.xaml",
               "ToolTip": "C:\\Users\\EDT\\Desktop\\New folder (2)\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\UserManagement.xaml",
+=======
+              "DocumentIndex": 14,
+              "Title": "AdminProfile.xaml",
+              "DocumentMoniker": "C:\\Users\\thiva\\OneDrive\\Documents\\GitHub\\RADassignment\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\AdminProfile.xaml",
+              "RelativeDocumentMoniker": "TicketManagementSystem\\AdminProfile.xaml",
+              "ToolTip": "C:\\Users\\thiva\\OneDrive\\Documents\\GitHub\\RADassignment\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\AdminProfile.xaml",
+              "RelativeToolTip": "TicketManagementSystem\\AdminProfile.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-23T13:32:07.545Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "AdminManagement.xaml",
+              "DocumentMoniker": "C:\\Users\\thiva\\OneDrive\\Documents\\GitHub\\RADassignment\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\AdminManagement.xaml",
+              "RelativeDocumentMoniker": "TicketManagementSystem\\AdminManagement.xaml",
+              "ToolTip": "C:\\Users\\thiva\\OneDrive\\Documents\\GitHub\\RADassignment\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\AdminManagement.xaml",
+              "RelativeToolTip": "TicketManagementSystem\\AdminManagement.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-23T13:31:54.688Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "AdminEditUser.xaml",
+              "DocumentMoniker": "C:\\Users\\thiva\\OneDrive\\Documents\\GitHub\\RADassignment\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\AdminEditUser.xaml",
+              "RelativeDocumentMoniker": "TicketManagementSystem\\AdminEditUser.xaml",
+              "ToolTip": "C:\\Users\\thiva\\OneDrive\\Documents\\GitHub\\RADassignment\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\AdminEditUser.xaml",
+              "RelativeToolTip": "TicketManagementSystem\\AdminEditUser.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-23T13:31:42.666Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "AdminChangePassword.xaml",
+              "DocumentMoniker": "C:\\Users\\thiva\\OneDrive\\Documents\\GitHub\\RADassignment\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\AdminChangePassword.xaml",
+              "RelativeDocumentMoniker": "TicketManagementSystem\\AdminChangePassword.xaml",
+              "ToolTip": "C:\\Users\\thiva\\OneDrive\\Documents\\GitHub\\RADassignment\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\AdminChangePassword.xaml",
+              "RelativeToolTip": "TicketManagementSystem\\AdminChangePassword.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-23T13:31:11.805Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "NewAdminRegister.xaml",
+              "DocumentMoniker": "C:\\Users\\thiva\\OneDrive\\Documents\\GitHub\\RADassignment\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\NewAdminRegister.xaml",
+              "RelativeDocumentMoniker": "TicketManagementSystem\\NewAdminRegister.xaml",
+              "ToolTip": "C:\\Users\\thiva\\OneDrive\\Documents\\GitHub\\RADassignment\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\NewAdminRegister.xaml",
+              "RelativeToolTip": "TicketManagementSystem\\NewAdminRegister.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-23T13:30:46.939Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "TrainManagement.xaml",
+              "DocumentMoniker": "C:\\Users\\thiva\\OneDrive\\Documents\\GitHub\\RADassignment\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\TrainManagement.xaml",
+              "RelativeDocumentMoniker": "TicketManagementSystem\\TrainManagement.xaml",
+              "ToolTip": "C:\\Users\\thiva\\OneDrive\\Documents\\GitHub\\RADassignment\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\TrainManagement.xaml",
+              "RelativeToolTip": "TicketManagementSystem\\TrainManagement.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-23T13:28:00.032Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "UserManagement.xaml",
+              "DocumentMoniker": "C:\\Users\\thiva\\OneDrive\\Documents\\GitHub\\RADassignment\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\UserManagement.xaml",
+              "RelativeDocumentMoniker": "TicketManagementSystem\\UserManagement.xaml",
+              "ToolTip": "C:\\Users\\thiva\\OneDrive\\Documents\\GitHub\\RADassignment\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\UserManagement.xaml",
+>>>>>>> 783e83d3132e788faae02af37ee968233c1c0037
               "RelativeToolTip": "TicketManagementSystem\\UserManagement.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-04-23T12:56:59.881Z"
@@ -330,6 +565,13 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+<<<<<<< HEAD
+=======
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+>>>>>>> 783e83d3132e788faae02af37ee968233c1c0037
             }
           ]
         }

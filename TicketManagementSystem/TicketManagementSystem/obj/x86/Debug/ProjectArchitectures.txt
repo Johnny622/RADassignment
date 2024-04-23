@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 C:\Users\EDT\Desktop\New folder (2)\RADassignment\TicketManagementSystem\TicketManagementSystem\TicketManagementSystem.csproj;x86
+=======
+C:\Users\thiva\OneDrive\Documents\GitHub\RADassignment\RADassignment\TicketManagementSystem\TicketManagementSystem\TicketManagementSystem.csproj;x86
+>>>>>>> 783e83d3132e788faae02af37ee968233c1c0037

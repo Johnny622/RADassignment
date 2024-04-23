@@ -17581,18 +17581,30 @@
     ]
   },
   "packageFolders": {
+<<<<<<< HEAD
     "C:\\Users\\EDT\\.nuget\\packages\\": {},
+=======
+    "C:\\Users\\thiva\\.nuget\\packages\\": {},
+>>>>>>> 783e83d3132e788faae02af37ee968233c1c0037
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
       "projectUniqueName": "C:\\Users\\EDT\\Desktop\\New folder (2)\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\TicketManagementSystem.csproj",
       "projectName": "TicketManagementSystem",
       "projectPath": "C:\\Users\\EDT\\Desktop\\New folder (2)\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\TicketManagementSystem.csproj",
       "packagesPath": "C:\\Users\\EDT\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\EDT\\Desktop\\New folder (2)\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\obj\\",
+=======
+      "projectUniqueName": "C:\\Users\\thiva\\OneDrive\\Documents\\GitHub\\RADassignment\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\TicketManagementSystem.csproj",
+      "projectName": "TicketManagementSystem",
+      "projectPath": "C:\\Users\\thiva\\OneDrive\\Documents\\GitHub\\RADassignment\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\TicketManagementSystem.csproj",
+      "packagesPath": "C:\\Users\\thiva\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\thiva\\OneDrive\\Documents\\GitHub\\RADassignment\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\obj\\",
+>>>>>>> 783e83d3132e788faae02af37ee968233c1c0037
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -17600,7 +17612,11 @@
         "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\"
       ],
       "configFilePaths": [
+<<<<<<< HEAD
         "C:\\Users\\EDT\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
+        "C:\\Users\\thiva\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> 783e83d3132e788faae02af37ee968233c1c0037
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],

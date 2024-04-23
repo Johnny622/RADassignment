@@ -38,7 +38,7 @@ namespace TicketManagementSystem
 
         private void btnTrainMng_Click(object sender, RoutedEventArgs e)
         {
-            this.Frame.Navigate(typeof(BookingPage));
+            this.Frame.Navigate(typeof(TrainManagement));
 
         }
         private void btnUserMng_Click(object sender, RoutedEventArgs e)
@@ -167,6 +167,11 @@ namespace TicketManagementSystem
             {
                 SubmitBtn_Click(sender, e);
             }
+        }
+
+        private void btnViewUserProfile_Click(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(ViewUserList));
         }
     }
 }

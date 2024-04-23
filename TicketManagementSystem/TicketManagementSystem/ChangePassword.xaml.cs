@@ -35,11 +35,6 @@ namespace TicketManagementSystem
             else if (menuSplitView.IsPaneOpen == true) { menuSplitView.IsPaneOpen = false; rightContent.Margin = new Thickness(80, 0, 0, 0); }
         }
 
-        private void btnTrainMng_Click(object sender, RoutedEventArgs e)
-        {
-            this.Frame.Navigate(typeof(BookingPage));
-
-        }
         private void btnUserMng_Click(object sender, RoutedEventArgs e)
         {
             this.Frame.Navigate(typeof(UserManagement));
@@ -171,6 +166,11 @@ namespace TicketManagementSystem
             {
                 SubmitBtn_Click(sender, e);
             }
+        }
+
+        private void btnTrainBooking_Click(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(BookingPage));
         }
     }
 }

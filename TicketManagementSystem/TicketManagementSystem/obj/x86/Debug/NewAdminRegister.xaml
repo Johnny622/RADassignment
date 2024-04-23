@@ -20,21 +20,21 @@
             </LinearGradientBrush>
         </Grid.Background>
         <ScrollViewer VerticalScrollBarVisibility="Auto">
-            <StackPanel x:ConnectionId='2' Orientation="Vertical" Width="1000" Height="700" BorderThickness="2"                             >
+            <StackPanel Orientation="Vertical" Width="1000" Height="700" BorderThickness="2" >
                 <StackPanel.BorderBrush>
                     <SolidColorBrush Color="Black" Opacity="0.5"/>
                 </StackPanel.BorderBrush>
                 <StackPanel.Background>
                     <SolidColorBrush Color="White" Opacity="0.5"/>
                 </StackPanel.Background>
-                <Button x:ConnectionId='3' x:Name="BackBtn" Content="&lt;Back" Background="Transparent" FontSize="24"                      />
+                <Button x:ConnectionId='2' x:Name="BackBtn" Content="&lt;Back" Background="Transparent" FontSize="24"                      />
                 <StackPanel>
                     <Line X1="0" X2="1000" Stroke="Black" StrokeThickness="3"/>
                     <TextBlock Text="Add New Admin" FontSize="24" FontWeight="Bold" HorizontalAlignment="Center" Margin="10"/>
                     <Line X1="0" X2="1000" Stroke="Black" StrokeThickness="3"/>
                 </StackPanel>
 
-                <StackPanel Margin="10,20,10,0" >
+                <StackPanel x:ConnectionId='3' Margin="10,20,10,0"                             >
                     <StackPanel Orientation="Vertical" Width="480" Margin="0,0,15,0" VerticalAlignment="Top">
                         <StackPanel.BorderBrush>
                             <SolidColorBrush Color="Black" Opacity="0.485"/>

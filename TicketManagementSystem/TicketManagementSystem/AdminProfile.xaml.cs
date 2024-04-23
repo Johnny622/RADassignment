@@ -45,6 +45,7 @@ namespace TicketManagementSystem
 
         private void btnTrainMng_Click(object sender, RoutedEventArgs e)
         {
+            ModifyNoSave(typeof(TrainManagement));
             //change to view route
         }
 
@@ -185,7 +186,7 @@ namespace TicketManagementSystem
 
         private void btnHelp_Click(object sender, RoutedEventArgs e)
         {
-            this.Frame.Navigate(typeof(HelpManagement));
+            ModifyNoSave(typeof(HelpManagement));
         }
 
         private void AdminProfile_KeyDown(object sender, KeyRoutedEventArgs e)
@@ -202,6 +203,11 @@ namespace TicketManagementSystem
             {
                 SubmitBtn_Click(sender, e);
             }
+        }
+
+        private void btnViewUser_Click(object sender, RoutedEventArgs e)
+        {
+            ModifyNoSave(typeof(ViewUserList));
         }
     }
 }

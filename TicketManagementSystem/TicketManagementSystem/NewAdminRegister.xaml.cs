@@ -81,6 +81,8 @@ namespace TicketManagementSystem
                 else
                     ErrorMessage.Text = "Email had exist.";
             }
+            else
+                ErrorMessage.Text = "Please Filled All Information.";
 
         }
 

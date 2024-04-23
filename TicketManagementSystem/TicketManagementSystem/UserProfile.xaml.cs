@@ -40,8 +40,7 @@ namespace TicketManagementSystem
 
         private void btnTrainMng_Click(object sender, RoutedEventArgs e)
         {
-            ModifyNoSave(typeof(BookingPage));
-            //this.Frame.Navigate(typeof(BookingPage));
+           
 
         }
         private void btnUserMng_Click(object sender, RoutedEventArgs e)
@@ -173,12 +172,14 @@ namespace TicketManagementSystem
 
         private void btnHelp_Click(object sender, RoutedEventArgs e)
         {
-            this.Frame.Navigate(typeof(HelpManagement));
+            ModifyNoSave(typeof(HelpManagement));
+            //this.Frame.Navigate(typeof(HelpManagement));
         }
 
         private void btnFood_Click(object sender, RoutedEventArgs e)
         {
-            this.Frame.Navigate(typeof(Food_Drinks));
+            ModifyNoSave(typeof(Food_Drinks));
+            //this.Frame.Navigate(typeof(Food_Drinks));
         }
 
         private void UserProfile_KeyDown(object sender, KeyRoutedEventArgs e)
@@ -194,6 +195,12 @@ namespace TicketManagementSystem
             {
                 SubmitBtn_Click(sender, e);
             }
+        }
+
+        private void btnTrainBooking_Click(object sender, RoutedEventArgs e)
+        {
+            ModifyNoSave(typeof(BookingPage));
+            //this.Frame.Navigate(typeof(BookingPage));
         }
     }
 }

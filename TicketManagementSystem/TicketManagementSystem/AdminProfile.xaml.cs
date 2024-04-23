@@ -145,7 +145,8 @@ namespace TicketManagementSystem
                 {
                     SaveModify(destPage);
 
-                }else if(result == ContentDialogResult.None || result == ContentDialogResult.Primary)
+                }
+                else if (result == ContentDialogResult.None || result == ContentDialogResult.Primary)
                 {
                     this.Frame.Navigate(destPage);
                 }
@@ -168,7 +169,7 @@ namespace TicketManagementSystem
                     ad.Phone = AdminPhone.Text;
 
                     GlobalVariable.CurrentAdminEmail = ad.Email;
-                    
+
                     await firebaseHelper.UpdateAdmin(ad);
 
                     DisplayDialog("Success", "Update Successfully", destPage);
@@ -185,6 +186,22 @@ namespace TicketManagementSystem
         private void btnHelp_Click(object sender, RoutedEventArgs e)
         {
             this.Frame.Navigate(typeof(HelpManagement));
+        }
+
+        private void AdminProfile_KeyDown(object sender, KeyRoutedEventArgs e)
+        {
+            if (e.Key == Windows.System.VirtualKey.Enter)
+            {
+                SubmitBtn_Click(sender, e);
+            }
+        }
+
+        private void AdminCombo_KeyDown(object sender, KeyRoutedEventArgs e)
+        {
+            if (e.Key == Windows.System.VirtualKey.Enter)
+            {
+                SubmitBtn_Click(sender, e);
+            }
         }
     }
 }

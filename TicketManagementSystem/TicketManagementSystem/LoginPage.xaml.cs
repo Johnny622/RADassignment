@@ -159,5 +159,21 @@ namespace TicketManagementSystem
         {
             this.Frame.Navigate(typeof(ForgetPassword));
         }
+
+        private void LoginEnter_KeyDown(object sender, KeyRoutedEventArgs e)
+        {
+            if (e.Key == Windows.System.VirtualKey.Enter)
+            {
+                LoginBtn_Click(sender, e);
+            }
+        }
+
+        private void LoginUserNameEnter_KeyDown(object sender, KeyRoutedEventArgs e)
+        {
+            if (e.Key == Windows.System.VirtualKey.Enter)
+            {
+                PasswordTextBox.Focus(FocusState.Programmatic);
+            }
+        }
     }
 }

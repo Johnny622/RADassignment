@@ -149,7 +149,7 @@ namespace TicketManagementSystem
 
             ContentDialogResult result = await noDialog.ShowAsync();
 
-            if(result == ContentDialogResult.None)
+            if (result == ContentDialogResult.None)
             {
                 this.Frame.Navigate(typeof(UserManagement));
             }
@@ -163,6 +163,14 @@ namespace TicketManagementSystem
         private void btnFood_Click(object sender, RoutedEventArgs e)
         {
             this.Frame.Navigate(typeof(Food_Drinks));
+        }
+
+        private void ConfPw_KeyDown(object sender, KeyRoutedEventArgs e)
+        {
+            if (e.Key == Windows.System.VirtualKey.Enter)
+            {
+                SubmitBtn_Click(sender, e);
+            }
         }
     }
 }

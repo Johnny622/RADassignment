@@ -41,15 +41,16 @@ namespace TicketManagementSystem
             if (AreAllTextboxesFilled() && SignUpGender.SelectedIndex != 0)//1. All filled
             {
                 List<AdminDetail> adminDetails = await firebaseHelper.GetAdminDetails();
-                foreach(AdminDetail adminDetail in adminDetails)
+                foreach (AdminDetail adminDetail in adminDetails)
                 {
-                    if(adminDetail.Email == ConvertToLowerCase(SignUpEmail.Text))
+                    if (adminDetail.Email == ConvertToLowerCase(SignUpEmail.Text))
                     {
                         isExistEmail = true;
                         break;
                     }
                 }
-                if (!isExistEmail) {
+                if (!isExistEmail)
+                {
                     string password = SignUpPassword.Password;
                     if (password.Length >= MIN_LENGTH && NumberUpperCase(password) >= 1 && NumberLowerCase(password) >= 1 && NumberDigits(password) >= 1)
                     {
@@ -76,8 +77,9 @@ namespace TicketManagementSystem
                     {
                         ErrorMessage.Text = "Not fulfil the password requirement.";
                     }
-                }else
-                        ErrorMessage.Text = "Email had exist.";
+                }
+                else
+                    ErrorMessage.Text = "Email had exist.";
             }
 
         }
@@ -162,6 +164,14 @@ namespace TicketManagementSystem
             if (result == ContentDialogResult.None || result == ContentDialogResult.Primary)
             {
                 this.Frame.Navigate(typeof(AdminManagement));
+            }
+        }
+
+        private void StackPanel_KeyDown(object sender, KeyRoutedEventArgs e)
+        {
+            if (e.Key == Windows.System.VirtualKey.Enter)
+            {
+                SignUpSubmitBtn_Click(sender, e);
             }
         }
     }

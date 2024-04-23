@@ -34,6 +34,7 @@
       <RootProperty Name="Visibility" />
       <RootProperty Name="Height" />
       <RootProperty Name="Opacity" />
+      <RootEvent Name="KeyDown" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.TextBlock">
       <RootProperty Name="Text" />
@@ -63,6 +64,7 @@
       <RootProperty Name="TextAlignment" />
       <RootProperty Name="Width" />
       <RootProperty Name="Visibility" />
+      <RootEvent Name="KeyDown" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.Button">
       <RootProperty Name="Background" />
@@ -82,6 +84,7 @@
       <RootProperty Name="FontFamily" />
       <RootProperty Name="FontWeight" />
       <RootEvent Name="Click" />
+      <RootEvent Name="KeyDown" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.DatePicker">
       <RootProperty Name="Margin" />
@@ -112,9 +115,10 @@
     <RootType FullName="Windows.UI.Xaml.Controls.PasswordBox">
       <RootProperty Name="FontSize" />
       <RootProperty Name="PlaceholderText" />
-      <RootProperty Name="Margin" />
       <RootProperty Name="CornerRadius" />
       <RootProperty Name="Width" />
+      <RootProperty Name="Margin" />
+      <RootEvent Name="KeyDown" />
     </RootType>
     <RootType FullName="TicketManagementSystem.AdminChangePassword" />
     <RootType FullName="Windows.UI.Xaml.Controls.ComboBox">
@@ -127,6 +131,7 @@
       <RootProperty Name="FontFamily" />
       <RootProperty Name="FontWeight" />
       <RootProperty Name="Foreground" />
+      <RootEvent Name="KeyDown" />
       <RootEvent Name="SelectionChanged" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.ComboBoxItem">

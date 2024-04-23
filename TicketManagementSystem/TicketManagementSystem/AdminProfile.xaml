@@ -8,8 +8,8 @@
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
-    <Grid Name="AdminProfileGrid">
-        <SplitView x:Name="menuSplitView" DisplayMode="CompactOverlay" IsPaneOpen="False" CompactPaneLength="50" OpenPaneLength="240" Background="#D7ECFF">
+    <Grid Name="AdminProfileGrid" Background="#D7ECFF">
+        <SplitView x:Name="menuSplitView" DisplayMode="CompactOverlay" IsPaneOpen="False" CompactPaneLength="50" OpenPaneLength="240" >
             <SplitView.Pane>
                 <StackPanel Background="#4863A0">
                     <StackPanel Orientation="Horizontal" Margin="0 0 0 50">
@@ -52,20 +52,33 @@
             <TextBlock Text="MY PROFILE" FontFamily="Bahnschrift SemiBold" FontSize="24" FontWeight="Bold" Foreground="DarkBlue" Margin="0,20"/>
             <Image Source="Assets/ets-logo.png" Height="40" HorizontalAlignment="Left" Margin="0,0,0,10"/>
 
-            <StackPanel Orientation="Vertical" Margin="50,50">
-                <TextBox x:Name="AdminName" FontSize="24" PlaceholderText="Admin Name" IsReadOnly="True" Margin="0,20" CornerRadius="5" Background="#FFC7C7C7"/>
-                <TextBox x:Name="AdminEmail" FontSize="24" PlaceholderText="Admin Email" Margin="0,20" CornerRadius="5"/>
-                <TextBox x:Name="AdminID" FontSize="24" PlaceholderText="Admin ID" IsReadOnly="True" Margin="0,20" CornerRadius="5" Background="#FFC7C7C7"/>
-                <TextBox x:Name="AdminIC" FontSize="24" PlaceholderText="Admin IC" IsReadOnly="True" Margin="0,20" CornerRadius="5" Background="#FFC7C7C7"/>
-                <TextBox x:Name="AdminPhone" FontSize="24" PlaceholderText="Admin Phone" Margin="0,20" CornerRadius="5"/>
-                <ComboBox x:Name="AdminGender" FontSize="24" Width="500" Margin="0,20" CornerRadius="5">
+            <StackPanel>
+                <TextBlock Text="Name :" FontSize="20" />
+                <TextBox x:Name="AdminName" FontSize="20"  PlaceholderText="Admin Name" IsReadOnly="True" Margin="0,5,20,5" CornerRadius="5" Background="#FFC7C7C7" KeyDown="AdminProfile_KeyDown"/>
+
+                <TextBlock Text="Email :" FontSize="20"/>
+                <TextBox x:Name="AdminEmail" FontSize="20"  PlaceholderText="Admin Email" Margin="0,5,20,5" CornerRadius="5" KeyDown="AdminProfile_KeyDown"/>
+
+                <TextBlock Text="ID :" FontSize="20"/>
+                <TextBox x:Name="AdminID" FontSize="20"  PlaceholderText="Admin ID" Margin="0,5,20,5" IsReadOnly="True" CornerRadius="5" Background="#FFC7C7C7" KeyDown="AdminProfile_KeyDown"/>
+
+                <TextBlock Text="IC :" FontSize="20" />
+                <TextBox x:Name="AdminIC" FontSize="20"  PlaceholderText="Admin IC" IsReadOnly="True" Margin="0,5,20,5" CornerRadius="5" Background="#FFC7C7C7" KeyDown="AdminProfile_KeyDown"/>
+
+                <TextBlock Text="Phone Number :" FontSize="20" />
+                <TextBox x:Name="AdminPhone" FontSize="20"  PlaceholderText="Admin Phone" Margin="0,5,20,5" CornerRadius="5" KeyDown="AdminProfile_KeyDown"/>
+
+                <TextBlock Text="Gender :" FontSize="20"/>
+                <ComboBox x:Name="AdminGender" FontSize="20" Width="500" Margin="0,5,20,5" CornerRadius="5" KeyDown="AdminCombo_KeyDown">
                     <ComboBoxItem Content="Please Select"/>
                     <ComboBoxItem x:Name="Male" Content="Male"/>
                     <ComboBoxItem x:Name="Female" Content="Female"/>
                 </ComboBox>
-                <TextBlock x:Name="ErrorMessage" FontSize="24" HorizontalAlignment="Center" Foreground="Red"/>
-                <Button x:Name="SubmitBtn" Content="Save" FontSize="24" Width="300" Margin="0,20" HorizontalAlignment="Center" CornerRadius="10" Background="#FFFFBE2F" BorderBrush="Black" Click="SubmitBtn_Click"/>
             </StackPanel>
+
+            <TextBlock x:Name="ErrorMessage" FontSize="20" HorizontalAlignment="Center" Foreground="Red"/>
+            <Button x:Name="SubmitBtn" Content="Save" FontSize="20" Width="300" Margin="0,10" HorizontalAlignment="Center" CornerRadius="10" Background="#FFFFBE2F" BorderBrush="Black" Click="SubmitBtn_Click"/>
+
         </StackPanel>
     </Grid>
 </Page>

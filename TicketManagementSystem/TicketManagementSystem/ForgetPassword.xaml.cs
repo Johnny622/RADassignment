@@ -54,7 +54,7 @@ namespace TicketManagementSystem
                 UserDetail ud = await firebaseHelper.GetUserDetailsByEmail(ConvertToLowerCase(VerifiedEmail.Text));
                 AdminDetail ad = await firebaseHelper.GetAdminDetailsByEmail(ConvertToLowerCase(VerifiedEmail.Text));
 
-                if (ud!=null && ud.Email == ConvertToLowerCase(VerifiedEmail.Text))
+                if (ud != null && ud.Email == ConvertToLowerCase(VerifiedEmail.Text))
                 {
                     if (ud.Phone == VerifiedPhone.Text)
                     {
@@ -74,7 +74,7 @@ namespace TicketManagementSystem
                     }
                     else { ErrorMessage.Text = "Phone Number is not match!"; VerifiedPhone.Text = string.Empty; VerifiedPhone.Focus(FocusState.Programmatic); }
                 }
-                else if (ad!=null && ad.Email == ConvertToLowerCase(VerifiedEmail.Text))
+                else if (ad != null && ad.Email == ConvertToLowerCase(VerifiedEmail.Text))
                 {
                     if (ad.Phone == VerifiedPhone.Text)
                     {
@@ -128,5 +128,20 @@ namespace TicketManagementSystem
             return randomNumber;
         }
 
+        private void VerifiedEmail_KeyDown(object sender, KeyRoutedEventArgs e)
+        {
+            if (e.Key == Windows.System.VirtualKey.Enter)
+            {
+                VerifiedPhone.Focus(FocusState.Programmatic);
+            }
+        }
+
+        private void VerifiedPhone_KeyDown(object sender, KeyRoutedEventArgs e)
+        {
+            if (e.Key == Windows.System.VirtualKey.Enter)
+            {
+                UserVerified_Click(sender, e);
+            }
+        }
     }
 }

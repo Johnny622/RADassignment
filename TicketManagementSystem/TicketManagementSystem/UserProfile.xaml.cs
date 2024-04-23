@@ -127,7 +127,7 @@ namespace TicketManagementSystem
 
                     await firebaseHelper.UpdateUser(ud);
 
-                    DisplayDialog("Success", "Update Successfully",destPage);
+                    DisplayDialog("Success", "Update Successfully", destPage);
                 }
                 catch (Exception ex)
                 {
@@ -179,6 +179,21 @@ namespace TicketManagementSystem
         private void btnFood_Click(object sender, RoutedEventArgs e)
         {
             this.Frame.Navigate(typeof(Food_Drinks));
+        }
+
+        private void UserProfile_KeyDown(object sender, KeyRoutedEventArgs e)
+        {
+            if (e.Key == Windows.System.VirtualKey.Enter)
+            {
+                SubmitBtn_Click(sender, e);
+            }
+        }
+        private void UserCombo_KeyDown(object sender, KeyRoutedEventArgs e)
+        {
+            if (e.Key == Windows.System.VirtualKey.Enter)
+            {
+                SubmitBtn_Click(sender, e);
+            }
         }
     }
 }

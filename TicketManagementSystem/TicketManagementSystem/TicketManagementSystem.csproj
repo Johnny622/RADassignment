@@ -154,6 +154,9 @@
     <Compile Include="DisplayRoute.xaml.cs">
       <DependentUpon>DisplayRoute.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Food&amp;Drinks.xaml.cs">
+      <DependentUpon>Food&amp;Drinks.xaml</DependentUpon>
+    </Compile>
     <Compile Include="ForgetPassword.xaml.cs">
       <DependentUpon>ForgetPassword.xaml</DependentUpon>
     </Compile>
@@ -227,12 +230,14 @@
     <Content Include="Assets\management.png" />
     <Content Include="Assets\meal.png" />
     <Content Include="Assets\next.png" />
+    <Content Include="Assets\pasta.jpeg" />
     <Content Include="Assets\profile-icon.jpg" />
     <Content Include="Assets\profile-icon2.jpg" />
     <Content Include="Assets\profile-icon3.jpg" />
     <Content Include="Assets\profile-user.png" />
     <Content Include="Assets\rail.png" />
     <Content Include="Assets\research.png" />
+    <Content Include="Assets\sandwich.jpeg" />
     <Content Include="Assets\search.png" />
     <Content Include="Assets\seat.png" />
     <Content Include="Assets\software-engineer.png" />
@@ -291,6 +296,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="DisplayRoute.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Food&amp;Drinks.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

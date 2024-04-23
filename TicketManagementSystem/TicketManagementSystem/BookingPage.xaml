@@ -104,7 +104,7 @@
             </StackPanel>
             
             <!--Group2-->
-            <StackPanel x:Name="spGroup2" BorderBrush="#4f6170" BorderThickness="2" Padding="10" Margin="0,0,20,20" Visibility="Visible">
+            <StackPanel x:Name="spGroup2" BorderBrush="#4f6170" BorderThickness="2" Padding="10" Margin="0,0,20,20" Visibility="Collapsed">
                 <!--Group2:DepartDate-->
                 <StackPanel Margin="0,0,0,40">
                     <StackPanel Orientation="Horizontal">

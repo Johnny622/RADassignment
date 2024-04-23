@@ -14,14 +14,14 @@ namespace TicketManagementSystem.Class
     {
         FirebaseClient firebase = new FirebaseClient("https://trainmanagementsystem-6fec6-default-rtdb.firebaseio.com/");
 
-        public async Task AddUser(PassengerDetails passenger)
+        public async Task AddPassenger(PassengerDetails passenger)
         {
             await firebase
            .Child("Passengers")
            .PostAsync(JsonConvert.SerializeObject(passenger));
         }
 
-        public async Task<List<PassengerDetails>> GetAllUsers()
+        public async Task<List<PassengerDetails>> GetAllPassengers()
         {
 
             return (await firebase

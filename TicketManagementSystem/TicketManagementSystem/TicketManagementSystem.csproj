@@ -221,6 +221,7 @@
     <Content Include="Assets\booked_chair.png" />
     <Content Include="Assets\booking.png" />
     <Content Include="Assets\chair.png" />
+    <Content Include="Assets\download.png" />
     <Content Include="Assets\ets-logo.png" />
     <Content Include="Assets\ets-train.jpg" />
     <Content Include="Assets\food.png" />
@@ -384,6 +385,9 @@
     </PackageReference>
     <PackageReference Include="FirebaseStorage.net">
       <Version>1.0.3</Version>
+    </PackageReference>
+    <PackageReference Include="iTextSharp">
+      <Version>5.5.13.3</Version>
     </PackageReference>
     <PackageReference Include="Microsoft.NETCore.UniversalWindowsPlatform">
       <Version>6.2.14</Version>

@@ -15,6 +15,7 @@ using Windows.UI.Xaml.Navigation;
 using TicketManagementSystem.Class;
 using Windows.UI.Xaml.Documents;
 using Windows.UI.Text;
+using System.Numerics;
 
 // The Blank Page item template is documented at https://go.microsoft.com/fwlink/?LinkId=234238
 
@@ -99,6 +100,7 @@ namespace TicketManagementSystem
                         {
                             Names = { new InputScopeName() { NameValue = InputScopeNameValue.TelephoneNumber } }
                         };
+                        tb.KeyUp += TbPhone_KeyUp;
                         stackPanel_vertical.Children.Add(tb);
                     }
                     else
@@ -172,80 +174,149 @@ namespace TicketManagementSystem
             }
         }
 
+        private void TbPhone_KeyUp(object sender, KeyRoutedEventArgs e)
+        {
+            if (e.Key == Windows.System.VirtualKey.Enter)
+            {
+                TextBox textBox = sender as TextBox;
+                string text = textBox.Text;
+
+                if (text.Length == 11 && text.Substring(3, 1) == "-")
+                {
+                    displayError.Visibility = Visibility.Collapsed;
+                }
+                else
+                {
+                    displayError.Text = "Please enter phone number in correct format. e.g.018-1234567";
+                    displayError.Visibility = Visibility.Visible;
+                }
+            }
+        }
+
         private async void btnConfirm_Click(object sender, RoutedEventArgs e)
         {
-            Payment paymentDialog = new Payment();
-            await paymentDialog.ShowAsync();
+            bool isValid = true;
+            PassengerDetails details = null;
+            List<PassengerDetails> passengerDetailsList = new List<PassengerDetails>();
 
-            if(Payment.paid == true)
+            foreach (var child in mainGrid.Children)
             {
-                List<PassengerDetails> passengerDetailsList = new List<PassengerDetails>();
-
-                foreach (var child in mainGrid.Children)
+                if (child is StackPanel stackPanel)
                 {
-                    if (child is StackPanel stackPanel)
+                    string name = "";
+                    string gender = "";
+                    string phone = "";
+                    string ic = "";
+                    string labelText = "";
+                    var secondChild = stackPanel.Children[1];
+
+                    if (secondChild is StackPanel horizontalSPDetails)
                     {
-                        string name = "";
-                        string gender = "";
-                        string phone = "";
-                        string ic = "";
-                        string labelText = "";
-                        var secondChild = stackPanel.Children[1];
-
-                        if (secondChild is StackPanel horizontalSPDetails)
+                        foreach (var element in horizontalSPDetails.Children)
                         {
-                            foreach (var element in horizontalSPDetails.Children)
+                            if (element is StackPanel verticalSPDetails)
                             {
-                                if (element is StackPanel verticalSPDetails)
+                                foreach (var innerElement in verticalSPDetails.Children)
                                 {
-                                    foreach (var innerElement in verticalSPDetails.Children)
+                                    if (innerElement is TextBlock label)
                                     {
-                                        if (innerElement is TextBlock label)
-                                        {
-                                            labelText = label.Text;
-                                        }
-                                        if (innerElement is TextBox textBox)
-                                        {
-                                            string text = textBox.Text;
+                                        labelText = label.Text;
+                                    }
+                                    if (innerElement is TextBox textBox)
+                                    {
+                                        string text = textBox.Text;
 
-                                            if (labelText == "Name")
-                                                name = text;
-                                            else if (labelText == "Phone")
-                                                phone = text;
-                                            else if (labelText == "I/C")
-                                                ic = text;
-                                        }
-                                        else if (innerElement is ComboBox comboBox)
+                                        if (string.IsNullOrWhiteSpace(text))
                                         {
-                                            if (comboBox.SelectedItem != null)
+                                            isValid = false;
+                                            DisplayDialog("Error", $"{labelText} cannot be empty.");
+                                            return;
+                                        }
+
+                                        if (labelText == "Phone")
+                                        {
+                                            if (!IsPhoneFormatValid(text))
                                             {
-                                                gender = (comboBox.SelectedItem as ComboBoxItem)?.Content?.ToString();
+                                                isValid = false;
+                                                DisplayDialog("Error", "Please enter phone number in correct format. e.g.018-1234567");
+                                                return;
                                             }
+                                            phone = text;
+                                        }
+                                        else if (labelText == "I/C")
+                                        {
+                                            if (!IsICFormatValid(text))
+                                            {
+                                                isValid = false;
+                                                DisplayDialog("Error", "Please enter IC number in correct format. e.g.001123-08-9092");
+                                                return;
+                                            }
+                                            ic = text;
+                                        }
+                                        else
+                                        {
+                                            name = text;
+                                        }
+                                    }
+                                    else if (innerElement is ComboBox comboBox)
+                                    {
+                                        if (comboBox.SelectedItem != null)
+                                        {
+                                            gender = (comboBox.SelectedItem as ComboBoxItem)?.Content?.ToString();
                                         }
                                     }
                                 }
                             }
                         }
-
-                        try
-                        {
-                            PassengerDetails details = new PassengerDetails(name, gender, phone, ic);
-                            passengerDetailsList.Add(details);
-
-                            await firebaseHelper.AddUser(details);
-                            Frame.Navigate(typeof(SummaryTrainInfo));
-                        }
-                        catch (Exception ex)
-                        {
-                            Console.WriteLine(ex.ToString());
-                        }
                     }
+
+                    if (!isValid)
+                    {
+                        return;
+                    }
+                    details = new PassengerDetails(name, gender, phone, ic);
+                    passengerDetailsList.Add(details);
                 }
             }
-            else
+
+            try
             {
-                DisplayDialog("Payment Failed", "Your payment is unsuccessfully");
-            }            
+                foreach (PassengerDetails detail in passengerDetailsList)
+                {
+                    await firebaseHelper.AddPassenger(detail);
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.ToString());
+            }
+
+            if (isValid)
+            {
+                Payment paymentDialog = new Payment();
+                await paymentDialog.ShowAsync();
+
+                if (Payment.paid)
+                {
+                    Frame.Navigate(typeof(SummaryTrainInfo), passengerDetailsList);
+                }
+                else
+                {
+                    DisplayDialog("Payment Failed", "Your payment was unsuccessful.");
+                }
+            }
+        }
+
+        private bool IsPhoneFormatValid(string phone)
+        {
+            // 检查电话号码的格式是否正确
+            return phone.Length == 11 && phone.Substring(3, 1) == "-";
+        }
+
+        private bool IsICFormatValid(string ic)
+        {
+            // 检查身份证号码的格式是否正确
+            return ic.Length == 14 && ic.Substring(6, 1) == "-" && ic.Substring(9, 1) == "-";
         }
 
         private void btnBookingPage_Click(object sender, RoutedEventArgs e)

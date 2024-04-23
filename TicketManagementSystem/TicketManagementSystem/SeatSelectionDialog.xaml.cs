@@ -69,7 +69,7 @@ namespace TicketManagementSystem
                                 p.SeatNumber = selectedSeat;
                                 p.Coach = coach;
 
-                                await firebaseHelper.AddUser(p);
+                                await firebaseHelper.AddPassenger(p);
 
                                 //DisplayDialog("Insert", "Record Inserted Successfully");
 

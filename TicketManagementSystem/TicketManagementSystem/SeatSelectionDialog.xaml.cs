@@ -56,13 +56,12 @@ namespace TicketManagementSystem
                     foreach (Button selectedSeatButton in selectedSeatButtonsCopy)
                     {
                         string selectedSeat = selectedSeatButton.Tag.ToString();
+                        string coach = selectedSeatButton.Name;
 
                         try
                         {
                             if (!string.IsNullOrEmpty(selectedSeat))
                             {
-                                string coach = ListStaticData.coach;
-
                                 //if(  payment successful  )
 
                                 PassengerDetails p = new PassengerDetails();

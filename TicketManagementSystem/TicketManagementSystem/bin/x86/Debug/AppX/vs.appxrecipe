@@ -30,13 +30,13 @@
     <AppXManifest Include="C:\Users\Lau Tin Tin\Desktop\RAD Clone New\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-04-22T23:01:19.985</Modified>
+      <Modified>2024-04-23T06:28:50.952</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Lau Tin Tin\Desktop\RAD Clone New\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\TicketManagementSystem.exe">
       <PackagePath>entrypoint\TicketManagementSystem.exe</PackagePath>
-      <Modified>2024-04-22T23:01:19.201</Modified>
+      <Modified>2024-04-23T06:28:49.927</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Lau Tin Tin\.nuget\packages\firebaseadmin\2.4.0\lib\netstandard2.0\FirebaseAdmin.dll">
       <PackagePath>FirebaseAdmin.dll</PackagePath>
@@ -117,6 +117,10 @@
     <AppxPackagedFile Include="C:\Users\Lau Tin Tin\Desktop\RAD Clone New\RADassignment\TicketManagementSystem\TicketManagementSystem\Assets\ets-train.jpg">
       <PackagePath>Assets\ets-train.jpg</PackagePath>
       <Modified>2024-04-22T22:52:30.974</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lau Tin Tin\Desktop\RAD Clone New\RADassignment\TicketManagementSystem\TicketManagementSystem\Assets\help.jpg">
+      <PackagePath>Assets\help.jpg</PackagePath>
+      <Modified>2024-04-23T06:28:33.788</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Lau Tin Tin\Desktop\RAD Clone New\RADassignment\TicketManagementSystem\TicketManagementSystem\Assets\profile-icon.jpg">
       <PackagePath>Assets\profile-icon.jpg</PackagePath>
@@ -254,103 +258,103 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Lau Tin Tin\Desktop\RAD Clone New\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2024-04-22T23:01:19.036</Modified>
+      <Modified>2024-04-23T06:28:49.799</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Lau Tin Tin\Desktop\RAD Clone New\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\AddRoute.xbf">
       <PackagePath>AddRoute.xbf</PackagePath>
-      <Modified>2024-04-22T23:01:19.036</Modified>
+      <Modified>2024-04-23T06:28:49.799</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Lau Tin Tin\Desktop\RAD Clone New\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\AdminChangePassword.xbf">
       <PackagePath>AdminChangePassword.xbf</PackagePath>
-      <Modified>2024-04-22T23:01:19.037</Modified>
+      <Modified>2024-04-23T06:28:49.799</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Lau Tin Tin\Desktop\RAD Clone New\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\AdminEditUser.xbf">
       <PackagePath>AdminEditUser.xbf</PackagePath>
-      <Modified>2024-04-22T23:01:19.038</Modified>
+      <Modified>2024-04-23T06:28:49.799</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Lau Tin Tin\Desktop\RAD Clone New\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\AdminManagement.xbf">
       <PackagePath>AdminManagement.xbf</PackagePath>
-      <Modified>2024-04-22T23:01:19.014</Modified>
+      <Modified>2024-04-23T06:28:49.772</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Lau Tin Tin\Desktop\RAD Clone New\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\AdminProfile.xbf">
       <PackagePath>AdminProfile.xbf</PackagePath>
-      <Modified>2024-04-22T23:01:19.015</Modified>
+      <Modified>2024-04-23T06:28:49.774</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Lau Tin Tin\Desktop\RAD Clone New\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\BookingPage.xbf">
       <PackagePath>BookingPage.xbf</PackagePath>
-      <Modified>2024-04-22T23:01:19.018</Modified>
+      <Modified>2024-04-23T06:28:49.778</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Lau Tin Tin\Desktop\RAD Clone New\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\ChangePassword.xbf">
       <PackagePath>ChangePassword.xbf</PackagePath>
-      <Modified>2024-04-22T23:01:19.038</Modified>
+      <Modified>2024-04-23T06:28:49.800</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Lau Tin Tin\Desktop\RAD Clone New\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\CustomStyles.xbf">
       <PackagePath>CustomStyles.xbf</PackagePath>
-      <Modified>2024-04-22T23:01:19.036</Modified>
+      <Modified>2024-04-23T06:28:49.799</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Lau Tin Tin\Desktop\RAD Clone New\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\DeleteRoute.xbf">
       <PackagePath>DeleteRoute.xbf</PackagePath>
-      <Modified>2024-04-22T23:01:19.038</Modified>
+      <Modified>2024-04-23T06:28:49.800</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Lau Tin Tin\Desktop\RAD Clone New\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\DisplayRoute.xbf">
       <PackagePath>DisplayRoute.xbf</PackagePath>
-      <Modified>2024-04-22T23:01:19.038</Modified>
+      <Modified>2024-04-23T06:28:49.800</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Lau Tin Tin\Desktop\RAD Clone New\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\ForgetPassword.xbf">
       <PackagePath>ForgetPassword.xbf</PackagePath>
-      <Modified>2024-04-22T23:01:19.038</Modified>
+      <Modified>2024-04-23T06:28:49.800</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Lau Tin Tin\Desktop\RAD Clone New\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\LoginPage.xbf">
       <PackagePath>LoginPage.xbf</PackagePath>
-      <Modified>2024-04-22T23:01:19.038</Modified>
+      <Modified>2024-04-23T06:28:49.800</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Lau Tin Tin\Desktop\RAD Clone New\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2024-04-22T23:01:19.039</Modified>
+      <Modified>2024-04-23T06:28:49.800</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Lau Tin Tin\Desktop\RAD Clone New\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\NewAdminRegister.xbf">
       <PackagePath>NewAdminRegister.xbf</PackagePath>
-      <Modified>2024-04-22T23:01:19.039</Modified>
+      <Modified>2024-04-23T06:28:49.800</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Lau Tin Tin\Desktop\RAD Clone New\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\NewUserRegister.xbf">
       <PackagePath>NewUserRegister.xbf</PackagePath>
-      <Modified>2024-04-22T23:01:19.027</Modified>
+      <Modified>2024-04-23T06:28:49.786</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Lau Tin Tin\Desktop\RAD Clone New\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\PassengerDetailPage.xbf">
       <PackagePath>PassengerDetailPage.xbf</PackagePath>
-      <Modified>2024-04-22T23:01:19.039</Modified>
+      <Modified>2024-04-23T06:28:49.800</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Lau Tin Tin\Desktop\RAD Clone New\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\SeatSelectionDialog.xbf">
       <PackagePath>SeatSelectionDialog.xbf</PackagePath>
-      <Modified>2024-04-22T23:01:19.039</Modified>
+      <Modified>2024-04-23T06:28:49.801</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Lau Tin Tin\Desktop\RAD Clone New\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\SeatSelectionPage.xbf">
       <PackagePath>SeatSelectionPage.xbf</PackagePath>
-      <Modified>2024-04-22T23:01:19.039</Modified>
+      <Modified>2024-04-23T06:28:49.801</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Lau Tin Tin\Desktop\RAD Clone New\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\TrainManagement.xbf">
       <PackagePath>TrainManagement.xbf</PackagePath>
-      <Modified>2024-04-22T23:01:19.039</Modified>
+      <Modified>2024-04-23T06:28:49.801</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Lau Tin Tin\Desktop\RAD Clone New\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\UpdateRoute.xbf">
       <PackagePath>UpdateRoute.xbf</PackagePath>
-      <Modified>2024-04-22T23:01:19.040</Modified>
+      <Modified>2024-04-23T06:28:49.801</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Lau Tin Tin\Desktop\RAD Clone New\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\UserManagement.xbf">
       <PackagePath>UserManagement.xbf</PackagePath>
-      <Modified>2024-04-22T23:01:19.040</Modified>
+      <Modified>2024-04-23T06:28:49.795</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Lau Tin Tin\Desktop\RAD Clone New\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\UserProfile.xbf">
       <PackagePath>UserProfile.xbf</PackagePath>
-      <Modified>2024-04-22T23:01:19.035</Modified>
+      <Modified>2024-04-23T06:28:49.797</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Lau Tin Tin\Desktop\RAD Clone New\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\ViewRoute.xbf">
       <PackagePath>ViewRoute.xbf</PackagePath>
-      <Modified>2024-04-22T23:01:19.040</Modified>
+      <Modified>2024-04-23T06:28:49.801</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Lau Tin Tin\Desktop\RAD Clone New\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\ViewUserList.xbf">
       <PackagePath>ViewUserList.xbf</PackagePath>
-      <Modified>2024-04-22T23:01:19.040</Modified>
+      <Modified>2024-04-23T06:28:49.801</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.19041.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -358,11 +362,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Lau Tin Tin\Desktop\RAD Clone New\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2024-04-22T22:53:39.624</Modified>
+      <Modified>2024-04-23T06:28:50.511</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Lau Tin Tin\Desktop\RAD Clone New\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\Core\TicketManagementSystem.exe">
       <PackagePath>TicketManagementSystem.exe</PackagePath>
-      <Modified>2024-04-22T23:01:19.981</Modified>
+      <Modified>2024-04-23T06:28:50.947</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

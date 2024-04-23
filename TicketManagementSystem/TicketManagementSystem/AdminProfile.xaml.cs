@@ -182,5 +182,9 @@ namespace TicketManagementSystem
                 ErrorMessage.Text = "Please fill in all infromation.";
         }
 
+        private void btnHelp_Click(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(HelpManagement));
+        }
     }
 }

@@ -301,6 +301,11 @@ namespace TicketManagementSystem
             spReturn.Visibility = Visibility.Visible;
         }
 
+        private void btnHelp_Click(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(HelpManagement));
+        }
+
         private void cbReturn_Unchecked(object sender, RoutedEventArgs e)
         {
             spReturn.Visibility = Visibility.Collapsed;

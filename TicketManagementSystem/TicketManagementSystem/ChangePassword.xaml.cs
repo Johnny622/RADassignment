@@ -154,5 +154,10 @@ namespace TicketManagementSystem
                 this.Frame.Navigate(typeof(UserManagement));
             }
         }
+
+        private void btnHelp_Click(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(HelpManagement));
+        }
     }
 }

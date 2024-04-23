@@ -34,7 +34,7 @@ namespace TicketManagementSystem
 
         private List<PassengerDetails> bookedList = new List<PassengerDetails>();
 
-        private List<Button> selectedSeatButtons = new List<Button>(); // Track selected seat buttons
+        //private List<Button> selectedSeatButtons = new List<Button>(); // Track selected seat buttons
 
         private string coach;
 
@@ -122,43 +122,51 @@ namespace TicketManagementSystem
 
             try
             {
-                if (selectedSeatButtons.Count < numberOfPax)
+                if (numberOfPax != 0)
                 {
-                    if (selectedSeatButtons.Contains(clickedButton))
+                    if (ListStaticData.SelectedSeatButtons.Count < numberOfPax)
                     {
-                        DeselectSeat(clickedButton);
-                        ListStaticData.SelectedSeatButtons.Remove(clickedButton);
-                    }
-                    else if (!IsSeatBooked(seatNumber, clickedButton.Name)) //coach = clickedButton.Name
-                    {
-                        SelectSeat(clickedButton);
-                        ListStaticData.SelectedSeatButtons.Add(clickedButton);
-                    }
-
-                }
-                else
-                {
-                    if (selectedSeatButtons.Contains(clickedButton))
-                    {
-                        DeselectSeat(clickedButton);
-                        ListStaticData.SelectedSeatButtons.Remove(clickedButton);
-
-                        if (selectedSeatButtons.Count > numberOfPax)
+                        if (ListStaticData.SelectedSeatButtons.Contains(clickedButton))
                         {
-                            DisplayDialog("You have already selected " + numberOfPax + " seats.");
+                            DeselectSeat(clickedButton);
+                        }
+                        else if (!IsSeatBooked(seatNumber, clickedButton.Name)) //coach = clickedButton.Name
+                        {
+                            SelectSeat(clickedButton);
                         }
                         else
                         {
                             DisplayDialog(null);
                         }
+
                     }
                     else
                     {
-                        DisplayDialog("You have already selected " + numberOfPax + " seats.");
+                        foreach (Button selectedBtn in ListStaticData.SelectedSeatButtons)
+                        {
+                            if (clickedButton.Tag.ToString() == selectedBtn.Tag.ToString() &&
+                           clickedButton.Name == selectedBtn.Name)  //if ListStaticData contains selectedSeatButtons
+                            {
+                                DeselectSeat(clickedButton);
+                            }
+                            if (ListStaticData.SelectedSeatButtons.Count > numberOfPax)
+                            {
+                                DisplayDialog("You have already selected " + numberOfPax + " seats.");
+                            }
+                            else
+                            {
+                                DisplayDialog(null);
+                            }
+                        }
                     }
+
+                    DisplaySelectedSeats();
+                }
+                else
+                {
+                    DisplayDialog("Please enter number of pax.");
                 }
 
-                DisplaySelectedSeats();
             }
             catch (Exception theException)
             {
@@ -191,11 +199,11 @@ namespace TicketManagementSystem
         {
             StringBuilder selectedSeatsText = new StringBuilder();
 
-            if (selectedSeatButtons.Count > 0)
+            if (ListStaticData.SelectedSeatButtons.Count > 0)
             {
                 selectedSeatsText.Append("Selected Seats: ");
 
-                foreach (Button selectedSeat in selectedSeatButtons)
+                foreach (Button selectedSeat in ListStaticData.SelectedSeatButtons)
                 {
                     selectedSeatsText.Append($"{"(" + selectedSeat.Name + ")"}{selectedSeat.Tag.ToString()}, ");
                 }
@@ -206,7 +214,7 @@ namespace TicketManagementSystem
 
             SelectedSeatsTextBlock.Text = selectedSeatsText.ToString();
 
-            if (selectedSeatButtons.Count == numberOfPax)
+            if (ListStaticData.SelectedSeatButtons.Count == numberOfPax)
             {
                 SelectedSeatsTextBlock.Visibility = Visibility.Visible;
             }
@@ -222,16 +230,29 @@ namespace TicketManagementSystem
             string coach = seatButton.Name;
 
             ListStaticData.coach = coach;
-            selectedSeatButtons.Add(seatButton);
-            UpdateSeatAppearance(seatNumber, coach, isBooked: true);
+            // Add the selected seat button to the list of selected buttons
+            ListStaticData.SelectedSeatButtons.Add(seatButton);
+
+            // Update the appearance of the seat to show it as booked
+            UpdateSeatAppearance(seatNumber, coach, isBooked: true); // Use positional argument for 'isBooked'
         }
+
+
 
         private void DeselectSeat(Button seatButton)
         {
             string seatNumber = seatButton.Tag.ToString();
             string coach = seatButton.Name;
 
-            selectedSeatButtons.Remove(seatButton);
+            // Create a new list excluding the button to deselect
+            List<Button> updatedButtons = ListStaticData.SelectedSeatButtons
+                .Where(btn => btn.Tag.ToString() != seatNumber || btn.Name != coach)
+                .ToList();
+
+            // Update the SelectedSeatButtons list with the filtered list
+            ListStaticData.SelectedSeatButtons = updatedButtons;
+
+            // Update the seat appearance
             UpdateSeatAppearance(seatNumber, coach, isBooked: false);
         }
 
@@ -257,6 +278,8 @@ namespace TicketManagementSystem
                 }
             }
         }
+
+
 
         private Button FindSeatButton(string seatNumber, string coach)
         {
@@ -305,7 +328,7 @@ namespace TicketManagementSystem
         {
             try
             {
-                foreach (Button selectedButton in selectedSeatButtons)
+                foreach (Button selectedButton in ListStaticData.SelectedSeatButtons)
                 {
                     UpdateSeatAppearance(selectedButton.Tag.ToString(), selectedButton.Name, isBooked: true);
                 }

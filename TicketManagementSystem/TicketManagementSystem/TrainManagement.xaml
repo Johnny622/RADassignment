@@ -39,10 +39,17 @@
                         </StackPanel>
                     </Button>
 
-                    <Button Background="Transparent" HorizontalAlignment="Stretch">
+                    <Button Background="Transparent" Margin="0 0 0 30" HorizontalAlignment="Stretch">
                         <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" Width="230">
-                            <Image Source="Assets/meal.png" Width="30"/>
+                            <Image Source="Assets/food.png" Width="30"/>
                             <TextBlock Text="FOODS &amp; DRINKS" Padding="10" VerticalAlignment="Center" Foreground="White" FontWeight="Bold" />
+                        </StackPanel>
+                    </Button>
+
+                    <Button x:Name="btnHelp" Background="Transparent" HorizontalAlignment="Stretch" Click="btnHelp_Click">
+                        <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" Width="230">
+                            <Image Source="Assets/help.png" Width="30"/>
+                            <TextBlock Text="HELP PAGE" Padding="10" VerticalAlignment="Center" Foreground="White" FontWeight="Bold" />
                         </StackPanel>
                     </Button>
                 </StackPanel>

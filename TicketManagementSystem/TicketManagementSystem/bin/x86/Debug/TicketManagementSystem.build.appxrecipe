@@ -88,6 +88,9 @@
     <AppxPackagedFile Include="C:\Users\Lau Tin Tin\Desktop\RAD Clone New\RADassignment\TicketManagementSystem\TicketManagementSystem\Assets\ets-train.jpg">
       <PackagePath>Assets\ets-train.jpg</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lau Tin Tin\Desktop\RAD Clone New\RADassignment\TicketManagementSystem\TicketManagementSystem\Assets\help.jpg">
+      <PackagePath>Assets\help.jpg</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Lau Tin Tin\Desktop\RAD Clone New\RADassignment\TicketManagementSystem\TicketManagementSystem\Assets\profile-icon.jpg">
       <PackagePath>Assets\profile-icon.jpg</PackagePath>
     </AppxPackagedFile>

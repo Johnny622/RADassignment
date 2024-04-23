@@ -157,6 +157,9 @@
     <Compile Include="ForgetPassword.xaml.cs">
       <DependentUpon>ForgetPassword.xaml</DependentUpon>
     </Compile>
+    <Compile Include="HelpManagement.xaml.cs">
+      <DependentUpon>HelpManagement.xaml</DependentUpon>
+    </Compile>
     <Compile Include="LoginPage.xaml.cs">
       <DependentUpon>LoginPage.xaml</DependentUpon>
     </Compile>
@@ -212,6 +215,7 @@
     <Content Include="Assets\ets-logo.png" />
     <Content Include="Assets\ets-train.jpg" />
     <Content Include="Assets\food.png" />
+    <Content Include="Assets\help.png" />
     <Content Include="Assets\key2.png" />
     <Content Include="Assets\LockScreenLogo.scale-200.png" />
     <Content Include="Assets\management.png" />
@@ -284,6 +288,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="ForgetPassword.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="HelpManagement.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

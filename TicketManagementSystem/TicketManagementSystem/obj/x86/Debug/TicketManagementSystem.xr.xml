@@ -200,6 +200,7 @@
     <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.BindExtension" />
     <RootType FullName="TicketManagementSystem.DeleteRoute" />
     <RootType FullName="TicketManagementSystem.DisplayRoute" />
+    <RootType FullName="TicketManagementSystem.Food_Drinks" />
     <RootType FullName="Windows.UI.Xaml.Media.LinearGradientBrush">
       <RootProperty Name="EndPoint" />
       <RootProperty Name="StartPoint" />

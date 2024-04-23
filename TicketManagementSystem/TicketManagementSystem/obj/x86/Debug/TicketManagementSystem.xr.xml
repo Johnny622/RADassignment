@@ -1,11 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Roots >
-<<<<<<< HEAD
-=======
   <Roots.PropertyPathNames>
     <RootPropertyPathName Name="TotalPrice" />
   </Roots.PropertyPathNames>
->>>>>>> b2ff9e21d4574a1045f4eee83d05f944aa5cd1aa
   <Roots.RootTypes>
     <RootType FullName="Windows.UI.Xaml.Application" />
     <RootType FullName="Windows.UI.Xaml.Controls.Page">
@@ -40,10 +37,7 @@
       <RootProperty Name="Visibility" />
       <RootProperty Name="Height" />
       <RootProperty Name="Opacity" />
-<<<<<<< HEAD
-=======
       <RootEvent Name="KeyDown" />
->>>>>>> b2ff9e21d4574a1045f4eee83d05f944aa5cd1aa
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.TextBlock">
       <RootProperty Name="Text" />
@@ -73,11 +67,8 @@
       <RootProperty Name="TextAlignment" />
       <RootProperty Name="Width" />
       <RootProperty Name="Visibility" />
-<<<<<<< HEAD
-=======
       <RootEvent Name="KeyDown" />
       <RootEvent Name="TextChanged" />
->>>>>>> b2ff9e21d4574a1045f4eee83d05f944aa5cd1aa
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.Button">
       <RootProperty Name="Background" />
@@ -97,10 +88,7 @@
       <RootProperty Name="FontFamily" />
       <RootProperty Name="FontWeight" />
       <RootEvent Name="Click" />
-<<<<<<< HEAD
-=======
       <RootEvent Name="KeyDown" />
->>>>>>> b2ff9e21d4574a1045f4eee83d05f944aa5cd1aa
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.DatePicker">
       <RootProperty Name="Margin" />
@@ -131,16 +119,10 @@
     <RootType FullName="Windows.UI.Xaml.Controls.PasswordBox">
       <RootProperty Name="FontSize" />
       <RootProperty Name="PlaceholderText" />
-<<<<<<< HEAD
-      <RootProperty Name="Margin" />
-      <RootProperty Name="CornerRadius" />
-      <RootProperty Name="Width" />
-=======
       <RootProperty Name="CornerRadius" />
       <RootProperty Name="Width" />
       <RootProperty Name="Margin" />
       <RootEvent Name="KeyDown" />
->>>>>>> b2ff9e21d4574a1045f4eee83d05f944aa5cd1aa
     </RootType>
     <RootType FullName="TicketManagementSystem.AdminChangePassword" />
     <RootType FullName="Windows.UI.Xaml.Controls.ComboBox">
@@ -153,10 +135,7 @@
       <RootProperty Name="FontFamily" />
       <RootProperty Name="FontWeight" />
       <RootProperty Name="Foreground" />
-<<<<<<< HEAD
-=======
       <RootEvent Name="KeyDown" />
->>>>>>> b2ff9e21d4574a1045f4eee83d05f944aa5cd1aa
       <RootEvent Name="SelectionChanged" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.ComboBoxItem">
@@ -230,10 +209,7 @@
     <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.BindExtension" />
     <RootType FullName="TicketManagementSystem.DeleteRoute" />
     <RootType FullName="TicketManagementSystem.DisplayRoute" />
-<<<<<<< HEAD
-=======
     <RootType FullName="Windows.UI.Xaml.Data.Binding" />
->>>>>>> b2ff9e21d4574a1045f4eee83d05f944aa5cd1aa
     <RootType FullName="TicketManagementSystem.Food_Drinks" />
     <RootType FullName="Windows.UI.Xaml.Media.LinearGradientBrush">
       <RootProperty Name="EndPoint" />

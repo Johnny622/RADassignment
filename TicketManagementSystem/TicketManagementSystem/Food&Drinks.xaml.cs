@@ -1,8 +1,13 @@
-﻿using System;
+﻿using Firebase.Database;
+using Firebase.Database.Query;
+using LiteDB;
+using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.IO;
 using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
+using TicketManagementSystem.Class;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
 using Windows.UI.Xaml;
@@ -17,12 +22,15 @@ using Windows.UI.Xaml.Navigation;
 
 namespace TicketManagementSystem
 {
+
     public sealed partial class Food_Drinks : Page
     {
         public double TotalPrice { get; set; } = 0;
         private int _quantity1 = 0; // Quantity for first food item
         private int _quantity2 = 0; // Quantity for second food item (assuming two items)
-
+        private ContentDialog _currentDialog; // Variable to track the current dialog
+        FirebaseHelper firebaseHelper = new FirebaseHelper();
+        FirebaseStorageHelper firebaseStorageHelper = new FirebaseStorageHelper();
         public Food_Drinks()
         {
             this.InitializeComponent();
@@ -57,7 +65,7 @@ namespace TicketManagementSystem
             this.Frame.Navigate(typeof(Food_Drinks));
         }
 
-        private void QuantityTextBox_TextChanged(object sender, TextChangedEventArgs e)
+        private async void QuantityTextBox_TextChanged(object sender, TextChangedEventArgs e)
         {
             var textBox = (TextBox)sender;
             if (int.TryParse(textBox.Text, out int quantity))
@@ -82,7 +90,6 @@ namespace TicketManagementSystem
             UpdateTotalPrice();
         }
 
-
         private void UpdateTotalPrice()
         {
             // Assuming prices are stored in variables (replace with actual price retrieval logic)
@@ -94,25 +101,39 @@ namespace TicketManagementSystem
             totalPriceTextBox.Text = TotalPrice.ToString("C"); // Format as currency
         }
 
-        private void ConfirmPayment_Click(object sender, RoutedEventArgs e)
+        private async void ConfirmPayment_Click(object sender, RoutedEventArgs e)
         {
-            // Open Payment dialog
-            Payment paymentDialog = new Payment();
-            _ = paymentDialog.ShowAsync();
+            // Open Payment dialog only if no other dialog is open
+            if (_currentDialog == null)
+            {
+                // Save data to Firebase using FirebaseHelper
+                await firebaseHelper.SaveFoodDrinkEntry(_quantity1, _quantity2);
+
+                Payment paymentDialog = new Payment();
+                _currentDialog = paymentDialog;
+                await paymentDialog.ShowAsync();
+                _currentDialog = null; // Reset current dialog after it's closed
+            }
         }
+        private bool _alertShown = false;
 
         private async void ShowAlert(string message, TextBox textBox)
         {
-            var dialog = new ContentDialog
+            // Show alert only if no other dialog is open and alert hasn't been shown before
+            if (_currentDialog == null && !_alertShown)
             {
-                Title = "Alert",
-                Content = message,
-                CloseButtonText = "OK"
-            };
+                _alertShown = true; // Set flag to true to indicate that alert has been shown
+                var dialog = new ContentDialog
+                {
+                    Title = "Alert",
+                    Content = message,
+                    CloseButtonText = "OK"
+                };
 
-            await dialog.ShowAsync();
-            textBox.Text = ""; // Clear the text box
+                await dialog.ShowAsync();
+                textBox.Text = ""; // Clear the text box
+            }
         }
-
     }
+
 }

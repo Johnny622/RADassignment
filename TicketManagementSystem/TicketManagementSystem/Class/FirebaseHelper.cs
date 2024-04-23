@@ -244,8 +244,25 @@ namespace TicketManagementSystem.Class
             .Child(t.TrainKey)
             .PutAsync(JsonConvert.SerializeObject(t));
         }
+        public async Task SaveFoodDrinkEntry(int quantity1, int quantity2)
+        {
+            // Create a new entry in the database
+            var entry = new FoodDrinkEntry
+            {
+                Quantity1 = quantity1,
+                Quantity2 = quantity2,
+                Timestamp = DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss"),
+            };
 
-      
+            // Push the entry to Firebase
+            await firebase.Child("food_drinks").PostAsync(entry);
+        }
 
+        public class FoodDrinkEntry
+        {
+            public int Quantity1 { get; set; }
+            public int Quantity2 { get; set; }
+            public string Timestamp { get; set; }
+        }
     }
 }

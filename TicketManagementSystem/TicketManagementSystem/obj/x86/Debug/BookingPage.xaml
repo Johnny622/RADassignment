@@ -104,11 +104,7 @@
             </StackPanel>
             
             <!--Group2-->
-<<<<<<< HEAD
             <StackPanel x:ConnectionId='5' x:Name="spGroup2" BorderBrush="#4f6170" BorderThickness="2" Padding="10" Margin="0,0,20,20" Visibility="Collapsed">
-=======
-            <StackPanel x:ConnectionId='5' x:Name="spGroup2" BorderBrush="#4f6170" BorderThickness="2" Padding="10" Margin="0,0,20,20" Visibility="Visible">
->>>>>>> b2ff9e21d4574a1045f4eee83d05f944aa5cd1aa
                 <!--Group2:DepartDate-->
                 <StackPanel Margin="0,0,0,40">
                     <StackPanel Orientation="Horizontal">

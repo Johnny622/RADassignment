@@ -13,7 +13,7 @@
             <SplitView.Pane>
                 <StackPanel Background="#4863A0">
                     <StackPanel Orientation="Horizontal" Margin="0 0 0 50">
-                        <Button x:ConnectionId='34' x:Name="btnBar" Background="Transparent" Margin="0,10,0,0"                     >
+                        <Button x:ConnectionId='36' x:Name="btnBar" Background="Transparent" Margin="0,10,0,0"                     >
                             <Image Source="Assets/bars.png" Width="30"/>
                         </Button>
                     </StackPanel>
@@ -25,28 +25,28 @@
                         </StackPanel>
                     </Button>
 
-                    <Button Background="Transparent" Margin="0 0 0 30" HorizontalAlignment="Stretch">
+                    <Button x:ConnectionId='32' x:Name="btnTrainManagement" Background="Transparent" Margin="0 0 0 30" HorizontalAlignment="Stretch"                                 >
                         <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" Width="230">
                             <Image Source="Assets/rail.png" Width="30"/>
                             <TextBlock Text="TRAIN MANAGEMENT" Padding="10" VerticalAlignment="Center" Foreground="White" FontWeight="Bold" />
                         </StackPanel>
                     </Button>
 
-                    <Button x:ConnectionId='32' x:Name="btnBookingPage" Background="#D7ECFF" Margin="0 0 0 30" HorizontalAlignment="Stretch"                             >
+                    <Button x:ConnectionId='33' x:Name="btnBookingPage" Background="#D7ECFF" Margin="0 0 0 30" HorizontalAlignment="Stretch"                             >
                         <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" Width="230">
                             <Image Source="Assets/booking.png" Width="30"/>
                             <TextBlock Text="BOOKING" Padding="10" VerticalAlignment="Center" Foreground="Black" FontWeight="Bold" />
                         </StackPanel>
                     </Button>
 
-                    <Button Background="Transparent" Margin="0 0 0 30" HorizontalAlignment="Stretch">
+                    <Button x:ConnectionId='34' x:Name="btnFoodPage" Background="Transparent" Margin="0 0 0 30" HorizontalAlignment="Stretch"                          >
                         <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" Width="230">
                             <Image Source="Assets/food.png" Width="30"/>
                             <TextBlock Text="FOODS &amp; DRINKS" Padding="10" VerticalAlignment="Center" Foreground="White" FontWeight="Bold" />
                         </StackPanel>
                     </Button>
 
-                    <Button x:ConnectionId='33' x:Name="btnHelp" Background="Transparent" HorizontalAlignment="Stretch"                      >
+                    <Button x:ConnectionId='35' x:Name="btnHelp" Background="Transparent" HorizontalAlignment="Stretch"                      >
                         <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" Width="230">
                             <Image Source="Assets/help.png" Width="30"/>
                             <TextBlock Text="HELP PAGE" Padding="10" VerticalAlignment="Center" Foreground="White" FontWeight="Bold" />
@@ -104,11 +104,7 @@
             </StackPanel>
             
             <!--Group2-->
-<<<<<<< HEAD
             <StackPanel x:ConnectionId='5' x:Name="spGroup2" BorderBrush="#4f6170" BorderThickness="2" Padding="10" Margin="0,0,20,20" Visibility="Collapsed">
-=======
-            <StackPanel x:ConnectionId='5' x:Name="spGroup2" BorderBrush="#4f6170" BorderThickness="2" Padding="10" Margin="0,0,20,20" Visibility="Visible">
->>>>>>> b2ff9e21d4574a1045f4eee83d05f944aa5cd1aa
                 <!--Group2:DepartDate-->
                 <StackPanel Margin="0,0,0,40">
                     <StackPanel Orientation="Horizontal">

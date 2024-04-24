@@ -35,6 +35,33 @@ namespace TicketManagementSystem
             loadData();
           
         }
+        private void btnFoodPage_Click(object sender, RoutedEventArgs e)
+        {
+            Frame.Navigate(typeof(Food_Drinks));
+        }
+
+        private void btnBar_Click(object sender, RoutedEventArgs e)
+        {
+            menuSplitView.IsPaneOpen = !menuSplitView.IsPaneOpen;
+            if (menuSplitView.IsPaneOpen == true)
+            {
+                rightContent.Margin = new Thickness(270, 0, 0, 0);
+            }
+            else
+            {
+                rightContent.Margin = new Thickness(80, 0, 0, 0);
+            }
+        }
+
+        private void btnUserMng_Click(object sender, RoutedEventArgs e)
+        {
+            Frame.Navigate(typeof(UserManagement));
+        }
+
+        private void btnHelp_Click(object sender, RoutedEventArgs e)
+        {
+            Frame.Navigate(typeof(HelpManagement));
+        }
 
         private async void loadData()
         {
@@ -126,6 +153,11 @@ namespace TicketManagementSystem
                 CloseButtonText = "Ok"
 
             };
+        }
+
+        private void btnBookingPage_Click(object sender, RoutedEventArgs e)
+        {
+            Frame.Navigate(typeof(BookingPage));
         }
     }
 }

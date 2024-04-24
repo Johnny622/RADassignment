@@ -21,22 +21,14 @@
         </Grid.Background>
 
         <ScrollViewer VerticalScrollBarVisibility="Auto">
-<<<<<<< HEAD
-            <StackPanel Orientation="Vertical" Width="1000" Height="750" BorderThickness="2">
-=======
             <StackPanel x:ConnectionId='2' Orientation="Vertical" Width="1000" Height="750" BorderThickness="2"                             >
->>>>>>> b2ff9e21d4574a1045f4eee83d05f944aa5cd1aa
                 <StackPanel.BorderBrush>
                     <SolidColorBrush Color="Black" Opacity="0.5"/>
                 </StackPanel.BorderBrush>
                 <StackPanel.Background>
                     <SolidColorBrush Color="White" Opacity="0.5"/>
                 </StackPanel.Background>
-<<<<<<< HEAD
-                <Button x:ConnectionId='2' x:Name="BackBtn" Content="&lt;Back" Background="Transparent" FontSize="24"                      />
-=======
                 <Button x:ConnectionId='3' x:Name="BackBtn" Content="&lt;Back" Background="Transparent" FontSize="24"                      />
->>>>>>> b2ff9e21d4574a1045f4eee83d05f944aa5cd1aa
                 <StackPanel>
                     <Line X1="0" X2="1000" Stroke="Black" StrokeThickness="3"/>
                     <TextBlock Text="Sign Up" FontSize="24" FontWeight="Bold" HorizontalAlignment="Center" Margin="10"/>
@@ -45,54 +37,6 @@
 
                 <StackPanel Orientation="Horizontal" Margin="10,30,10,0" >
                     <RelativePanel>
-<<<<<<< HEAD
-                        <TextBlock x:ConnectionId='5' x:Name="EmailBlock" Text="Email" FontSize="20" Margin="0,0,10,0"/>
-                        <TextBlock Text="*" FontSize="20" Foreground="Red" RelativePanel.RightOf="EmailBlock"/>
-                        <TextBox x:ConnectionId='6' x:Name="SignUpEmail" FontSize="20" Width="480" Margin="0,0,10,0" RelativePanel.Below="EmailBlock"/>
-
-                        <TextBlock x:ConnectionId='7' x:Name="ConfEmailBlock" Text="Confirm email" FontSize="20" Margin="0,0,10,0" RelativePanel.RightOf="SignUpEmail" />
-                        <TextBlock Text="*" FontSize="20" Foreground="Red" RelativePanel.RightOf="ConfEmailBlock"/>
-                        <TextBox x:ConnectionId='8' x:Name="SignUpConfEmail" FontSize="20" Width="480" Margin="0,0 10,0" RelativePanel.Below="ConfEmailBlock" RelativePanel.RightOf="SignUpEmail" />
-
-                        <TextBlock x:ConnectionId='9' x:Name="PasswordBlock" Text="Password" FontSize="20" Margin="0,0,10,0" RelativePanel.Below="SignUpEmail"/>
-                        <TextBlock Text="***" FontSize="20" Foreground="Red" RelativePanel.RightOf="PasswordBlock" RelativePanel.Below="SignUpEmail"/>
-                        <PasswordBox x:ConnectionId='10' x:Name="SignUpPassword" FontSize="20" Width="480" Margin="0,0,10,0" RelativePanel.Below="PasswordBlock"/>
-
-                        <TextBlock x:ConnectionId='11' x:Name="ConfPwBlock" Text="Confirm password" FontSize="20" Margin="0,0,10,0" RelativePanel.RightOf="SignUpPassword" RelativePanel.Below="SignUpConfEmail"/>
-                        <TextBlock Text="***" FontSize="20" Foreground="Red" RelativePanel.RightOf="ConfPwBlock" RelativePanel.Below="SignUpConfEmail"/>
-                        <PasswordBox x:ConnectionId='12' x:Name="SignUpConfPassword" FontSize="20" Width="480" Margin="0,0 10,0" RelativePanel.Below="ConfPwBlock" RelativePanel.RightOf="SignUpPassword"/>
-
-                        <TextBlock x:ConnectionId='13' x:Name="NameBlock" Text="Full name as per MyKad" FontSize="20" Margin="0,0,10,0" RelativePanel.Below="SignUpPassword"/>
-                        <TextBlock Text="**" FontSize="20" Foreground="Red"  RelativePanel.RightOf="NameBlock" RelativePanel.Below="SignUpPassword"/>
-                        <TextBox x:ConnectionId='14' x:Name="SignUpFullName" FontSize="20"  Width="480" Margin="0,0,10,0" RelativePanel.Below="NameBlock"/>
-
-                        <TextBlock x:ConnectionId='15' x:Name="ContactBlock" Text="Contact No." FontSize="20" Margin="0,0,10,0" RelativePanel.RightOf="SignUpFullName" RelativePanel.Below="SignUpConfPassword"/>
-                        <TextBlock Text="*" FontSize="20" Foreground="Red" RelativePanel.RightOf="ContactBlock" RelativePanel.Below="SignUpConfPassword"/>
-                        <TextBox x:ConnectionId='16' x:Name="SignUpContact" FontSize="20" Width="480" Margin="0,0 10,0" RelativePanel.Below="ContactBlock" RelativePanel.RightOf="SignUpFullName"/>
-
-
-                        <TextBlock x:ConnectionId='17' x:Name="IcBlock" Text="MyKad No." FontSize="20" Margin="0,0,10,0" RelativePanel.Below="SignUpFullName"/>
-                        <TextBlock Text="**" FontSize="20" Foreground="Red" RelativePanel.RightOf="IcBlock" RelativePanel.Below="SignUpFullName"/>
-                        <TextBox x:ConnectionId='18' x:Name="SignUpMyKad" FontSize="20" Width="480" Margin="0,0,10,0" RelativePanel.Below="IcBlock"/>
-
-                        <TextBlock x:ConnectionId='19' x:Name="ConfIcBlock" Text="Confirm MyKad No." FontSize="20" Margin="0,0,10,0" RelativePanel.RightOf="SignUpEmail"  RelativePanel.Below="SignUpContact"/>
-                        <TextBlock Text="**" FontSize="20" Foreground="Red" RelativePanel.RightOf="ConfIcBlock" RelativePanel.Below="SignUpContact"/>
-                        <TextBox x:ConnectionId='20' x:Name="SignUpConfMyKad" FontSize="20" Width="480" Margin="0,0 10,0" RelativePanel.Below="ConfIcBlock" RelativePanel.RightOf="SignUpEmail"/>
-
-
-                        <TextBlock x:ConnectionId='21' x:Name="GenderBlock" Text="Gender" FontSize="20" Margin="0,0,10,0" RelativePanel.Below="SignUpMyKad"/>
-                        <TextBlock Text="*" FontSize="20" Foreground="Red" RelativePanel.RightOf="GenderBlock" RelativePanel.Below="SignUpMyKad"/>
-                        <ComboBox x:ConnectionId='22' x:Name="SignUpGender" FontSize="20" Width="480" Margin="0,0 10,0" RelativePanel.Below="GenderBlock">
-                            <ComboBoxItem Content="Please Select" IsSelected="True"/>
-                            <ComboBoxItem x:ConnectionId='26' x:Name="Male" Content="Male"/>
-                            <ComboBoxItem x:ConnectionId='27' x:Name="Female" Content="Female"/>
-                        </ComboBox>
-
-                        <TextBlock x:ConnectionId='23' x:Name="UploadBlock" Text="Upload Profile Picture" FontSize="20" Margin="0,0,10,0" RelativePanel.RightOf="SignUpEmail"  RelativePanel.Below="SignUpConfMyKad"/>
-                        <TextBlock Text="*" FontSize="20" Foreground="Red" RelativePanel.RightOf="UploadBlock" RelativePanel.Below="SignUpConfMyKad"/>
-                        <Button x:ConnectionId='24' x:Name="UploadButton" FontSize="20" RelativePanel.Below="UploadBlock" RelativePanel.RightOf="SignUpEmail" Content="Upload Image" HorizontalAlignment="Left" VerticalAlignment="Top"                           />
-                        <Image x:ConnectionId='25' x:Name="imgProfile" Width="100" Height="100" Margin="20,0" RelativePanel.RightOf="UploadBlock" RelativePanel.Below="SignUpConfMyKad"></Image>
-=======
                         <TextBlock x:ConnectionId='6' x:Name="EmailBlock" Text="Email" FontSize="20" Margin="0,0,10,0"/>
                         <TextBlock Text="*" FontSize="20" Foreground="Red" RelativePanel.RightOf="EmailBlock"/>
                         <TextBox x:ConnectionId='7' x:Name="SignUpEmail" FontSize="20" Width="480" Margin="0,0,10,0" RelativePanel.Below="EmailBlock"/>
@@ -139,7 +83,6 @@
                         <TextBlock Text="*" FontSize="20" Foreground="Red" RelativePanel.RightOf="UploadBlock" RelativePanel.Below="SignUpConfMyKad"/>
                         <Button x:ConnectionId='25' x:Name="UploadButton" FontSize="20" RelativePanel.Below="UploadBlock" RelativePanel.RightOf="SignUpEmail" Content="Upload Image" HorizontalAlignment="Left" VerticalAlignment="Top"                           />
                         <Image x:ConnectionId='26' x:Name="imgProfile" Width="100" Height="100" Margin="20,0" RelativePanel.RightOf="UploadBlock" RelativePanel.Below="SignUpConfMyKad"></Image>
->>>>>>> b2ff9e21d4574a1045f4eee83d05f944aa5cd1aa
                     </RelativePanel>
                 </StackPanel>
 
@@ -158,13 +101,8 @@
                     <TextBlock Text=" Password Requirement : Minimum 8 character - at least 1 uppercase , lowercase and numbers" FontSize="16"/>
                 </StackPanel>
 
-<<<<<<< HEAD
-                <TextBlock x:ConnectionId='3' x:Name="ErrorMessage" FontSize="22" Foreground="Red" HorizontalAlignment="Center"/>
-                <Button x:ConnectionId='4' x:Name="SignUpSubmitBtn" FontSize="24" Content="Sign Up" HorizontalAlignment="Stretch" Background="#FFFFAF00" Margin="10,0,10,10"                              />
-=======
                 <TextBlock x:ConnectionId='4' x:Name="ErrorMessage" FontSize="22" Foreground="Red" HorizontalAlignment="Center"/>
                 <Button x:ConnectionId='5' x:Name="SignUpSubmitBtn" FontSize="24" Content="Sign Up" HorizontalAlignment="Stretch" Background="#FFFFAF00" Margin="10,0,10,10"                              />
->>>>>>> b2ff9e21d4574a1045f4eee83d05f944aa5cd1aa
 
             </StackPanel>
         </ScrollViewer>

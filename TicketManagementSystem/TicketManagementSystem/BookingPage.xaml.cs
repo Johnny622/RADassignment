@@ -62,13 +62,20 @@ namespace TicketManagementSystem
 
         private void btnSearch_Click(object sender, RoutedEventArgs e)
         {
-            spGroup2.Visibility = Visibility.Visible;
             SearchTrains();
         }
 
         private void btnNext_Click(object sender, RoutedEventArgs e)
         {
-            Frame.Navigate(typeof(PassengerDetailPage));
+            if (txtReturnDepartTime.Text.Equals("NA") && cbReturn.IsChecked==true)
+            {
+                DisplayDialog("No Return Train", "No train arranged at "+tbReturnDate.Text);
+                return;
+            }
+            else
+            {
+                Frame.Navigate(typeof(PassengerDetailPage));
+            }
         }
 
         private async void loadTrainDetails()
@@ -175,6 +182,8 @@ namespace TicketManagementSystem
                     DisplayDialog("Error Input", "Pax must be a number");
                     return;
                 }
+
+                spGroup2.Visibility = Visibility.Visible;
 
                 if (cbReturn.IsChecked == true)
                 {
@@ -304,6 +313,16 @@ namespace TicketManagementSystem
         private void btnHelp_Click(object sender, RoutedEventArgs e)
         {
             this.Frame.Navigate(typeof(HelpManagement));
+        }
+
+        private void btnTrainManagement_Click(object sender, RoutedEventArgs e)
+        {
+            Frame.Navigate (typeof(DisplayRoute));   
+        }
+
+        private void btnFoodPage_Click(object sender, RoutedEventArgs e)
+        {
+            Frame.Navigate(typeof(Food_Drinks));
         }
 
         private void cbReturn_Unchecked(object sender, RoutedEventArgs e)

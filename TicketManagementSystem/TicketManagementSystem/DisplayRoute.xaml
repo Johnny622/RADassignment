@@ -8,25 +8,66 @@
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
-    <Grid  Background="#D7ECFF">
-        <ScrollViewer HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Auto" >
-            <StackPanel x:Name="rightContent" Orientation="Vertical" Margin="30,10"  >
-                <Button x:Name="backBtn" Content="&lt; Back" Background="Transparent" FontSize="22" Click="backBtn_Click"/>
-                <TextBlock Text="VIEW ALL ROUTE" FontFamily="Bahnschrift SemiBold" FontSize="24" FontWeight="Bold" Foreground="DarkBlue" Margin="20,10"/>
-                <Image Source="Assets/ets-logo.png" Height="40" HorizontalAlignment="Left" Margin="20,10"/>
+    <Grid>
+        <SplitView x:Name="menuSplitView" DisplayMode="CompactOverlay" IsPaneOpen="False" CompactPaneLength="50" OpenPaneLength="240">
+            <SplitView.Pane>
+                <StackPanel Background="#4863A0">
+                    <StackPanel Orientation="Horizontal" Margin="0 0 0 50">
+                        <Button x:Name="btnBar" Background="Transparent" Margin="0,10,0,0" Click="btnBar_Click">
+                            <Image Source="Assets/bars.png" Width="30"/>
+                        </Button>
+                    </StackPanel>
 
-                <StackPanel Orientation="Horizontal" Margin="20,10" BorderBrush="#4863A0" BorderThickness="2">
-                    <TextBlock Text="Origin : " FontFamily="Bahnschrift SemiBold" FontSize="16" FontWeight="Bold" Foreground="DarkBlue" Margin="20,10"/>
-                    <ComboBox x:Name="origin"  FontFamily="Bahnschrift SemiBold" FontSize="20" FontWeight="Bold" Foreground="DarkBlue" Margin="20,10"/>
-                    <TextBlock Text="Destination : " FontFamily="Bahnschrift SemiBold" FontSize="16" FontWeight="Bold" Foreground="DarkBlue" Margin="20,10"/>
-                    <ComboBox x:Name="destination"  FontFamily="Bahnschrift SemiBold" FontSize="20" FontWeight="Bold" Foreground="DarkBlue" Margin="20,10"/>
+                    <Button Name="btnUserMng" Background="Transparent" Margin="0,0,0,30" HorizontalAlignment="Stretch" Click="btnUserMng_Click">
+                        <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" Margin="0 0 0 0" Width="230">
+                            <Image Source="Assets/user.png" Width="30"/>
+                            <TextBlock Text="USER MANAGEMENT" Padding="10" VerticalAlignment="Center" Foreground="White" FontWeight="Bold" />
+                        </StackPanel>
+                    </Button>
 
+                    <Button x:Name="btnTrainPage" Background="#D7ECFF" Margin="0 0 0 30" HorizontalAlignment="Stretch">
+                        <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" Width="230">
+                            <Image Source="Assets/rail.png" Width="30"/>
+                            <TextBlock Text="TRAIN MANAGEMENT" Padding="10" VerticalAlignment="Center" Foreground="Black" FontWeight="Bold" />
+                        </StackPanel>
+                    </Button>
+
+                    <Button x:Name="btnBookingPage" Background="Transparent" Margin="0 0 0 30" HorizontalAlignment="Stretch" Click="btnBookingPage_Click">
+                        <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" Width="230">
+                            <Image Source="Assets/booking.png" Width="30"/>
+                            <TextBlock Text="BOOKING" Padding="10" VerticalAlignment="Center" Foreground="White" FontWeight="Bold" />
+                        </StackPanel>
+                    </Button>
+
+                    <Button x:Name="btnFoodPage" Background="Transparent" Margin="0 0 0 30" HorizontalAlignment="Stretch" Click="btnFoodPage_Click">
+                        <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" Width="230">
+                            <Image Source="Assets/food.png" Width="30"/>
+                            <TextBlock Text="FOODS &amp; DRINKS" Padding="10" VerticalAlignment="Center" Foreground="White" FontWeight="Bold" />
+                        </StackPanel>
+                    </Button>
+
+                    <Button x:Name="btnHelp" Background="Transparent" HorizontalAlignment="Stretch" Click="btnHelp_Click">
+                        <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" Width="230">
+                            <Image Source="Assets/help.png" Width="30"/>
+                            <TextBlock Text="HELP PAGE" Padding="10" VerticalAlignment="Center" Foreground="White" FontWeight="Bold" />
+                        </StackPanel>
+                    </Button>
                 </StackPanel>
-                <StackPanel Orientation="Vertical" BorderBrush="#4863A0" BorderThickness="2">
-                    <StackPanel x:Name="trainDetailsContainer" Margin="10"/>
-                </StackPanel>
-            </StackPanel>
-        </ScrollViewer>
+            </SplitView.Pane>
+        </SplitView>
 
+        <StackPanel x:Name="rightContent" Orientation="Vertical" Margin="80,0,0,0">
+
+            <ScrollViewer HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Auto" >
+                <StackPanel x:Name="Content" Orientation="Vertical" Margin="30,10"  >
+                    <TextBlock Text="VIEW ALL ROUTE" FontFamily="Bahnschrift SemiBold" FontSize="24" FontWeight="Bold" Foreground="DarkBlue" Margin="20,10"/>
+                    <Image Source="Assets/ets-logo.png" Height="40" HorizontalAlignment="Left" Margin="20,10"/>
+
+                    <StackPanel Orientation="Vertical" BorderBrush="#4863A0" BorderThickness="2">
+                        <StackPanel x:Name="trainDetailsContainer" Margin="10"/>
+                    </StackPanel>
+                </StackPanel>
+            </ScrollViewer>
+        </StackPanel>
     </Grid>
 </Page>

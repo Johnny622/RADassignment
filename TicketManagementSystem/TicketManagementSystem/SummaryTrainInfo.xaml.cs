@@ -172,21 +172,7 @@ namespace TicketManagementSystem
         }
 
         private void btnDownload_Click(object sender, RoutedEventArgs e)
-        {
-            //Document document = new Document();
-
-            //try
-            //{
-            //    StorageFolder storageFolder = ApplicationData.Current.LocalFolder;
-
-            //    StorageFile pdfFile = await storageFolder.CreateFileAsync("TrainInfo.pdf", CreationCollisionOption.OpenIfExists);
-
-            //    await FileIO.AppendTextAsync(pdfFile, "testinng123");
-            //}
-            //catch (Exception ex)
-            //{
-            //    // 处理异常
-            //}
+        {        
             try
             {
                 StorageFolder storageFolder = ApplicationData.Current.LocalFolder;
@@ -215,15 +201,43 @@ namespace TicketManagementSystem
                     document.Add(new Paragraph("Passenger"+i+": " + "\nName: " + name + "\nGender: " + gender + "\nPhone: " + phone + "\nIC: " + ic + "\nSeat: \n\n"));
                     i++;
                 }
-
-
                 document.Close();
+                DisplayDialog("Success", "Your TrainInfo.pdf is downloaded successfully!");
             }
             catch (Exception ex)
             {
-                // 处理异常
+                DisplayDialog("Error Occur", ex.Message);
             }
         }
 
+        private void btnTrainPage_Click(object sender, RoutedEventArgs e)
+        {
+            Frame.Navigate(typeof(DisplayRoute));
+        }
+
+        private void btnFoodPage_Click(object sender, RoutedEventArgs e)
+        {
+            Frame.Navigate(typeof(Food_Drinks));
+        }
+
+        private async void DisplayDialog(string title, string content)
+        {
+            ContentDialog noDialog = new ContentDialog
+            {
+                Title = title,
+                Content = content,
+                CloseButtonText = "Ok"
+
+            };
+
+            ContentDialogResult result = await noDialog.ShowAsync();
+
+
+        }
+
+        private void btnAnother_Click(object sender, RoutedEventArgs e)
+        {
+            Frame.Navigate (typeof(BookingPage));
+        }
     }
 }

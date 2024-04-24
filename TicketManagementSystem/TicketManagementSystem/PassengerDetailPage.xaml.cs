@@ -309,13 +309,11 @@ namespace TicketManagementSystem
 
         private bool IsPhoneFormatValid(string phone)
         {
-            // 检查电话号码的格式是否正确
             return phone.Length == 11 && phone.Substring(3, 1) == "-";
         }
 
         private bool IsICFormatValid(string ic)
         {
-            // 检查身份证号码的格式是否正确
             return ic.Length == 14 && ic.Substring(6, 1) == "-" && ic.Substring(9, 1) == "-";
         }
 
@@ -343,5 +341,14 @@ namespace TicketManagementSystem
             ContentDialogResult result = await noDialog.ShowAsync();
         }
 
+        private void btnTrainManagementPage_Click(object sender, RoutedEventArgs e)
+        {
+            Frame.Navigate (typeof(DisplayRoute));
+        }
+
+        private void btnFoodPage_Click(object sender, RoutedEventArgs e)
+        {
+            Frame.Navigate(typeof(Food_Drinks));
+        }
     }
 }

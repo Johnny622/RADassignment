@@ -1,13 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-<<<<<<< HEAD
     <Machine>JANET-HP-LAPTOP</Machine>
     <WindowsUser>Janet</WindowsUser>
-=======
-    <Machine>LEGIONNAIRE</Machine>
-    <WindowsUser>thiva</WindowsUser>
->>>>>>> b2ff9e21d4574a1045f4eee83d05f944aa5cd1aa
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
     <TargetOsVersion>10.0</TargetOsVersion>
     <TargetOsDescription>Windows 10.0</TargetOsDescription>
@@ -15,11 +10,7 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>6c1d7e3f-effd-439c-b8e6-521c330c5bc4</PackageIdentityName>
     <PackageIdentityPublisher>CN=Janet</PackageIdentityPublisher>
-<<<<<<< HEAD
     <IntermediateOutputPath>C:\Users\Janet\Desktop\RADassignment\TicketManagementSystem\TicketManagementSystem\obj\x86\Debug\</IntermediateOutputPath>
-=======
-    <IntermediateOutputPath>C:\Users\thiva\OneDrive\Documents\GitHub\RADassignment\RADassignment\TicketManagementSystem\TicketManagementSystem\obj\x86\Debug\</IntermediateOutputPath>
->>>>>>> b2ff9e21d4574a1045f4eee83d05f944aa5cd1aa
     <RemoteDeploymentType>
     </RemoteDeploymentType>
     <PackageRegistrationPath>
@@ -27,13 +18,8 @@
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-<<<<<<< HEAD
     <LayoutDir>C:\Users\Janet\Desktop\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\AppX</LayoutDir>
     <RegisteredManifestChecksum>76686AAA56AC3E378CB4DC23B4DB0822E3A3C7C0FEFD8CACA4C290B875997D98</RegisteredManifestChecksum>
-=======
-    <LayoutDir>C:\Users\thiva\OneDrive\Documents\GitHub\RADassignment\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\AppX</LayoutDir>
-    <RegisteredManifestChecksum>F3E16CF6F4A0877424F945C809292FB1ED524802859401D4F59EA301D2DF9AF3</RegisteredManifestChecksum>
->>>>>>> b2ff9e21d4574a1045f4eee83d05f944aa5cd1aa
     <RegisteredPackageMoniker>6c1d7e3f-effd-439c-b8e6-521c330c5bc4_1.0.0.0_x86__17jfre8akrk54</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>6c1d7e3f-effd-439c-b8e6-521c330c5bc4_17jfre8akrk54!App</RegisteredUserModeAppID>
     <RegisteredPackageID>6c1d7e3f-effd-439c-b8e6-521c330c5bc4</RegisteredPackageID>
@@ -41,17 +27,16 @@
     <RegisteredVersion>1.0.0.0</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
-<<<<<<< HEAD
     <AppXManifest Include="C:\Users\Janet\Desktop\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-04-23T17:55:39.863</Modified>
+      <Modified>2024-04-23T21:25:07.819</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Janet\Desktop\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\TicketManagementSystem.exe">
       <PackagePath>entrypoint\TicketManagementSystem.exe</PackagePath>
-      <Modified>2024-04-23T17:55:35.709</Modified>
+      <Modified>2024-04-23T21:25:02.376</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Janet\.nuget\packages\bouncycastle\1.8.9\lib\BouncyCastle.Crypto.dll">
       <PackagePath>BouncyCastle.Crypto.dll</PackagePath>
@@ -110,68 +95,6 @@
       <Modified>2019-09-13T02:27:48.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Janet\.nuget\packages\newtonsoft.json\13.0.2\lib\netstandard2.0\Newtonsoft.Json.dll">
-=======
-    <AppXManifest Include="C:\Users\thiva\OneDrive\Documents\GitHub\RADassignment\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\Core\AppxManifest.xml">
-      <PackagePath>AppxManifest.xml</PackagePath>
-      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-04-23T17:31:24.446</Modified>
-    </AppXManifest>
-  </ItemGroup>
-  <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\thiva\OneDrive\Documents\GitHub\RADassignment\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\TicketManagementSystem.exe">
-      <PackagePath>entrypoint\TicketManagementSystem.exe</PackagePath>
-      <Modified>2024-04-23T17:31:23.677</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\thiva\.nuget\packages\firebaseadmin\2.4.0\lib\netstandard2.0\FirebaseAdmin.dll">
-      <PackagePath>FirebaseAdmin.dll</PackagePath>
-      <Modified>2023-07-12T19:38:54.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\thiva\.nuget\packages\firebaseauthentication.net\4.1.0\lib\netstandard2.0\Firebase.Auth.dll">
-      <PackagePath>Firebase.Auth.dll</PackagePath>
-      <Modified>2023-09-07T14:50:22.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\thiva\.nuget\packages\firebasedatabase.net\4.2.0\lib\netstandard2.0\Firebase.dll">
-      <PackagePath>Firebase.dll</PackagePath>
-      <Modified>2023-02-05T16:37:42.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\thiva\.nuget\packages\firebasestorage.net\1.0.3\lib\netstandard1.1\Firebase.Storage.dll">
-      <PackagePath>Firebase.Storage.dll</PackagePath>
-      <Modified>2018-11-26T21:49:32.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\thiva\.nuget\packages\google.api.gax\3.2.0\lib\netstandard2.0\Google.Api.Gax.dll">
-      <PackagePath>Google.Api.Gax.dll</PackagePath>
-      <Modified>2020-09-24T12:17:24.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\thiva\.nuget\packages\google.api.gax.rest\3.2.0\lib\netstandard2.0\Google.Api.Gax.Rest.dll">
-      <PackagePath>Google.Api.Gax.Rest.dll</PackagePath>
-      <Modified>2020-09-24T12:17:30.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\thiva\.nuget\packages\google.apis\1.49.0\lib\netstandard2.0\Google.Apis.dll">
-      <PackagePath>Google.Apis.dll</PackagePath>
-      <Modified>2020-08-17T16:08:52.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\thiva\.nuget\packages\google.apis.auth\1.49.0\lib\netstandard2.0\Google.Apis.Auth.PlatformServices.dll">
-      <PackagePath>Google.Apis.Auth.PlatformServices.dll</PackagePath>
-      <Modified>2020-08-17T16:09:04.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\thiva\.nuget\packages\google.apis.auth\1.49.0\lib\netstandard2.0\Google.Apis.Auth.dll">
-      <PackagePath>Google.Apis.Auth.dll</PackagePath>
-      <Modified>2020-08-17T16:08:56.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\thiva\.nuget\packages\google.apis.core\1.49.0\lib\netstandard2.0\Google.Apis.Core.dll">
-      <PackagePath>Google.Apis.Core.dll</PackagePath>
-      <Modified>2020-08-17T16:08:52.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\thiva\.nuget\packages\litedb\4.1.4\lib\netstandard2.0\LiteDB.dll">
-      <PackagePath>LiteDB.dll</PackagePath>
-      <Modified>2018-06-11T19:04:22.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\thiva\.nuget\packages\microsoft.bcl.asyncinterfaces\1.0.0\lib\netstandard2.0\Microsoft.Bcl.AsyncInterfaces.dll">
-      <PackagePath>Microsoft.Bcl.AsyncInterfaces.dll</PackagePath>
-      <Modified>2019-09-13T02:27:48.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\thiva\.nuget\packages\newtonsoft.json\13.0.2\lib\netstandard2.0\Newtonsoft.Json.dll">
->>>>>>> b2ff9e21d4574a1045f4eee83d05f944aa5cd1aa
       <PackagePath>Newtonsoft.Json.dll</PackagePath>
       <Modified>2022-11-24T02:10:26.000</Modified>
     </AppxPackagedFile>
@@ -179,7 +102,6 @@
       <PackagePath>System.Runtime.dll</PackagePath>
       <Modified>2022-06-10T14:24:12.000</Modified>
     </AppxPackagedFile>
-<<<<<<< HEAD
     <AppxPackagedFile Include="C:\Users\Janet\.nuget\packages\system.collections.immutable\1.7.1\lib\netstandard2.0\System.Collections.Immutable.dll">
       <PackagePath>System.Collections.Immutable.dll</PackagePath>
       <Modified>2020-04-14T22:38:40.000</Modified>
@@ -189,17 +111,6 @@
       <Modified>2018-05-25T16:44:28.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Janet\.nuget\packages\system.runtime.compilerservices.unsafe\4.5.3\lib\netstandard2.0\System.Runtime.CompilerServices.Unsafe.dll">
-=======
-    <AppxPackagedFile Include="C:\Users\thiva\.nuget\packages\system.collections.immutable\1.7.1\lib\netstandard2.0\System.Collections.Immutable.dll">
-      <PackagePath>System.Collections.Immutable.dll</PackagePath>
-      <Modified>2020-04-14T22:38:40.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\thiva\.nuget\packages\system.reactive\4.0.0\lib\uap10.0.16299\System.Reactive.dll">
-      <PackagePath>System.Reactive.dll</PackagePath>
-      <Modified>2018-05-25T16:44:28.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\thiva\.nuget\packages\system.runtime.compilerservices.unsafe\4.5.3\lib\netstandard2.0\System.Runtime.CompilerServices.Unsafe.dll">
->>>>>>> b2ff9e21d4574a1045f4eee83d05f944aa5cd1aa
       <PackagePath>System.Runtime.CompilerServices.Unsafe.dll</PackagePath>
       <Modified>2020-02-19T10:05:16.000</Modified>
     </AppxPackagedFile>
@@ -207,581 +118,295 @@
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
       <Modified>2020-12-01T20:52:00.000</Modified>
     </AppxPackagedFile>
-<<<<<<< HEAD
     <AppxPackagedFile Include="C:\Users\Janet\Desktop\RADassignment\TicketManagementSystem\TicketManagementSystem\Assets\admin.jpg">
       <PackagePath>Assets\admin.jpg</PackagePath>
-      <Modified>2024-04-07T12:44:49.574</Modified>
+      <Modified>2024-04-23T18:21:59.267</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Janet\Desktop\RADassignment\TicketManagementSystem\TicketManagementSystem\Assets\ets-train.jpg">
       <PackagePath>Assets\ets-train.jpg</PackagePath>
-      <Modified>2024-03-28T17:14:57.333</Modified>
+      <Modified>2024-04-23T18:21:59.270</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Janet\Desktop\RADassignment\TicketManagementSystem\TicketManagementSystem\Assets\profile-icon.jpg">
       <PackagePath>Assets\profile-icon.jpg</PackagePath>
-      <Modified>2024-03-28T17:14:57.334</Modified>
+      <Modified>2024-04-23T18:21:59.277</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Janet\Desktop\RADassignment\TicketManagementSystem\TicketManagementSystem\Assets\profile-icon2.jpg">
       <PackagePath>Assets\profile-icon2.jpg</PackagePath>
-      <Modified>2024-03-28T17:14:57.335</Modified>
+      <Modified>2024-04-23T18:21:59.278</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Janet\Desktop\RADassignment\TicketManagementSystem\TicketManagementSystem\Assets\profile-icon3.jpg">
       <PackagePath>Assets\profile-icon3.jpg</PackagePath>
-      <Modified>2024-03-28T17:14:57.335</Modified>
+      <Modified>2024-04-23T18:21:59.278</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Janet\Desktop\RADassignment\TicketManagementSystem\TicketManagementSystem\Assets\tng.jpg">
       <PackagePath>Assets\tng.jpg</PackagePath>
-      <Modified>2024-04-23T10:11:29.419</Modified>
+      <Modified>2024-04-23T18:21:59.284</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Janet\Desktop\RADassignment\TicketManagementSystem\TicketManagementSystem\Assets\bars.png">
       <PackagePath>Assets\bars.png</PackagePath>
-      <Modified>2024-03-25T15:54:48.978</Modified>
+      <Modified>2024-04-23T18:21:59.267</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Janet\Desktop\RADassignment\TicketManagementSystem\TicketManagementSystem\Assets\booked_chair.png">
       <PackagePath>Assets\booked_chair.png</PackagePath>
-      <Modified>2024-04-21T07:27:33.492</Modified>
+      <Modified>2024-04-23T18:21:59.268</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Janet\Desktop\RADassignment\TicketManagementSystem\TicketManagementSystem\Assets\booking.png">
       <PackagePath>Assets\booking.png</PackagePath>
-      <Modified>2024-03-25T16:49:57.817</Modified>
+      <Modified>2024-04-23T18:21:59.269</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Janet\Desktop\RADassignment\TicketManagementSystem\TicketManagementSystem\Assets\chair.png">
       <PackagePath>Assets\chair.png</PackagePath>
-      <Modified>2024-03-26T17:19:20.113</Modified>
+      <Modified>2024-04-23T18:21:59.269</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Janet\Desktop\RADassignment\TicketManagementSystem\TicketManagementSystem\Assets\download.png">
       <PackagePath>Assets\download.png</PackagePath>
-      <Modified>2024-04-23T15:48:17.163</Modified>
+      <Modified>2024-04-23T18:21:59.270</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Janet\Desktop\RADassignment\TicketManagementSystem\TicketManagementSystem\Assets\ets-logo.png">
       <PackagePath>Assets\ets-logo.png</PackagePath>
-      <Modified>2024-03-26T12:01:22.374</Modified>
+      <Modified>2024-04-23T18:21:59.270</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Janet\Desktop\RADassignment\TicketManagementSystem\TicketManagementSystem\Assets\food.png">
       <PackagePath>Assets\food.png</PackagePath>
-      <Modified>2024-03-25T16:49:50.031</Modified>
+      <Modified>2024-04-23T18:21:59.273</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Janet\Desktop\RADassignment\TicketManagementSystem\TicketManagementSystem\Assets\help.png">
       <PackagePath>Assets\help.png</PackagePath>
-      <Modified>2024-04-23T09:42:12.780</Modified>
+      <Modified>2024-04-23T18:21:59.274</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Janet\Desktop\RADassignment\TicketManagementSystem\TicketManagementSystem\Assets\key2.png">
       <PackagePath>Assets\key2.png</PackagePath>
-      <Modified>2024-03-28T17:14:57.333</Modified>
+      <Modified>2024-04-23T18:21:59.274</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Janet\Desktop\RADassignment\TicketManagementSystem\TicketManagementSystem\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
-      <Modified>2024-03-26T13:19:57.402</Modified>
+      <Modified>2024-04-23T18:21:59.263</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Janet\Desktop\RADassignment\TicketManagementSystem\TicketManagementSystem\Assets\management.png">
       <PackagePath>Assets\management.png</PackagePath>
-      <Modified>2024-03-25T16:08:19.429</Modified>
+      <Modified>2024-04-23T18:21:59.275</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Janet\Desktop\RADassignment\TicketManagementSystem\TicketManagementSystem\Assets\meal.png">
       <PackagePath>Assets\meal.png</PackagePath>
-      <Modified>2024-04-20T10:25:08.780</Modified>
+      <Modified>2024-04-23T18:21:59.275</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Janet\Desktop\RADassignment\TicketManagementSystem\TicketManagementSystem\Assets\next.png">
       <PackagePath>Assets\next.png</PackagePath>
-      <Modified>2024-03-26T15:30:32.457</Modified>
+      <Modified>2024-04-23T18:21:59.275</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Janet\Desktop\RADassignment\TicketManagementSystem\TicketManagementSystem\Assets\profile-user.png">
       <PackagePath>Assets\profile-user.png</PackagePath>
-      <Modified>2024-04-15T09:12:54.835</Modified>
+      <Modified>2024-04-23T18:21:59.279</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Janet\Desktop\RADassignment\TicketManagementSystem\TicketManagementSystem\Assets\rail.png">
       <PackagePath>Assets\rail.png</PackagePath>
-      <Modified>2024-03-25T16:08:19.424</Modified>
+      <Modified>2024-04-23T18:21:59.279</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Janet\Desktop\RADassignment\TicketManagementSystem\TicketManagementSystem\Assets\research.png">
       <PackagePath>Assets\research.png</PackagePath>
-      <Modified>2024-04-22T15:19:54.678</Modified>
+      <Modified>2024-04-23T18:21:59.280</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Janet\Desktop\RADassignment\TicketManagementSystem\TicketManagementSystem\Assets\search.png">
       <PackagePath>Assets\search.png</PackagePath>
-      <Modified>2024-03-26T13:36:59.192</Modified>
+      <Modified>2024-04-23T18:21:59.281</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Janet\Desktop\RADassignment\TicketManagementSystem\TicketManagementSystem\Assets\seat.png">
       <PackagePath>Assets\seat.png</PackagePath>
-      <Modified>2024-03-26T15:16:19.571</Modified>
+      <Modified>2024-04-23T18:21:59.282</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Janet\Desktop\RADassignment\TicketManagementSystem\TicketManagementSystem\Assets\software-engineer.png">
       <PackagePath>Assets\software-engineer.png</PackagePath>
-      <Modified>2024-04-07T12:44:49.575</Modified>
+      <Modified>2024-04-23T18:21:59.282</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Janet\Desktop\RADassignment\TicketManagementSystem\TicketManagementSystem\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-03-26T13:19:57.405</Modified>
+      <Modified>2024-04-23T18:21:59.263</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Janet\Desktop\RADassignment\TicketManagementSystem\TicketManagementSystem\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-03-26T13:19:57.414</Modified>
+      <Modified>2024-04-23T18:21:59.263</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Janet\Desktop\RADassignment\TicketManagementSystem\TicketManagementSystem\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-03-26T13:19:57.408</Modified>
+      <Modified>2024-04-23T18:21:59.264</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Janet\Desktop\RADassignment\TicketManagementSystem\TicketManagementSystem\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-03-26T13:19:57.411</Modified>
+      <Modified>2024-04-23T18:21:59.265</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Janet\Desktop\RADassignment\TicketManagementSystem\TicketManagementSystem\Assets\StoreLogo.backup.png">
       <PackagePath>Assets\StoreLogo.backup.png</PackagePath>
-      <Modified>2024-02-15T09:44:11.204</Modified>
+      <Modified>2024-04-23T18:21:59.265</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Janet\Desktop\RADassignment\TicketManagementSystem\TicketManagementSystem\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-03-26T13:19:57.417</Modified>
+      <Modified>2024-04-23T18:21:59.265</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Janet\Desktop\RADassignment\TicketManagementSystem\TicketManagementSystem\Assets\train2.png">
       <PackagePath>Assets\train2.png</PackagePath>
-      <Modified>2024-03-28T17:14:57.340</Modified>
+      <Modified>2024-04-23T18:21:59.287</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Janet\Desktop\RADassignment\TicketManagementSystem\TicketManagementSystem\Assets\trainSchedule.png">
       <PackagePath>Assets\trainSchedule.png</PackagePath>
-      <Modified>2024-04-15T09:12:54.836</Modified>
+      <Modified>2024-04-23T18:21:59.289</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Janet\Desktop\RADassignment\TicketManagementSystem\TicketManagementSystem\Assets\user.png">
       <PackagePath>Assets\user.png</PackagePath>
-      <Modified>2024-03-25T16:08:19.433</Modified>
+      <Modified>2024-04-23T18:21:59.289</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Janet\Desktop\RADassignment\TicketManagementSystem\TicketManagementSystem\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-03-26T13:19:57.420</Modified>
+      <Modified>2024-04-23T18:21:59.266</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Janet\Desktop\RADassignment\TicketManagementSystem\TicketManagementSystem\Assets\pasta.jpeg">
       <PackagePath>Assets\pasta.jpeg</PackagePath>
-      <Modified>2024-04-23T13:31:41.971</Modified>
+      <Modified>2024-04-23T18:21:59.277</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Janet\Desktop\RADassignment\TicketManagementSystem\TicketManagementSystem\Assets\sandwich.jpeg">
       <PackagePath>Assets\sandwich.jpeg</PackagePath>
-      <Modified>2024-04-23T13:31:41.972</Modified>
+      <Modified>2024-04-23T18:21:59.280</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Janet\Desktop\RADassignment\TicketManagementSystem\TicketManagementSystem\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
-      <Modified>2024-03-25T12:35:30.899</Modified>
+      <Modified>2024-04-23T18:21:59.307</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Janet\Desktop\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\TicketManagementSystem.xr.xml">
       <PackagePath>TicketManagementSystem.xr.xml</PackagePath>
-      <Modified>2024-04-23T14:58:51.080</Modified>
+      <Modified>2024-04-23T19:03:13.433</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Janet\Desktop\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2024-04-23T17:55:35.368</Modified>
+      <Modified>2024-04-23T21:25:02.003</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Janet\Desktop\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\AddRoute.xbf">
       <PackagePath>AddRoute.xbf</PackagePath>
-      <Modified>2024-04-23T17:55:35.368</Modified>
+      <Modified>2024-04-23T21:25:02.003</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Janet\Desktop\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\AdminChangePassword.xbf">
       <PackagePath>AdminChangePassword.xbf</PackagePath>
-      <Modified>2024-04-23T17:55:35.368</Modified>
+      <Modified>2024-04-23T21:25:02.003</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Janet\Desktop\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\AdminEditUser.xbf">
       <PackagePath>AdminEditUser.xbf</PackagePath>
-      <Modified>2024-04-23T17:55:35.368</Modified>
+      <Modified>2024-04-23T21:25:02.004</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Janet\Desktop\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\AdminManagement.xbf">
       <PackagePath>AdminManagement.xbf</PackagePath>
-      <Modified>2024-04-23T17:55:35.314</Modified>
+      <Modified>2024-04-23T21:25:01.914</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Janet\Desktop\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\AdminProfile.xbf">
       <PackagePath>AdminProfile.xbf</PackagePath>
-      <Modified>2024-04-23T17:55:35.318</Modified>
+      <Modified>2024-04-23T21:25:01.919</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Janet\Desktop\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\BookingPage.xbf">
       <PackagePath>BookingPage.xbf</PackagePath>
-      <Modified>2024-04-23T17:55:35.324</Modified>
+      <Modified>2024-04-23T21:25:01.933</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Janet\Desktop\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\ChangePassword.xbf">
       <PackagePath>ChangePassword.xbf</PackagePath>
-      <Modified>2024-04-23T17:55:35.327</Modified>
+      <Modified>2024-04-23T21:25:01.938</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Janet\Desktop\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\CustomStyles.xbf">
       <PackagePath>CustomStyles.xbf</PackagePath>
-      <Modified>2024-04-23T17:55:35.367</Modified>
+      <Modified>2024-04-23T21:25:02.002</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Janet\Desktop\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\DeleteRoute.xbf">
       <PackagePath>DeleteRoute.xbf</PackagePath>
-      <Modified>2024-04-23T17:55:35.369</Modified>
+      <Modified>2024-04-23T21:25:02.004</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Janet\Desktop\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\DisplayRoute.xbf">
       <PackagePath>DisplayRoute.xbf</PackagePath>
-      <Modified>2024-04-23T17:55:35.369</Modified>
+      <Modified>2024-04-23T21:25:02.004</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Janet\Desktop\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\Food&amp;Drinks.xbf">
       <PackagePath>Food&amp;Drinks.xbf</PackagePath>
-      <Modified>2024-04-23T17:55:35.370</Modified>
+      <Modified>2024-04-23T21:25:01.948</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Janet\Desktop\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\ForgetPassword.xbf">
       <PackagePath>ForgetPassword.xbf</PackagePath>
-      <Modified>2024-04-23T17:55:35.370</Modified>
+      <Modified>2024-04-23T21:25:02.005</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Janet\Desktop\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\HelpManagement.xbf">
       <PackagePath>HelpManagement.xbf</PackagePath>
-      <Modified>2024-04-23T17:55:35.370</Modified>
+      <Modified>2024-04-23T21:25:02.006</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Janet\Desktop\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\LoginPage.xbf">
       <PackagePath>LoginPage.xbf</PackagePath>
-      <Modified>2024-04-23T17:55:35.370</Modified>
+      <Modified>2024-04-23T21:25:02.006</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Janet\Desktop\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2024-04-23T17:55:35.370</Modified>
+      <Modified>2024-04-23T21:25:02.006</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Janet\Desktop\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\NewAdminRegister.xbf">
       <PackagePath>NewAdminRegister.xbf</PackagePath>
-      <Modified>2024-04-23T17:55:35.371</Modified>
+      <Modified>2024-04-23T21:25:02.006</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Janet\Desktop\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\NewUserRegister.xbf">
       <PackagePath>NewUserRegister.xbf</PackagePath>
-      <Modified>2024-04-23T17:55:35.348</Modified>
+      <Modified>2024-04-23T21:25:01.973</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Janet\Desktop\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\PassengerDetailPage.xbf">
       <PackagePath>PassengerDetailPage.xbf</PackagePath>
-      <Modified>2024-04-23T17:55:35.371</Modified>
+      <Modified>2024-04-23T21:25:02.006</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Janet\Desktop\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\Payment.xbf">
       <PackagePath>Payment.xbf</PackagePath>
-      <Modified>2024-04-23T17:55:35.371</Modified>
+      <Modified>2024-04-23T21:25:02.006</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Janet\Desktop\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\SeatSelectionDialog.xbf">
       <PackagePath>SeatSelectionDialog.xbf</PackagePath>
-      <Modified>2024-04-23T17:55:35.372</Modified>
+      <Modified>2024-04-23T21:25:02.006</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Janet\Desktop\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\SeatSelectionPage.xbf">
       <PackagePath>SeatSelectionPage.xbf</PackagePath>
-      <Modified>2024-04-23T17:55:35.372</Modified>
+      <Modified>2024-04-23T21:25:02.007</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Janet\Desktop\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\SummaryTrainInfo.xbf">
       <PackagePath>SummaryTrainInfo.xbf</PackagePath>
-      <Modified>2024-04-23T17:55:35.372</Modified>
+      <Modified>2024-04-23T21:25:01.991</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Janet\Desktop\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\TrainManagement.xbf">
       <PackagePath>TrainManagement.xbf</PackagePath>
-      <Modified>2024-04-23T17:55:35.357</Modified>
+      <Modified>2024-04-23T21:25:01.993</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Janet\Desktop\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\UpdateRoute.xbf">
       <PackagePath>UpdateRoute.xbf</PackagePath>
-      <Modified>2024-04-23T17:55:35.373</Modified>
+      <Modified>2024-04-23T21:25:02.007</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Janet\Desktop\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\UserManagement.xbf">
       <PackagePath>UserManagement.xbf</PackagePath>
-      <Modified>2024-04-23T17:55:35.362</Modified>
+      <Modified>2024-04-23T21:25:01.998</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Janet\Desktop\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\UserProfile.xbf">
       <PackagePath>UserProfile.xbf</PackagePath>
-      <Modified>2024-04-23T17:55:35.365</Modified>
+      <Modified>2024-04-23T21:25:01.999</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Janet\Desktop\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\ViewRoute.xbf">
       <PackagePath>ViewRoute.xbf</PackagePath>
-      <Modified>2024-04-23T17:55:35.374</Modified>
+      <Modified>2024-04-23T21:25:02.007</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Janet\Desktop\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\ViewUserList.xbf">
       <PackagePath>ViewUserList.xbf</PackagePath>
-      <Modified>2024-04-23T17:55:35.374</Modified>
-=======
-    <AppxPackagedFile Include="C:\Users\thiva\OneDrive\Documents\GitHub\RADassignment\RADassignment\TicketManagementSystem\TicketManagementSystem\Assets\admin.jpg">
-      <PackagePath>Assets\admin.jpg</PackagePath>
-      <Modified>2024-04-23T14:47:31.670</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\thiva\OneDrive\Documents\GitHub\RADassignment\RADassignment\TicketManagementSystem\TicketManagementSystem\Assets\ets-train.jpg">
-      <PackagePath>Assets\ets-train.jpg</PackagePath>
-      <Modified>2024-04-23T14:47:31.678</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\thiva\OneDrive\Documents\GitHub\RADassignment\RADassignment\TicketManagementSystem\TicketManagementSystem\Assets\profile-icon.jpg">
-      <PackagePath>Assets\profile-icon.jpg</PackagePath>
-      <Modified>2024-04-23T14:47:31.688</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\thiva\OneDrive\Documents\GitHub\RADassignment\RADassignment\TicketManagementSystem\TicketManagementSystem\Assets\profile-icon2.jpg">
-      <PackagePath>Assets\profile-icon2.jpg</PackagePath>
-      <Modified>2024-04-23T14:47:31.689</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\thiva\OneDrive\Documents\GitHub\RADassignment\RADassignment\TicketManagementSystem\TicketManagementSystem\Assets\profile-icon3.jpg">
-      <PackagePath>Assets\profile-icon3.jpg</PackagePath>
-      <Modified>2024-04-23T14:47:31.690</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\thiva\OneDrive\Documents\GitHub\RADassignment\RADassignment\TicketManagementSystem\TicketManagementSystem\Assets\tng.jpg">
-      <PackagePath>Assets\tng.jpg</PackagePath>
-      <Modified>2024-04-23T14:47:31.698</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\thiva\OneDrive\Documents\GitHub\RADassignment\RADassignment\TicketManagementSystem\TicketManagementSystem\Assets\bars.png">
-      <PackagePath>Assets\bars.png</PackagePath>
-      <Modified>2024-04-23T14:47:31.672</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\thiva\OneDrive\Documents\GitHub\RADassignment\RADassignment\TicketManagementSystem\TicketManagementSystem\Assets\booked_chair.png">
-      <PackagePath>Assets\booked_chair.png</PackagePath>
-      <Modified>2024-04-23T14:47:31.673</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\thiva\OneDrive\Documents\GitHub\RADassignment\RADassignment\TicketManagementSystem\TicketManagementSystem\Assets\booking.png">
-      <PackagePath>Assets\booking.png</PackagePath>
-      <Modified>2024-04-23T14:47:31.674</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\thiva\OneDrive\Documents\GitHub\RADassignment\RADassignment\TicketManagementSystem\TicketManagementSystem\Assets\chair.png">
-      <PackagePath>Assets\chair.png</PackagePath>
-      <Modified>2024-04-23T14:47:31.675</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\thiva\OneDrive\Documents\GitHub\RADassignment\RADassignment\TicketManagementSystem\TicketManagementSystem\Assets\ets-logo.png">
-      <PackagePath>Assets\ets-logo.png</PackagePath>
-      <Modified>2024-04-23T14:47:31.676</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\thiva\OneDrive\Documents\GitHub\RADassignment\RADassignment\TicketManagementSystem\TicketManagementSystem\Assets\food.png">
-      <PackagePath>Assets\food.png</PackagePath>
-      <Modified>2024-04-23T14:47:31.679</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\thiva\OneDrive\Documents\GitHub\RADassignment\RADassignment\TicketManagementSystem\TicketManagementSystem\Assets\help.png">
-      <PackagePath>Assets\help.png</PackagePath>
-      <Modified>2024-04-23T14:47:31.680</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\thiva\OneDrive\Documents\GitHub\RADassignment\RADassignment\TicketManagementSystem\TicketManagementSystem\Assets\key2.png">
-      <PackagePath>Assets\key2.png</PackagePath>
-      <Modified>2024-04-23T14:47:31.681</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\thiva\OneDrive\Documents\GitHub\RADassignment\RADassignment\TicketManagementSystem\TicketManagementSystem\Assets\LockScreenLogo.scale-200.png">
-      <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
-      <Modified>2024-04-23T14:47:31.663</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\thiva\OneDrive\Documents\GitHub\RADassignment\RADassignment\TicketManagementSystem\TicketManagementSystem\Assets\management.png">
-      <PackagePath>Assets\management.png</PackagePath>
-      <Modified>2024-04-23T14:47:31.683</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\thiva\OneDrive\Documents\GitHub\RADassignment\RADassignment\TicketManagementSystem\TicketManagementSystem\Assets\meal.png">
-      <PackagePath>Assets\meal.png</PackagePath>
-      <Modified>2024-04-23T14:47:31.684</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\thiva\OneDrive\Documents\GitHub\RADassignment\RADassignment\TicketManagementSystem\TicketManagementSystem\Assets\next.png">
-      <PackagePath>Assets\next.png</PackagePath>
-      <Modified>2024-04-23T14:47:31.684</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\thiva\OneDrive\Documents\GitHub\RADassignment\RADassignment\TicketManagementSystem\TicketManagementSystem\Assets\profile-user.png">
-      <PackagePath>Assets\profile-user.png</PackagePath>
-      <Modified>2024-04-23T14:47:31.691</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\thiva\OneDrive\Documents\GitHub\RADassignment\RADassignment\TicketManagementSystem\TicketManagementSystem\Assets\rail.png">
-      <PackagePath>Assets\rail.png</PackagePath>
-      <Modified>2024-04-23T14:47:31.692</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\thiva\OneDrive\Documents\GitHub\RADassignment\RADassignment\TicketManagementSystem\TicketManagementSystem\Assets\research.png">
-      <PackagePath>Assets\research.png</PackagePath>
-      <Modified>2024-04-23T14:47:31.693</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\thiva\OneDrive\Documents\GitHub\RADassignment\RADassignment\TicketManagementSystem\TicketManagementSystem\Assets\search.png">
-      <PackagePath>Assets\search.png</PackagePath>
-      <Modified>2024-04-23T14:47:31.695</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\thiva\OneDrive\Documents\GitHub\RADassignment\RADassignment\TicketManagementSystem\TicketManagementSystem\Assets\seat.png">
-      <PackagePath>Assets\seat.png</PackagePath>
-      <Modified>2024-04-23T14:47:31.696</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\thiva\OneDrive\Documents\GitHub\RADassignment\RADassignment\TicketManagementSystem\TicketManagementSystem\Assets\software-engineer.png">
-      <PackagePath>Assets\software-engineer.png</PackagePath>
-      <Modified>2024-04-23T14:47:31.697</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\thiva\OneDrive\Documents\GitHub\RADassignment\RADassignment\TicketManagementSystem\TicketManagementSystem\Assets\SplashScreen.scale-200.png">
-      <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
-      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-04-23T14:47:31.664</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\thiva\OneDrive\Documents\GitHub\RADassignment\RADassignment\TicketManagementSystem\TicketManagementSystem\Assets\Square150x150Logo.scale-200.png">
-      <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
-      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-04-23T14:47:31.665</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\thiva\OneDrive\Documents\GitHub\RADassignment\RADassignment\TicketManagementSystem\TicketManagementSystem\Assets\Square44x44Logo.scale-200.png">
-      <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
-      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-04-23T14:47:31.666</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\thiva\OneDrive\Documents\GitHub\RADassignment\RADassignment\TicketManagementSystem\TicketManagementSystem\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
-      <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
-      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-04-23T14:47:31.667</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\thiva\OneDrive\Documents\GitHub\RADassignment\RADassignment\TicketManagementSystem\TicketManagementSystem\Assets\StoreLogo.backup.png">
-      <PackagePath>Assets\StoreLogo.backup.png</PackagePath>
-      <Modified>2024-04-23T14:47:31.668</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\thiva\OneDrive\Documents\GitHub\RADassignment\RADassignment\TicketManagementSystem\TicketManagementSystem\Assets\StoreLogo.png">
-      <PackagePath>Assets\StoreLogo.png</PackagePath>
-      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-04-23T14:47:31.669</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\thiva\OneDrive\Documents\GitHub\RADassignment\RADassignment\TicketManagementSystem\TicketManagementSystem\Assets\train2.png">
-      <PackagePath>Assets\train2.png</PackagePath>
-      <Modified>2024-04-23T14:47:31.703</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\thiva\OneDrive\Documents\GitHub\RADassignment\RADassignment\TicketManagementSystem\TicketManagementSystem\Assets\trainSchedule.png">
-      <PackagePath>Assets\trainSchedule.png</PackagePath>
-      <Modified>2024-04-23T14:47:31.704</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\thiva\OneDrive\Documents\GitHub\RADassignment\RADassignment\TicketManagementSystem\TicketManagementSystem\Assets\user.png">
-      <PackagePath>Assets\user.png</PackagePath>
-      <Modified>2024-04-23T14:47:31.706</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\thiva\OneDrive\Documents\GitHub\RADassignment\RADassignment\TicketManagementSystem\TicketManagementSystem\Assets\Wide310x150Logo.scale-200.png">
-      <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
-      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-04-23T14:47:31.669</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\thiva\OneDrive\Documents\GitHub\RADassignment\RADassignment\TicketManagementSystem\TicketManagementSystem\Assets\pasta.jpeg">
-      <PackagePath>Assets\pasta.jpeg</PackagePath>
-      <Modified>2024-04-23T14:47:31.687</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\thiva\OneDrive\Documents\GitHub\RADassignment\RADassignment\TicketManagementSystem\TicketManagementSystem\Assets\sandwich.jpeg">
-      <PackagePath>Assets\sandwich.jpeg</PackagePath>
-      <Modified>2024-04-23T14:47:31.694</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\thiva\OneDrive\Documents\GitHub\RADassignment\RADassignment\TicketManagementSystem\TicketManagementSystem\Properties\Default.rd.xml">
-      <PackagePath>Properties\Default.rd.xml</PackagePath>
-      <Modified>2024-04-23T14:47:31.739</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\thiva\OneDrive\Documents\GitHub\RADassignment\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\TicketManagementSystem.xr.xml">
-      <PackagePath>TicketManagementSystem.xr.xml</PackagePath>
-      <Modified>2024-04-23T17:26:52.811</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\thiva\OneDrive\Documents\GitHub\RADassignment\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\App.xbf">
-      <PackagePath>App.xbf</PackagePath>
-      <Modified>2024-04-23T17:31:23.442</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\thiva\OneDrive\Documents\GitHub\RADassignment\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\AddRoute.xbf">
-      <PackagePath>AddRoute.xbf</PackagePath>
-      <Modified>2024-04-23T17:31:23.442</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\thiva\OneDrive\Documents\GitHub\RADassignment\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\AdminChangePassword.xbf">
-      <PackagePath>AdminChangePassword.xbf</PackagePath>
-      <Modified>2024-04-23T17:31:23.442</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\thiva\OneDrive\Documents\GitHub\RADassignment\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\AdminEditUser.xbf">
-      <PackagePath>AdminEditUser.xbf</PackagePath>
-      <Modified>2024-04-23T17:31:23.442</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\thiva\OneDrive\Documents\GitHub\RADassignment\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\AdminManagement.xbf">
-      <PackagePath>AdminManagement.xbf</PackagePath>
-      <Modified>2024-04-23T17:31:23.379</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\thiva\OneDrive\Documents\GitHub\RADassignment\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\AdminProfile.xbf">
-      <PackagePath>AdminProfile.xbf</PackagePath>
-      <Modified>2024-04-23T17:31:23.394</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\thiva\OneDrive\Documents\GitHub\RADassignment\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\BookingPage.xbf">
-      <PackagePath>BookingPage.xbf</PackagePath>
-      <Modified>2024-04-23T17:31:23.394</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\thiva\OneDrive\Documents\GitHub\RADassignment\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\ChangePassword.xbf">
-      <PackagePath>ChangePassword.xbf</PackagePath>
-      <Modified>2024-04-23T17:31:23.394</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\thiva\OneDrive\Documents\GitHub\RADassignment\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\CustomStyles.xbf">
-      <PackagePath>CustomStyles.xbf</PackagePath>
-      <Modified>2024-04-23T17:31:23.426</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\thiva\OneDrive\Documents\GitHub\RADassignment\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\DeleteRoute.xbf">
-      <PackagePath>DeleteRoute.xbf</PackagePath>
-      <Modified>2024-04-23T17:31:23.442</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\thiva\OneDrive\Documents\GitHub\RADassignment\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\DisplayRoute.xbf">
-      <PackagePath>DisplayRoute.xbf</PackagePath>
-      <Modified>2024-04-23T17:31:23.442</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\thiva\OneDrive\Documents\GitHub\RADassignment\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\Food&amp;Drinks.xbf">
-      <PackagePath>Food&amp;Drinks.xbf</PackagePath>
-      <Modified>2024-04-23T17:31:23.406</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\thiva\OneDrive\Documents\GitHub\RADassignment\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\ForgetPassword.xbf">
-      <PackagePath>ForgetPassword.xbf</PackagePath>
-      <Modified>2024-04-23T17:31:23.442</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\thiva\OneDrive\Documents\GitHub\RADassignment\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\HelpManagement.xbf">
-      <PackagePath>HelpManagement.xbf</PackagePath>
-      <Modified>2024-04-23T17:31:23.442</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\thiva\OneDrive\Documents\GitHub\RADassignment\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\LoginPage.xbf">
-      <PackagePath>LoginPage.xbf</PackagePath>
-      <Modified>2024-04-23T17:31:23.442</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\thiva\OneDrive\Documents\GitHub\RADassignment\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\MainPage.xbf">
-      <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2024-04-23T17:31:23.442</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\thiva\OneDrive\Documents\GitHub\RADassignment\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\NewAdminRegister.xbf">
-      <PackagePath>NewAdminRegister.xbf</PackagePath>
-      <Modified>2024-04-23T17:31:23.442</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\thiva\OneDrive\Documents\GitHub\RADassignment\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\NewUserRegister.xbf">
-      <PackagePath>NewUserRegister.xbf</PackagePath>
-      <Modified>2024-04-23T17:31:23.410</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\thiva\OneDrive\Documents\GitHub\RADassignment\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\PassengerDetailPage.xbf">
-      <PackagePath>PassengerDetailPage.xbf</PackagePath>
-      <Modified>2024-04-23T17:31:23.442</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\thiva\OneDrive\Documents\GitHub\RADassignment\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\Payment.xbf">
-      <PackagePath>Payment.xbf</PackagePath>
-      <Modified>2024-04-23T17:31:23.442</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\thiva\OneDrive\Documents\GitHub\RADassignment\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\SeatSelectionDialog.xbf">
-      <PackagePath>SeatSelectionDialog.xbf</PackagePath>
-      <Modified>2024-04-23T17:31:23.442</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\thiva\OneDrive\Documents\GitHub\RADassignment\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\SeatSelectionPage.xbf">
-      <PackagePath>SeatSelectionPage.xbf</PackagePath>
-      <Modified>2024-04-23T17:31:23.442</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\thiva\OneDrive\Documents\GitHub\RADassignment\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\SummaryTrainInfo.xbf">
-      <PackagePath>SummaryTrainInfo.xbf</PackagePath>
-      <Modified>2024-04-23T17:31:23.442</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\thiva\OneDrive\Documents\GitHub\RADassignment\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\TrainManagement.xbf">
-      <PackagePath>TrainManagement.xbf</PackagePath>
-      <Modified>2024-04-23T17:31:23.426</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\thiva\OneDrive\Documents\GitHub\RADassignment\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\UpdateRoute.xbf">
-      <PackagePath>UpdateRoute.xbf</PackagePath>
-      <Modified>2024-04-23T17:31:23.442</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\thiva\OneDrive\Documents\GitHub\RADassignment\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\UserManagement.xbf">
-      <PackagePath>UserManagement.xbf</PackagePath>
-      <Modified>2024-04-23T17:31:23.426</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\thiva\OneDrive\Documents\GitHub\RADassignment\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\UserProfile.xbf">
-      <PackagePath>UserProfile.xbf</PackagePath>
-      <Modified>2024-04-23T17:31:23.426</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\thiva\OneDrive\Documents\GitHub\RADassignment\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\ViewRoute.xbf">
-      <PackagePath>ViewRoute.xbf</PackagePath>
-      <Modified>2024-04-23T17:31:23.442</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\thiva\OneDrive\Documents\GitHub\RADassignment\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\ViewUserList.xbf">
-      <PackagePath>ViewUserList.xbf</PackagePath>
-      <Modified>2024-04-23T17:31:23.442</Modified>
->>>>>>> b2ff9e21d4574a1045f4eee83d05f944aa5cd1aa
+      <Modified>2024-04-23T21:25:02.008</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.19041.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
       <Modified>2020-12-01T18:52:06.000</Modified>
     </AppxPackagedFile>
-<<<<<<< HEAD
     <AppxPackagedFile Include="C:\Users\Janet\Desktop\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2024-04-23T16:00:43.857</Modified>
+      <Modified>2024-04-23T18:29:47.226</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Janet\Desktop\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\Core\TicketManagementSystem.exe">
       <PackagePath>TicketManagementSystem.exe</PackagePath>
-      <Modified>2024-04-23T17:55:39.853</Modified>
-=======
-    <AppxPackagedFile Include="C:\Users\thiva\OneDrive\Documents\GitHub\RADassignment\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\resources.pri">
-      <PackagePath>resources.pri</PackagePath>
-      <Modified>2024-04-23T17:24:40.059</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\thiva\OneDrive\Documents\GitHub\RADassignment\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\Core\TicketManagementSystem.exe">
-      <PackagePath>TicketManagementSystem.exe</PackagePath>
-      <Modified>2024-04-23T17:31:24.446</Modified>
->>>>>>> b2ff9e21d4574a1045f4eee83d05f944aa5cd1aa
+      <Modified>2024-04-23T21:25:07.721</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

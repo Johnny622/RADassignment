@@ -68,7 +68,7 @@ namespace TicketManagementSystem
                 departDateTextBlock.Text = "Departure Date: " + trainDetail.departdate.ToString();
 
                 TextBlock departTimeTextBlock = new TextBlock();
-                departTimeTextBlock.Text = "Departure Time: " + trainDetail.departtime.ToString();
+                departTimeTextBlock.Text = "Departure Time: " + trainDetail.departtime;
 
                 TextBlock priceTextBlock = new TextBlock();
                 priceTextBlock.Text = "Price: " + trainDetail.price.ToString();

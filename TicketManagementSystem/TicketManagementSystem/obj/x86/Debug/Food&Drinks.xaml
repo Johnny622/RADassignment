@@ -9,45 +9,23 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
-<<<<<<< HEAD
-        <SplitView x:ConnectionId='2'
-            x:Name="menuSplitView"
-            DisplayMode="CompactOverlay"
-            IsPaneOpen="False"
-            CompactPaneLength="50"
-            OpenPaneLength="240"
-            Background="#D7ECFF">
-            <SplitView.Pane>
-                <StackPanel Background="#4863A0">
-                    <StackPanel Orientation="Horizontal" Margin="0 0 0 50">
-                        <Button x:ConnectionId='11' x:Name="btnBar" Background="Transparent" Margin="0,10,0,0">
-=======
         <SplitView x:ConnectionId='2' x:Name="menuSplitView" DisplayMode="CompactOverlay" IsPaneOpen="False" CompactPaneLength="50" OpenPaneLength="240" Background="#D7ECFF">
             <SplitView.Pane>
                 <StackPanel Background="#4863A0">
                     <StackPanel Orientation="Horizontal" Margin="0 0 0 50">
                         <Button x:ConnectionId='11' x:Name="btnBar" Background="Transparent" Margin="0,10,0,0"                     >
->>>>>>> f4e4161b6fa576a8ee6207727c59b2e3d7d81af7
                             <Image Source="Assets/bars.png" Width="30"/>
                         </Button>
                     </StackPanel>
 
-<<<<<<< HEAD
-                    <Button x:ConnectionId='8' Name="btnUserMng" Background="Transparent" Margin="0,0,0,30" HorizontalAlignment="Stretch">
-=======
                     <Button x:ConnectionId='8' Name="btnUserMng" Background="Transparent" Margin="0,0,0,30" HorizontalAlignment="Stretch"                         >
->>>>>>> f4e4161b6fa576a8ee6207727c59b2e3d7d81af7
                         <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" Margin="0 0 0 0" Width="230">
                             <Image Source="Assets/user.png" Width="30"/>
                             <TextBlock Text="USER MANAGEMENT" Padding="10" VerticalAlignment="Center" Foreground="White" FontWeight="Bold" />
                         </StackPanel>
                     </Button>
 
-<<<<<<< HEAD
-                    <Button x:ConnectionId='9' x:Name="btnTrainMng" Background="Transparent" Margin="0 0 0 30" HorizontalAlignment="Stretch">
-=======
                     <Button Background="Transparent" Margin="0 0 0 30" HorizontalAlignment="Stretch">
->>>>>>> f4e4161b6fa576a8ee6207727c59b2e3d7d81af7
                         <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" Width="230">
                             <Image Source="Assets/rail.png" Width="30"/>
                             <TextBlock Text="TRAIN MANAGEMENT" Padding="10" VerticalAlignment="Center" Foreground="White" FontWeight="Bold" />
@@ -61,11 +39,7 @@
                         </StackPanel>
                     </Button>
 
-<<<<<<< HEAD
-                    <Button x:ConnectionId='10' x:Name="btnFood" Background="Silver" HorizontalAlignment="Stretch">
-=======
                     <Button Background="Silver" Margin="0 0 0 30" HorizontalAlignment="Stretch">
->>>>>>> f4e4161b6fa576a8ee6207727c59b2e3d7d81af7
                         <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" Width="230">
                             <Image Source="Assets/food.png" Width="30"/>
                             <TextBlock Text="FOODS &amp; DRINKS" Padding="10" VerticalAlignment="Center" Foreground="White" FontWeight="Bold" />
@@ -114,11 +88,7 @@
                 </StackPanel>
 
                 <!-- Confirm Button -->
-<<<<<<< HEAD
-                <Button x:ConnectionId='4' Content="Confirm Payment"                              Margin="0,20"/>
-=======
                 <Button x:ConnectionId='4' Content="Confirm Payment" Background="Silver"                              Margin="0,20"/>
->>>>>>> f4e4161b6fa576a8ee6207727c59b2e3d7d81af7
             </StackPanel>
         </Grid>
         <StackPanel x:ConnectionId='3' x:Name="rightContent" Orientation="Vertical" Margin="80,0,0,0" >

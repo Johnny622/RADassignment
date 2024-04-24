@@ -1,15 +1,7 @@
 {
   "format": 1,
   "restore": {
-<<<<<<< Updated upstream
-<<<<<<< HEAD
-    "C:\\Users\\Janet\\Desktop\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\TicketManagementSystem.csproj": {}
-=======
-    "C:\\Users\\ACER\\Desktop\\Y2S3\\--Clone Resposity--\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\TicketManagementSystem.csproj": {}
->>>>>>> f4e4161b6fa576a8ee6207727c59b2e3d7d81af7
-=======
     "C:\\Users\\thiva\\source\\repos\\Johnny622\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\TicketManagementSystem.csproj": {}
->>>>>>> Stashed changes
   },
   "projects": {
     "C:\\Users\\thiva\\source\\repos\\Johnny622\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\TicketManagementSystem.csproj": {
@@ -17,21 +9,9 @@
       "restore": {
         "projectUniqueName": "C:\\Users\\thiva\\source\\repos\\Johnny622\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\TicketManagementSystem.csproj",
         "projectName": "TicketManagementSystem",
-<<<<<<< Updated upstream
-<<<<<<< HEAD
-        "projectPath": "C:\\Users\\Janet\\Desktop\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\TicketManagementSystem.csproj",
-        "packagesPath": "C:\\Users\\Janet\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Janet\\Desktop\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\obj\\",
-=======
-        "projectPath": "C:\\Users\\ACER\\Desktop\\Y2S3\\--Clone Resposity--\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\TicketManagementSystem.csproj",
-        "packagesPath": "C:\\Users\\ACER\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ACER\\Desktop\\Y2S3\\--Clone Resposity--\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\obj\\",
->>>>>>> f4e4161b6fa576a8ee6207727c59b2e3d7d81af7
-=======
         "projectPath": "C:\\Users\\thiva\\source\\repos\\Johnny622\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\TicketManagementSystem.csproj",
         "packagesPath": "C:\\Users\\thiva\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\thiva\\source\\repos\\Johnny622\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\obj\\",
->>>>>>> Stashed changes
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
@@ -39,15 +19,7 @@
           "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\"
         ],
         "configFilePaths": [
-<<<<<<< Updated upstream
-<<<<<<< HEAD
-          "C:\\Users\\Janet\\AppData\\Roaming\\NuGet\\NuGet.Config",
-=======
-          "C:\\Users\\ACER\\AppData\\Roaming\\NuGet\\NuGet.Config",
->>>>>>> f4e4161b6fa576a8ee6207727c59b2e3d7d81af7
-=======
           "C:\\Users\\thiva\\AppData\\Roaming\\NuGet\\NuGet.Config",
->>>>>>> Stashed changes
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

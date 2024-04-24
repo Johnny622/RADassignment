@@ -234,6 +234,7 @@
     <Content Include="Assets\management.png" />
     <Content Include="Assets\meal.png" />
     <Content Include="Assets\next.png" />
+    <Content Include="Assets\order.jpg" />
     <Content Include="Assets\pasta.jpeg" />
     <Content Include="Assets\profile-icon.jpg" />
     <Content Include="Assets\profile-icon2.jpg" />

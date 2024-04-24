@@ -40,7 +40,7 @@
                         </StackPanel>
                     </Button>
 
-                    <Button x:Name="btnHelp" Background="Transparent" HorizontalAlignment="Stretch" Click="btnHelp_Click">
+                    <Button x:Name="btnHelp" Background="Transparent" Margin="0 0 0 30"  HorizontalAlignment="Stretch" Click="btnHelp_Click">
                         <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" Width="230">
                             <Image Source="Assets/help.png" Width="30"/>
                             <TextBlock Text="HELP PAGE" Padding="10" VerticalAlignment="Center" Foreground="White" FontWeight="Bold" />
@@ -49,7 +49,7 @@
 
                     <Button x:Name="btnOrder" Background="Transparent" HorizontalAlignment="Stretch" Click="btnOrder_Click">
                         <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" Width="230">
-                            <Image Source="Assets/order.png" Width="30"/>
+                            <Image Source="Assets/order.jpg" Width="30"/>
                             <TextBlock Text="ORDER PAGE" Padding="10" VerticalAlignment="Center" Foreground="White" FontWeight="Bold" />
                         </StackPanel>
                     </Button>

@@ -23,10 +23,10 @@
                         </Button>
                     </StackPanel>
 
-                    <Button Name="btnAdminMng" Background="#D7ECFF" Margin="0,0,0,30" HorizontalAlignment="Stretch" >
+                    <Button Name="btnAdminMng" Background="Transparent" Margin="0,0,0,30" HorizontalAlignment="Stretch" >
                         <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" Margin="0 0 0 0" Width="230">
                             <Image Source="Assets/software-engineer.png" Width="30"/>
-                            <TextBlock Text="ADMIN MANAGEMENT" Padding="10" VerticalAlignment="Center" Foreground="Black" FontWeight="Bold"/>
+                            <TextBlock Text="ADMIN MANAGEMENT" Padding="10" VerticalAlignment="Center" Foreground="White" FontWeight="Bold"/>
                         </StackPanel>
                     </Button>
 
@@ -51,7 +51,7 @@
                         </StackPanel>
                     </Button>
 
-                    <Button x:Name="btnOrder" Background="Transparent" HorizontalAlignment="Stretch" Click="btnOrder_Click">
+                    <Button x:Name="btnOrder" Background="Silver" HorizontalAlignment="Stretch" Click="btnOrder_Click">
                         <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" Width="230">
                             <Image Source="Assets/order.png" Width="30"/>
                             <TextBlock Text="ORDER PAGE" Padding="10" VerticalAlignment="Center" Foreground="White" FontWeight="Bold" />

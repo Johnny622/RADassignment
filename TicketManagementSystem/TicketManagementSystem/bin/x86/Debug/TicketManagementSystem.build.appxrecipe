@@ -1,18 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-<<<<<<< Updated upstream
-<<<<<<< HEAD
-    <Machine>JANET-HP-LAPTOP</Machine>
-    <WindowsUser>Janet</WindowsUser>
-=======
-    <Machine>DESKTOP-A2BPK75</Machine>
-    <WindowsUser>ACER</WindowsUser>
->>>>>>> f4e4161b6fa576a8ee6207727c59b2e3d7d81af7
-=======
     <Machine>LEGIONNAIRE</Machine>
     <WindowsUser>thiva</WindowsUser>
->>>>>>> Stashed changes
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
     <TargetOsVersion>10.0</TargetOsVersion>
     <TargetOsDescription>Windows 10.0</TargetOsDescription>
@@ -20,52 +10,22 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>6c1d7e3f-effd-439c-b8e6-521c330c5bc4</PackageIdentityName>
     <PackageIdentityPublisher>CN=Janet</PackageIdentityPublisher>
-<<<<<<< Updated upstream
-<<<<<<< HEAD
-    <IntermediateOutputPath>C:\Users\Janet\Desktop\RADassignment\TicketManagementSystem\TicketManagementSystem\obj\x86\Debug\</IntermediateOutputPath>
-=======
-    <IntermediateOutputPath>C:\Users\ACER\Desktop\Y2S3\--Clone Resposity--\RADassignment\TicketManagementSystem\TicketManagementSystem\obj\x86\Debug\</IntermediateOutputPath>
->>>>>>> f4e4161b6fa576a8ee6207727c59b2e3d7d81af7
-=======
     <IntermediateOutputPath>C:\Users\thiva\source\repos\Johnny622\RADassignment\TicketManagementSystem\TicketManagementSystem\obj\x86\Debug\</IntermediateOutputPath>
->>>>>>> Stashed changes
     <RemoteDeploymentType></RemoteDeploymentType>
     <PackageRegistrationPath></PackageRegistrationPath>
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-<<<<<<< Updated upstream
-<<<<<<< HEAD
-    <LayoutDir>C:\Users\Janet\Desktop\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\AppX</LayoutDir>
-  </PropertyGroup>
-  <ItemGroup>
-    <AppXManifest Include="C:\Users\Janet\Desktop\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\Core\AppxManifest.xml">
-=======
-    <LayoutDir>C:\Users\ACER\Desktop\Y2S3\--Clone Resposity--\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\AppX</LayoutDir>
-  </PropertyGroup>
-  <ItemGroup>
-    <AppXManifest Include="C:\Users\ACER\Desktop\Y2S3\--Clone Resposity--\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\Core\AppxManifest.xml">
->>>>>>> f4e4161b6fa576a8ee6207727c59b2e3d7d81af7
-=======
     <LayoutDir>C:\Users\thiva\source\repos\Johnny622\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\AppX</LayoutDir>
   </PropertyGroup>
   <ItemGroup>
     <AppXManifest Include="C:\Users\thiva\source\repos\Johnny622\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\Core\AppxManifest.xml">
->>>>>>> Stashed changes
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-<<<<<<< Updated upstream
-<<<<<<< HEAD
-    <AppxPackagedFile Include="C:\Users\Janet\Desktop\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\TicketManagementSystem.exe">
-=======
-    <AppxPackagedFile Include="C:\Users\ACER\Desktop\Y2S3\--Clone Resposity--\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\TicketManagementSystem.exe">
->>>>>>> f4e4161b6fa576a8ee6207727c59b2e3d7d81af7
-=======
     <AppxPackagedFile Include="C:\Users\thiva\source\repos\Johnny622\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\TicketManagementSystem.exe">
->>>>>>> Stashed changes
       <PackagePath>entrypoint\TicketManagementSystem.exe</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\thiva\.nuget\packages\bouncycastle\1.8.9\lib\BouncyCastle.Crypto.dll">
@@ -110,61 +70,32 @@
     <AppxPackagedFile Include="C:\Users\thiva\.nuget\packages\microsoft.bcl.asyncinterfaces\1.0.0\lib\netstandard2.0\Microsoft.Bcl.AsyncInterfaces.dll">
       <PackagePath>Microsoft.Bcl.AsyncInterfaces.dll</PackagePath>
     </AppxPackagedFile>
-<<<<<<< Updated upstream
-<<<<<<< HEAD
-    <AppxPackagedFile Include="C:\Users\Janet\.nuget\packages\newtonsoft.json\13.0.2\lib\netstandard2.0\Newtonsoft.Json.dll">
-=======
-    <AppxPackagedFile Include="C:\Users\ACER\.nuget\packages\newtonsoft.json\13.0.2\lib\netstandard2.0\Newtonsoft.Json.dll">
->>>>>>> f4e4161b6fa576a8ee6207727c59b2e3d7d81af7
-=======
     <AppxPackagedFile Include="C:\Users\thiva\.nuget\packages\newtonsoft.json\13.0.2\lib\netstandard2.0\Newtonsoft.Json.dll">
->>>>>>> Stashed changes
       <PackagePath>Newtonsoft.Json.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.14\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
     </AppxPackagedFile>
-<<<<<<< Updated upstream
-<<<<<<< HEAD
-    <AppxPackagedFile Include="C:\Users\Janet\.nuget\packages\system.collections.immutable\1.7.1\lib\netstandard2.0\System.Collections.Immutable.dll">
-=======
-    <AppxPackagedFile Include="C:\Users\ACER\.nuget\packages\system.collections.immutable\1.7.1\lib\netstandard2.0\System.Collections.Immutable.dll">
->>>>>>> f4e4161b6fa576a8ee6207727c59b2e3d7d81af7
-=======
     <AppxPackagedFile Include="C:\Users\thiva\.nuget\packages\system.collections.immutable\1.7.1\lib\netstandard2.0\System.Collections.Immutable.dll">
->>>>>>> Stashed changes
       <PackagePath>System.Collections.Immutable.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\thiva\.nuget\packages\system.reactive\4.0.0\lib\uap10.0.16299\System.Reactive.dll">
       <PackagePath>System.Reactive.dll</PackagePath>
     </AppxPackagedFile>
-<<<<<<< Updated upstream
-<<<<<<< HEAD
-    <AppxPackagedFile Include="C:\Users\Janet\.nuget\packages\system.runtime.compilerservices.unsafe\4.5.3\lib\netstandard2.0\System.Runtime.CompilerServices.Unsafe.dll">
-=======
-    <AppxPackagedFile Include="C:\Users\ACER\.nuget\packages\system.runtime.compilerservices.unsafe\4.5.3\lib\netstandard2.0\System.Runtime.CompilerServices.Unsafe.dll">
->>>>>>> f4e4161b6fa576a8ee6207727c59b2e3d7d81af7
-=======
     <AppxPackagedFile Include="C:\Users\thiva\.nuget\packages\system.runtime.compilerservices.unsafe\4.5.3\lib\netstandard2.0\System.Runtime.CompilerServices.Unsafe.dll">
->>>>>>> Stashed changes
       <PackagePath>System.Runtime.CompilerServices.Unsafe.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.19041.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
     </AppxPackagedFile>
-<<<<<<< Updated upstream
-<<<<<<< HEAD
-    <AppxPackagedFile Include="C:\Users\Janet\Desktop\RADassignment\TicketManagementSystem\TicketManagementSystem\Assets\admin.jpg">
-=======
-    <AppxPackagedFile Include="C:\Users\ACER\Desktop\Y2S3\--Clone Resposity--\RADassignment\TicketManagementSystem\TicketManagementSystem\Assets\admin.jpg">
->>>>>>> f4e4161b6fa576a8ee6207727c59b2e3d7d81af7
-=======
     <AppxPackagedFile Include="C:\Users\thiva\source\repos\Johnny622\RADassignment\TicketManagementSystem\TicketManagementSystem\Assets\admin.jpg">
->>>>>>> Stashed changes
       <PackagePath>Assets\admin.jpg</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\thiva\source\repos\Johnny622\RADassignment\TicketManagementSystem\TicketManagementSystem\Assets\ets-train.jpg">
       <PackagePath>Assets\ets-train.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\thiva\source\repos\Johnny622\RADassignment\TicketManagementSystem\TicketManagementSystem\Assets\order.jpg">
+      <PackagePath>Assets\order.jpg</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\thiva\source\repos\Johnny622\RADassignment\TicketManagementSystem\TicketManagementSystem\Assets\profile-icon.jpg">
       <PackagePath>Assets\profile-icon.jpg</PackagePath>
@@ -370,38 +301,16 @@
     <AppxPackagedFile Include="C:\Users\thiva\source\repos\Johnny622\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\ViewRoute.xbf">
       <PackagePath>ViewRoute.xbf</PackagePath>
     </AppxPackagedFile>
-<<<<<<< Updated upstream
-<<<<<<< HEAD
-    <AppxPackagedFile Include="C:\Users\Janet\Desktop\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\ViewUserList.xbf">
-=======
-    <AppxPackagedFile Include="C:\Users\ACER\Desktop\Y2S3\--Clone Resposity--\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\ViewUserList.xbf">
->>>>>>> f4e4161b6fa576a8ee6207727c59b2e3d7d81af7
-=======
     <AppxPackagedFile Include="C:\Users\thiva\source\repos\Johnny622\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\ViewUserList.xbf">
->>>>>>> Stashed changes
       <PackagePath>ViewUserList.xbf</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.19041.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
     </AppxPackagedFile>
-<<<<<<< Updated upstream
-<<<<<<< HEAD
-    <AppxPackagedFile Include="C:\Users\Janet\Desktop\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\resources.pri">
-      <PackagePath>resources.pri</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Janet\Desktop\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\Core\TicketManagementSystem.exe">
-=======
-    <AppxPackagedFile Include="C:\Users\ACER\Desktop\Y2S3\--Clone Resposity--\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\resources.pri">
-      <PackagePath>resources.pri</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\ACER\Desktop\Y2S3\--Clone Resposity--\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\Core\TicketManagementSystem.exe">
->>>>>>> f4e4161b6fa576a8ee6207727c59b2e3d7d81af7
-=======
     <AppxPackagedFile Include="C:\Users\thiva\source\repos\Johnny622\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\thiva\source\repos\Johnny622\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\Core\TicketManagementSystem.exe">
->>>>>>> Stashed changes
       <PackagePath>TicketManagementSystem.exe</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>

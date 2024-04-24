@@ -2,6 +2,9 @@
 <Roots >
   <Roots.PropertyPathNames>
     <RootPropertyPathName Name="TotalPrice" />
+    <RootPropertyPathName Name="Timestamp" />
+    <RootPropertyPathName Name="Quantity2" />
+    <RootPropertyPathName Name="Quantity1" />
   </Roots.PropertyPathNames>
   <Roots.RootTypes>
     <RootType FullName="Windows.UI.Xaml.Application" />
@@ -247,6 +250,10 @@
       <RootMethod Name="SetBelow" />
     </RootType>
     <RootType FullName="TicketManagementSystem.NewUserRegister" />
+    <RootType FullName="Windows.UI.Xaml.Controls.ListBox">
+      <RootProperty Name="ItemTemplate" />
+    </RootType>
+    <RootType FullName="TicketManagementSystem.OrderPage" />
     <RootType FullName="TicketManagementSystem.PassengerDetailPage" />
     <RootType FullName="Windows.UI.Xaml.Controls.ContentDialog">
       <RootProperty Name="Title" />

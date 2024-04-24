@@ -258,6 +258,17 @@ namespace TicketManagementSystem.Class
             await firebase.Child("food_drinks").PostAsync(entry);
         }
 
+        public async Task<List<FoodDrinkEntry>> GetFoodDrinkEntries()
+        {
+            var entries = await firebase.Child("food_drinks").OnceAsync<FoodDrinkEntry>();
+            List<FoodDrinkEntry> entryList = new List<FoodDrinkEntry>();
+            foreach (var entry in entries)
+            {
+                entryList.Add(entry.Object);
+            }
+            return entryList;
+        }
+
         public class FoodDrinkEntry
         {
             public int Quantity1 { get; set; }

@@ -51,9 +51,14 @@
     <build:Item Name="Microsoft.Build.AppxPackage.dll" Version="17.9.37000.1723" />
 =======
     <build:Item Name="VisualStudioEdition" Value="Microsoft Visual Studio Enterprise 2022" />
+<<<<<<< Updated upstream
     <build:Item Name="OperatingSystem" Version="10.0.19041.1 (WinBuild.160101.0800)" />
     <build:Item Name="Microsoft.Build.AppxPackage.dll" Version="17.9.37031.30835" />
 >>>>>>> f4e4161b6fa576a8ee6207727c59b2e3d7d81af7
+=======
+    <build:Item Name="OperatingSystem" Version="10.0.22621.1 (WinBuild.160101.0800)" />
+    <build:Item Name="Microsoft.Build.AppxPackage.dll" Version="17.9.37015.3201" />
+>>>>>>> Stashed changes
     <build:Item Name="ProjectGUID" Value="{12FFD5F2-CE33-42CC-8F13-9B90EF87164E}" />
     <build:Item Name="OptimizingToolset" Value="None" />
     <build:Item Name="TargetRuntime" Value="Managed" />

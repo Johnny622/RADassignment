@@ -54,6 +54,7 @@ LoginPage.xbf
 MainPage.xbf
 NewAdminRegister.xbf
 NewUserRegister.xbf
+OrderPage.xbf
 PassengerDetailPage.xbf
 Payment.xbf
 SeatSelectionDialog.xbf

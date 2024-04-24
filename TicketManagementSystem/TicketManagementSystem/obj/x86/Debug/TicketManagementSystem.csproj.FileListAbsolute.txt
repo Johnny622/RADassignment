@@ -624,4 +624,12 @@ C:\Users\ACER\Desktop\Y2S3\--Clone Resposity--\RADassignment\TicketManagementSys
 C:\Users\ACER\Desktop\Y2S3\--Clone Resposity--\RADassignment\TicketManagementSystem\TicketManagementSystem\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt
 C:\Users\ACER\Desktop\Y2S3\--Clone Resposity--\RADassignment\TicketManagementSystem\TicketManagementSystem\obj\x86\Debug\ProjectArchitectures.txt
 C:\Users\ACER\Desktop\Y2S3\--Clone Resposity--\RADassignment\TicketManagementSystem\TicketManagementSystem\obj\x86\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_637424527200000000.json
+<<<<<<< Updated upstream
 >>>>>>> f4e4161b6fa576a8ee6207727c59b2e3d7d81af7
+=======
+C:\Users\thiva\source\repos\Johnny622\RADassignment\TicketManagementSystem\TicketManagementSystem\obj\x86\Debug\OrderPage.g.i.cs
+C:\Users\thiva\source\repos\Johnny622\RADassignment\TicketManagementSystem\TicketManagementSystem\obj\x86\Debug\OrderPage.g.cs
+C:\Users\thiva\source\repos\Johnny622\RADassignment\TicketManagementSystem\TicketManagementSystem\obj\x86\Debug\OrderPage.xaml
+C:\Users\thiva\source\repos\Johnny622\RADassignment\TicketManagementSystem\TicketManagementSystem\obj\x86\Debug\OrderPage.xbf
+C:\Users\thiva\source\repos\Johnny622\RADassignment\TicketManagementSystem\TicketManagementSystem\bin\x86\Debug\OrderPage.xbf
+>>>>>>> Stashed changes

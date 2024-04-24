@@ -175,6 +175,9 @@
     <Compile Include="NewUserRegister.xaml.cs">
       <DependentUpon>NewUserRegister.xaml</DependentUpon>
     </Compile>
+    <Compile Include="OrderPage.xaml.cs">
+      <DependentUpon>OrderPage.xaml</DependentUpon>
+    </Compile>
     <Compile Include="PassengerDetailPage.xaml.cs">
       <DependentUpon>PassengerDetailPage.xaml</DependentUpon>
     </Compile>
@@ -325,6 +328,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="NewUserRegister.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="OrderPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

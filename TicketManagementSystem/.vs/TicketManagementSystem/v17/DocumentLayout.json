@@ -1,5 +1,6 @@
 {
   "Version": 1,
+<<<<<<< Updated upstream
 <<<<<<< HEAD
   "WorkspaceRootPath": "C:\\Users\\Janet\\Desktop\\RADassignment\\TicketManagementSystem\\",
   "Documents": [
@@ -29,12 +30,20 @@
       "AbsoluteMoniker": "D:0:0:{12FFD5F2-CE33-42CC-8F13-9B90EF87164E}|TicketManagementSystem\\TicketManagementSystem.csproj|c:\\users\\acer\\desktop\\y2s3\\--clone resposity--\\radassignment\\ticketmanagementsystem\\ticketmanagementsystem\\viewroute.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{12FFD5F2-CE33-42CC-8F13-9B90EF87164E}|TicketManagementSystem\\TicketManagementSystem.csproj|solutionrelative:ticketmanagementsystem\\viewroute.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
 >>>>>>> f4e4161b6fa576a8ee6207727c59b2e3d7d81af7
+=======
+  "WorkspaceRootPath": "C:\\Users\\thiva\\source\\repos\\Johnny622\\RADassignment\\TicketManagementSystem\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{12FFD5F2-CE33-42CC-8F13-9B90EF87164E}|TicketManagementSystem\\TicketManagementSystem.csproj|c:\\users\\thiva\\source\\repos\\johnny622\\radassignment\\ticketmanagementsystem\\ticketmanagementsystem\\orderpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{12FFD5F2-CE33-42CC-8F13-9B90EF87164E}|TicketManagementSystem\\TicketManagementSystem.csproj|solutionrelative:ticketmanagementsystem\\orderpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+>>>>>>> Stashed changes
     },
     {
-      "AbsoluteMoniker": "D:0:0:{12FFD5F2-CE33-42CC-8F13-9B90EF87164E}|TicketManagementSystem\\TicketManagementSystem.csproj|c:\\users\\acer\\desktop\\y2s3\\--clone resposity--\\radassignment\\ticketmanagementsystem\\ticketmanagementsystem\\viewroute.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{12FFD5F2-CE33-42CC-8F13-9B90EF87164E}|TicketManagementSystem\\TicketManagementSystem.csproj|solutionrelative:ticketmanagementsystem\\viewroute.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{12FFD5F2-CE33-42CC-8F13-9B90EF87164E}|TicketManagementSystem\\TicketManagementSystem.csproj|c:\\users\\thiva\\source\\repos\\johnny622\\radassignment\\ticketmanagementsystem\\ticketmanagementsystem\\obj\\x86\\debug\\orderpage.g.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12FFD5F2-CE33-42CC-8F13-9B90EF87164E}|TicketManagementSystem\\TicketManagementSystem.csproj|solutionrelative:ticketmanagementsystem\\obj\\x86\\debug\\orderpage.g.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+<<<<<<< Updated upstream
 <<<<<<< HEAD
       "AbsoluteMoniker": "D:0:0:{12FFD5F2-CE33-42CC-8F13-9B90EF87164E}|TicketManagementSystem\\TicketManagementSystem.csproj|C:\\Users\\Janet\\Desktop\\RADassignment\\TicketManagementSystem\\ticketmanagementsystem\\bookingpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{12FFD5F2-CE33-42CC-8F13-9B90EF87164E}|TicketManagementSystem\\TicketManagementSystem.csproj|solutionrelative:ticketmanagementsystem\\bookingpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
@@ -69,47 +78,90 @@
 =======
       "AbsoluteMoniker": "D:0:0:{12FFD5F2-CE33-42CC-8F13-9B90EF87164E}|TicketManagementSystem\\TicketManagementSystem.csproj|c:\\users\\acer\\desktop\\y2s3\\--clone resposity--\\radassignment\\ticketmanagementsystem\\ticketmanagementsystem\\displayroute.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{12FFD5F2-CE33-42CC-8F13-9B90EF87164E}|TicketManagementSystem\\TicketManagementSystem.csproj|solutionrelative:ticketmanagementsystem\\displayroute.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+=======
+      "AbsoluteMoniker": "D:0:0:{12FFD5F2-CE33-42CC-8F13-9B90EF87164E}|TicketManagementSystem\\TicketManagementSystem.csproj|c:\\users\\thiva\\source\\repos\\johnny622\\radassignment\\ticketmanagementsystem\\ticketmanagementsystem\\adminmanagement.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{12FFD5F2-CE33-42CC-8F13-9B90EF87164E}|TicketManagementSystem\\TicketManagementSystem.csproj|solutionrelative:ticketmanagementsystem\\adminmanagement.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+>>>>>>> Stashed changes
     },
     {
-      "AbsoluteMoniker": "D:0:0:{12FFD5F2-CE33-42CC-8F13-9B90EF87164E}|TicketManagementSystem\\TicketManagementSystem.csproj|c:\\users\\acer\\desktop\\y2s3\\--clone resposity--\\radassignment\\ticketmanagementsystem\\ticketmanagementsystem\\displayroute.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{12FFD5F2-CE33-42CC-8F13-9B90EF87164E}|TicketManagementSystem\\TicketManagementSystem.csproj|solutionrelative:ticketmanagementsystem\\displayroute.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{12FFD5F2-CE33-42CC-8F13-9B90EF87164E}|TicketManagementSystem\\TicketManagementSystem.csproj|c:\\users\\thiva\\source\\repos\\johnny622\\radassignment\\ticketmanagementsystem\\ticketmanagementsystem\\adminmanagement.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12FFD5F2-CE33-42CC-8F13-9B90EF87164E}|TicketManagementSystem\\TicketManagementSystem.csproj|solutionrelative:ticketmanagementsystem\\adminmanagement.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{12FFD5F2-CE33-42CC-8F13-9B90EF87164E}|TicketManagementSystem\\TicketManagementSystem.csproj|c:\\users\\acer\\desktop\\y2s3\\--clone resposity--\\radassignment\\ticketmanagementsystem\\ticketmanagementsystem\\trainmanagement.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{12FFD5F2-CE33-42CC-8F13-9B90EF87164E}|TicketManagementSystem\\TicketManagementSystem.csproj|solutionrelative:ticketmanagementsystem\\trainmanagement.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{12FFD5F2-CE33-42CC-8F13-9B90EF87164E}|TicketManagementSystem\\TicketManagementSystem.csproj|c:\\users\\thiva\\source\\repos\\johnny622\\radassignment\\ticketmanagementsystem\\ticketmanagementsystem\\orderpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12FFD5F2-CE33-42CC-8F13-9B90EF87164E}|TicketManagementSystem\\TicketManagementSystem.csproj|solutionrelative:ticketmanagementsystem\\orderpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{12FFD5F2-CE33-42CC-8F13-9B90EF87164E}|TicketManagementSystem\\TicketManagementSystem.csproj|C:\\Users\\ACER\\Desktop\\Y2S3\\--Clone Resposity--\\RADassignment\\TicketManagementSystem\\ticketmanagementsystem\\food\u0026drinks.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{12FFD5F2-CE33-42CC-8F13-9B90EF87164E}|TicketManagementSystem\\TicketManagementSystem.csproj|solutionrelative:ticketmanagementsystem\\food\u0026drinks.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{12FFD5F2-CE33-42CC-8F13-9B90EF87164E}|TicketManagementSystem\\TicketManagementSystem.csproj|c:\\users\\thiva\\source\\repos\\johnny622\\radassignment\\ticketmanagementsystem\\ticketmanagementsystem\\obj\\x86\\debug\\adminmanagement.g.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12FFD5F2-CE33-42CC-8F13-9B90EF87164E}|TicketManagementSystem\\TicketManagementSystem.csproj|solutionrelative:ticketmanagementsystem\\obj\\x86\\debug\\adminmanagement.g.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{12FFD5F2-CE33-42CC-8F13-9B90EF87164E}|TicketManagementSystem\\TicketManagementSystem.csproj|C:\\Users\\ACER\\Desktop\\Y2S3\\--Clone Resposity--\\RADassignment\\TicketManagementSystem\\ticketmanagementsystem\\food\u0026drinks.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{12FFD5F2-CE33-42CC-8F13-9B90EF87164E}|TicketManagementSystem\\TicketManagementSystem.csproj|c:\\users\\thiva\\source\\repos\\johnny622\\radassignment\\ticketmanagementsystem\\ticketmanagementsystem\\payment.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{12FFD5F2-CE33-42CC-8F13-9B90EF87164E}|TicketManagementSystem\\TicketManagementSystem.csproj|solutionrelative:ticketmanagementsystem\\payment.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12FFD5F2-CE33-42CC-8F13-9B90EF87164E}|TicketManagementSystem\\TicketManagementSystem.csproj|C:\\Users\\thiva\\source\\repos\\Johnny622\\RADassignment\\TicketManagementSystem\\ticketmanagementsystem\\food\u0026drinks.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{12FFD5F2-CE33-42CC-8F13-9B90EF87164E}|TicketManagementSystem\\TicketManagementSystem.csproj|solutionrelative:ticketmanagementsystem\\food\u0026drinks.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{12FFD5F2-CE33-42CC-8F13-9B90EF87164E}|TicketManagementSystem\\TicketManagementSystem.csproj|C:\\Users\\ACER\\Desktop\\Y2S3\\--Clone Resposity--\\RADassignment\\TicketManagementSystem\\ticketmanagementsystem\\bookingpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{12FFD5F2-CE33-42CC-8F13-9B90EF87164E}|TicketManagementSystem\\TicketManagementSystem.csproj|C:\\Users\\thiva\\source\\repos\\Johnny622\\RADassignment\\TicketManagementSystem\\ticketmanagementsystem\\class\\firebasehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12FFD5F2-CE33-42CC-8F13-9B90EF87164E}|TicketManagementSystem\\TicketManagementSystem.csproj|solutionrelative:ticketmanagementsystem\\class\\firebasehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12FFD5F2-CE33-42CC-8F13-9B90EF87164E}|TicketManagementSystem\\TicketManagementSystem.csproj|C:\\Users\\thiva\\source\\repos\\Johnny622\\RADassignment\\TicketManagementSystem\\ticketmanagementsystem\\food\u0026drinks.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{12FFD5F2-CE33-42CC-8F13-9B90EF87164E}|TicketManagementSystem\\TicketManagementSystem.csproj|solutionrelative:ticketmanagementsystem\\food\u0026drinks.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12FFD5F2-CE33-42CC-8F13-9B90EF87164E}|TicketManagementSystem\\TicketManagementSystem.csproj|c:\\users\\thiva\\source\\repos\\johnny622\\radassignment\\ticketmanagementsystem\\ticketmanagementsystem\\helpmanagement.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{12FFD5F2-CE33-42CC-8F13-9B90EF87164E}|TicketManagementSystem\\TicketManagementSystem.csproj|solutionrelative:ticketmanagementsystem\\helpmanagement.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12FFD5F2-CE33-42CC-8F13-9B90EF87164E}|TicketManagementSystem\\TicketManagementSystem.csproj|c:\\users\\thiva\\source\\repos\\johnny622\\radassignment\\ticketmanagementsystem\\ticketmanagementsystem\\viewroute.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12FFD5F2-CE33-42CC-8F13-9B90EF87164E}|TicketManagementSystem\\TicketManagementSystem.csproj|solutionrelative:ticketmanagementsystem\\viewroute.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12FFD5F2-CE33-42CC-8F13-9B90EF87164E}|TicketManagementSystem\\TicketManagementSystem.csproj|C:\\Users\\thiva\\source\\repos\\Johnny622\\RADassignment\\TicketManagementSystem\\ticketmanagementsystem\\viewroute.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{12FFD5F2-CE33-42CC-8F13-9B90EF87164E}|TicketManagementSystem\\TicketManagementSystem.csproj|solutionrelative:ticketmanagementsystem\\viewroute.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12FFD5F2-CE33-42CC-8F13-9B90EF87164E}|TicketManagementSystem\\TicketManagementSystem.csproj|C:\\Users\\thiva\\source\\repos\\Johnny622\\RADassignment\\TicketManagementSystem\\ticketmanagementsystem\\displayroute.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12FFD5F2-CE33-42CC-8F13-9B90EF87164E}|TicketManagementSystem\\TicketManagementSystem.csproj|solutionrelative:ticketmanagementsystem\\displayroute.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12FFD5F2-CE33-42CC-8F13-9B90EF87164E}|TicketManagementSystem\\TicketManagementSystem.csproj|C:\\Users\\thiva\\source\\repos\\Johnny622\\RADassignment\\TicketManagementSystem\\ticketmanagementsystem\\displayroute.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{12FFD5F2-CE33-42CC-8F13-9B90EF87164E}|TicketManagementSystem\\TicketManagementSystem.csproj|solutionrelative:ticketmanagementsystem\\displayroute.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12FFD5F2-CE33-42CC-8F13-9B90EF87164E}|TicketManagementSystem\\TicketManagementSystem.csproj|C:\\Users\\thiva\\source\\repos\\Johnny622\\RADassignment\\TicketManagementSystem\\ticketmanagementsystem\\trainmanagement.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{12FFD5F2-CE33-42CC-8F13-9B90EF87164E}|TicketManagementSystem\\TicketManagementSystem.csproj|solutionrelative:ticketmanagementsystem\\trainmanagement.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12FFD5F2-CE33-42CC-8F13-9B90EF87164E}|TicketManagementSystem\\TicketManagementSystem.csproj|C:\\Users\\thiva\\source\\repos\\Johnny622\\RADassignment\\TicketManagementSystem\\ticketmanagementsystem\\bookingpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{12FFD5F2-CE33-42CC-8F13-9B90EF87164E}|TicketManagementSystem\\TicketManagementSystem.csproj|solutionrelative:ticketmanagementsystem\\bookingpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{12FFD5F2-CE33-42CC-8F13-9B90EF87164E}|TicketManagementSystem\\TicketManagementSystem.csproj|C:\\Users\\ACER\\Desktop\\Y2S3\\--Clone Resposity--\\RADassignment\\TicketManagementSystem\\ticketmanagementsystem\\usermanagement.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{12FFD5F2-CE33-42CC-8F13-9B90EF87164E}|TicketManagementSystem\\TicketManagementSystem.csproj|C:\\Users\\thiva\\source\\repos\\Johnny622\\RADassignment\\TicketManagementSystem\\ticketmanagementsystem\\usermanagement.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{12FFD5F2-CE33-42CC-8F13-9B90EF87164E}|TicketManagementSystem\\TicketManagementSystem.csproj|solutionrelative:ticketmanagementsystem\\usermanagement.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{12FFD5F2-CE33-42CC-8F13-9B90EF87164E}|TicketManagementSystem\\TicketManagementSystem.csproj|C:\\Users\\ACER\\Desktop\\Y2S3\\--Clone Resposity--\\RADassignment\\TicketManagementSystem\\ticketmanagementsystem\\bookingpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{12FFD5F2-CE33-42CC-8F13-9B90EF87164E}|TicketManagementSystem\\TicketManagementSystem.csproj|C:\\Users\\thiva\\source\\repos\\Johnny622\\RADassignment\\TicketManagementSystem\\ticketmanagementsystem\\bookingpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{12FFD5F2-CE33-42CC-8F13-9B90EF87164E}|TicketManagementSystem\\TicketManagementSystem.csproj|solutionrelative:ticketmanagementsystem\\bookingpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{12FFD5F2-CE33-42CC-8F13-9B90EF87164E}|TicketManagementSystem\\TicketManagementSystem.csproj|C:\\Users\\ACER\\Desktop\\Y2S3\\--Clone Resposity--\\RADassignment\\TicketManagementSystem\\ticketmanagementsystem\\usermanagement.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{12FFD5F2-CE33-42CC-8F13-9B90EF87164E}|TicketManagementSystem\\TicketManagementSystem.csproj|C:\\Users\\thiva\\source\\repos\\Johnny622\\RADassignment\\TicketManagementSystem\\ticketmanagementsystem\\usermanagement.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{12FFD5F2-CE33-42CC-8F13-9B90EF87164E}|TicketManagementSystem\\TicketManagementSystem.csproj|solutionrelative:ticketmanagementsystem\\usermanagement.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{12FFD5F2-CE33-42CC-8F13-9B90EF87164E}|TicketManagementSystem\\TicketManagementSystem.csproj|C:\\Users\\ACER\\Desktop\\Y2S3\\--Clone Resposity--\\RADassignment\\TicketManagementSystem\\ticketmanagementsystem\\newuserregister.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{12FFD5F2-CE33-42CC-8F13-9B90EF87164E}|TicketManagementSystem\\TicketManagementSystem.csproj|C:\\Users\\thiva\\source\\repos\\Johnny622\\RADassignment\\TicketManagementSystem\\ticketmanagementsystem\\newuserregister.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{12FFD5F2-CE33-42CC-8F13-9B90EF87164E}|TicketManagementSystem\\TicketManagementSystem.csproj|solutionrelative:ticketmanagementsystem\\newuserregister.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+<<<<<<< Updated upstream
     },
     {
       "AbsoluteMoniker": "D:0:0:{12FFD5F2-CE33-42CC-8F13-9B90EF87164E}|TicketManagementSystem\\TicketManagementSystem.csproj|C:\\Users\\ACER\\Desktop\\Y2S3\\--Clone Resposity--\\RADassignment\\TicketManagementSystem\\ticketmanagementsystem\\class\\firebasehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{12FFD5F2-CE33-42CC-8F13-9B90EF87164E}|TicketManagementSystem\\TicketManagementSystem.csproj|solutionrelative:ticketmanagementsystem\\class\\firebasehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
 >>>>>>> f4e4161b6fa576a8ee6207727c59b2e3d7d81af7
+=======
+>>>>>>> Stashed changes
     }
   ],
   "DocumentGroupContainers": [
@@ -119,11 +171,67 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 5,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "OrderPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\thiva\\source\\repos\\Johnny622\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\OrderPage.xaml.cs",
+              "RelativeDocumentMoniker": "TicketManagementSystem\\OrderPage.xaml.cs",
+              "ToolTip": "C:\\Users\\thiva\\source\\repos\\Johnny622\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\OrderPage.xaml.cs",
+              "RelativeToolTip": "TicketManagementSystem\\OrderPage.xaml.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAIA0wCkAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-24T02:18:44.681Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AdminManagement.xaml",
+              "DocumentMoniker": "C:\\Users\\thiva\\source\\repos\\Johnny622\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\AdminManagement.xaml",
+              "RelativeDocumentMoniker": "TicketManagementSystem\\AdminManagement.xaml",
+              "ToolTip": "C:\\Users\\thiva\\source\\repos\\Johnny622\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\AdminManagement.xaml",
+              "RelativeToolTip": "TicketManagementSystem\\AdminManagement.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-24T02:39:24.351Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "OrderPage.g.cs",
+              "DocumentMoniker": "C:\\Users\\thiva\\source\\repos\\Johnny622\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\obj\\x86\\Debug\\OrderPage.g.cs",
+              "RelativeDocumentMoniker": "TicketManagementSystem\\obj\\x86\\Debug\\OrderPage.g.cs",
+              "ToolTip": "C:\\Users\\thiva\\source\\repos\\Johnny622\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\obj\\x86\\Debug\\OrderPage.g.cs",
+              "RelativeToolTip": "TicketManagementSystem\\obj\\x86\\Debug\\OrderPage.g.cs",
+              "ViewState": "AQIAADgAAAAAAAAAAAAjwEkAAABZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-24T02:36:40.528Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AdminManagement.g.cs",
+              "DocumentMoniker": "C:\\Users\\thiva\\source\\repos\\Johnny622\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\obj\\x86\\Debug\\AdminManagement.g.cs",
+              "RelativeDocumentMoniker": "TicketManagementSystem\\obj\\x86\\Debug\\AdminManagement.g.cs",
+              "ToolTip": "C:\\Users\\thiva\\source\\repos\\Johnny622\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\obj\\x86\\Debug\\AdminManagement.g.cs",
+              "RelativeToolTip": "TicketManagementSystem\\obj\\x86\\Debug\\AdminManagement.g.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAH0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-24T02:34:06.663Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+<<<<<<< Updated upstream
 <<<<<<< HEAD
               "Title": "App.g.i.cs",
               "DocumentMoniker": "C:\\Users\\Janet\\Desktop\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\obj\\x86\\Debug\\App.g.i.cs",
@@ -134,10 +242,99 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-24T02:44:23.913Z",
 =======
+=======
+              "Title": "OrderPage.xaml",
+              "DocumentMoniker": "C:\\Users\\thiva\\source\\repos\\Johnny622\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\OrderPage.xaml",
+              "RelativeDocumentMoniker": "TicketManagementSystem\\OrderPage.xaml",
+              "ToolTip": "C:\\Users\\thiva\\source\\repos\\Johnny622\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\OrderPage.xaml",
+              "RelativeToolTip": "TicketManagementSystem\\OrderPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-24T02:11:01.824Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Payment.xaml",
+              "DocumentMoniker": "C:\\Users\\thiva\\source\\repos\\Johnny622\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\Payment.xaml",
+              "RelativeDocumentMoniker": "TicketManagementSystem\\Payment.xaml",
+              "ToolTip": "C:\\Users\\thiva\\source\\repos\\Johnny622\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\Payment.xaml",
+              "RelativeToolTip": "TicketManagementSystem\\Payment.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-24T02:55:46.665Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Food\u0026Drinks.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\thiva\\source\\repos\\Johnny622\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\Food\u0026Drinks.xaml.cs",
+              "RelativeDocumentMoniker": "TicketManagementSystem\\Food\u0026Drinks.xaml.cs",
+              "ToolTip": "C:\\Users\\thiva\\source\\repos\\Johnny622\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\Food\u0026Drinks.xaml.cs",
+              "RelativeToolTip": "TicketManagementSystem\\Food\u0026Drinks.xaml.cs",
+              "ViewState": "AQIAAFoAAAAAAAAAAAAIwDQAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T18:53:45.706Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AdminManagement.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\thiva\\source\\repos\\Johnny622\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\AdminManagement.xaml.cs",
+              "RelativeDocumentMoniker": "TicketManagementSystem\\AdminManagement.xaml.cs",
+              "ToolTip": "C:\\Users\\thiva\\source\\repos\\Johnny622\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\AdminManagement.xaml.cs",
+              "RelativeToolTip": "TicketManagementSystem\\AdminManagement.xaml.cs",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAQwCYAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-24T02:06:34.419Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "FirebaseHelper.cs",
+              "DocumentMoniker": "C:\\Users\\thiva\\source\\repos\\Johnny622\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\Class\\FirebaseHelper.cs",
+              "RelativeDocumentMoniker": "TicketManagementSystem\\Class\\FirebaseHelper.cs",
+              "ToolTip": "C:\\Users\\thiva\\source\\repos\\Johnny622\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\Class\\FirebaseHelper.cs",
+              "RelativeToolTip": "TicketManagementSystem\\Class\\FirebaseHelper.cs",
+              "ViewState": "AQIAAP8AAAAAAAAAAAAYwA4BAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T19:07:43.582Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Food\u0026Drinks.xaml",
+              "DocumentMoniker": "C:\\Users\\thiva\\source\\repos\\Johnny622\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\Food\u0026Drinks.xaml",
+              "RelativeDocumentMoniker": "TicketManagementSystem\\Food\u0026Drinks.xaml",
+              "ToolTip": "C:\\Users\\thiva\\source\\repos\\Johnny622\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\Food\u0026Drinks.xaml",
+              "RelativeToolTip": "TicketManagementSystem\\Food\u0026Drinks.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-24T00:25:17.784Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "HelpManagement.xaml",
+              "DocumentMoniker": "C:\\Users\\thiva\\source\\repos\\Johnny622\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\HelpManagement.xaml",
+              "RelativeDocumentMoniker": "TicketManagementSystem\\HelpManagement.xaml",
+              "ToolTip": "C:\\Users\\thiva\\source\\repos\\Johnny622\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\HelpManagement.xaml",
+              "RelativeToolTip": "TicketManagementSystem\\HelpManagement.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-24T02:10:32.127Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+>>>>>>> Stashed changes
               "Title": "ViewRoute.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\Y2S3\\--Clone Resposity--\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\ViewRoute.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\thiva\\source\\repos\\Johnny622\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\ViewRoute.xaml.cs",
               "RelativeDocumentMoniker": "TicketManagementSystem\\ViewRoute.xaml.cs",
-              "ToolTip": "C:\\Users\\ACER\\Desktop\\Y2S3\\--Clone Resposity--\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\ViewRoute.xaml.cs",
+              "ToolTip": "C:\\Users\\thiva\\source\\repos\\Johnny622\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\ViewRoute.xaml.cs",
               "RelativeToolTip": "TicketManagementSystem\\ViewRoute.xaml.cs",
               "ViewState": "AQIAADYAAAAAAAAAAAAYwEUAAABaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -147,6 +344,7 @@
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
 <<<<<<< HEAD
               "DocumentIndex": 3,
               "Title": "SummaryTrainInfo.xaml.cs",
@@ -227,13 +425,17 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001793|",
               "WhenOpened": "2024-04-23T21:21:54.834Z",
 =======
+=======
+              "DocumentIndex": 13,
+>>>>>>> Stashed changes
               "Title": "DisplayRoute.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\Y2S3\\--Clone Resposity--\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\DisplayRoute.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\thiva\\source\\repos\\Johnny622\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\DisplayRoute.xaml.cs",
               "RelativeDocumentMoniker": "TicketManagementSystem\\DisplayRoute.xaml.cs",
-              "ToolTip": "C:\\Users\\ACER\\Desktop\\Y2S3\\--Clone Resposity--\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\DisplayRoute.xaml.cs",
+              "ToolTip": "C:\\Users\\thiva\\source\\repos\\Johnny622\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\DisplayRoute.xaml.cs",
               "RelativeToolTip": "TicketManagementSystem\\DisplayRoute.xaml.cs",
               "ViewState": "AQIAADMAAAAAAAAAAAAYwEYAAABWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+<<<<<<< Updated upstream
               "WhenOpened": "2024-04-24T00:53:52.665Z",
 >>>>>>> f4e4161b6fa576a8ee6207727c59b2e3d7d81af7
               "EditorCaption": ""
@@ -321,46 +523,50 @@
               "WhenOpened": "2024-04-23T18:22:17.497Z"
 =======
               "DocumentIndex": 3,
+=======
+              "WhenOpened": "2024-04-24T00:53:52.665Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ViewRoute.xaml",
+              "DocumentMoniker": "C:\\Users\\thiva\\source\\repos\\Johnny622\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\ViewRoute.xaml",
+              "RelativeDocumentMoniker": "TicketManagementSystem\\ViewRoute.xaml",
+              "ToolTip": "C:\\Users\\thiva\\source\\repos\\Johnny622\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\ViewRoute.xaml",
+              "RelativeToolTip": "TicketManagementSystem\\ViewRoute.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-24T00:54:00.195Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+>>>>>>> Stashed changes
               "Title": "DisplayRoute.xaml",
-              "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\Y2S3\\--Clone Resposity--\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\DisplayRoute.xaml",
+              "DocumentMoniker": "C:\\Users\\thiva\\source\\repos\\Johnny622\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\DisplayRoute.xaml",
               "RelativeDocumentMoniker": "TicketManagementSystem\\DisplayRoute.xaml",
-              "ToolTip": "C:\\Users\\ACER\\Desktop\\Y2S3\\--Clone Resposity--\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\DisplayRoute.xaml",
+              "ToolTip": "C:\\Users\\thiva\\source\\repos\\Johnny622\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\DisplayRoute.xaml",
               "RelativeToolTip": "TicketManagementSystem\\DisplayRoute.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-04-24T00:53:50.637Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-24T00:53:50.637Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 15,
               "Title": "TrainManagement.xaml",
-              "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\Y2S3\\--Clone Resposity--\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\TrainManagement.xaml",
+              "DocumentMoniker": "C:\\Users\\thiva\\source\\repos\\Johnny622\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\TrainManagement.xaml",
               "RelativeDocumentMoniker": "TicketManagementSystem\\TrainManagement.xaml",
-              "ToolTip": "C:\\Users\\ACER\\Desktop\\Y2S3\\--Clone Resposity--\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\TrainManagement.xaml",
+              "ToolTip": "C:\\Users\\thiva\\source\\repos\\Johnny622\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\TrainManagement.xaml",
               "RelativeToolTip": "TicketManagementSystem\\TrainManagement.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-04-24T00:53:24.1Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-24T00:53:24.1Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Food\u0026Drinks.xaml",
-              "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\Y2S3\\--Clone Resposity--\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\Food\u0026Drinks.xaml",
-              "RelativeDocumentMoniker": "TicketManagementSystem\\Food\u0026Drinks.xaml",
-              "ToolTip": "C:\\Users\\ACER\\Desktop\\Y2S3\\--Clone Resposity--\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\Food\u0026Drinks.xaml",
-              "RelativeToolTip": "TicketManagementSystem\\Food\u0026Drinks.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-04-24T00:25:17.784Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 20,
               "Title": "NewUserRegister.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\Y2S3\\--Clone Resposity--\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\NewUserRegister.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\thiva\\source\\repos\\Johnny622\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\NewUserRegister.xaml.cs",
               "RelativeDocumentMoniker": "TicketManagementSystem\\NewUserRegister.xaml.cs",
-              "ToolTip": "C:\\Users\\ACER\\Desktop\\Y2S3\\--Clone Resposity--\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\NewUserRegister.xaml.cs",
+              "ToolTip": "C:\\Users\\thiva\\source\\repos\\Johnny622\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\NewUserRegister.xaml.cs",
               "RelativeToolTip": "TicketManagementSystem\\NewUserRegister.xaml.cs",
               "ViewState": "AQIAABUAAAAAAAAAAAAAAB0AAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -368,46 +574,22 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Food\u0026Drinks.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\Y2S3\\--Clone Resposity--\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\Food\u0026Drinks.xaml.cs",
-              "RelativeDocumentMoniker": "TicketManagementSystem\\Food\u0026Drinks.xaml.cs",
-              "ToolTip": "C:\\Users\\ACER\\Desktop\\Y2S3\\--Clone Resposity--\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\Food\u0026Drinks.xaml.cs",
-              "RelativeToolTip": "TicketManagementSystem\\Food\u0026Drinks.xaml.cs",
-              "ViewState": "AQIAAEEAAAAAAAAAAAAswDwAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-23T18:53:45.706Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 19,
               "Title": "UserManagement.xaml",
-              "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\Y2S3\\--Clone Resposity--\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\UserManagement.xaml",
+              "DocumentMoniker": "C:\\Users\\thiva\\source\\repos\\Johnny622\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\UserManagement.xaml",
               "RelativeDocumentMoniker": "TicketManagementSystem\\UserManagement.xaml",
-              "ToolTip": "C:\\Users\\ACER\\Desktop\\Y2S3\\--Clone Resposity--\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\UserManagement.xaml",
+              "ToolTip": "C:\\Users\\thiva\\source\\repos\\Johnny622\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\UserManagement.xaml",
               "RelativeToolTip": "TicketManagementSystem\\UserManagement.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-04-23T22:08:20.674Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "FirebaseHelper.cs",
-              "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\Y2S3\\--Clone Resposity--\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\Class\\FirebaseHelper.cs",
-              "RelativeDocumentMoniker": "TicketManagementSystem\\Class\\FirebaseHelper.cs",
-              "ToolTip": "C:\\Users\\ACER\\Desktop\\Y2S3\\--Clone Resposity--\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\Class\\FirebaseHelper.cs",
-              "RelativeToolTip": "TicketManagementSystem\\Class\\FirebaseHelper.cs",
-              "ViewState": "AQIAAAEAAAAAAAAAAAAuwAEBAAAaAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-23T19:07:43.582Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 16,
               "Title": "BookingPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\Y2S3\\--Clone Resposity--\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\BookingPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\thiva\\source\\repos\\Johnny622\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\BookingPage.xaml.cs",
               "RelativeDocumentMoniker": "TicketManagementSystem\\BookingPage.xaml.cs",
-              "ToolTip": "C:\\Users\\ACER\\Desktop\\Y2S3\\--Clone Resposity--\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\BookingPage.xaml.cs",
+              "ToolTip": "C:\\Users\\thiva\\source\\repos\\Johnny622\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\BookingPage.xaml.cs",
               "RelativeToolTip": "TicketManagementSystem\\BookingPage.xaml.cs",
               "ViewState": "AQIAADgAAAAAAAAAAAAgwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -415,11 +597,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 17,
               "Title": "UserManagement.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\Y2S3\\--Clone Resposity--\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\UserManagement.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\thiva\\source\\repos\\Johnny622\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\UserManagement.xaml.cs",
               "RelativeDocumentMoniker": "TicketManagementSystem\\UserManagement.xaml.cs",
-              "ToolTip": "C:\\Users\\ACER\\Desktop\\Y2S3\\--Clone Resposity--\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\UserManagement.xaml.cs",
+              "ToolTip": "C:\\Users\\thiva\\source\\repos\\Johnny622\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\UserManagement.xaml.cs",
               "RelativeToolTip": "TicketManagementSystem\\UserManagement.xaml.cs",
               "ViewState": "AQIAAGoAAAAAAAAAAAAwwHwAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -427,15 +609,29 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 18,
               "Title": "BookingPage.xaml",
-              "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\Y2S3\\--Clone Resposity--\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\BookingPage.xaml",
+              "DocumentMoniker": "C:\\Users\\thiva\\source\\repos\\Johnny622\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\BookingPage.xaml",
               "RelativeDocumentMoniker": "TicketManagementSystem\\BookingPage.xaml",
-              "ToolTip": "C:\\Users\\ACER\\Desktop\\Y2S3\\--Clone Resposity--\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\BookingPage.xaml",
+              "ToolTip": "C:\\Users\\thiva\\source\\repos\\Johnny622\\RADassignment\\TicketManagementSystem\\TicketManagementSystem\\BookingPage.xaml",
               "RelativeToolTip": "TicketManagementSystem\\BookingPage.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-04-23T22:11:43.438Z"
 >>>>>>> f4e4161b6fa576a8ee6207727c59b2e3d7d81af7
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             }
           ]
         }

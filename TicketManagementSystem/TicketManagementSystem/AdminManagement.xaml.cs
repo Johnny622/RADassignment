@@ -82,6 +82,11 @@ namespace TicketManagementSystem
             }
         }
 
+        private void btnOrder_Click(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(OrderPage));
+        }
+
         private void LogoutBtn_Click(object sender, RoutedEventArgs e)
         {
             this.Frame.Navigate(typeof(LoginPage));

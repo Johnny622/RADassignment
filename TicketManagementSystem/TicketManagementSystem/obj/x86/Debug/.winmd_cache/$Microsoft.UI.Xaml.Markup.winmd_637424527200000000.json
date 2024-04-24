@@ -1,5 +1,9 @@
+<<<<<<< Updated upstream
 <<<<<<< HEAD
 {"FullPath":"C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.19041.0\\XamlCompiler\\Microsoft.UI.Xaml.Markup.winmd","InProcServers":{"CLRHost.dll":{"Path":"CLRHost.dll","TypeToThreadingModel":{"Microsoft.UI.Xaml.Markup.ReflectionXamlMetadataProvider":"both"}}},"Namespaces":{"Microsoft.UI.Xaml.Markup.ReflectionXamlMetadataProvider":"Microsoft.UI.Xaml.Markup"},"RootNamespace":"Microsoft.UI.Xaml.Markup","AssemblyVersion":"17.9.37000.1723"}
 =======
 {"FullPath":"C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.19041.0\\XamlCompiler\\Microsoft.UI.Xaml.Markup.winmd","InProcServers":{"CLRHost.dll":{"Path":"CLRHost.dll","TypeToThreadingModel":{"Microsoft.UI.Xaml.Markup.ReflectionXamlMetadataProvider":"both"}}},"Namespaces":{"Microsoft.UI.Xaml.Markup.ReflectionXamlMetadataProvider":"Microsoft.UI.Xaml.Markup"},"RootNamespace":"Microsoft.UI.Xaml.Markup","AssemblyVersion":"17.9.37031.30835"}
 >>>>>>> f4e4161b6fa576a8ee6207727c59b2e3d7d81af7
+=======
+{"FullPath":"C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.19041.0\\XamlCompiler\\Microsoft.UI.Xaml.Markup.winmd","InProcServers":{"CLRHost.dll":{"Path":"CLRHost.dll","TypeToThreadingModel":{"Microsoft.UI.Xaml.Markup.ReflectionXamlMetadataProvider":"both"}}},"Namespaces":{"Microsoft.UI.Xaml.Markup.ReflectionXamlMetadataProvider":"Microsoft.UI.Xaml.Markup"},"RootNamespace":"Microsoft.UI.Xaml.Markup","AssemblyVersion":"17.9.37015.3201"}
+>>>>>>> Stashed changes

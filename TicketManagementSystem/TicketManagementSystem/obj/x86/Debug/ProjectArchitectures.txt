@@ -1,5 +1,9 @@
+<<<<<<< Updated upstream
 <<<<<<< HEAD
 C:\Users\Janet\Desktop\RADassignment\TicketManagementSystem\TicketManagementSystem\TicketManagementSystem.csproj;x86
 =======
 C:\Users\ACER\Desktop\Y2S3\--Clone Resposity--\RADassignment\TicketManagementSystem\TicketManagementSystem\TicketManagementSystem.csproj;x86
 >>>>>>> f4e4161b6fa576a8ee6207727c59b2e3d7d81af7
+=======
+C:\Users\thiva\source\repos\Johnny622\RADassignment\TicketManagementSystem\TicketManagementSystem\TicketManagementSystem.csproj;x86
+>>>>>>> Stashed changes

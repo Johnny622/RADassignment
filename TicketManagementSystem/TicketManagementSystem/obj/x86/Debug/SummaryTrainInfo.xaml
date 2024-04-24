@@ -77,6 +77,7 @@
                 </StackPanel>
             </Button>
 
+<<<<<<< HEAD
             <Button x:ConnectionId='5' x:Name="btnDownload" Background="#F4BC1C" Height="50" HorizontalAlignment="Right"  Width="180"                           VerticalAlignment="Top" Margin="8">
                 <StackPanel Orientation="Horizontal" Width="160">
                     <Image Source="Assets/download.png" Width="30" Margin="0,0,5,0"/>
@@ -85,6 +86,14 @@
             </Button>
         </StackPanel>
 
+=======
+        <Button x:ConnectionId='3' x:Name="btnDownload" Background="#F4BC1C" Height="50" HorizontalAlignment="Right" Margin="20" Width="180"                          >
+            <StackPanel Orientation="Horizontal" Width="160">
+                <Image Source="Assets/download.png" Width="30" Margin="0,0,5,0"/>
+                <TextBlock Text="DOWNLOAD PDF" FontSize="14" Foreground="Black" FontWeight="Bold" Width="120" VerticalAlignment="Center" TextAlignment="Center"/>
+            </StackPanel>
+        </Button>
+>>>>>>> f4e4161b6fa576a8ee6207727c59b2e3d7d81af7
     </Grid>
 </Page>
 

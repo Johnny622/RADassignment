@@ -132,6 +132,12 @@
       <RootProperty Name="CornerRadius" />
       <RootProperty Name="Items" />
       <RootProperty Name="MaxDropDownHeight" />
+<<<<<<< HEAD
+=======
+      <RootProperty Name="FontFamily" />
+      <RootProperty Name="FontWeight" />
+      <RootProperty Name="Foreground" />
+>>>>>>> f4e4161b6fa576a8ee6207727c59b2e3d7d81af7
       <RootEvent Name="KeyDown" />
       <RootEvent Name="SelectionChanged" />
     </RootType>

@@ -9,49 +9,49 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
-        <SplitView x:ConnectionId='2'
-            x:Name="menuSplitView"
-            DisplayMode="CompactOverlay"
-            IsPaneOpen="False"
-            CompactPaneLength="50"
-            OpenPaneLength="240"
-            Background="#D7ECFF">
+        <SplitView x:ConnectionId='2' x:Name="menuSplitView" DisplayMode="CompactOverlay" IsPaneOpen="False" CompactPaneLength="50" OpenPaneLength="240" Background="#D7ECFF">
             <SplitView.Pane>
                 <StackPanel Background="#4863A0">
                     <StackPanel Orientation="Horizontal" Margin="0 0 0 50">
-                        <Button x:ConnectionId='11' x:Name="btnBar" Background="Transparent" Margin="0,10,0,0">
+                        <Button x:ConnectionId='11' x:Name="btnBar" Background="Transparent" Margin="0,10,0,0"                     >
                             <Image Source="Assets/bars.png" Width="30"/>
                         </Button>
                     </StackPanel>
 
-                    <Button x:ConnectionId='8' Name="btnUserMng" Background="Transparent" Margin="0,0,0,30" HorizontalAlignment="Stretch">
+                    <Button x:ConnectionId='8' Name="btnUserMng" Background="Transparent" Margin="0,0,0,30" HorizontalAlignment="Stretch"                         >
                         <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" Margin="0 0 0 0" Width="230">
-                            <Image Source="Assets/user.png" Width="30" RenderTransformOrigin="0.5,0.61"/>
+                            <Image Source="Assets/user.png" Width="30"/>
                             <TextBlock Text="USER MANAGEMENT" Padding="10" VerticalAlignment="Center" Foreground="White" FontWeight="Bold" />
                         </StackPanel>
                     </Button>
 
-                    <Button x:ConnectionId='9' x:Name="btnTrainMng" Background="Transparent" Margin="0 0 0 30" HorizontalAlignment="Stretch">
+                    <Button Background="Transparent" Margin="0 0 0 30" HorizontalAlignment="Stretch">
                         <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" Width="230">
                             <Image Source="Assets/rail.png" Width="30"/>
                             <TextBlock Text="TRAIN MANAGEMENT" Padding="10" VerticalAlignment="Center" Foreground="White" FontWeight="Bold" />
                         </StackPanel>
                     </Button>
 
-                    <Button Background="Transparent" Margin="0 0 0 30" HorizontalAlignment="Stretch">
+                    <Button x:ConnectionId='9' x:Name="btnBookingPage" Background="Transparent" Margin="0 0 0 30" HorizontalAlignment="Stretch"                             >
                         <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" Width="230">
                             <Image Source="Assets/booking.png" Width="30"/>
                             <TextBlock Text="BOOKING" Padding="10" VerticalAlignment="Center" Foreground="White" FontWeight="Bold" />
                         </StackPanel>
                     </Button>
 
-                    <Button x:ConnectionId='10' x:Name="btnFood" Background="Silver" HorizontalAlignment="Stretch">
+                    <Button Background="Silver" Margin="0 0 0 30" HorizontalAlignment="Stretch">
                         <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" Width="230">
                             <Image Source="Assets/food.png" Width="30"/>
                             <TextBlock Text="FOODS &amp; DRINKS" Padding="10" VerticalAlignment="Center" Foreground="White" FontWeight="Bold" />
                         </StackPanel>
                     </Button>
-                    
+
+                    <Button x:ConnectionId='10' x:Name="btnHelp" Background="Transparent" HorizontalAlignment="Stretch"                      >
+                        <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" Width="230">
+                            <Image Source="Assets/help.png" Width="30"/>
+                            <TextBlock Text="HELP PAGE" Padding="10" VerticalAlignment="Center" Foreground="White" FontWeight="Bold" />
+                        </StackPanel>
+                    </Button>
                 </StackPanel>
             </SplitView.Pane>
         </SplitView>

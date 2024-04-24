@@ -50,6 +50,16 @@ namespace TicketManagementSystem
             }
         }
 
+        private void btnHelp_Click(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(HelpManagement));
+        }
+
+        private void btnBookingPage_Click(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(BookingPage));
+        }
+
         private void btnTrainMng_Click(object sender, RoutedEventArgs e)
         {
             this.Frame.Navigate(typeof(BookingPage));

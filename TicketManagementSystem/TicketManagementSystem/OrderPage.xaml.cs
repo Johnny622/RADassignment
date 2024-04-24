@@ -30,6 +30,21 @@ namespace TicketManagementSystem
             LoadData();
         }
 
+        private async void DeleteButton_Click(object sender, RoutedEventArgs e)
+        {
+            Button button = sender as Button;
+            if (button != null)
+            {
+                string timestamp = button.Tag.ToString();
+
+                // Call the DeleteFoodDrinkEntry method from FirebaseHelper to delete the record
+                await firebaseHelper.DeleteFoodDrinkEntry(timestamp);
+
+                // Refresh the ListBox data
+                LoadData();
+            }
+        }
+
         private async void LoadData()
         {
             var entries = await firebaseHelper.GetFoodDrinkEntries();

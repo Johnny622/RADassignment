@@ -269,6 +269,23 @@ namespace TicketManagementSystem.Class
             return entryList;
         }
 
+
+        public async Task DeleteFoodDrinkEntry(string timestamp)
+        {
+            // Find the node with the given timestamp
+            var queryResult = await firebase.Child("food_drinks").OrderBy("Timestamp").EqualTo(timestamp).OnceAsync<FoodDrinkEntry>();
+
+            // Check if any record is found
+            if (queryResult.Any())
+            {
+                // Get the unique key of the record
+                var key = queryResult.First().Key;
+
+                // Delete the record using its key
+                await firebase.Child("food_drinks").Child(key).DeleteAsync();
+            }
+        }
+
         public class FoodDrinkEntry
         {
             public int Quantity1 { get; set; }

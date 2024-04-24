@@ -73,6 +73,7 @@
                             <TextBlock Text="{Binding Quantity1}" Margin="5"/>
                             <TextBlock Text="{Binding Quantity2}" Margin="5"/>
                             <TextBlock Text="{Binding Timestamp}" Margin="5"/>
+                            <Button Content="Delete" Click="DeleteButton_Click" Tag="{Binding Timestamp}" Margin="5"/>
                         </StackPanel>
                     </DataTemplate>
                 </ListBox.ItemTemplate>
